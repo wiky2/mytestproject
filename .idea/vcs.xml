@@ -2,8 +2,28 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$USER_HOME$/PycharmProjects/mytestproject/doubanfm-py" vcs="Git" />
-    <mapping directory="$USER_HOME$/PycharmProjects/mytestproject/pip-pop" vcs="Git" />
-    <mapping directory="$USER_HOME$/PycharmProjects/mytestproject/python-guide" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Algorithms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Cura" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonExample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonExample2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Showme" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sreg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/YAAW-for-Chrome" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aria2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aria2gui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/googler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/howdoi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/httpie" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mininet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/notebook-tong-chen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prettylist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python_com_record" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythoncom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonexcercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/requests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/safari2aria" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xxg1413" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/youtube-dl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zhihu-oauth" vcs="Git" />
   </component>
 </project>
