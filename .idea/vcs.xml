@@ -4,6 +4,9 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Algorithms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Cura" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IPProxyTool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JD_Spider_python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySQLdb1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PythonExample" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PythonExample2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Showme" vcs="Git" />
@@ -14,6 +17,7 @@
     <mapping directory="$PROJECT_DIR$/googler" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/howdoi" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/httpie" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jd_analysis" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mininet" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/notebook-tong-chen" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/prettylist" vcs="Git" />
@@ -22,6 +26,9 @@
     <mapping directory="$PROJECT_DIR$/pythonexcercise" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/requests" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/safari2aria" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scrapy_jingdong" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/smart_login" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/weibospider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/xxg1413" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/youtube-dl" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/zhihu-oauth" vcs="Git" />

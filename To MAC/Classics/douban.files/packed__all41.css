@@ -1,0 +1,693 @@
+.block_search1 {
+	MARGIN-BOTTOM: 30px
+}
+.block_search1 .input_basic {
+	MARGIN-BOTTOM: 10px
+}
+.block_search1 .introduce {
+	MARGIN-BOTTOM: -10px
+}
+.srh-suggest {
+	FONT-WEIGHT: 800; FONT-SIZE: 14px; LINE-HEIGHT: 2
+}
+.srh-suggest EM {
+	COLOR: #f03; FONT-STYLE: normal
+}
+#group_search {
+	PADDING-BOTTOM: 5px
+}
+.result {
+	MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 10px; WIDTH: 100%; BORDER-BOTTOM: #ccc 1px dashed; POSITION: relative
+}
+.result:unknown {
+	CLEAR: both; DISPLAY: block; content: ' '
+}
+.result .pic {
+	FLOAT: left
+}
+.result .content {
+	PADDING-LEFT: 20px; FLOAT: left
+}
+.result .content H3 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; MARGIN: 0px 0px 5px; HEIGHT: auto
+}
+.result .rating-info {
+	RIGHT: 10px; COLOR: #999; POSITION: absolute
+}
+.result .info {
+	RIGHT: 10px; COLOR: #999; POSITION: absolute
+}
+.result .content P {
+	CLEAR: both; MARGIN: 0px 0px 5px; COLOR: #666
+}
+.result .info IMG {
+	MARGIN-LEFT: 1em; VERTICAL-ALIGN: middle
+}
+.result-top {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #fefedc; MARGIN-BOTTOM: 30px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.result-top .result H3 {
+	WIDTH: 320px
+}
+.result-top P {
+	MARGIN: 0px
+}
+.result-top .result {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.result-top .ul {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.result .rating-info SPAN {
+	DISPLAY: inline; MARGIN-BOTTOM: 1px; VERTICAL-ALIGN: middle; ZOOM: 1
+}
+.result-top .result .more {
+	TEXT-ALIGN: right
+}
+#music-events {
+	MARGIN-BOTTOM: 25px
+}
+#music-events LI {
+	MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #ddd 1px dashed
+}
+#music-events .title {
+	FONT-SIZE: 14px
+}
+.cate-mod {
+	CLEAR: both; MARGIN-BOTTOM: 30px; WIDTH: 100%
+}
+.cate-mod .content {
+	CLEAR: both; BORDER-RIGHT: #efeeed 1px solid; BORDER-TOP: #efeeed 1px solid; BORDER-LEFT: #efeeed 1px solid; BORDER-BOTTOM: #efeeed 1px solid; POSITION: relative; HEIGHT: 630px
+}
+.cate-mod .list {
+	PADDING-LEFT: 10px; BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) #f6f5f5 no-repeat 0px 0px; BORDER-BOTTOM-STYLE: none
+}
+.cate-mod .list UL {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) no-repeat 100% 0px; HEIGHT: 25px
+}
+.cate-mod .list LI {
+	MARGIN-TOP: 3px; PADDING-LEFT: 4px; FLOAT: left; LINE-HEIGHT: 23px; HEIGHT: 22px
+}
+.cate-mod .list LI.on {
+	Z-INDEX: 1; BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) #fff no-repeat 0px -40px; BOTTOM: -1px; POSITION: relative
+}
+.cate-mod .list LI A:link {
+	PADDING-RIGHT: 9px; DISPLAY: inline; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; LINE-HEIGHT: 26px; PADDING-TOP: 0px; ZOOM: 1; POSITION: relative; HEIGHT: 22px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.cate-mod .list LI A:visited {
+	PADDING-RIGHT: 9px; DISPLAY: inline; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; LINE-HEIGHT: 26px; PADDING-TOP: 0px; ZOOM: 1; POSITION: relative; HEIGHT: 22px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.cate-mod .list LI A:hover {
+	PADDING-RIGHT: 9px; DISPLAY: inline; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; LINE-HEIGHT: 26px; PADDING-TOP: 0px; ZOOM: 1; POSITION: relative; HEIGHT: 22px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.cate-mod .list LI A:active {
+	PADDING-RIGHT: 9px; DISPLAY: inline; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; LINE-HEIGHT: 26px; PADDING-TOP: 0px; ZOOM: 1; POSITION: relative; HEIGHT: 22px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.cate-mod .list LI A:hover {
+	COLOR: #369
+}
+.cate-mod .list LI A:active {
+	COLOR: #369
+}
+.cate-mod .list LI.on A {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) #fff no-repeat 100% -40px; LINE-HEIGHT: 23px
+}
+.cate-mod .list LI.on A:link {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) #fff no-repeat 100% -40px; LINE-HEIGHT: 23px
+}
+.cate-mod .list LI.on A:visited {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) #fff no-repeat 100% -40px; LINE-HEIGHT: 23px
+}
+.cate-mod .list LI.on A:hover {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) #fff no-repeat 100% -40px; LINE-HEIGHT: 23px
+}
+.cate-mod .list LI.on A:active {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) #fff no-repeat 100% -40px; LINE-HEIGHT: 23px
+}
+.cate-mod .x1 {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) no-repeat 0px -74px; OVERFLOW: hidden; WIDTH: 4px; BOTTOM: -1px; POSITION: absolute; HEIGHT: 4px
+}
+.cate-mod .x2 {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_b_1.png) no-repeat 0px -74px; OVERFLOW: hidden; WIDTH: 4px; BOTTOM: -1px; POSITION: absolute; HEIGHT: 4px
+}
+.cate-mod .x1 {
+	BACKGROUND-POSITION: -8px -74px; LEFT: -1px
+}
+.cate-mod .x2 {
+	RIGHT: -1px
+}
+.cate-mod .content DL {
+	MARGIN-BOTTOM: 15px
+}
+.cate-mod .item {
+	LEFT: 20px; WIDTH: 96%; POSITION: absolute; TOP: 23px
+}
+.cate-mod .sub-item {
+	FLOAT: left; MARGIN: 0px 2px 15px 0px; OVERFLOW: hidden; WIDTH: 48%; BORDER-BOTTOM: #aaa 1px dashed; ZOOM: 1; HEIGHT: 72px
+}
+.cate-mod .sub-item .pic {
+	PADDING-RIGHT: 1em; FLOAT: left; VERTICAL-ALIGN: top
+}
+.cate-mod .sub-item .pic IMG {
+	MARGIN-BOTTOM: -3px
+}
+.cate-mod .sub-item .info {
+	FLOAT: left; VERTICAL-ALIGN: top; COLOR: #666; WORD-BREAK: break-all; WORD-WRAP: break-word
+}
+.cate-mod .sub-item P {
+	MARGIN: 0px 20px 0px 0px
+}
+.cate-mod .hide {
+	VISIBILITY: hidden
+}
+.cate-mod .last {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.ui-sel-hide {
+	DISPLAY: none
+}
+.ui-sel-container {
+	POSITION: relative
+}
+.ui-sel-value {
+	BACKGROUND: url(http://t.douban.com/pics/nav/ui_dplst.png) no-repeat; LINE-HEIGHT: 22px; HEIGHT: 22px
+}
+.ui-sel-list {
+	MARGIN-TOP: -2px; Z-INDEX: 2; LEFT: 0px; POSITION: absolute; TOP: 22px
+}
+.ui-sel-value A:link {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; RIGHT: -2px; BACKGROUND: url(http://t.douban.com/pics/nav/ui_dplst.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; COLOR: #333; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 22px
+}
+.ui-sel-value A:visited {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; RIGHT: -2px; BACKGROUND: url(http://t.douban.com/pics/nav/ui_dplst.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; COLOR: #333; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 22px
+}
+.ui-sel-value A:hover {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; RIGHT: -2px; BACKGROUND: url(http://t.douban.com/pics/nav/ui_dplst.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; COLOR: #333; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 22px
+}
+.ui-sel-value A:active {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; RIGHT: -2px; BACKGROUND: url(http://t.douban.com/pics/nav/ui_dplst.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; COLOR: #333; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 22px
+}
+.ui-sel-value A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; RIGHT: -2px; BACKGROUND: url(http://t.douban.com/pics/nav/ui_dplst.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; COLOR: #333; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 22px
+}
+.ui-sel-hover .ui-sel-value {
+	BACKGROUND-POSITION: 0px -30px
+}
+.ui-sel-hover .ui-sel-value A:link {
+	BACKGROUND-POSITION: 100% -30px
+}
+.ui-sel-hover .ui-sel-value A:visited {
+	BACKGROUND-POSITION: 100% -30px
+}
+.ui-sel-hover .ui-sel-value A:hover {
+	BACKGROUND-POSITION: 100% -30px
+}
+.ui-sel-hover .ui-sel-value A:active {
+	BACKGROUND-POSITION: 100% -30px
+}
+.ui-sel-hover .ui-sel-value A {
+	BACKGROUND-POSITION: 100% -30px
+}
+.ui-sel-active .ui-sel-value {
+	BACKGROUND-POSITION: 0px -60px
+}
+.ui-sel-active .ui-sel-value A:link {
+	BACKGROUND-POSITION: 100% -60px
+}
+.ui-sel-active .ui-sel-value A:visited {
+	BACKGROUND-POSITION: 100% -60px
+}
+.ui-sel-active .ui-sel-value A:hover {
+	BACKGROUND-POSITION: 100% -60px
+}
+.ui-sel-active .ui-sel-value A:active {
+	BACKGROUND-POSITION: 100% -60px
+}
+.ui-sel-active .ui-sel-value A {
+	BACKGROUND-POSITION: 100% -60px
+}
+.ui-sel-list A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.ui-sel-list .bd {
+	BORDER-RIGHT: #868686 1px solid; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; BORDER-LEFT: #868686 1px solid; PADDING-TOP: 0px; BACKGROUND-COLOR: #f1f1f1
+}
+.ui-sel-list .ft {
+	PADDING-LEFT: 2px; BACKGROUND: url(http://t.douban.com/pics/nav/ui_dplst.png) no-repeat 0px 100%; MARGIN-RIGHT: 2px; HEIGHT: 3px
+}
+.ui-sel-list .ft SPAN {
+	DISPLAY: block; RIGHT: -2px; BACKGROUND: url(http://t.douban.com/pics/nav/ui_dplst.png) no-repeat 100% -92px; OVERFLOW: hidden; POSITION: relative; HEIGHT: 3px
+}
+#friend .obu DD {
+	HEIGHT: 40px
+}
+.doulist-guide-cont .item {
+	MARGIN-BOTTOM: 1em
+}
+.doulist-guide-cont .item-submit INPUT {
+	MARGIN: 0px 1em
+}
+#db-online-events {
+	MARGIN-BOTTOM: 20px
+}
+#db-online-events .title {
+	FONT-SIZE: 14px
+}
+#db-online-events LI {
+	MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 5px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.lnk-create-event {
+	DISPLAY: inline-block; VERTICAL-ALIGN: middle; OVERFLOW: hidden; WIDTH: 106px; LINE-HEIGHT: 10em; ZOOM: 1; HEIGHT: 21px
+}
+A.lnk-create-event:link {
+	BACKGROUND: url(http://t.douban.com/pics/new_evt.gif) no-repeat
+}
+A.lnk-create-event:visited {
+	BACKGROUND: url(http://t.douban.com/pics/new_evt.gif) no-repeat
+}
+A.lnk-create-event:hover {
+	BACKGROUND: url(http://t.douban.com/pics/new_evt.gif) no-repeat
+}
+A.lnk-create-event:active {
+	BACKGROUND: url(http://t.douban.com/pics/new_evt.gif) no-repeat
+}
+#db-online-events .desc {
+	COLOR: #666
+}
+#db-online-events .num {
+	MARGIN-LEFT: 1em
+}
+#db-online-events .func {
+	FLOAT: right
+}
+#db-usr-profile {
+	MARGIN-BOTTOM: 2em; OVERFLOW: hidden; WIDTH: 100%
+}
+#db-usr-profile .pic {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+#db-usr-profile .info {
+	FLOAT: left
+}
+#db-usr-profile .info UL LI {
+	DISPLAY: inline; MARGIN-RIGHT: 1em
+}
+#db-usr-profile .info UL LI.last {
+	MARGIN: 0px
+}
+#db-usr-profile H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px dashed
+}
+BODY {
+	MARGIN-TOP: 0px
+}
+#header {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 0px 0px 30px; WIDTH: 100%
+}
+#searbar {
+	MARGIN: 0px
+}
+#header:unknown {
+	CLEAR: both; DISPLAY: block; HEIGHT: 0px; content: ' '
+}
+.site-nav:unknown {
+	CLEAR: both; DISPLAY: block; HEIGHT: 0px; content: ' '
+}
+.top-nav-items:unknown {
+	CLEAR: both; DISPLAY: block; HEIGHT: 0px; content: ' '
+}
+.top-nav:unknown {
+	CLEAR: both; DISPLAY: block; HEIGHT: 0px; content: ' '
+}
+.top-nav {
+	CLEAR: both; BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://t.douban.com/pics/nav/t_bg.png',sizingMethod='scale'); MARGIN-BOTTOM: 1.9em; WIDTH: 100%; COLOR: #555; HEIGHT: 33px
+}
+.top-nav .bd {
+	MARGIN: 0px auto; WIDTH: 950px
+}
+.top-nav-items {
+	MARGIN-TOP: 3px; FONT-SIZE: 12px; FLOAT: right; MARGIN-RIGHT: 2.8em; POSITION: relative
+}
+.top-nav-items LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 2px 22px 0px 0px
+}
+.top-nav-items LI.nav-promo {
+	MARGIN: -1px 0px 0px 2em
+}
+.nav-srh {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; WIDTH: 27.5%; PADDING-TOP: 10px
+}
+.site-nav {
+	CLEAR: both; WIDTH: 100%; BORDER-BOTTOM: #ddd 1px dashed
+}
+.site-nav-logo {
+	FLOAT: left; MARGIN: 2px 15px 2px 0px
+}
+.site-nav-logo IMG {
+	MARGIN-BOTTOM: -3px
+}
+.site-nav-logo A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.site-nav-logo A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.site-nav-logo A {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.top-nav-info {
+	MARGIN-TOP: 6px; FLOAT: right
+}
+.top-nav-info A.bn-radio:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #369
+}
+.top-nav A:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #369
+}
+.top-nav LI.on {
+	COLOR: #000
+}
+.top-nav LI.on A:link {
+	COLOR: #000
+}
+.top-nav LI.on A:visited {
+	COLOR: #000
+}
+.top-nav LI.on A:hover {
+	COLOR: #000
+}
+.top-nav LI.on A:active {
+	COLOR: #000
+}
+.top-nav-info EM {
+	FONT-STYLE: normal
+}
+.top-nav-info A {
+	MARGIN-LEFT: 15px
+}
+.site-nav-items {
+	MARGIN-TOP: 16px; FLOAT: left
+}
+.site-nav-items LI {
+	DISPLAY: inline; MARGIN: 0px 12px
+}
+.site-nav-items LI A:link {
+	FONT-SIZE: 14px; COLOR: #368332
+}
+.site-nav-items LI A:hover {
+	FONT-SIZE: 14px; COLOR: #368332
+}
+.site-nav-items LI A:visited {
+	FONT-SIZE: 14px; COLOR: #368332
+}
+.site-nav-items LI A:active {
+	FONT-SIZE: 14px; COLOR: #368332
+}
+.site-nav-items LI A:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #368332
+}
+.site-nav H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 21px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+.anonym-nav {
+	PADDING-TOP: 20px
+}
+.anonym-nav .site-nav-logo {
+	MARGIN-RIGHT: 2em
+}
+.pro-logo {
+	MARGIN-TOP: -7px; MARGIN-LEFT: 2px; POSITION: relative
+}
+A.bn-radio:link {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 24px; BACKGROUND: url(http://t.douban.com/pics/nav/ic_radio2.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: baseline; OVERFLOW: hidden; COLOR: #369; LINE-HEIGHT: 15px; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 14px
+}
+A.bn-radio:visited {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 24px; BACKGROUND: url(http://t.douban.com/pics/nav/ic_radio2.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: baseline; OVERFLOW: hidden; COLOR: #369; LINE-HEIGHT: 15px; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 14px
+}
+A.bn-radio:hover {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 24px; BACKGROUND: url(http://t.douban.com/pics/nav/ic_radio2.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: baseline; OVERFLOW: hidden; COLOR: #369; LINE-HEIGHT: 15px; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 14px
+}
+A.bn-radio:active {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 24px; BACKGROUND: url(http://t.douban.com/pics/nav/ic_radio2.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: baseline; OVERFLOW: hidden; COLOR: #369; LINE-HEIGHT: 15px; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 14px
+}
+.top-nav-info A.bn-radio:link {
+	MARGIN-BOTTOM: 1px
+}
+.top-nav-info A.bn-radio:visited {
+	MARGIN-BOTTOM: 1px
+}
+.top-nav-info A.bn-radio:hover {
+	MARGIN-BOTTOM: 1px
+}
+.top-nav-info A.bn-radio:active {
+	MARGIN-BOTTOM: 1px
+}
+.lnk-buy EM {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+A.lnk-buy:link {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+A.lnk-buy:visited {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+A.lnk-buy:hover {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+A.lnk-buy:active {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+.lnk-radioplay EM {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+A.lnk-radioplay:link {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+A.lnk-radioplay:visited {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+A.lnk-radioplay:hover {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+A.lnk-radioplay:active {
+	PADDING-RIGHT: 3px; DISPLAY: inline-block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; COLOR: #3c883d; PADDING-TOP: 0px; ZOOM: 1; HEIGHT: 23px
+}
+.lnk-radioplay EM {
+	PADDING-LEFT: 25px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_play.png) no-repeat 0px 0px; FONT-STYLE: normal
+}
+.lnk-buy EM {
+	BACKGROUND-IMAGE: url(http://t.douban.com/pics/nav/bn_buy.png)
+}
+A.lnk-buy:link {
+	BACKGROUND-IMAGE: url(http://t.douban.com/pics/nav/bn_buy.png)
+}
+A.lnk-buy:visited {
+	BACKGROUND-IMAGE: url(http://t.douban.com/pics/nav/bn_buy.png)
+}
+A.lnk-buy:hover {
+	BACKGROUND-IMAGE: url(http://t.douban.com/pics/nav/bn_buy.png)
+}
+A.lnk-buy:active {
+	BACKGROUND-IMAGE: url(http://t.douban.com/pics/nav/bn_buy.png)
+}
+.lnk-buy EM {
+	PADDING-LEFT: 28px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_buy.png) no-repeat 0px 0px; LINE-HEIGHT: 24px; FONT-STYLE: normal
+}
+.site-nav-items LI.site-nav-prom A:link {
+	MARGIN-TOP: -5px; FONT-SIZE: 12px; POSITION: relative
+}
+.site-nav-items LI.site-nav-prom A:visited {
+	MARGIN-TOP: -5px; FONT-SIZE: 12px; POSITION: relative
+}
+.site-nav-items LI.site-nav-prom A:hover {
+	MARGIN-TOP: -5px; FONT-SIZE: 12px; POSITION: relative
+}
+.site-nav-items LI.site-nav-prom A:active {
+	MARGIN-TOP: -5px; FONT-SIZE: 12px; POSITION: relative
+}
+.site-nav-items LI.site-nav-prom {
+	MARGIN: -3px 0px 0px 15px
+}
+.nav-tip {
+	MARGIN-BOTTOM: -2em; LINE-HEIGHT: 2; POSITION: relative; TEXT-ALIGN: right
+}
+.nav-tip A {
+	MARGIN-LEFT: 10px
+}
+.srh-group {
+	BORDER-TOP: #ddd 1px solid; MARGIN-TOP: 5px; PADDING-TOP: 5px
+}
+.srh-group A:hover {
+	BACKGROUND: #777
+}
+#searbar SPAN.submit1 {
+	PADDING-RIGHT: 10px; BACKGROUND-IMAGE: url(http://t.douban.com/pics/nav/bn_srh1.png); WIDTH: 50px
+}
+#searbar SPAN.submit1 A {
+	LETTER-SPACING: 0px
+}
+.single-nav {
+	PADDING-TOP: 15px
+}
+.block4 {
+	CLEAR: both; MARGIN-BOTTOM: 30px
+}
+#db-music-artists .headline {
+	MARGIN-BOTTOM: 30px; WIDTH: 100%
+}
+#db-music-artists .item:unknown {
+	CLEAR: both; DISPLAY: block; content: ' '
+}
+#db-music-artists .headline:unknown {
+	CLEAR: both; DISPLAY: block; content: ' '
+}
+#db-music-artists .headline H3 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 0px; HEIGHT: auto
+}
+#db-music-artists {
+	COLOR: #535353
+}
+#db-music-artists .headline .pic {
+	FLOAT: left; MARGIN-RIGHT: 20px
+}
+#db-music-artists .headline .pic IMG {
+	MARGIN-BOTTOM: -6px
+}
+#db-music-artists .headline P {
+	MARGIN: 5px 0px
+}
+#db-music-artists .item {
+	DISPLAY: inline; MARGIN: 0px 20px 20px 0px; VERTICAL-ALIGN: top; WIDTH: 46.5%; ZOOM: 1
+}
+#db-music-artists .item .pic {
+	WIDTH: 60px
+}
+#db-music-artists .item .pic {
+	FLOAT: left; VERTICAL-ALIGN: top
+}
+#db-music-artists .item .info {
+	FLOAT: left; VERTICAL-ALIGN: top
+}
+#db-event-hosts .group {
+	CLEAR: both; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 5px; BORDER-BOTTOM: #ddd 1px dashed; ZOOM: 1
+}
+#db-event-hosts .group:unknown {
+	CLEAR: both; DISPLAY: block; content: ' '
+}
+#db-event-hosts .group LI {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 32.29%; MARGIN-RIGHT: 1%; WHITE-SPACE: nowrap; HEIGHT: 22px
+}
+#db-talk {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; MARGIN-BOTTOM: 3em; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; ZOOM: 1; BACKGROUND-COLOR: #eff8eb; webkit-border-radius: 5px; moz-border-radius: 5px; border-radius: 5px
+}
+#db-talk:unknown {
+	CLEAR: both; DISPLAY: block; content: ' '
+}
+#db-talk .item {
+	MARGIN-BOTTOM: 5px
+}
+#db-talk TEXTAREA {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; VERTICAL-ALIGN: bottom; OVERFLOW: auto; BORDER-LEFT: #ccc 1px solid; WIDTH: 97.5%; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 72px
+}
+#db-talk .btn {
+	FLOAT: left; WIDTH: 100%; MARGIN-RIGHT: -200px
+}
+#db-talk .bn-cta {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_call1.png) no-repeat 0px 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; WIDTH: 56px; CURSOR: hand; COLOR: #050; LINE-HEIGHT: 1.7; HEIGHT: 22px; BORDER-RIGHT-WIDTH: 0px
+}
+#db-talk .bn-cta-over {
+	BACKGROUND-POSITION: 0px -22px; COLOR: #070
+}
+#db-talk .msg {
+	FLOAT: right; LINE-HEIGHT: 2; POSITION: relative
+}
+#db-talk .tipmsg {
+	MARGIN-LEFT: 1ex; COLOR: #666
+}
+#db-talk .tipmsg B {
+	FONT-SIZE: 14px; MARGIN: 0px 2px
+}
+#db-talk .error B {
+	COLOR: #f92d09
+}
+.rec-dlg LABEL {
+	FLOAT: left; WIDTH: 6em; COLOR: #666; MARGIN-RIGHT: 10px; TEXT-ALIGN: right
+}
+.rec-dlg TEXTAREA {
+	WIDTH: 400px; HEIGHT: 60px; resize: none
+}
+.rec-dlg .item {
+	CLEAR: both; MARGIN-BOTTOM: 5px
+}
+.rec-dlg .item INPUT {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 300px; BORDER-BOTTOM: #ccc 1px solid
+}
+.rec-dlg .recsubmit {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.rec-dlg .recsubmit INPUT {
+	MARGIN: 0px 1em
+}
+.rec-dlg .attn {
+	TEXT-ALIGN: center
+}
+.rec-dlg .rectitle {
+	MARGIN-BOTTOM: 1em
+}
+.rec-dlg .errmsg {
+	MARGIN-LEFT: 1em; COLOR: #f92d09
+}
+#loading_tip {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 0px; MARGIN-LEFT: 2em; COLOR: #fff; PADDING-TOP: 5px
+}
+#db-talk-hd H2.green_tab A {
+	MARGIN: 0px 5px 0px 0px
+}
+#dialog .m EM {
+	FONT-SIZE: 12px; MARGIN-LEFT: 10px; COLOR: #333
+}
+#dialog .m EM A:link {
+	FONT-SIZE: 12px; COLOR: #369
+}
+#dialog .m EM A:visited {
+	FONT-SIZE: 12px; COLOR: #369
+}
+#dialog .m EM A:hover {
+	FONT-SIZE: 12px; COLOR: #369
+}
+#dialog .m EM A:active {
+	FONT-SIZE: 12px; COLOR: #369
+}
+#dialog .m EM A:hover {
+	BACKGROUND: #039; COLOR: #fff; TEXT-DECORATION: underline
+}
+.aside .indent {
+	MARGIN-BOTTOM: 25px
+}
+.citysmr {
+	WIDTH: 44.9%
+}
+#profile {
+	MARGIN-TOP: 32px
+}
+.bn-add SPAN {
+	DISPLAY: inline-block; PADDING-LEFT: 3px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; LINE-HEIGHT: 0; ZOOM: 1; HEIGHT: 22px
+}
+.bn-add {
+	DISPLAY: inline-block; PADDING-LEFT: 3px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; LINE-HEIGHT: 0; ZOOM: 1; HEIGHT: 22px
+}
+.bn-add SPAN {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 5px; FONT-SIZE: 13px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_add.png) no-repeat 100% 0px; PADDING-BOTTOM: 0px; CURSOR: pointer; LINE-HEIGHT: 23px; PADDING-TOP: 0px
+}
+A.bn-add:link {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_add.png) no-repeat 0px 0px; COLOR: #333; LETTER-SPACING: 2px
+}
+A.bn-add:visited {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_add.png) no-repeat 0px 0px; COLOR: #333; LETTER-SPACING: 2px
+}
+A.bn-add:hover {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_add.png) no-repeat 0px 0px; COLOR: #333; LETTER-SPACING: 2px
+}
+A.bn-add:active {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://t.douban.com/pics/nav/bn_add.png) no-repeat 0px 0px; COLOR: #333; LETTER-SPACING: 2px
+}

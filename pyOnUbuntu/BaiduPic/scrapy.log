@@ -1,0 +1,326 @@
+2017-05-29 00:17:03 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:17:03 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-05-29 00:17:03 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_ENABLED': False, 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:17:23 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:17:23 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-05-29 00:17:23 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:17:23 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:17:23 [boto] DEBUG: Retrieving credentials from metadata server.
+2017-05-29 00:17:24 [boto] ERROR: Caught exception reading instance data
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/boto/utils.py", line 210, in retry_url
+    r = opener.open(req, timeout=timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+2017-05-29 00:17:24 [boto] ERROR: Unable to read instance data, giving up
+2017-05-29 00:17:24 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:17:24 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:17:24 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:17:24 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images
+2017-05-29 00:18:13 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:18:13 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-05-29 00:18:13 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:18:13 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:18:13 [boto] DEBUG: Retrieving credentials from metadata server.
+2017-05-29 00:18:14 [boto] ERROR: Caught exception reading instance data
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/boto/utils.py", line 210, in retry_url
+    r = opener.open(req, timeout=timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+2017-05-29 00:18:14 [boto] ERROR: Unable to read instance data, giving up
+2017-05-29 00:18:14 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:18:14 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:18:14 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:18:14 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images
+2017-05-29 00:23:37 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:23:37 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-05-29 00:23:37 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:23:37 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:23:37 [boto] DEBUG: Retrieving credentials from metadata server.
+2017-05-29 00:23:38 [boto] ERROR: Caught exception reading instance data
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/boto/utils.py", line 210, in retry_url
+    r = opener.open(req, timeout=timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+2017-05-29 00:23:38 [boto] ERROR: Unable to read instance data, giving up
+2017-05-29 00:23:38 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:23:38 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:23:38 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:23:38 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images
+2017-05-29 00:24:21 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:24:21 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-05-29 00:24:21 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:24:21 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:24:21 [boto] DEBUG: Retrieving credentials from metadata server.
+2017-05-29 00:24:22 [boto] ERROR: Caught exception reading instance data
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/boto/utils.py", line 210, in retry_url
+    r = opener.open(req, timeout=timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+2017-05-29 00:24:22 [boto] ERROR: Unable to read instance data, giving up
+2017-05-29 00:24:22 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:24:22 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:24:22 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:24:22 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images
+2017-05-29 00:25:04 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:25:04 [scrapy] INFO: Optional features available: ssl, http11, boto
+2017-05-29 00:25:04 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:25:04 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:25:05 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:25:05 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:25:05 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:25:05 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images
+2017-05-29 00:26:52 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:26:52 [scrapy] INFO: Optional features available: ssl, http11
+2017-05-29 00:26:52 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:26:52 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:26:52 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:26:52 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:26:52 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:26:52 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images
+2017-05-29 00:27:19 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:27:19 [scrapy] INFO: Optional features available: ssl, http11
+2017-05-29 00:27:19 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:27:19 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:27:19 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:27:19 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:27:19 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:27:19 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images
+2017-05-29 00:41:04 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:41:04 [scrapy] INFO: Optional features available: ssl, http11
+2017-05-29 00:41:04 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:41:04 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:41:04 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:41:04 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:41:04 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:41:04 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images
+2017-05-29 00:52:53 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:52:53 [scrapy] INFO: Optional features available: ssl, http11
+2017-05-29 00:52:53 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_ENABLED': False, 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:52:56 [scrapy] INFO: Scrapy 1.0.3 started (bot: BaiduPic)
+2017-05-29 00:52:56 [scrapy] INFO: Optional features available: ssl, http11
+2017-05-29 00:52:56 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'BaiduPic.spiders', 'SPIDER_MODULES': ['BaiduPic.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'BaiduPic'}
+2017-05-29 00:52:56 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2017-05-29 00:52:56 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2017-05-29 00:52:56 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2017-05-29 00:52:56 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-05-29 00:52:56 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/yang/.local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 71, in crawl
+    self.engine = self._create_engine()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 83, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 67, in __init__
+    self.scraper = Scraper(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/scraper.py", line 70, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 56, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/usr/lib/python2.7/dist-packages/scrapy/middleware.py", line 32, in from_settings
+    mwcls = load_object(clspath)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named Images

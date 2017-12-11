@@ -1,0 +1,24 @@
+2012-02-11 22:26:40.796000 select * from capital where year=2012 and month=2 and type=0 order by day,id
+2012-02-11 22:26:41.046000 select * from capital where year=2012 and month=2 and type=1 order by day,id
+2012-02-11 22:26:41.078000 select * from recycle order by id
+2012-02-11 22:26:46.765000 select * from capital where year=2012 and month=2 and type=0 order by day,id
+2012-02-11 22:26:46.765000 select * from capital where year=2012 and month=2 and type=1 order by day,id
+2012-02-11 22:26:46.781000 select * from recycle order by id
+2012-02-11 22:26:46.828000 try update file: http://www.pythonid.com/youmoney/update.php
+2012-02-11 22:26:48.046000 version: Windows XP 32bit 2600 Service Pack 2
+2012-02-11 22:26:53.390000 Traceback (most recent call last):
+  File "ui\update.pyc", line 62, in update
+  File "ui\update.pyc", line 73, in updateone
+  File "urllib2.pyc", line 124, in urlopen
+  File "urllib2.pyc", line 387, in open
+  File "urllib2.pyc", line 498, in http_response
+  File "urllib2.pyc", line 425, in error
+  File "urllib2.pyc", line 360, in _call_chain
+  File "urllib2.pyc", line 506, in http_error_default
+HTTPError: HTTP Error 404: Not Found
+
+2012-02-11 22:26:53.390000 try update file: http://youmoney.googlecode.com/files/update.txt
+2012-02-11 22:26:53.390000 version: Windows XP 32bit 2600 Service Pack 2
+2012-02-11 22:26:54.562000 not need update: 0.9.5
+2012-02-11 22:28:38.781000 task thread end
+2012-02-11 22:28:38.781000 server thread end

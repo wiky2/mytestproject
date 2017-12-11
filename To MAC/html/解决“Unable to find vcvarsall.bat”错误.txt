@@ -1,0 +1,9 @@
+解决“Unable to find vcvarsall.bat”错误
+发表于 2010年06月20日 由 admin 
+今天在安装PyAMF时老是发生Unable to find vcvarsall.bat的错误，上网找了一下，在eddsn找到了“Unable to find vcvarsall.bat” error when trying to install rdflib这么一篇文章，解决了问题。方法如下：
+
+首先安装MinGW，在MinGW的安装目录下找到bin的文件夹，找到mingw32-make.exe，复制一份更名为make.exe； 
+把MinGW的路径添加到环境变量path中，比如我把MinGW安装到D:\MinGW\中，就把D:\MinGW\bin添加到path中； 
+打开命令行窗口，在命令行窗口中进入到要安装代码的目录下； 
+输入如下命令就可以安装了。 
+setup.py install build --compiler=mingw32

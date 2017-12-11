@@ -1,0 +1,34 @@
+使用Python POST任意的HTTP数据以及使用Cookie
+Python Add comments
+
+如果不使用Cookie, 发送HTTP POST非常简单:
+
+import urllib2, urllib
+
+data = {'name' : 'www', 'password' : '123456'}
+f = urllib2.urlopen(
+        url     = 'http://www.ideawu.net/',
+        data    = urllib.urlencode(data)
+		)
+print f.read()
+
+当使用Cookie时, 代码变得有些复杂:
+
+import urllib2
+
+cookies = urllib2.HTTPCookieProcessor()
+opener = urllib2.build_opener(cookies)
+
+f = opener.open('http://www.ideawu.net/?act=login&name=user01')
+
+data = '<root>Hello</root>'
+request = urllib2.Request(
+        url     = 'http://www.ideawu.net/?act=send',
+        headers = {'Content-Type' : 'text/xml'},
+        data    = data)
+
+opener.open(request)
+
+第一次 open() 是进行登录. 服务器返回的 Cookie 被自动保存在 cookies 中, 被用在后来的请求.
+
+第二次 open() 用 POST 方法向服务器发送了 Content-Type=text/xml 的数据. 如果你不创建一个 Request, 而是直接使用 urlopen() 方法, Python 强制把 Content-Type 改为 application/x-www-form-urlencoded. 

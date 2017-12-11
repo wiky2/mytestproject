@@ -1,0 +1,116 @@
+   1. #!/usr/bin/python 
+   2. import sys  
+   3. import os  
+   4. import getopt  
+   5. import pexpect  
+   6. try:  
+   7.    from ansi_color import * #就是我前面帖子里关于ansi_color的几个定义  
+   8. except ImportError:  
+   9.    def color_str(s, *args):  
+  10.        return s  
+  11.    fg_green = None  
+  12.    fg_red = None  
+  13.    fg_blue = None  
+  14. password="123456" #替换成你自己的密码。  
+  15. def do(cmds, dst, username, outfile):  
+  16.    global verbose, is_quiet, good_hosts  
+  17.    print "executing \"%s\""%(repr(cmds))  
+  18.    try:  
+  19.        prompt = "^.*\(.*\):|\$"  
+  20.        hostname = dst  
+  21.        sshcmd = '<b style="color: black; background-color: rgb(153, 255, 153);">ssh</b> %s'%(hostname)  
+  22.        if username != None:  
+  23.            sshcmd = sshcmd + " -l %s"%username  
+  24.        s = pexpect.spawn(command=sshcmd, timeout=20)  
+  25.        s.logfile_read = outfile  
+  26.        s.setecho(True)  
+  27.        i = -1  
+  28.        while (i<>0):  
+  29.            i = s.expect([prompt,"Are you sure you want to continue connecting (yes/no)?","Password:"])  
+  30.            if i == 1:  
+  31.                s.sendline("yes")  
+  32.            elif i == 2:  
+  33.                s.sendline(password)  
+  34.        for cmd in cmds:       
+  35.            s.sendline(cmd)  
+  36.            s.expect(prompt)  
+  37.        s.sendline("exit")  
+  38.        s.close()  
+  39.        if verbose:  
+  40.            print  
+  41.        print "["+color_str("OK!", fg_green)+"]"  
+  42.        if recording:  
+  43.            print>>f_good, hostname  
+  44.            f_good.flush()  
+  45.        good_hosts.append(hostname)  
+  46.    except pexpect.ExceptionPexpect:  
+  47.        if verbose:  
+  48.            print  
+  49.        print "["+color_str("Fail!", fg_red)+"]"  
+  50.        if recording:  
+  51.            print>>f_bad, hostname  
+  52.            f_bad.flush()  
+  53.        bad_hosts.append(hostname)  
+  54. def print_usage():  
+  55.    print "Usage:\t ./make_do.py -f cmdfile -l username -c cmd -n nodesfile -v -r"  
+  56.    print "execut cmd on remote hosts (all hosts in ./hosts.txt by default)"  
+  57.    print "\t-v verbose"  
+  58.    print "\t-r recording hosts on which mission succeeded and failed"  
+  59.    print "\t-l username"  
+  60.    print "\t-c cmd to be executed remotely"  
+  61.    print "\t-n file containing the nodes"  
+  62.    print "\t-f file conaining the cmd"  
+  63.    print "\t-h show the usage"  
+  64.    sys.exit(-1)  
+  65. if __name__ == "__main__":  
+  66.    try:  
+  67.        opts, args=getopt.getopt(sys.argv[1:], "l:f:n:c:vhr",["login_name", "cmdfile","nodesfile","command","help","verbose", "recording"])  
+  68.    except getopt.GetoptError, err:  
+  69.        print str(err)  
+  70.        print_usage()  
+  71.    if opts == [] and args == []:  
+  72.        print_usage()  
+  73.    hosts = None  
+  74.    cmds = None  
+  75.    outfile = open("/dev/null", "w")  
+  76.    verbose = False  
+  77.    username = None  
+  78.    recording = False  
+  79.    for o, ra in opts:  
+  80.        a = ra.strip(" \t\n")  
+  81.        if o in ("-h", "--help"):  
+  82.            print_usage()  
+  83.        elif o in ("-n", "--nodesfile"):  
+  84.            h = open(a, 'r')  
+  85.            hosts = [l.strip(" \t\n") for l in h]  
+  86.        elif o in ("-c", "--command"):  
+  87.            cmds = [a]  
+  88.        elif o in ("-f", "--cmdfile"):  
+  89.            cmdfile =  open(a, "r")  
+  90.            cmds = [cmd.strip(' \n') for cmd in cmdfile]  
+  91.        elif o in ("-v",  "--verbose"):  
+  92.            outfile = sys.stdout  
+  93.            verbose = True  
+  94.        elif o in ("-r", "--recording"):  
+  95.            recording = True  
+  96.        elif o in ("-l", "--login_name"):  
+  97.            username = a  
+  98.    if hosts is None:  
+  99.        print "using default ./hosts.txt"  
+ 100.        h = open(os.path.join(os.path.expanduser("."), "hosts.txt"),'r')  
+ 101.        hosts = [dst.strip(' \n') for dst in h]  
+ 102.    if cmds is None:  
+ 103.        print "-c or -f must specified"  
+ 104.        print_usage()  
+ 105.    if recording:  
+ 106.        f_good = open("good_hosts.txt","w")  
+ 107.        f_bad = open("bad_hosts.txt","w")  
+ 108.    good_hosts =[]  
+ 109.    bad_hosts =[]  
+ 110.    for i in range(len(hosts)):  
+ 111.        dst = hosts[i]  
+ 112.        print "%d/%d: ["%(i+1, len(hosts))+ color_str(dst, fg_blue)+"]"  
+ 113.        do(cmds, dst, username, outfile)  
+ 114.    print "%d hosts suceed!"%len(good_hosts)  
+ 115.    outfile.close()  
+ 116.    h.close()  

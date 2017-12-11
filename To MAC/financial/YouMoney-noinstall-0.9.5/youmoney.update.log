@@ -1,0 +1,13 @@
+2012-02-11 22:28:31.671000 get: http://www.pythonid.com/youmoney/update.txt
+2012-02-11 22:28:32.078000 Traceback (most recent call last):
+  File "updater.py", line 152, in openinfo
+  File "urllib2.pyc", line 124, in urlopen
+  File "urllib2.pyc", line 387, in open
+  File "urllib2.pyc", line 498, in http_response
+  File "urllib2.pyc", line 425, in error
+  File "urllib2.pyc", line 360, in _call_chain
+  File "urllib2.pyc", line 506, in http_error_default
+HTTPError: HTTP Error 404: Not Found
+
+2012-02-11 22:28:32.093000 get: http://youmoney.googlecode.com/files/update.txt
+2012-02-11 22:28:33.296000 not need update: 0.9.5 0.9.5

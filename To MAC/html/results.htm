@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+<title>Results</title>
+</head>
+
+<body>
+<h1>Results</h1>
+
+<div>
+  These are the results from my computer, running Ubuntu, AMD 64.
+
+  Using:
+
+<pre>
+python htmlperf.py -t lxml -t bs -t html5_et -t html5_minidom \
+-t genshi -t htmlparser -t htmlfill  --no-gc
+</pre>
+
+results in:<br>
+  <img src="http://chart.apis.google.com/chart?chxl=0%3A%7Cformencode.htmlfill+%284.5+sec%29%7CHTMLParser+%282.9+sec%29%7CGenshi+%287.3+sec%29%7Chtml5lib+minidom+%2835.2+sec%29%7Chtml5lib+ElementTree+%2830.2+sec%29%7CBeautifulSoup+%2810.6+sec%29%7Clxml.html+%280.6+sec%29%7C&cht=bhs&chs=400x210&chd=e%3ABATT25..NOFQIF&chxt=y">
+
+  <hr>
+
+  Using:
+
+<pre>
+python htmlperf.py -t lxml -t bs -t html5_et -t html5_minidom -t genshi --no-gc --serialize
+</pre>
+
+  results in:<br>
+  <img src="http://chart.apis.google.com/chart?chxl=0%3A%7CGenshi+%284.4+sec%29%7Chtml5lib+minidom+%283.8+sec%29%7Chtml5lib+ElementTree+%281.9+sec%29%7CBeautifulSoup+%282.0+sec%29%7Clxml.html+%280.3+sec%29%7C&cht=bhs&chs=400x150&chd=e%3AD8c4cD2m..&chxt=y">
+
+  <hr>
+
+  Using:
+
+<pre>
+python htmlperf.py -t lxml -t bs -t lxml_bs -t html5_cet -t html5_et -t html5_simple -t html5_minidom -t genshi -t htmlfill -t htmlparser --keep-docs --keep-docs-subprocess
+</pre>
+
+  results in:<br>
+  <img src="http://chart.apis.google.com/chart?chxl=0%3A%7CHTMLParser+%284.4+Mb%29%7Cformencode.htmlfill+%285.5+Mb%29%7CGenshi+%2864.5+Mb%29%7Chtml5lib+minidom+%28192.9+Mb%29%7Chtml5lib+simpletree+%2898.0+Mb%29%7Chtml5lib+ElementTree+%2864.9+Mb%29%7Chtml5lib+cElementTree+%2854.7+Mb%29%7CBeautifulSoup+lxml+%28104.8+Mb%29%7CBeautifulSoup+%2882.1+Mb%29%7Clxml.html+%2826.2+Mb%29%7C&cht=bhs&chs=400x300&chd=e%3AIsbOivSJVhgg..VZB0Be&chxt=y">
+
+  
+</div>
+
+</body> </html>

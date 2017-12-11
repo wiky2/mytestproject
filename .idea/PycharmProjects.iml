@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="html2Dash" />
+    <orderEntry type="module" module-name="python-guide" />
+    <orderEntry type="module" module-name="pip-pop" />
+    <orderEntry type="module" module-name="doubanfm-py" />
+    <orderEntry type="module" module-name="Cura" />
+    <orderEntry type="module" module-name="PythonExample" />
+    <orderEntry type="module" module-name="prettylist" />
+    <orderEntry type="module" module-name="pythonexcercise" />
+    <orderEntry type="module" module-name="python_com_record" />
+    <orderEntry type="module" module-name="PythonExample2" />
+    <orderEntry type="module" module-name="pythoncom" />
+    <orderEntry type="module" module-name="xxg1413" />
+    <orderEntry type="module" module-name="Algorithms" />
+    <orderEntry type="module" module-name="Showme" />
+    <orderEntry type="module" module-name="Sreg" />
+    <orderEntry type="module" module-name="howdoi" />
+    <orderEntry type="module" module-name="googler" />
+    <orderEntry type="module" module-name="mininet" />
+    <orderEntry type="module" module-name="youtube-dl" />
+    <orderEntry type="module" module-name="requests" />
+    <orderEntry type="module" module-name="httpie" />
+    <orderEntry type="module" module-name="zhihu-oauth" />
+    <orderEntry type="module" module-name="aria2" />
+    <orderEntry type="module" module-name="aria2gui" />
+    <orderEntry type="module" module-name="YAAW-for-Chrome" />
+    <orderEntry type="module" module-name="safari2aria" />
+    <orderEntry type="module" module-name="notebook-tong-chen" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

@@ -1,0 +1,3257 @@
+From: <ÓÉ Microsoft Internet Explorer 5 ±£´æ>
+Subject: The lxml.etree Tutorial
+Date: Thu, 26 Jan 2012 19:26:00 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCDC60.5638B5B0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3664
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CCDC60.5638B5B0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://lxml.de/tutorial.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den xml:lang=3D"en" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>The lxml.etree =
+Tutorial</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META content=3D"MSHTML 6.00.2900.3698" name=3DGENERATOR>
+<META content=3D"Stefan Behnel" name=3Dauthor>
+<META content=3D"The lxml tutorial on XML processing with Python"=20
+name=3Ddescription>
+<META=20
+content=3D"XML processing with Python, lxml, lxml.etree, tutorial, =
+ElementTree, Python, XML, HTML"=20
+name=3Dkeywords><LINK href=3D"http://lxml.de/style.css" type=3Dtext/css=20
+rel=3Dstylesheet></HEAD>
+<BODY>
+<DIV class=3Ddocument id=3Dthe-lxml-etree-tutorial>
+<DIV class=3Dsidemenu>
+<UL id=3Dlxml-section>
+  <LI><SPAN class=3D"section title">lxml</SPAN>
+  <UL class=3D"menu foreign" id=3Dindex-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/index.html">lxml</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/index.html#introduction">Introduction</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/index.html#support-the-project">Support the =
+
+      project</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/index.html#documentation">Documentation</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/index.html#download">Download</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/index.html#mailing-list">Mailing list</A>
+      <LI class=3D"menu item"><A =
+href=3D"http://lxml.de/index.html#bug-tracker">Bug=20
+      tracker</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/index.html#license">License</A>
+      <LI class=3D"menu item"><A =
+href=3D"http://lxml.de/index.html#old-versions">Old=20
+      Versions</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/index.html#legal-notice-for-donations">Legal =
+Notice=20
+      for Donations</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dintro-menu>
+    <LI class=3D"menu title"><A href=3D"http://lxml.de/intro.html">Why =
+lxml?</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A =
+href=3D"http://lxml.de/intro.html#motto">Motto</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/intro.html#aims">Aims</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dinstallation-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/installation.html">Installing=20
+    lxml</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/installation.html#requirements">Requirements</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/installation.html#installation">Installation</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/installation.html#building-lxml-from-sources">Buil=
+ding=20
+      lxml from sources</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/installation.html#using-lxml-with-python-libxml2">=
+Using=20
+      lxml with python-libxml2</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/installation.html#ms-windows">MS =
+Windows</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/installation.html#macos-x">MacOS-X</A></LI></UL></=
+LI></UL>
+  <UL class=3D"menu foreign" id=3Dperformance-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/performance.html">Benchmarks=20
+    and Speed</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/performance.html#general-notes">General =
+notes</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/performance.html#how-to-read-the-timings">How to =
+read=20
+      the timings</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/performance.html#parsing-and-serialising">Parsing =
+and=20
+      Serialising</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/performance.html#the-elementtree-api">The =
+ElementTree=20
+      API</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/performance.html#xpath">XPath</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/performance.html#a-longer-example">A longer =
+
+      example</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/performance.html#lxml-objectify">lxml.objectify</A=
+></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dcompatibility-menu>
+    <LI class=3D"menu title"><A=20
+    href=3D"http://lxml.de/compatibility.html">ElementTree compatibility =
+of=20
+    lxml.etree</A></LI></UL>
+  <UL class=3D"menu foreign" id=3DFAQ-menu>
+    <LI class=3D"menu title"><A href=3D"http://lxml.de/FAQ.html">lxml =
+FAQ -=20
+    Frequently Asked Questions</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/FAQ.html#general-questions">General =
+Questions</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/FAQ.html#installation">Installation</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/FAQ.html#contributing">Contributing</A>
+      <LI class=3D"menu item"><A =
+href=3D"http://lxml.de/FAQ.html#bugs">Bugs</A>
+      <LI class=3D"menu item"><A =
+href=3D"http://lxml.de/FAQ.html#id1">Threading</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/FAQ.html#parsing-and-serialisation">Parsing =
+and=20
+      Serialisation</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/FAQ.html#xpath-and-document-traversal">XPath and=20
+      Document Traversal</A></LI></UL></LI></UL></LI></UL>
+<UL id=3D"Developing with lxml-section">
+  <LI><SPAN class=3D"section title">Developing with lxml</SPAN>
+  <UL class=3D"menu current" id=3Dtutorial-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/tutorial.html">The lxml.etree=20
+    Tutorial</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/tutorial.html#the-element-class">The =
+Element=20
+class</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/tutorial.html#the-elementtree-class">The =
+ElementTree=20
+      class</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/tutorial.html#parsing-from-strings-and-files">Pars=
+ing=20
+      from strings and files</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/tutorial.html#namespaces">Namespaces</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/tutorial.html#the-e-factory">The =
+E-factory</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/tutorial.html#elementpath">ElementPath</A></LI></U=
+L></LI></UL>
+  <UL class=3D"menu foreign" id=3D"api index-menu">
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/api/index.html">API=20
+    reference</A></LI></UL>
+  <UL class=3D"menu foreign" id=3Dapi-menu>
+    <LI class=3D"menu title"><A href=3D"http://lxml.de/api.html">APIs =
+specific to=20
+    lxml.etree</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/api.html#lxml-etree">lxml.etree</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/api.html#other-element-apis">Other Element =
+APIs</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/api.html#trees-and-documents">Trees and =
+Documents</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/api.html#iteration">Iteration</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/api.html#error-handling-on-exceptions">Error =
+handling=20
+      on exceptions</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/api.html#error-logging">Error logging</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/api.html#serialisation">Serialisation</A>
+      <LI class=3D"menu item"><A =
+href=3D"http://lxml.de/api.html#cdata">CDATA</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/api.html#xinclude-and-elementinclude">XInclude =
+and=20
+      ElementInclude</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/api.html#write-c14n-on-elementtree">write_c14n on =
+
+      ElementTree</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dparsing-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/parsing.html">Parsing XML and=20
+    HTML with lxml</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/parsing.html#parsers">Parsers</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/parsing.html#the-target-parser-interface">The =
+target=20
+      parser interface</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/parsing.html#the-feed-parser-interface">The =
+feed=20
+      parser interface</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/parsing.html#iterparse-and-iterwalk">iterparse =
+and=20
+      iterwalk</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/parsing.html#python-unicode-strings">Python =
+unicode=20
+      strings</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dvalidation-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/validation.html">Validation=20
+    with lxml</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/validation.html#validation-at-parse-time">Validati=
+on=20
+      at parse time</A>
+      <LI class=3D"menu item"><A =
+href=3D"http://lxml.de/validation.html#id1">DTD</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/validation.html#relaxng">RelaxNG</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/validation.html#xmlschema">XMLSchema</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/validation.html#id2">Schematron</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/validation.html#id3">(Pre-ISO-Schematron)</A></LI>=
+</UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dxpathxslt-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/xpathxslt.html">XPath and=20
+    XSLT with lxml</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/xpathxslt.html#xpath">XPath</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/xpathxslt.html#xslt">XSLT</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dobjectify-menu>
+    <LI class=3D"menu title"><A=20
+    href=3D"http://lxml.de/objectify.html">lxml.objectify</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/objectify.html#the-lxml-objectify-api">The=20
+      lxml.objectify API</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/objectify.html#asserting-a-schema">Asserting a=20
+      Schema</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/objectify.html#objectpath">ObjectPath</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/objectify.html#python-data-types">Python =
+data=20
+      types</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/objectify.html#how-data-types-are-matched">How =
+data=20
+      types are matched</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/objectify.html#what-is-different-from-lxml-etree">=
+What=20
+      is different from lxml.etree?</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dlxmlhtml-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/lxmlhtml.html">lxml.html</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/lxmlhtml.html#parsing-html">Parsing =
+HTML</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/lxmlhtml.html#html-element-methods">HTML =
+Element=20
+      Methods</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/lxmlhtml.html#running-html-doctests">Running HTML =
+
+      doctests</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/lxmlhtml.html#creating-html-with-the-e-factory">Cr=
+eating=20
+      HTML with the E-factory</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/lxmlhtml.html#working-with-links">Working =
+with=20
+      links</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/lxmlhtml.html#forms">Forms</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/lxmlhtml.html#cleaning-up-html">Cleaning up =
+HTML</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/lxmlhtml.html#html-diff">HTML Diff</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/lxmlhtml.html#examples">Examples</A></LI></UL></LI=
+></UL>
+  <UL class=3D"menu foreign" id=3Dcssselect-menu>
+    <LI class=3D"menu title"><A=20
+    href=3D"http://lxml.de/cssselect.html">lxml.cssselect</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/cssselect.html#the-cssselector-class">The =
+CSSSelector=20
+      class</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/cssselect.html#css-selectors">CSS =
+Selectors</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/cssselect.html#namespaces">Namespaces</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/cssselect.html#limitations">Limitations</A></LI></=
+UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Delementsoup-menu>
+    <LI class=3D"menu title"><A=20
+    href=3D"http://lxml.de/elementsoup.html">BeautifulSoup Parser</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/elementsoup.html#parsing-with-the-soupparser">Pars=
+ing=20
+      with the soupparser</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/elementsoup.html#entity-handling">Entity =
+handling</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/elementsoup.html#using-soupparser-as-a-fallback">U=
+sing=20
+      soupparser as a fallback</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/elementsoup.html#using-only-the-encoding-detection=
+">Using=20
+      only the encoding detection</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dhtml5parser-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/html5parser.html">html5lib=20
+    Parser</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/html5parser.html#differences-to-regular-html-parsi=
+ng">Differences=20
+      to regular HTML parsing</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/html5parser.html#function-reference">Function=20
+      Reference</A></LI></UL></LI></UL></LI></UL>
+<UL id=3D"Extending lxml-section">
+  <LI><SPAN class=3D"section title">Extending lxml</SPAN>
+  <UL class=3D"menu foreign" id=3Dresolvers-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/resolvers.html">Document=20
+    loading and URL resolving</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/resolvers.html#xml-catalogs">XML =
+Catalogs</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/resolvers.html#uri-resolvers">URI =
+Resolvers</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/resolvers.html#document-loading-in-context">Docume=
+nt=20
+      loading in context</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/resolvers.html#i-o-access-control-in-xslt">I/O =
+access=20
+      control in XSLT</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dextensions-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/extensions.html">Python=20
+    extensions for XPath and XSLT</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/extensions.html#xpath-extension-functions">XPath=20
+      Extension functions</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/extensions.html#xslt-extension-elements">XSLT=20
+      extension elements</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3D"element classes-menu">
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/element_classes.html">Using=20
+    custom Element classes in lxml</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/element_classes.html#background-on-element-proxies=
+">Background=20
+      on Element proxies</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/element_classes.html#element-initialization">Eleme=
+nt=20
+      initialization</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/element_classes.html#setting-up-a-class-lookup-sch=
+eme">Setting=20
+      up a class lookup scheme</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/element_classes.html#generating-xml-with-custom-cl=
+asses">Generating=20
+      XML with custom classes</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/element_classes.html#id1">Implementing=20
+      namespaces</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dsax-menu>
+    <LI class=3D"menu title"><A href=3D"http://lxml.de/sax.html">Sax =
+support</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/sax.html#building-a-tree-from-sax-events">Building=
+ a=20
+      tree from SAX events</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/sax.html#producing-sax-events-from-an-elementtree-=
+or-element">Producing=20
+      SAX events from an ElementTree or Element</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/sax.html#interfacing-with-pulldom-minidom">Interfa=
+cing=20
+      with pulldom/minidom</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3Dcapi-menu>
+    <LI class=3D"menu title"><A href=3D"http://lxml.de/capi.html">The =
+public C-API=20
+    of lxml.etree</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/capi.html#writing-external-modules-in-cython">Writ=
+ing=20
+      external modules in Cython</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/capi.html#writing-external-modules-in-c">Writing=20
+      external modules in C</A></LI></UL></LI></UL></LI></UL>
+<UL id=3D"Developing lxml-section">
+  <LI><SPAN class=3D"section title">Developing lxml</SPAN>
+  <UL class=3D"menu foreign" id=3Dbuild-menu>
+    <LI class=3D"menu title"><A href=3D"http://lxml.de/build.html">How =
+to build lxml=20
+    from source</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+href=3D"http://lxml.de/build.html#cython">Cython</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/build.html#github-git-and-hg">Github, git =
+and hg</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/build.html#id2">Setuptools</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/build.html#running-the-tests-and-reporting-errors"=
+>Running=20
+      the tests and reporting errors</A>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/build.html#building-an-egg">Building an =
+egg</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/build.html#building-lxml-on-macos-x">Building =
+lxml on=20
+      MacOS-X</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/build.html#static-linking-on-windows">Static =
+linking=20
+      on Windows</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/build.html#building-debian-packages-from-svn-sourc=
+es">Building=20
+      Debian packages from SVN sources</A></LI></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3D"lxml source howto-menu">
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/lxml-source-howto.html">How=20
+    to read the source of lxml</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/lxml-source-howto.html#what-is-cython">What =
+is=20
+      Cython?</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/lxml-source-howto.html#where-to-start">Where to=20
+      start?</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/lxml-source-howto.html#lxml-etree">lxml.etree</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/lxml-source-howto.html#python-modules">Python=20
+      modules</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/lxml-source-howto.html#lxml-objectify">lxml.object=
+ify</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/lxml-source-howto.html#lxml-html">lxml.html</A></L=
+I></UL></LI></UL>
+  <UL class=3D"menu foreign" id=3D"changes 2 3 3-menu">
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/changes-2.3.3.html">Release=20
+    Changelog</A></LI></UL>
+  <UL class=3D"menu foreign" id=3Dcredits-menu>
+    <LI class=3D"menu title"><A =
+href=3D"http://lxml.de/credits.html">Credits</A>
+    <UL class=3Dsubmenu>
+      <LI class=3D"menu item"><A=20
+      href=3D"http://lxml.de/credits.html#main-contributors">Main =
+contributors</A>
+      <LI class=3D"menu item"><A=20
+      =
+href=3D"http://lxml.de/credits.html#special-thanks-goes-to">Special =
+thanks=20
+      goes to:</A></LI></UL></LI></UL>
+  <LI><A =
+href=3D"http://lxml.de/sitemap.html">Sitemap</A></LI></UL></DIV>
+<H1 class=3Dtitle>The lxml.etree Tutorial</H1>
+<TABLE class=3Ddocinfo rules=3Dnone frame=3Dvoid>
+  <COLGROUP>
+  <COL class=3Ddocinfo-name>
+  <COL class=3Ddocinfo-content>
+  <TBODY vAlign=3Dtop>
+  <TR>
+    <TH class=3Ddocinfo-name>Author:</TH>
+    <TD>Stefan Behnel</TD></TR></TBODY></TABLE>
+<P>This is a tutorial on XML processing with <TT=20
+class=3D"docutils literal">lxml.etree</TT>. It briefly overviews the =
+main concepts=20
+of the <A class=3D"reference external"=20
+href=3D"http://effbot.org/zone/element-index.htm#documentation">ElementTr=
+ee=20
+API</A>, and some simple enhancements that make your life as a =
+programmer=20
+easier.</P>
+<P>For a complete reference of the API, see the <A class=3D"reference =
+external"=20
+href=3D"http://lxml.de/api/index.html">generated API =
+documentation</A>.</P>
+<DIV class=3D"contents topic" id=3Dcontents>
+<P class=3D"topic-title first">Contents</P>
+<UL class=3Dsimple>
+  <LI><A class=3D"reference internal" id=3Did2=20
+  href=3D"http://lxml.de/tutorial.html#the-element-class">The Element =
+class</A>
+  <UL>
+    <LI><A class=3D"reference internal" id=3Did3=20
+    href=3D"http://lxml.de/tutorial.html#elements-are-lists">Elements =
+are=20
+    lists</A>=20
+    <LI><A class=3D"reference internal" id=3Did4=20
+    =
+href=3D"http://lxml.de/tutorial.html#elements-carry-attributes">Elements =
+carry=20
+    attributes</A>=20
+    <LI><A class=3D"reference internal" id=3Did5=20
+    href=3D"http://lxml.de/tutorial.html#elements-contain-text">Elements =
+contain=20
+    text</A>=20
+    <LI><A class=3D"reference internal" id=3Did6=20
+    href=3D"http://lxml.de/tutorial.html#using-xpath-to-find-text">Using =
+XPath to=20
+    find text</A>=20
+    <LI><A class=3D"reference internal" id=3Did7=20
+    href=3D"http://lxml.de/tutorial.html#tree-iteration">Tree =
+iteration</A>=20
+    <LI><A class=3D"reference internal" id=3Did8=20
+    =
+href=3D"http://lxml.de/tutorial.html#serialisation">Serialisation</A> =
+</LI></UL>
+  <LI><A class=3D"reference internal" id=3Did9=20
+  href=3D"http://lxml.de/tutorial.html#the-elementtree-class">The =
+ElementTree=20
+  class</A>=20
+  <LI><A class=3D"reference internal" id=3Did10=20
+  =
+href=3D"http://lxml.de/tutorial.html#parsing-from-strings-and-files">Pars=
+ing=20
+  from strings and files</A>
+  <UL>
+    <LI><A class=3D"reference internal" id=3Did11=20
+    href=3D"http://lxml.de/tutorial.html#the-fromstring-function">The =
+fromstring()=20
+    function</A>=20
+    <LI><A class=3D"reference internal" id=3Did12=20
+    href=3D"http://lxml.de/tutorial.html#the-xml-function">The XML() =
+function</A>=20
+    <LI><A class=3D"reference internal" id=3Did13=20
+    href=3D"http://lxml.de/tutorial.html#the-parse-function">The parse() =
+
+    function</A>=20
+    <LI><A class=3D"reference internal" id=3Did14=20
+    href=3D"http://lxml.de/tutorial.html#parser-objects">Parser =
+objects</A>=20
+    <LI><A class=3D"reference internal" id=3Did15=20
+    =
+href=3D"http://lxml.de/tutorial.html#incremental-parsing">Incremental=20
+    parsing</A>=20
+    <LI><A class=3D"reference internal" id=3Did16=20
+    =
+href=3D"http://lxml.de/tutorial.html#event-driven-parsing">Event-driven=20
+    parsing</A> </LI></UL>
+  <LI><A class=3D"reference internal" id=3Did17=20
+  href=3D"http://lxml.de/tutorial.html#namespaces">Namespaces</A>=20
+  <LI><A class=3D"reference internal" id=3Did18=20
+  href=3D"http://lxml.de/tutorial.html#the-e-factory">The E-factory</A>=20
+  <LI><A class=3D"reference internal" id=3Did19=20
+  href=3D"http://lxml.de/tutorial.html#elementpath">ElementPath</A> =
+</LI></UL></DIV>
+<P>A common way to import <TT class=3D"docutils literal">lxml.etree</TT> =
+is as=20
+follows:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dkn>from</SPAN> <SPAN class=3Dnn>lxml</SPAN> <SPAN =
+class=3Dkn>import</SPAN> <SPAN class=3Dn>etree</SPAN>
+</PRE></DIV>
+<P>If your code only uses the ElementTree API and does not rely on any=20
+functionality that is specific to <TT class=3D"docutils =
+literal">lxml.etree</TT>,=20
+you can also use (any part of) the following import chain as a fall-back =
+to the=20
+original ElementTree:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dk>try</SPAN><SPAN =
+class=3Dp>:</SPAN>
+  <SPAN class=3Dkn>from</SPAN> <SPAN class=3Dnn>lxml</SPAN> <SPAN =
+class=3Dkn>import</SPAN> <SPAN class=3Dn>etree</SPAN>
+  <SPAN class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"running with lxml.etree"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dk>except</SPAN> <SPAN class=3Dne>ImportError</SPAN><SPAN =
+class=3Dp>:</SPAN>
+  <SPAN class=3Dk>try</SPAN><SPAN class=3Dp>:</SPAN>
+    <SPAN class=3Dc># Python 2.5</SPAN>
+    <SPAN class=3Dkn>import</SPAN> <SPAN =
+class=3Dnn>xml.etree.cElementTree</SPAN> <SPAN class=3Dkn>as</SPAN> =
+<SPAN class=3Dnn>etree</SPAN>
+    <SPAN class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"running with cElementTree on Python 2.5+"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+  <SPAN class=3Dk>except</SPAN> <SPAN class=3Dne>ImportError</SPAN><SPAN =
+class=3Dp>:</SPAN>
+    <SPAN class=3Dk>try</SPAN><SPAN class=3Dp>:</SPAN>
+      <SPAN class=3Dc># Python 2.5</SPAN>
+      <SPAN class=3Dkn>import</SPAN> <SPAN =
+class=3Dnn>xml.etree.ElementTree</SPAN> <SPAN class=3Dkn>as</SPAN> <SPAN =
+class=3Dnn>etree</SPAN>
+      <SPAN class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"running with ElementTree on Python 2.5+"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+    <SPAN class=3Dk>except</SPAN> <SPAN =
+class=3Dne>ImportError</SPAN><SPAN class=3Dp>:</SPAN>
+      <SPAN class=3Dk>try</SPAN><SPAN class=3Dp>:</SPAN>
+        <SPAN class=3Dc># normal cElementTree install</SPAN>
+        <SPAN class=3Dkn>import</SPAN> <SPAN =
+class=3Dnn>cElementTree</SPAN> <SPAN class=3Dkn>as</SPAN> <SPAN =
+class=3Dnn>etree</SPAN>
+        <SPAN class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"running with cElementTree"</SPAN><SPAN class=3Dp>)</SPAN>
+      <SPAN class=3Dk>except</SPAN> <SPAN =
+class=3Dne>ImportError</SPAN><SPAN class=3Dp>:</SPAN>
+        <SPAN class=3Dk>try</SPAN><SPAN class=3Dp>:</SPAN>
+          <SPAN class=3Dc># normal ElementTree install</SPAN>
+          <SPAN class=3Dkn>import</SPAN> <SPAN =
+class=3Dnn>elementtree.ElementTree</SPAN> <SPAN class=3Dkn>as</SPAN> =
+<SPAN class=3Dnn>etree</SPAN>
+          <SPAN class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"running with ElementTree"</SPAN><SPAN class=3Dp>)</SPAN>
+        <SPAN class=3Dk>except</SPAN> <SPAN =
+class=3Dne>ImportError</SPAN><SPAN class=3Dp>:</SPAN>
+          <SPAN class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"Failed to import ElementTree from any known =
+place"</SPAN><SPAN class=3Dp>)</SPAN>
+</PRE></DIV>
+<P>To aid in writing portable code, this tutorial makes it clear in the =
+examples=20
+which part of the presented API is an extension of lxml.etree over the =
+original=20
+<A class=3D"reference external"=20
+href=3D"http://effbot.org/zone/element-index.htm#documentation">ElementTr=
+ee=20
+API</A>, as defined by Fredrik Lundh's <A class=3D"reference external"=20
+href=3D"http://effbot.org/zone/element-index.htm">ElementTree =
+library</A>.</P>
+<DIV class=3Dsection id=3Dthe-element-class>
+<H1>The Element class</H1>
+<P>An <TT class=3D"docutils literal">Element</TT> is the main container =
+object for=20
+the ElementTree API. Most of the XML tree functionality is accessed =
+through this=20
+class. Elements are easily created through the <TT=20
+class=3D"docutils literal">Element</TT> factory:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"root"</SPAN><SPAN class=3Dp>)</SPAN>
+</PRE></DIV>
+<P>The XML tag name of elements is accessed through the <TT=20
+class=3D"docutils literal">tag</TT> property:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>root</SPAN>
+</PRE></DIV>
+<P>Elements are organised in an XML tree structure. To create child =
+elements and=20
+add them to a parent element, you can use the <TT=20
+class=3D"docutils literal">append()</TT> method:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>append</SPAN><SPAN class=3Dp>(</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"child1"</SPAN><SPAN class=3Dp>)</SPAN> <SPAN =
+class=3Dp>)</SPAN>
+</PRE></DIV>
+<P>However, this is so common that there is a shorter and much more =
+efficient=20
+way to do this: the <TT class=3D"docutils literal">SubElement</TT> =
+factory. It=20
+accepts the same arguments as the <TT class=3D"docutils =
+literal">Element</TT>=20
+factory, but additionally requires the parent as first argument:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>child2</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>SubElement</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Ds>"child2"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>child3</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>"child3"</SPAN><SPAN class=3Dp>)</SPAN>
+</PRE></DIV>
+<P>To see that this is really XML, you can serialise the tree you have=20
+created:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tostring</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;root&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;child1/&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;child2/&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;child3/&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/root&gt;</SPAN>
+</PRE></DIV>
+<DIV class=3Dsection id=3Delements-are-lists>
+<H2>Elements are lists</H2>
+<P>To make the access to these subelements as easy and straight forward =
+as=20
+possible, elements behave like normal Python lists:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>child</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>child</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>child1</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dnb>len</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>3</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>index</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>1</SPAN><SPAN class=3Dp>])</SPAN> =
+<SPAN class=3Dc># lxml.etree only!</SPAN>
+<SPAN class=3Dgo>1</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>children</SPAN> =
+<SPAN class=3Do>=3D</SPAN> <SPAN class=3Dnb>list</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>child</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>child</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>child1</SPAN>
+<SPAN class=3Dgo>child2</SPAN>
+<SPAN class=3Dgo>child3</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>insert</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"child0"</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>start</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>root</SPAN><SPAN =
+class=3Dp>[:</SPAN><SPAN class=3Dmi>1</SPAN><SPAN class=3Dp>]</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>end</SPAN>   <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>root</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Do>-</SPAN><SPAN class=3Dmi>1</SPAN><SPAN =
+class=3Dp>:]</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>start</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>child0</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>end</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>child3</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN> =
+<SPAN class=3Do>=3D</SPAN> <SPAN class=3Dn>root</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Do>-</SPAN><SPAN class=3Dmi>1</SPAN><SPAN =
+class=3Dp>]</SPAN> <SPAN class=3Dc># this moves the element in =
+lxml.etree!</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>child</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>child</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>child3</SPAN>
+<SPAN class=3Dgo>child1</SPAN>
+<SPAN class=3Dgo>child2</SPAN>
+</PRE></DIV>
+<P>Prior to ElementTree 1.3 and lxml 2.0, you could also check the truth =
+value=20
+of an Element to see if it has children, i.e. if the list of children is =
+empty.=20
+This is no longer supported as people tend to find it surprising that a =
+non-None=20
+reference to an existing Element can evaluate to False. Instead, use <TT =
+
+class=3D"docutils literal">len(element)</TT>, which is both more =
+explicit and less=20
+error prone.</P>
+<P>Note in the examples that the last element was <EM>moved</EM> to a =
+different=20
+position in the last example. This is a difference from the original =
+ElementTree=20
+(and from lists), where elements can sit in multiple positions of any =
+number of=20
+trees. In lxml.etree, elements can only sit in one position of one tree =
+at a=20
+time.</P>
+<P>If you want to <EM>copy</EM> an element to a different position, =
+consider=20
+creating an independent <EM>deep copy</EM> using the <TT=20
+class=3D"docutils literal">copy</TT> module from Python's standard =
+library:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dkn>from</SPAN> <SPAN class=3Dnn>copy</SPAN> <SPAN =
+class=3Dkn>import</SPAN> <SPAN class=3Dn>deepcopy</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>element</SPAN> =
+<SPAN class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>Element</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"neu"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>append</SPAN><SPAN class=3Dp>(</SPAN> =
+<SPAN class=3Dn>deepcopy</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>1</SPAN><SPAN class=3Dp>])</SPAN> <SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>child1</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>([</SPAN> <SPAN class=3Dn>c</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN> <SPAN class=3Dk>for</SPAN> =
+<SPAN class=3Dn>c</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Dp>])</SPAN>
+<SPAN class=3Dgo>['child3', 'child1', 'child2']</SPAN>
+</PRE></DIV>
+<P>The way up in the tree is provided through the <TT=20
+class=3D"docutils literal">getparent()</TT> method:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Dow>is</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>getparent</SPAN><SPAN class=3Dp>()</SPAN>  <SPAN class=3Dc># =
+lxml.etree only!</SPAN>
+<SPAN class=3Dgo>True</SPAN>
+</PRE></DIV>
+<P>The siblings (or neighbours) of an element are accessed as next and =
+previous=20
+elements:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN> <SPAN class=3Dow>is</SPAN> =
+<SPAN class=3Dn>root</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>1</SPAN><SPAN class=3Dp>]</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>getprevious</SPAN><SPAN class=3Dp>()</SPAN> <SPAN class=3Dc># =
+lxml.etree only!</SPAN>
+<SPAN class=3Dgo>True</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>1</SPAN><SPAN class=3Dp>]</SPAN> =
+<SPAN class=3Dow>is</SPAN> <SPAN class=3Dn>root</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>getnext</SPAN><SPAN =
+class=3Dp>()</SPAN> <SPAN class=3Dc># lxml.etree only!</SPAN>
+<SPAN class=3Dgo>True</SPAN>
+</PRE></DIV></DIV>
+<DIV class=3Dsection id=3Delements-carry-attributes>
+<H2>Elements carry attributes</H2>
+<P>XML elements support attributes. You can create them directly in the =
+Element=20
+factory:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"root"</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>interesting</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>"totally"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root interesting=3D"totally"/&gt;'</SPAN>
+</PRE></DIV>
+<P>Fast and direct access to these attributes is provided by the <TT=20
+class=3D"docutils literal">set()</TT> and <TT class=3D"docutils =
+literal">get()</TT>=20
+methods of elements:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>get</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"interesting"</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>totally</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>set</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"interesting"</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Ds>"somewhat"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>get</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"interesting"</SPAN><SPAN =
+class=3Dp>))</SPAN>
+<SPAN class=3Dgo>somewhat</SPAN>
+</PRE></DIV>
+<P>However, a very convenient way of dealing with them is through the =
+dictionary=20
+interface of the <TT class=3D"docutils literal">attrib</TT> =
+property:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>attributes</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>attrib</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>attributes</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Ds>"interesting"</SPAN><SPAN =
+class=3Dp>])</SPAN>
+<SPAN class=3Dgo>somewhat</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>attributes</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>get</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"hello"</SPAN><SPAN =
+class=3Dp>))</SPAN>
+<SPAN class=3Dgo>None</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>attributes</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Ds>"hello"</SPAN><SPAN class=3Dp>]</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Ds>"Guten Tag"</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>attributes</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>get</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"hello"</SPAN><SPAN =
+class=3Dp>))</SPAN>
+<SPAN class=3Dgo>Guten Tag</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>get</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"hello"</SPAN><SPAN =
+class=3Dp>))</SPAN>
+<SPAN class=3Dgo>Guten Tag</SPAN>
+</PRE></DIV></DIV>
+<DIV class=3Dsection id=3Delements-contain-text>
+<H2>Elements contain text</H2>
+<P>Elements can contain text:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"root"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>"TEXT"</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>TEXT</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;TEXT&lt;/root&gt;'</SPAN>
+</PRE></DIV>
+<P>In many XML documents (<EM>data-centric</EM> documents), this is the =
+only=20
+place where text can be found. It is encapsulated by a leaf tag at the =
+very=20
+bottom of the tree hierarchy.</P>
+<P>However, if XML is used for tagged text documents such as (X)HTML, =
+text can=20
+also appear between different elements, right in the middle of the =
+tree:</P>
+<DIV class=3Dsyntax><PRE><SPAN =
+class=3Dnt>&lt;html&gt;&lt;body&gt;</SPAN>Hello<SPAN =
+class=3Dnt>&lt;br/&gt;</SPAN>World<SPAN =
+class=3Dnt>&lt;/body&gt;&lt;/html&gt;</SPAN>
+</PRE></DIV>
+<P>Here, the <TT class=3D"docutils literal">&lt;br/&gt;</TT> tag is =
+surrounded by=20
+text. This is often referred to as <EM>document-style</EM> or=20
+<EM>mixed-content</EM> XML. Elements support this through their <TT=20
+class=3D"docutils literal">tail</TT> property. It contains the text that =
+directly=20
+follows the element, up to the next element in the XML tree:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>html</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"html"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>body</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>html</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>"body"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>body</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>"TEXT"</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>html</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN =
+class=3Dgo>b'&lt;html&gt;&lt;body&gt;TEXT&lt;/body&gt;&lt;/html&gt;'</SPA=
+N>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>br</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>body</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>"br"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>html</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN =
+class=3Dgo>b'&lt;html&gt;&lt;body&gt;TEXT&lt;br/&gt;&lt;/body&gt;&lt;/htm=
+l&gt;'</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>br</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tail</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>"TAIL"</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>html</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN =
+class=3Dgo>b'&lt;html&gt;&lt;body&gt;TEXT&lt;br/&gt;TAIL&lt;/body&gt;&lt;=
+/html&gt;'</SPAN>
+</PRE></DIV>
+<P>The two properties <TT class=3D"docutils literal">.text</TT> and <TT=20
+class=3D"docutils literal">.tail</TT> are enough to represent any text =
+content in=20
+an XML document. This way, the ElementTree API does not require any <A=20
+class=3D"reference external"=20
+href=3D"http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-1312295772">sp=
+ecial=20
+text nodes</A> in addition to the Element class, that tend to get in the =
+way=20
+fairly often (as you might know from classic <A class=3D"reference =
+external"=20
+href=3D"http://www.w3.org/TR/DOM-Level-3-Core/core.html">DOM</A> =
+APIs).</P>
+<P>However, there are cases where the tail text also gets in the way. =
+For=20
+example, when you serialise an Element from within the tree, you do not =
+always=20
+want its tail text in the result (although you would still want the tail =
+text of=20
+its children). For this purpose, the <TT=20
+class=3D"docutils literal">tostring()</TT> function accepts the keyword =
+argument=20
+<TT class=3D"docutils literal">with_tail</TT>:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tostring</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>br</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;br/&gt;TAIL'</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>br</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>with_tail</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>False</SPAN><SPAN class=3Dp>)</SPAN> <SPAN class=3Dc># =
+lxml.etree only!</SPAN>
+<SPAN class=3Dgo>b'&lt;br/&gt;'</SPAN>
+</PRE></DIV>
+<P>If you want to read <EM>only</EM> the text, i.e. without any =
+intermediate=20
+tags, you have to recursively concatenate all <TT=20
+class=3D"docutils literal">text</TT> and <TT class=3D"docutils =
+literal">tail</TT>=20
+attributes in the correct order. Again, the <TT=20
+class=3D"docutils literal">tostring()</TT> function comes to the rescue, =
+this time=20
+using the <TT class=3D"docutils literal">method</TT> keyword:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tostring</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>html</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>method</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>"text"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'TEXTTAIL'</SPAN>
+</PRE></DIV></DIV>
+<DIV class=3Dsection id=3Dusing-xpath-to-find-text>
+<H2>Using XPath to find text</H2>
+<P>Another way to extract the text content of a tree is <A=20
+class=3D"reference external" =
+href=3D"http://lxml.de/xpathxslt.html#xpath">XPath</A>,=20
+which also allows you to extract the separate text chunks into a =
+list:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>html</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>xpath</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"string()"</SPAN><SPAN class=3Dp>))</SPAN> <SPAN class=3Dc># =
+lxml.etree only!</SPAN>
+<SPAN class=3Dgo>TEXTTAIL</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>html</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>xpath</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"//text()"</SPAN><SPAN =
+class=3Dp>))</SPAN> <SPAN class=3Dc># lxml.etree only!</SPAN>
+<SPAN class=3Dgo>['TEXT', 'TAIL']</SPAN>
+</PRE></DIV>
+<P>If you want to use this more often, you can wrap it in a =
+function:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>build_text_list</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XPath</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"//text()"</SPAN><SPAN class=3Dp>)</SPAN> <SPAN class=3Dc># =
+lxml.etree only!</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>build_text_list</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>html</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>['TEXT', 'TAIL']</SPAN>
+</PRE></DIV>
+<P>Note that a string result returned by XPath is a special 'smart' =
+object that=20
+knows about its origins. You can ask it where it came from through its =
+<TT=20
+class=3D"docutils literal">getparent()</TT> method, just as you would =
+with=20
+Elements:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>texts</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>build_text_list</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>html</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>texts</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>])</SPAN>
+<SPAN class=3Dgo>TEXT</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>parent</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>texts</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>getparent</SPAN><SPAN =
+class=3Dp>()</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>parent</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>body</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>texts</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>1</SPAN><SPAN class=3Dp>])</SPAN>
+<SPAN class=3Dgo>TAIL</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>texts</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>1</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>getparent</SPAN><SPAN =
+class=3Dp>()</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>br</SPAN>
+</PRE></DIV>
+<P>You can also find out if it's normal text content or tail text:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>texts</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>is_text</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>True</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>texts</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>1</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>is_text</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>False</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>texts</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>1</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>is_tail</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>True</SPAN>
+</PRE></DIV>
+<P>While this works for the results of the <TT=20
+class=3D"docutils literal">text()</TT> function, lxml will not tell you =
+the origin=20
+of a string value that was constructed by the XPath functions <TT=20
+class=3D"docutils literal">string()</TT> or <TT=20
+class=3D"docutils literal">concat()</TT>:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>stringify</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XPath</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"string()"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>stringify</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>html</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>TEXTTAIL</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>stringify</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>html</SPAN><SPAN =
+class=3Dp>)</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>getparent</SPAN><SPAN class=3Dp>())</SPAN>
+<SPAN class=3Dgo>None</SPAN>
+</PRE></DIV></DIV>
+<DIV class=3Dsection id=3Dtree-iteration>
+<H2>Tree iteration</H2>
+<P>For problems like the above, where you want to recursively traverse =
+the tree=20
+and do something with its elements, tree iteration is a very convenient=20
+solution. Elements provide a tree iterator for this purpose. It yields =
+elements=20
+in <EM>document order</EM>, i.e. in the order their tags would appear if =
+you=20
+serialised the tree to XML:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"root"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>"child"</SPAN><SPAN class=3Dp>)</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>"Child 1"</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>"child"</SPAN><SPAN class=3Dp>)</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>"Child 2"</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>"another"</SPAN><SPAN class=3Dp>)</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>"Child 3"</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;root&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;child&gt;Child 1&lt;/child&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;child&gt;Child 2&lt;/child&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;another&gt;Child 3&lt;/another&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/root&gt;</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>element</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>iter</SPAN><SPAN class=3Dp>():</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"</SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> - </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>"</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>root - None</SPAN>
+<SPAN class=3Dgo>child - Child 1</SPAN>
+<SPAN class=3Dgo>child - Child 2</SPAN>
+<SPAN class=3Dgo>another - Child 3</SPAN>
+</PRE></DIV>
+<P>If you know you are only interested in a single tag, you can pass its =
+name to=20
+<TT class=3D"docutils literal">iter()</TT> to have it filter for =
+you:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>for</SPAN> <SPAN class=3Dn>element</SPAN> <SPAN =
+class=3Dow>in</SPAN> <SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>iter</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"child"</SPAN><SPAN =
+class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"</SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> - </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>"</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>child - Child 1</SPAN>
+<SPAN class=3Dgo>child - Child 2</SPAN>
+</PRE></DIV>
+<P>By default, iteration yields all nodes in the tree, including=20
+ProcessingInstructions, Comments and Entity instances. If you want to =
+make sure=20
+only Element objects are returned, you can pass the <TT=20
+class=3D"docutils literal">Element</TT> factory as tag parameter:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>append</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Entity</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"#234"</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>append</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>Comment</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"some comment"</SPAN><SPAN =
+class=3Dp>))</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>element</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>iter</SPAN><SPAN class=3Dp>():</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>if</SPAN> <SPAN =
+class=3Dnb>isinstance</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dnb>basestring</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"</SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> - </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>"</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>else</SPAN><SPAN =
+class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"SPECIAL: </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> - </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>"</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>root - None</SPAN>
+<SPAN class=3Dgo>child - Child 1</SPAN>
+<SPAN class=3Dgo>child - Child 2</SPAN>
+<SPAN class=3Dgo>another - Child 3</SPAN>
+<SPAN class=3Dgo>SPECIAL: &amp;#234; - &amp;#234;</SPAN>
+<SPAN class=3Dgo>SPECIAL: &lt;!--some comment--&gt; - some =
+comment</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>element</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>iter</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"</SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> - </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>"</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>root - None</SPAN>
+<SPAN class=3Dgo>child - Child 1</SPAN>
+<SPAN class=3Dgo>child - Child 2</SPAN>
+<SPAN class=3Dgo>another - Child 3</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>element</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>iter</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Entity</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>&amp;#234;</SPAN>
+</PRE></DIV>
+<P>In lxml.etree, elements provide <A class=3D"reference external"=20
+href=3D"http://lxml.de/api.html#iteration">further iterators</A> for all =
+
+directions in the tree: children, parents (or rather ancestors) and=20
+siblings.</P></DIV>
+<DIV class=3Dsection id=3Dserialisation>
+<H2>Serialisation</H2>
+<P>Serialisation commonly uses the <TT class=3D"docutils =
+literal">tostring()</TT>=20
+function that returns a string, or the <TT=20
+class=3D"docutils literal">ElementTree.write()</TT> method that writes =
+to a file,=20
+a file-like object, or a URL (via FTP PUT or HTTP POST). Both calls =
+accept the=20
+same keyword arguments like <TT class=3D"docutils =
+literal">pretty_print</TT> for=20
+formatted output or <TT class=3D"docutils literal">encoding</TT> to =
+select a=20
+specific output encoding other than plain ASCII:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XML</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>'&lt;root&gt;&lt;a&gt;&lt;b/&gt;&lt;/a&gt;&lt;/root&gt;'</SPAN>=
+<SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN =
+class=3Dgo>b'&lt;root&gt;&lt;a&gt;&lt;b/&gt;&lt;/a&gt;&lt;/root&gt;'</SPA=
+N>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>xml_declaration</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;?xml version=3D'1.0' encoding=3D'ASCII'?&gt;</SPAN>
+<SPAN =
+class=3Dgo>&lt;root&gt;&lt;a&gt;&lt;b/&gt;&lt;/a&gt;&lt;/root&gt;</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>encoding</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'iso-8859-1'</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;?xml version=3D'1.0' =
+encoding=3D'iso-8859-1'?&gt;</SPAN>
+<SPAN =
+class=3Dgo>&lt;root&gt;&lt;a&gt;&lt;b/&gt;&lt;/a&gt;&lt;/root&gt;</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;root&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;a&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;b/&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;/a&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/root&gt;</SPAN>
+</PRE></DIV>
+<P>Note that pretty printing appends a newline at the end.</P>
+<P>Since lxml 2.0 (and ElementTree 1.3), the serialisation functions can =
+do more=20
+than XML serialisation. You can serialise to HTML or extract the text =
+content by=20
+passing the <TT class=3D"docutils literal">method</TT> keyword:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XML</SPAN><SPAN class=3Dp>(</SPAN>
+<SPAN class=3Dgp>... </SPAN>   <SPAN =
+class=3Ds>'&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hello&lt;br/&gt;=
+World&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;'</SPAN><SPAN =
+class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN> =
+<SPAN class=3Dc># default: method =3D 'xml'</SPAN>
+<SPAN =
+class=3Dgo>b'&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hello&lt;br/&g=
+t;World&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;'</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>method</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'xml'</SPAN><SPAN class=3Dp>)</SPAN> <SPAN class=3Dc># same as =
+above</SPAN>
+<SPAN =
+class=3Dgo>b'&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hello&lt;br/&g=
+t;World&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;'</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>method</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'html'</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN =
+class=3Dgo>b'&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;He=
+llo&lt;br&gt;World&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;'</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>method</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'html'</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;html&gt;</SPAN>
+<SPAN class=3Dgo>&lt;head&gt;&lt;/head&gt;</SPAN>
+<SPAN =
+class=3Dgo>&lt;body&gt;&lt;p&gt;Hello&lt;br&gt;World&lt;/p&gt;&lt;/body&g=
+t;</SPAN>
+<SPAN class=3Dgo>&lt;/html&gt;</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>method</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'text'</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'HelloWorld'</SPAN>
+</PRE></DIV>
+<P>As for XML serialisation, the default encoding for plain text =
+serialisation=20
+is ASCII:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>br</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>find</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>'.//br'</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>br</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tail</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>u'W</SPAN><SPAN class=3Dse>\xf6</SPAN><SPAN =
+class=3Ds>rld'</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>method</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'text'</SPAN><SPAN class=3Dp>)</SPAN>  <SPAN class=3Dc># =
+doctest: +ELLIPSIS</SPAN>
+<SPAN class=3Dgt>Traceback (most recent call last):</SPAN>
+  <SPAN class=3Dc>...</SPAN>
+<SPAN class=3Dgr>UnicodeEncodeError</SPAN>: <SPAN class=3Dn>'ascii' =
+codec can't encode character u'\xf6' ...</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>method</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'text'</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>encoding</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>"UTF-8"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'HelloW\xc3\xb6rld'</SPAN>
+</PRE></DIV>
+<P>Here, serialising to a Python unicode string instead of a byte string =
+might=20
+become handy. Just pass the <TT class=3D"docutils literal">unicode</TT> =
+type as=20
+encoding:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tostring</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>encoding</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dnb>unicode</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>method</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'text'</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>u'HelloW\xf6rld'</SPAN>
+</PRE></DIV>
+<P>The W3C has a good <A class=3D"reference external"=20
+href=3D"http://www.w3.org/International/tutorials/tutorial-char-enc/">art=
+icle=20
+about the Unicode character set and character =
+encodings</A>.</P></DIV></DIV>
+<DIV class=3Dsection id=3Dthe-elementtree-class>
+<H1>The ElementTree class</H1>
+<P>An <TT class=3D"docutils literal">ElementTree</TT> is mainly a =
+document wrapper=20
+around a tree with a root node. It provides a couple of methods for =
+parsing,=20
+serialisation and general document handling. One of the bigger =
+differences is=20
+that it serialises as a complete document, as opposed to a single <TT=20
+class=3D"docutils literal">Element</TT>. This includes top-level =
+processing=20
+instructions and comments, as well as a DOCTYPE and other DTD content in =
+the=20
+document:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>tree</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>parse</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>StringIO</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>'''</SPAN><SPAN class=3Dse>\</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>&lt;?xml =
+version=3D"1.0"?&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>&lt;!DOCTYPE root SYSTEM =
+"test" [ &lt;!ENTITY tasty "eggs"&gt; ]&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>&lt;root&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>  =
+&lt;a&gt;&amp;tasty;&lt;/a&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>&lt;/root&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>'''</SPAN><SPAN =
+class=3Dp>))</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>tree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>docinfo</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>doctype</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>&lt;!DOCTYPE root SYSTEM "test"&gt;</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dc># lxml 1.3.4 and =
+later</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>tree</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;!DOCTYPE root SYSTEM "test" [</SPAN>
+<SPAN class=3Dgo>&lt;!ENTITY tasty "eggs"&gt;</SPAN>
+<SPAN class=3Dgo>]&gt;</SPAN>
+<SPAN class=3Dgo>&lt;root&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;a&gt;eggs&lt;/a&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/root&gt;</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dc># lxml 1.3.4 and =
+later</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>ElementTree</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>tree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>getroot</SPAN><SPAN =
+class=3Dp>())))</SPAN>
+<SPAN class=3Dgo>&lt;!DOCTYPE root SYSTEM "test" [</SPAN>
+<SPAN class=3Dgo>&lt;!ENTITY tasty "eggs"&gt;</SPAN>
+<SPAN class=3Dgo>]&gt;</SPAN>
+<SPAN class=3Dgo>&lt;root&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;a&gt;eggs&lt;/a&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/root&gt;</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dc># ElementTree and =
+lxml &lt;=3D 1.3.3</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>tree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>getroot</SPAN><SPAN =
+class=3Dp>()))</SPAN>
+<SPAN class=3Dgo>&lt;root&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;a&gt;eggs&lt;/a&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/root&gt;</SPAN>
+</PRE></DIV>
+<P>Note that this has changed in lxml 1.3.4 to match the behaviour of =
+lxml 2.0.=20
+Before, the examples were serialised without DTD content, which made =
+lxml loose=20
+DTD information in an input-output cycle.</P></DIV>
+<DIV class=3Dsection id=3Dparsing-from-strings-and-files>
+<H1>Parsing from strings and files</H1>
+<P><TT class=3D"docutils literal">lxml.etree</TT> supports parsing XML =
+in a number=20
+of ways and from all important sources, namely strings, files, URLs =
+(http/ftp)=20
+and file-like objects. The main parse functions are <TT=20
+class=3D"docutils literal">fromstring()</TT> and <TT=20
+class=3D"docutils literal">parse()</TT>, both called with the source as =
+first=20
+argument. By default, they use the standard parser, but you can always =
+pass a=20
+different parser as second argument.</P>
+<DIV class=3Dsection id=3Dthe-fromstring-function>
+<H2>The fromstring() function</H2>
+<P>The <TT class=3D"docutils literal">fromstring()</TT> function is the =
+easiest=20
+way to parse a string:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>some_xml_data</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Ds>"&lt;root&gt;data&lt;/root&gt;"</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>fromstring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>some_xml_data</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>root</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;data&lt;/root&gt;'</SPAN>
+</PRE></DIV></DIV>
+<DIV class=3Dsection id=3Dthe-xml-function>
+<H2>The XML() function</H2>
+<P>The <TT class=3D"docutils literal">XML()</TT> function behaves like =
+the <TT=20
+class=3D"docutils literal">fromstring()</TT> function, but is commonly =
+used to=20
+write XML literals right into the source:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XML</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"&lt;root&gt;data&lt;/root&gt;"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>root</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;data&lt;/root&gt;'</SPAN>
+</PRE></DIV></DIV>
+<DIV class=3Dsection id=3Dthe-parse-function>
+<H2>The parse() function</H2>
+<P>The <TT class=3D"docutils literal">parse()</TT> function is used to =
+parse from=20
+files and file-like objects:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>some_file_like</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>StringIO</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"&lt;root&gt;data&lt;/root&gt;"</SPAN><SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>tree</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>parse</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>some_file_like</SPAN><SPAN =
+class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>tree</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;data&lt;/root&gt;'</SPAN>
+</PRE></DIV>
+<P>Note that <TT class=3D"docutils literal">parse()</TT> returns an =
+ElementTree=20
+object, not an Element object as the string parser functions:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>tree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>getroot</SPAN><SPAN class=3Dp>()</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>root</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;data&lt;/root&gt;'</SPAN>
+</PRE></DIV>
+<P>The reasoning behind this difference is that <TT=20
+class=3D"docutils literal">parse()</TT> returns a complete document from =
+a file,=20
+while the string parsing functions are commonly used to parse XML =
+fragments.</P>
+<P>The <TT class=3D"docutils literal">parse()</TT> function supports any =
+of the=20
+following sources:</P>
+<UL class=3Dsimple>
+  <LI>an open file object=20
+  <LI>a file-like object that has a <TT=20
+  class=3D"docutils literal">.read(byte_count)</TT> method returning a =
+byte string=20
+  on each call=20
+  <LI>a filename string=20
+  <LI>an HTTP or FTP URL string </LI></UL>
+<P>Note that passing a filename or URL is usually faster than passing an =
+open=20
+file.</P></DIV>
+<DIV class=3Dsection id=3Dparser-objects>
+<H2>Parser objects</H2>
+<P>By default, <TT class=3D"docutils literal">lxml.etree</TT> uses a =
+standard=20
+parser with a default setup. If you want to configure the parser, you =
+can create=20
+a you instance:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>parser</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XMLParser</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>remove_blank_text</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>)</SPAN> <SPAN class=3Dc># =
+lxml.etree only!</SPAN>
+</PRE></DIV>
+<P>This creates a parser that removes empty text between tags while =
+parsing,=20
+which can reduce the size of the tree and avoid dangling tail text if =
+you know=20
+that whitespace-only content is not meaningful for your data. An =
+example:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XML</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"&lt;root&gt;  &lt;a/&gt;   &lt;b&gt;  &lt;/b&gt;     =
+&lt;/root&gt;"</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>parser</SPAN><SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;&lt;a/&gt;&lt;b&gt;  =
+&lt;/b&gt;&lt;/root&gt;'</SPAN>
+</PRE></DIV>
+<P>Note that the whitespace content inside the <TT=20
+class=3D"docutils literal">&lt;b&gt;</TT> tag was not removed, as =
+content at leaf=20
+elements tends to be data content (even if blank). You can easily remove =
+it in=20
+an additional step by traversing the tree:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>for</SPAN> <SPAN class=3Dn>element</SPAN> <SPAN =
+class=3Dow>in</SPAN> <SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>iter</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"*"</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>if</SPAN> <SPAN =
+class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN> <SPAN class=3Dow>is</SPAN> <SPAN =
+class=3Dow>not</SPAN> <SPAN class=3Dbp>None</SPAN> <SPAN =
+class=3Dow>and</SPAN> <SPAN class=3Dow>not</SPAN> <SPAN =
+class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>strip</SPAN><SPAN class=3Dp>():</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Dbp>None</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;&lt;a/&gt;&lt;b/&gt;&lt;/root&gt;'</SPAN>
+</PRE></DIV>
+<P>See <TT class=3D"docutils literal">help(etree.XMLParser)</TT> to find =
+out about=20
+the available parser options.</P></DIV>
+<DIV class=3Dsection id=3Dincremental-parsing>
+<H2>Incremental parsing</H2>
+<P><TT class=3D"docutils literal">lxml.etree</TT> provides two ways for=20
+incremental step-by-step parsing. One is through file-like objects, =
+where it=20
+calls the <TT class=3D"docutils literal">read()</TT> method repeatedly. =
+This is=20
+best used where the data arrives from a source like <TT=20
+class=3D"docutils literal">urllib</TT> or any other file-like object =
+that can=20
+provide data on request. Note that the parser will block and wait until =
+data=20
+becomes available in this case:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>class</SPAN> <SPAN class=3Dnc>DataSource</SPAN><SPAN =
+class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>data</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dp>[</SPAN> <SPAN =
+class=3Dn>b</SPAN><SPAN class=3Ds>"&lt;roo"</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dn>b</SPAN><SPAN =
+class=3Ds>"t&gt;&lt;"</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>b</SPAN><SPAN class=3Ds>"a/"</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>b</SPAN><SPAN class=3Ds>"&gt;&lt;"</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dn>b</SPAN><SPAN =
+class=3Ds>"/root&gt;"</SPAN> <SPAN class=3Dp>]</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>def</SPAN> <SPAN =
+class=3Dnf>read</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dbp>self</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>requested_size</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>try</SPAN><SPAN =
+class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>            <SPAN class=3Dk>return</SPAN> =
+<SPAN class=3Dbp>self</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>data</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>pop</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dmi>0</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>except</SPAN> <SPAN =
+class=3Dne>IndexError</SPAN><SPAN class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>            <SPAN class=3Dk>return</SPAN> =
+<SPAN class=3Dn>b</SPAN><SPAN class=3Ds>''</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>tree</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>parse</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>DataSource</SPAN><SPAN =
+class=3Dp>())</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>tree</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;&lt;a/&gt;&lt;/root&gt;'</SPAN>
+</PRE></DIV>
+<P>The second way is through a feed parser interface, given by the <TT=20
+class=3D"docutils literal">feed(data)</TT> and <TT=20
+class=3D"docutils literal">close()</TT> methods:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>parser</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XMLParser</SPAN><SPAN class=3Dp>()</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>parser</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>feed</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"&lt;roo"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>parser</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>feed</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"t&gt;&lt;"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>parser</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>feed</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"a/"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>parser</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>feed</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"&gt;&lt;"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>parser</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>feed</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"/root&gt;"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>parser</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>close</SPAN><SPAN class=3Dp>()</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root&gt;&lt;a/&gt;&lt;/root&gt;'</SPAN>
+</PRE></DIV>
+<P>Here, you can interrupt the parsing process at any time and continue =
+it later=20
+on with another call to the <TT class=3D"docutils literal">feed()</TT> =
+method.=20
+This comes in handy if you want to avoid blocking calls to the parser, =
+e.g. in=20
+frameworks like Twisted, or whenever data comes in slowly or in chunks =
+and you=20
+want to do other things while waiting for the next chunk.</P>
+<P>After calling the <TT class=3D"docutils literal">close()</TT> method =
+(or when=20
+an exception was raised by the parser), you can reuse the parser by =
+calling its=20
+<TT class=3D"docutils literal">feed()</TT> method again:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>parser</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>feed</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"&lt;root/&gt;"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>root</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>parser</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>close</SPAN><SPAN class=3Dp>()</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b'&lt;root/&gt;'</SPAN>
+</PRE></DIV></DIV>
+<DIV class=3Dsection id=3Devent-driven-parsing>
+<H2>Event-driven parsing</H2>
+<P>Sometimes, all you need from a document is a small fraction somewhere =
+deep=20
+inside the tree, so parsing the whole tree into memory, traversing it =
+and=20
+dropping it can be too much overhead. <TT=20
+class=3D"docutils literal">lxml.etree</TT> supports this use case with =
+two=20
+event-driven parser interfaces, one that generates parser events while =
+building=20
+the tree (<TT class=3D"docutils literal">iterparse</TT>), and one that =
+does not=20
+build the tree at all, and instead calls feedback methods on a target =
+object in=20
+a SAX-like fashion.</P>
+<P>Here is a simple <TT class=3D"docutils literal">iterparse()</TT> =
+example:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>some_file_like</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>StringIO</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"&lt;root&gt;&lt;a&gt;data&lt;/a&gt;&lt;/root&gt;"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>event</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>element</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>iterparse</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>some_file_like</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"</SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>, </SPAN><SPAN =
+class=3Dsi>%4s</SPAN><SPAN class=3Ds>, </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>"</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>event</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>end,    a, data</SPAN>
+<SPAN class=3Dgo>end, root, None</SPAN>
+</PRE></DIV>
+<P>By default, <TT class=3D"docutils literal">iterparse()</TT> only =
+generates=20
+events when it is done parsing an element, but you can control this =
+through the=20
+<TT class=3D"docutils literal">events</TT> keyword argument:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>some_file_like</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>StringIO</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"&lt;root&gt;&lt;a&gt;data&lt;/a&gt;&lt;/root&gt;"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>event</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>element</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>iterparse</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>some_file_like</SPAN><SPAN class=3Dp>,</SPAN>
+<SPAN class=3Dgp>... </SPAN>                                      <SPAN =
+class=3Dn>events</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"start"</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>"end"</SPAN><SPAN class=3Dp>)):</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"</SPAN><SPAN =
+class=3Dsi>%5s</SPAN><SPAN class=3Ds>, </SPAN><SPAN =
+class=3Dsi>%4s</SPAN><SPAN class=3Ds>, </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>"</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>event</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>start, root, None</SPAN>
+<SPAN class=3Dgo>start,    a, data</SPAN>
+<SPAN class=3Dgo>  end,    a, data</SPAN>
+<SPAN class=3Dgo>  end, root, None</SPAN>
+</PRE></DIV>
+<P>Note that the text, tail and children of an Element are not =
+necessarily there=20
+yet when receiving the <TT class=3D"docutils literal">start</TT> event. =
+Only the=20
+<TT class=3D"docutils literal">end</TT> event guarantees that the =
+Element has been=20
+parsed completely.</P>
+<P>It also allows to <TT class=3D"docutils literal">.clear()</TT> or =
+modify the=20
+content of an Element to save memory. So if you parse a large tree and =
+you want=20
+to keep memory usage small, you should clean up parts of the tree that =
+you no=20
+longer need:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>some_file_like</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>StringIO</SPAN><SPAN class=3Dp>(</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN =
+class=3Ds>"&lt;root&gt;&lt;a&gt;&lt;b&gt;data&lt;/b&gt;&lt;/a&gt;&lt;a&gt=
+;&lt;b/&gt;&lt;/a&gt;&lt;/root&gt;"</SPAN><SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>event</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>element</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>iterparse</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>some_file_like</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>if</SPAN> <SPAN =
+class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tag</SPAN> <SPAN class=3Do>=3D=3D</SPAN> <SPAN =
+class=3Ds>'b'</SPAN><SPAN class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>elif</SPAN> <SPAN =
+class=3Dn>element</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tag</SPAN> <SPAN class=3Do>=3D=3D</SPAN> <SPAN =
+class=3Ds>'a'</SPAN><SPAN class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"** cleaning up the =
+subtree"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>clear</SPAN><SPAN class=3Dp>()</SPAN>
+<SPAN class=3Dgo>data</SPAN>
+<SPAN class=3Dgo>** cleaning up the subtree</SPAN>
+<SPAN class=3Dgo>None</SPAN>
+<SPAN class=3Dgo>** cleaning up the subtree</SPAN>
+</PRE></DIV>
+<P>A very important use cases for <TT class=3D"docutils =
+literal">iterparse()</TT>=20
+is parsing large generated XML files, e.g. database dumps. Most often, =
+these XML=20
+formats only have one main data item element that hangs directly below =
+the root=20
+node and that is repeated thousands of times. In this case, it is best =
+practice=20
+to let <TT class=3D"docutils literal">lxml.etree</TT> do the tree =
+building and to=20
+only intercept exactly on this one Element, using the normal tree API =
+for data=20
+extraction.</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>xml_file</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>StringIO</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>'''</SPAN><SPAN class=3Dse>\</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>&lt;root&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>  =
+&lt;a&gt;&lt;b&gt;ABC&lt;/b&gt;&lt;c&gt;abc&lt;/c&gt;&lt;/a&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>  &lt;a&gt;&lt;b&gt;MORE =
+DATA&lt;/b&gt;&lt;c&gt;more data&lt;/c&gt;&lt;/a&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>  =
+&lt;a&gt;&lt;b&gt;XYZ&lt;/b&gt;&lt;c&gt;xyz&lt;/c&gt;&lt;/a&gt;</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Ds>&lt;/root&gt;'''</SPAN><SPAN =
+class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>_</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>element</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>iterparse</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>xml_file</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>'a'</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>'</SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> -- </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>'</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>findtext</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>'b'</SPAN><SPAN class=3Dp>),</SPAN> =
+<SPAN class=3Dn>element</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>1</SPAN><SPAN class=3Dp>]</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>text</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>element</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>clear</SPAN><SPAN class=3Dp>()</SPAN>
+<SPAN class=3Dgo>ABC -- abc</SPAN>
+<SPAN class=3Dgo>MORE DATA -- more data</SPAN>
+<SPAN class=3Dgo>XYZ -- xyz</SPAN>
+</PRE></DIV>
+<P>If, for some reason, building the tree is not desired at all, the =
+target=20
+parser interface of <TT class=3D"docutils literal">lxml.etree</TT> can =
+be used. It=20
+creates SAX-like events by calling the methods of a target object. By=20
+implementing some or all of these methods, you can control which events =
+are=20
+generated:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>class</SPAN> <SPAN class=3Dnc>ParserTarget</SPAN><SPAN =
+class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>events</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dp>[]</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>close_count</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dmi>0</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>def</SPAN> <SPAN =
+class=3Dnf>start</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dbp>self</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>attrib</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dbp>self</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>events</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>append</SPAN><SPAN =
+class=3Dp>((</SPAN><SPAN class=3Ds>"start"</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>attrib</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>def</SPAN> <SPAN =
+class=3Dnf>close</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dbp>self</SPAN><SPAN class=3Dp>):</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dn>events</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dbp>self</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>events</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dbp>self</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>events</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dp>[]</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dbp>self</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>close_count</SPAN> <SPAN =
+class=3Do>+=3D</SPAN> <SPAN class=3Dmi>1</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>return</SPAN> <SPAN =
+class=3Dn>events</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>parser_target</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>ParserTarget</SPAN><SPAN class=3Dp>()</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>parser</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>XMLParser</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>target</SPAN><SPAN =
+class=3Do>=3D</SPAN><SPAN class=3Dn>parser_target</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>events</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>fromstring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>'&lt;root =
+test=3D"true"/&gt;'</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>parser</SPAN><SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>parser_target</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>close_count</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgo>1</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>event</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>events</SPAN><SPAN class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>'event: </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> - tag: </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>'</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>event</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>],</SPAN> =
+<SPAN class=3Dn>event</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>1</SPAN><SPAN class=3Dp>]))</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>attr</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>value</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>event</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>2</SPAN><SPAN class=3Dp>]</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>items</SPAN><SPAN class=3Dp>():</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>' * </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> =3D </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>'</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>attr</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dn>value</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>event: start - tag: root</SPAN>
+<SPAN class=3Dgo> * test =3D true</SPAN>
+</PRE></DIV>
+<P>You can reuse the parser and its target as often as you like, so you =
+should=20
+take care that the <TT class=3D"docutils literal">.close()</TT> methods =
+really=20
+resets the target to a usable state (also in the case of an error!).</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>events</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>fromstring</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>'&lt;root test=3D"true"/&gt;'</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>parser</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>parser_target</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>close_count</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgo>2</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>events</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>fromstring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>'&lt;root =
+test=3D"true"/&gt;'</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>parser</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>parser_target</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>close_count</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgo>3</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>events</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>fromstring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>'&lt;root =
+test=3D"true"/&gt;'</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>parser</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>parser_target</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>close_count</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgo>4</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>event</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>events</SPAN><SPAN class=3Dp>:</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>'event: </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> - tag: </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>'</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>event</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>],</SPAN> =
+<SPAN class=3Dn>event</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>1</SPAN><SPAN class=3Dp>]))</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>for</SPAN> <SPAN =
+class=3Dn>attr</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>value</SPAN> <SPAN class=3Dow>in</SPAN> <SPAN =
+class=3Dn>event</SPAN><SPAN class=3Dp>[</SPAN><SPAN =
+class=3Dmi>2</SPAN><SPAN class=3Dp>]</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>items</SPAN><SPAN class=3Dp>():</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>' * </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds> =3D </SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>'</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dp>(</SPAN><SPAN class=3Dn>attr</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Dn>value</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>event: start - tag: root</SPAN>
+<SPAN class=3Dgo> * test =3D true</SPAN>
+</PRE></DIV></DIV></DIV>
+<DIV class=3Dsection id=3Dnamespaces>
+<H1>Namespaces</H1>
+<P>The ElementTree API avoids <A class=3D"reference external"=20
+href=3D"http://www.w3.org/TR/xml-names/#ns-qualnames">namespace =
+prefixes</A>=20
+wherever possible and deploys the real namespaces instead:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>xhtml</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"{http://www.w3.org/1999/xhtml}html"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>body</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>xhtml</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>"{http://www.w3.org/1999/xhtml}body"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>body</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>"Hello World"</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>xhtml</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;html:html =
+xmlns:html=3D"http://www.w3.org/1999/xhtml"&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;html:body&gt;Hello World&lt;/html:body&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/html:html&gt;</SPAN>
+</PRE></DIV>
+<P>The notation that ElementTree uses was originally brought up by <A=20
+class=3D"reference external" =
+href=3D"http://www.jclark.com/xml/xmlns.htm">James=20
+Clark</A>. It has the major advantage of providing a universally =
+qualified name=20
+for a tag, regardless of any prefixes that may or may not have been used =
+or=20
+defined in a document. By moving the indirection of prefixes out of the =
+way, it=20
+makes namespace aware code much clearer and safer.</P>
+<P>As you can see from the example, prefixes only become important when =
+you=20
+serialise the result. However, the above code looks somewhat verbose due =
+to the=20
+lengthy namespace names. And retyping or copying a string over and over =
+again is=20
+error prone. It is therefore common practice to store a namespace URI in =
+a=20
+global variable. To adapt the namespace prefixes for serialisation, you =
+can also=20
+pass a mapping to the Element factory function, e.g. to define the =
+default=20
+namespace:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>XHTML_NAMESPACE</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Ds>"http://www.w3.org/1999/xhtml"</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>XHTML</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Ds>"{</SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>}"</SPAN> <SPAN class=3Do>%</SPAN> =
+<SPAN class=3Dn>XHTML_NAMESPACE</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>NSMAP</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dp>{</SPAN><SPAN =
+class=3Dbp>None</SPAN> <SPAN class=3Dp>:</SPAN> <SPAN =
+class=3Dn>XHTML_NAMESPACE</SPAN><SPAN class=3Dp>}</SPAN> <SPAN =
+class=3Dc># the default namespace (no prefix)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>xhtml</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>Element</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>XHTML</SPAN> <SPAN class=3Do>+</SPAN> =
+<SPAN class=3Ds>"html"</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>nsmap</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dn>NSMAP</SPAN><SPAN class=3Dp>)</SPAN> <SPAN class=3Dc># lxml =
+only!</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>body</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>xhtml</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>XHTML</SPAN> <SPAN class=3Do>+</SPAN> <SPAN =
+class=3Ds>"body"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>body</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>text</SPAN> <SPAN class=3Do>=3D</SPAN> =
+<SPAN class=3Ds>"Hello World"</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>xhtml</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;html =
+xmlns=3D"http://www.w3.org/1999/xhtml"&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;body&gt;Hello World&lt;/body&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/html&gt;</SPAN>
+</PRE></DIV>
+<P>lxml.etree allows you to look up the current namespaces defined for a =
+node=20
+through the <TT class=3D"docutils literal">.nsmap</TT> property:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>xhtml</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>nsmap</SPAN>
+<SPAN class=3Dgo>{None: 'http://www.w3.org/1999/xhtml'}</SPAN>
+</PRE></DIV>
+<P>Note, however, that this includes all prefixes known in the context =
+of an=20
+Element, not only those that it defines itself.</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>Element</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>'root'</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>nsmap</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dp>{</SPAN><SPAN class=3Ds>'a'</SPAN><SPAN class=3Dp>:</SPAN> =
+<SPAN class=3Ds>'http://a.b/c'</SPAN><SPAN class=3Dp>})</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>child</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>SubElement</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Ds>'child'</SPAN><SPAN class=3Dp>,</SPAN>
+<SPAN class=3Dgp>... </SPAN>                         <SPAN =
+class=3Dn>nsmap</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dp>{</SPAN><SPAN class=3Ds>'b'</SPAN><SPAN class=3Dp>:</SPAN> =
+<SPAN class=3Ds>'http://b.c/d'</SPAN><SPAN class=3Dp>})</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dnb>len</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>nsmap</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>1</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dnb>len</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>child</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>nsmap</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>2</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>child</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>nsmap</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Ds>'a'</SPAN><SPAN class=3Dp>]</SPAN>
+<SPAN class=3Dgo>'http://a.b/c'</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>child</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>nsmap</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Ds>'b'</SPAN><SPAN class=3Dp>]</SPAN>
+<SPAN class=3Dgo>'http://b.c/d'</SPAN>
+</PRE></DIV>
+<P>Therefore, modifying the returned dict cannot have any meaningful =
+impact on=20
+the Element. Any changes to it are ignored.</P>
+<P>Namespaces on attributes work alike, but since version 2.3, =
+lxml.etree will=20
+make sure that the attribute uses a prefixed namespace declaration. This =
+is=20
+because unprefixed attribute names are not considered being in a =
+namespace by=20
+the XML namespace specification (<A class=3D"reference external"=20
+href=3D"http://www.w3.org/TR/2009/REC-xml-names-20091208/#defaulting">sec=
+tion=20
+6.2</A>), so they may end up loosing their namespace on a =
+serialise-parse=20
+roundtrip, even if they appear in a namespaced element.</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>body</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>set</SPAN><SPAN class=3Dp>(</SPAN><SPAN class=3Dn>XHTML</SPAN> =
+<SPAN class=3Do>+</SPAN> <SPAN class=3Ds>"bgcolor"</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Ds>"#CCFFAA"</SPAN><SPAN =
+class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>xhtml</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;html =
+xmlns=3D"http://www.w3.org/1999/xhtml"&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;body xmlns:html=3D"http://www.w3.org/1999/xhtml" =
+html:bgcolor=3D"#CCFFAA"&gt;Hello World&lt;/body&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/html&gt;</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>body</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>get</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"bgcolor"</SPAN><SPAN =
+class=3Dp>))</SPAN>
+<SPAN class=3Dgo>None</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>body</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>get</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>XHTML</SPAN> <SPAN class=3Do>+</SPAN> =
+<SPAN class=3Ds>"bgcolor"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>'#CCFFAA'</SPAN>
+</PRE></DIV>
+<P>You can also use XPath with fully qualified names:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>find_xhtml_body</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>ETXPath</SPAN><SPAN class=3Dp>(</SPAN>      <SPAN class=3Dc># =
+lxml only !</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Ds>"//{</SPAN><SPAN =
+class=3Dsi>%s</SPAN><SPAN class=3Ds>}body"</SPAN> <SPAN =
+class=3Do>%</SPAN> <SPAN class=3Dn>XHTML_NAMESPACE</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>results</SPAN> =
+<SPAN class=3Do>=3D</SPAN> <SPAN class=3Dn>find_xhtml_body</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>xhtml</SPAN><SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>results</SPAN><SPAN =
+class=3Dp>[</SPAN><SPAN class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>{http://www.w3.org/1999/xhtml}body</SPAN>
+</PRE></DIV></DIV>
+<DIV class=3Dsection id=3Dthe-e-factory>
+<H1>The E-factory</H1>
+<P>The <TT class=3D"docutils literal"><SPAN =
+class=3Dpre>E-factory</SPAN></TT>=20
+provides a simple and compact syntax for generating XML and HTML:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dkn>from</SPAN> <SPAN class=3Dnn>lxml.builder</SPAN> <SPAN =
+class=3Dkn>import</SPAN> <SPAN class=3Dn>E</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>def</SPAN> <SPAN =
+class=3Dnf>CLASS</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Do>*</SPAN><SPAN class=3Dn>args</SPAN><SPAN class=3Dp>):</SPAN> =
+<SPAN class=3Dc># class is a reserved word in Python</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dk>return</SPAN> <SPAN =
+class=3Dp>{</SPAN><SPAN class=3Ds>"class"</SPAN><SPAN =
+class=3Dp>:</SPAN><SPAN class=3Ds>' '</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>join</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>args</SPAN><SPAN class=3Dp>)}</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>html</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>page</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dp>(</SPAN>
+<SPAN class=3Dgp>... </SPAN>  <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>html</SPAN><SPAN class=3Dp>(</SPAN>    =
+   <SPAN class=3Dc># create an Element called "html"</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>head</SPAN><SPAN class=3Dp>(</SPAN>
+<SPAN class=3Dgp>... </SPAN>      <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>title</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"This is a sample =
+document"</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>body</SPAN><SPAN class=3Dp>(</SPAN>
+<SPAN class=3Dgp>... </SPAN>      <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>h1</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"Hello!"</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>CLASS</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"title"</SPAN><SPAN class=3Dp>)),</SPAN>
+<SPAN class=3Dgp>... </SPAN>      <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>p</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"This is a paragraph with "</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>E</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>b</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"bold"</SPAN><SPAN class=3Dp>),</SPAN> <SPAN class=3Ds>" text =
+in it!"</SPAN><SPAN class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>      <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>p</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"This is another paragraph, with a"</SPAN><SPAN =
+class=3Dp>,</SPAN> <SPAN class=3Ds>"</SPAN><SPAN =
+class=3Dse>\n</SPAN><SPAN class=3Ds>      "</SPAN><SPAN =
+class=3Dp>,</SPAN>
+<SPAN class=3Dgp>... </SPAN>        <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>a</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"link"</SPAN><SPAN class=3Dp>,</SPAN> <SPAN =
+class=3Dn>href</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Ds>"http://www.python.org"</SPAN><SPAN class=3Dp>),</SPAN> <SPAN =
+class=3Ds>"."</SPAN><SPAN class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>      <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>p</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"Here are some reservered characters: =
+&lt;spam&amp;egg&gt;."</SPAN><SPAN class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>      <SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>XML</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"&lt;p&gt;And finally an embedded =
+XHTML fragment.&lt;/p&gt;"</SPAN><SPAN class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN>  <SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>page</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;html&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;head&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;title&gt;This is a sample =
+document&lt;/title&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;/head&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;body&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;h1 class=3D"title"&gt;Hello!&lt;/h1&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p&gt;This is a paragraph with =
+&lt;b&gt;bold&lt;/b&gt; text in it!&lt;/p&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p&gt;This is another paragraph, with a</SPAN>
+<SPAN class=3Dgo>      &lt;a =
+href=3D"http://www.python.org"&gt;link&lt;/a&gt;.&lt;/p&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p&gt;Here are some reservered characters: =
+&amp;lt;spam&amp;amp;egg&amp;gt;.&lt;/p&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p&gt;And finally an embedded XHTML =
+fragment.&lt;/p&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;/body&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/html&gt;</SPAN>
+</PRE></DIV>
+<P>The Element creation based on attribute access makes it easy to build =
+up a=20
+simple vocabulary for an XML language:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dkn>from</SPAN> <SPAN class=3Dnn>lxml.builder</SPAN> <SPAN =
+class=3Dkn>import</SPAN> <SPAN class=3Dn>ElementMaker</SPAN> <SPAN =
+class=3Dc># lxml only !</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>E</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>ElementMaker</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>namespace</SPAN><SPAN =
+class=3Do>=3D</SPAN><SPAN =
+class=3Ds>"http://my.de/fault/namespace"</SPAN><SPAN class=3Dp>,</SPAN>
+<SPAN class=3Dgp>... </SPAN>                 <SPAN =
+class=3Dn>nsmap</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dp>{</SPAN><SPAN class=3Ds>'p'</SPAN> <SPAN class=3Dp>:</SPAN> =
+<SPAN class=3Ds>"http://my.de/fault/namespace"</SPAN><SPAN =
+class=3Dp>})</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>DOC</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>doc</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>TITLE</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>title</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>SECTION</SPAN> =
+<SPAN class=3Do>=3D</SPAN> <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>section</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>PAR</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>E</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>par</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dn>my_doc</SPAN> <SPAN =
+class=3Do>=3D</SPAN> <SPAN class=3Dn>DOC</SPAN><SPAN class=3Dp>(</SPAN>
+<SPAN class=3Dgp>... </SPAN>  <SPAN class=3Dn>TITLE</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"The dog and the hog"</SPAN><SPAN =
+class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>  <SPAN class=3Dn>SECTION</SPAN><SPAN =
+class=3Dp>(</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>TITLE</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"The dog"</SPAN><SPAN =
+class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>PAR</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"Once upon a time, ..."</SPAN><SPAN =
+class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>PAR</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"And then ..."</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN>  <SPAN class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>  <SPAN class=3Dn>SECTION</SPAN><SPAN =
+class=3Dp>(</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>TITLE</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"The hog"</SPAN><SPAN =
+class=3Dp>),</SPAN>
+<SPAN class=3Dgp>... </SPAN>    <SPAN class=3Dn>PAR</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"Sooner or later ..."</SPAN><SPAN =
+class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN>  <SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgp>... </SPAN><SPAN class=3Dp>)</SPAN>
+
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>etree</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tostring</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>my_doc</SPAN><SPAN class=3Dp>,</SPAN> =
+<SPAN class=3Dn>pretty_print</SPAN><SPAN class=3Do>=3D</SPAN><SPAN =
+class=3Dbp>True</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>&lt;p:doc =
+xmlns:p=3D"http://my.de/fault/namespace"&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;p:title&gt;The dog and the =
+hog&lt;/p:title&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;p:section&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p:title&gt;The dog&lt;/p:title&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p:par&gt;Once upon a time, =
+...&lt;/p:par&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p:par&gt;And then ...&lt;/p:par&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;/p:section&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;p:section&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p:title&gt;The hog&lt;/p:title&gt;</SPAN>
+<SPAN class=3Dgo>    &lt;p:par&gt;Sooner or later =
+...&lt;/p:par&gt;</SPAN>
+<SPAN class=3Dgo>  &lt;/p:section&gt;</SPAN>
+<SPAN class=3Dgo>&lt;/p:doc&gt;</SPAN>
+</PRE></DIV>
+<P>One such example is the module <TT=20
+class=3D"docutils literal">lxml.html.builder</TT>, which provides a =
+vocabulary for=20
+HTML.</P>
+<P>When dealing with multiple namespaces, it is good practice to define =
+one=20
+ElementMaker for each namespace URI. Again, note how the above example=20
+predefines the tag builders in named constants. That makes it easy to =
+put all=20
+tag declarations of a namespace into one Python module and to import/use =
+the tag=20
+name constants from there. This avoids pitfalls like typos or =
+accidentally=20
+missing namespaces.</P></DIV>
+<DIV class=3Dsection id=3Delementpath>
+<H1>ElementPath</H1>
+<P>The ElementTree library comes with a simple XPath-like path language =
+called=20
+<A class=3D"reference external"=20
+href=3D"http://effbot.org/zone/element-xpath.htm">ElementPath</A>. The =
+main=20
+difference is that you can use the <TT=20
+class=3D"docutils literal">{namespace}tag</TT> notation in ElementPath=20
+expressions. However, advanced features like value comparison and =
+functions are=20
+not available.</P>
+<P>In addition to a <A class=3D"reference external"=20
+href=3D"http://lxml.de/xpathxslt.html#xpath">full XPath =
+implementation</A>,=20
+lxml.etree supports the ElementPath language in the same way ElementTree =
+does,=20
+even using (almost) the same implementation. The API provides four =
+methods here=20
+that you can find on Elements and ElementTrees:</P>
+<UL class=3Dsimple>
+  <LI><TT class=3D"docutils literal">iterfind()</TT> iterates over all =
+Elements=20
+  that match the path expression=20
+  <LI><TT class=3D"docutils literal">findall()</TT> returns a list of =
+matching=20
+  Elements=20
+  <LI><TT class=3D"docutils literal">find()</TT> efficiently returns =
+only the=20
+  first match=20
+  <LI><TT class=3D"docutils literal">findtext()</TT> returns the <TT=20
+  class=3D"docutils literal">.text</TT> content of the first match =
+</LI></UL>
+<P>Here are some examples:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dn>root</SPAN> <SPAN class=3Do>=3D</SPAN> <SPAN =
+class=3Dn>etree</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>XML</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"&lt;root&gt;&lt;a =
+x=3D'123'&gt;aText&lt;b/&gt;&lt;c/&gt;&lt;b/&gt;&lt;/a&gt;&lt;/root&gt;"<=
+/SPAN><SPAN class=3Dp>)</SPAN>
+</PRE></DIV>
+<P>Find a child of an Element:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>find</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>"b"</SPAN><SPAN class=3Dp>))</SPAN>
+<SPAN class=3Dgo>None</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>find</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>"a"</SPAN><SPAN =
+class=3Dp>)</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>a</SPAN>
+</PRE></DIV>
+<P>Find an Element anywhere in the tree:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>find</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>".//b"</SPAN><SPAN class=3Dp>)</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>b</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dp>[</SPAN> <SPAN =
+class=3Dn>b</SPAN><SPAN class=3Do>.</SPAN><SPAN class=3Dn>tag</SPAN> =
+<SPAN class=3Dk>for</SPAN> <SPAN class=3Dn>b</SPAN> <SPAN =
+class=3Dow>in</SPAN> <SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>iterfind</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>".//b"</SPAN><SPAN class=3Dp>)</SPAN> =
+<SPAN class=3Dp>]</SPAN>
+<SPAN class=3Dgo>['b', 'b']</SPAN>
+</PRE></DIV>
+<P>Find Elements with a certain attribute:</P>
+<DIV class=3Dsyntax><PRE><SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN =
+class=3Dk>print</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Dn>root</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>findall</SPAN><SPAN class=3Dp>(</SPAN><SPAN =
+class=3Ds>".//a[@x]"</SPAN><SPAN class=3Dp>)[</SPAN><SPAN =
+class=3Dmi>0</SPAN><SPAN class=3Dp>]</SPAN><SPAN class=3Do>.</SPAN><SPAN =
+class=3Dn>tag</SPAN><SPAN class=3Dp>)</SPAN>
+<SPAN class=3Dgo>a</SPAN>
+<SPAN class=3Dgp>&gt;&gt;&gt; </SPAN><SPAN class=3Dk>print</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Dn>root</SPAN><SPAN =
+class=3Do>.</SPAN><SPAN class=3Dn>findall</SPAN><SPAN =
+class=3Dp>(</SPAN><SPAN class=3Ds>".//a[@y]"</SPAN><SPAN =
+class=3Dp>))</SPAN>
+<SPAN class=3Dgo>[]</SPAN>
+</PRE></DIV></DIV></DIV>
+<DIV class=3Dfooter>
+<HR class=3Dfooter>
+Generated on: 2012-01-04. </DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CCDC60.5638B5B0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://lxml.de/style.css
+
+BODY {
+	FONT: 13px Arial, Verdana, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+
+@media Screen   =20
+{
+BODY {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 21em; PADDING-BOTTOM: 1em; =
+PADDING-TOP: 1em
+}
+DIV.document {
+	WIDTH: 45em; BACKGROUND-COLOR: white
+}
+DIV.footer {
+	WIDTH: 45em; BACKGROUND-COLOR: white
+}
+
+}
+
+@media Print   =20
+{
+DIV.document {
+	PADDING-LEFT: 0px; WIDTH: auto
+}
+DIV.footer {
+	PADDING-LEFT: 0px; WIDTH: auto
+}
+DIV.sidemenu {
+	DISPLAY: none
+}
+    }
+DIV.document {
+	MARGIN: 1em auto; COLOR: #222
+}
+DIV.footer {
+	MARGIN: 1em auto; COLOR: #222
+}
+DIV.document {
+	TEXT-ALIGN: left
+}
+DIV.footer {
+	FONT-SIZE: 70%; TEXT-ALIGN: center
+}
+.center {
+	TEXT-ALIGN: center
+}
+DIV.topic UL {
+	MARGIN-TOP: 0px
+}
+UNKNOWN {
+	LINE-HEIGHT: 1.2em; TEXT-DECORATION: none
+}
+UNKNOWN {
+	TEXT-DECORATION: none
+}
+DIV.sidemenu {
+	PADDING-RIGHT: 1ex; FONT-SIZE: 10px; BACKGROUND: url(python-xml.png) =
+#fffafa no-repeat right top; LEFT: 0px; BORDER-BOTTOM-COLOR: gray; =
+WIDTH: 26em; BORDER-RIGHT-STYLE: groove; POSITION: absolute; TOP: 0px; =
+TEXT-ALIGN: left; BORDER-RIGHT-COLOR: gray; BORDER-BOTTOM-STYLE: groove
+}
+UNKNOWN {
+	POSITION: fixed
+}
+DIV.sidemenu SPAN.title {
+	FONT-SIZE: 130%; LINE-HEIGHT: 1.2em
+}
+DIV.sidemenu UL.current LI {
+	FONT-SIZE: 105%; COLOR: #cc0000
+}
+UNKNOWN {
+	COLOR: #cc0000
+}
+DIV.sidemenu UL.current UL.submenu {
+	DISPLAY: block
+}
+DIV.sidemenu UL.foreign UL.submenu LI {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+DIV.sidemenu UL.foreign LI.menu:hover UL.submenu {
+	PADDING-RIGHT: 1ex; MARGIN-TOP: 0px; DISPLAY: block; PADDING-LEFT: 3ex; =
+BORDER-LEFT-COLOR: #990000; BORDER-BOTTOM-COLOR: #990000; =
+PADDING-BOTTOM: 1ex; MARGIN-LEFT: 4em; COLOR: #990000; BORDER-TOP-STYLE: =
+groove; BORDER-TOP-COLOR: #990000; MARGIN-RIGHT: -20em; PADDING-TOP: =
+1ex; BORDER-RIGHT-STYLE: groove; BORDER-LEFT-STYLE: groove; POSITION: =
+absolute; BACKGROUND-COLOR: white; BORDER-RIGHT-COLOR: #990000; =
+BORDER-BOTTOM-STYLE: groove
+}
+DIV.sidemenu UL.submenu {
+	DISPLAY: none
+}
+DIV.sidemenu UL {
+	PADDING-LEFT: 1em; MARGIN: 1ex; LINE-HEIGHT: 1em
+}
+H1.title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 160px; FONT-SIZE: 200%; BACKGROUND: =
+url(python-xml-title.png) no-repeat; PADDING-BOTTOM: 0px; PADDING-TOP: =
+20px; HEIGHT: 60px
+}
+H1.title {
+	FONT-WEIGHT: bold; COLOR: #666; FONT-FAMILY: Helvetica, sans-serif
+}
+H1 A {
+	FONT-WEIGHT: bold; COLOR: #666; FONT-FAMILY: Helvetica, sans-serif
+}
+H2 A {
+	FONT-WEIGHT: bold; COLOR: #666; FONT-FAMILY: Helvetica, sans-serif
+}
+H3 A {
+	FONT-WEIGHT: bold; COLOR: #666; FONT-FAMILY: Helvetica, sans-serif
+}
+
+@media Screen   =20
+{
+UNKNOWN {
+	MARGIN-LEFT: -2ex; COLOR: #cc0000; content: "?" " "
+}
+    }
+H1 {
+	FONT-SIZE: 150%
+}
+H2 {
+	FONT-SIZE: 130%
+}
+H3 {
+	FONT-SIZE: 110%
+}
+A {
+	FONT-WEIGHT: bold; COLOR: black; BACKGROUND-COLOR: transparent; =
+TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: black; BACKGROUND-COLOR: transparent; =
+TEXT-DECORATION: none
+}
+P A:active {
+	COLOR: red
+}
+UL A:active {
+	COLOR: red
+}
+P A:hover {
+	TEXT-DECORATION: underline
+}
+UL A:hover {
+	TEXT-DECORATION: underline
+}
+P {
+	MARGIN: 0.5em 0px 0px; LINE-HEIGHT: 1.5em; TEXT-ALIGN: justify
+}
+TH.docinfo-name {
+	PADDING-LEFT: 3ex; FONT-WEIGHT: bold; TEXT-ALIGN: right
+}
+HR {
+	CLEAR: both; COLOR: #8cacbb; HEIGHT: 1px; BACKGROUND-COLOR: transparent
+}
+DT {
+	MARGIN-LEFT: 1em; LINE-HEIGHT: 1.5em
+}
+DT:unknown {
+	content: "?" " "
+}
+UL {
+	MARGIN-LEFT: 1em; LINE-HEIGHT: 1.5em
+}
+OL {
+	MARGIN-LEFT: 0px; LINE-HEIGHT: 1.5em
+}
+BLOCKQUOTE {
+	FONT-STYLE: italic; FONT-FAMILY: Times, "Times New Roman", serif
+}
+DIV.eyecatcher {
+	FONT-SIZE: 140%; MARGIN-LEFT: 9em; LINE-HEIGHT: 1.2em; MARGIN-RIGHT: =
+9em; FONT-FAMILY: Times, "Times New Roman", serif; TEXT-ALIGN: center
+}
+P.eyecatcher {
+	FONT-SIZE: 140%; MARGIN-LEFT: 9em; LINE-HEIGHT: 1.2em; MARGIN-RIGHT: =
+9em; FONT-FAMILY: Times, "Times New Roman", serif; TEXT-ALIGN: center
+}
+DIV.pagequote {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-SIZE: 80%; RIGHT: 0px; =
+PADDING-BOTTOM: 0px; COLOR: #990000; PADDING-TOP: 10px; POSITION: =
+absolute; TOP: 0px; TEXT-ALIGN: right
+}
+DIV.pagequote .reference {
+	FONT-SIZE: 140%
+}
+UNKNOWN {
+	POSITION: fixed
+}
+CODE {
+	COLOR: black; FONT-FAMILY: "Courier New", Courier, monospace; =
+BACKGROUND-COLOR: #f0f0f0
+}
+PRE {
+	BORDER-RIGHT: #8cacbb 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: =
+#8cacbb 1px solid; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.5em; =
+BORDER-LEFT: #8cacbb 1px solid; COLOR: black; PADDING-TOP: 0.5em; =
+BORDER-BOTTOM: #8cacbb 1px solid; FONT-FAMILY: "Courier New", Courier, =
+monospace; BACKGROUND-COLOR: #f0f0f0
+}
+.syntax {
+	BACKGROUND: #f0f0f0
+}
+.syntax .c {
+	COLOR: #60a0b0; FONT-STYLE: italic
+}
+.syntax .err {
+	BORDER-RIGHT: #ff0000 1px solid; BORDER-TOP: #ff0000 1px solid; =
+BORDER-LEFT: #ff0000 1px solid; BORDER-BOTTOM: #ff0000 1px solid
+}
+.syntax .k {
+	FONT-WEIGHT: bold; COLOR: #007020
+}
+.syntax .o {
+	COLOR: #666666
+}
+.syntax .cm {
+	COLOR: #60a0b0; FONT-STYLE: italic
+}
+.syntax .cp {
+	COLOR: #007020
+}
+.syntax .c1 {
+	COLOR: #60a0b0; FONT-STYLE: italic
+}
+.syntax .cs {
+	COLOR: #60a0b0; BACKGROUND-COLOR: #fff0f0
+}
+.syntax .gd {
+	COLOR: #a00000
+}
+.syntax .ge {
+	FONT-STYLE: italic
+}
+.syntax .gr {
+	COLOR: #ff0000
+}
+.syntax .gh {
+	FONT-WEIGHT: bold; COLOR: #000080
+}
+.syntax .gi {
+	COLOR: #00a000
+}
+.syntax .go {
+	COLOR: #404040
+}
+.syntax .gp {
+	FONT-WEIGHT: bold; COLOR: #c65d09
+}
+.syntax .gs {
+	FONT-WEIGHT: bold
+}
+.syntax .gu {
+	FONT-WEIGHT: bold; COLOR: #800080
+}
+.syntax .gt {
+	COLOR: #0040d0
+}
+.syntax .kc {
+	FONT-WEIGHT: bold; COLOR: #007020
+}
+.syntax .kd {
+	FONT-WEIGHT: bold; COLOR: #007020
+}
+.syntax .kp {
+	COLOR: #007020
+}
+.syntax .kr {
+	FONT-WEIGHT: bold; COLOR: #007020
+}
+.syntax .kt {
+	COLOR: #902000
+}
+.syntax .m {
+	COLOR: #40a070
+}
+.syntax .s {
+	COLOR: #4070a0
+}
+.syntax .na {
+	COLOR: #4070a0
+}
+.syntax .nb {
+	COLOR: #007020
+}
+.syntax .nc {
+	FONT-WEIGHT: bold; COLOR: #0e84b5
+}
+.syntax .no {
+	COLOR: #60add5
+}
+.syntax .nd {
+	FONT-WEIGHT: bold; COLOR: #555555
+}
+.syntax .ni {
+	FONT-WEIGHT: bold; COLOR: #d55537
+}
+.syntax .ne {
+	COLOR: #007020
+}
+.syntax .nf {
+	COLOR: #06287e
+}
+.syntax .nl {
+	FONT-WEIGHT: bold; COLOR: #002070
+}
+.syntax .nn {
+	FONT-WEIGHT: bold; COLOR: #0e84b5
+}
+.syntax .nt {
+	FONT-WEIGHT: bold; COLOR: #062873
+}
+.syntax .nv {
+	COLOR: #bb60d5
+}
+.syntax .ow {
+	FONT-WEIGHT: bold; COLOR: #007020
+}
+.syntax .w {
+	COLOR: #bbbbbb
+}
+.syntax .mf {
+	COLOR: #40a070
+}
+.syntax .mh {
+	COLOR: #40a070
+}
+.syntax .mi {
+	COLOR: #40a070
+}
+.syntax .mo {
+	COLOR: #40a070
+}
+.syntax .sb {
+	COLOR: #4070a0
+}
+.syntax .sc {
+	COLOR: #4070a0
+}
+.syntax .sd {
+	COLOR: #4070a0; FONT-STYLE: italic
+}
+.syntax .s2 {
+	COLOR: #4070a0
+}
+.syntax .se {
+	FONT-WEIGHT: bold; COLOR: #4070a0
+}
+.syntax .sh {
+	COLOR: #4070a0
+}
+.syntax .si {
+	COLOR: #70a0d0; FONT-STYLE: italic
+}
+.syntax .sx {
+	COLOR: #c65d09
+}
+.syntax .sr {
+	COLOR: #235388
+}
+.syntax .s1 {
+	COLOR: #4070a0
+}
+.syntax .ss {
+	COLOR: #517918
+}
+.syntax .bp {
+	COLOR: #007020
+}
+.syntax .vc {
+	COLOR: #bb60d5
+}
+.syntax .vg {
+	COLOR: #bb60d5
+}
+.syntax .vi {
+	COLOR: #bb60d5
+}
+.syntax .il {
+	COLOR: #40a070
+}
+
+------=_NextPart_000_0000_01CCDC60.5638B5B0--

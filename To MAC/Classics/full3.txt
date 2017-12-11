@@ -1,0 +1,993 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+<title>����ɷ�(002122)_����ɷݹɰ�_002122�ɰ�_�ɰ�_�����Ƹ���ɰ�</title> 
+<META content="����ɷ�,002122,�ɰ�" name=keywords>
+<META content="����ɷ�(002122),�����Ƹ���ɰ�" name=description>     
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<link href="css/guba3.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="css/root.js" type="text/javascript"></script>
+<script>
+function search1(aa)
+{
+	var search_content=document.getElementById("search_content").value;
+	if(aa.search_type[1].checked){aa.action='http://gubaf10.eastmoney.com/search1.aspx';}
+	if(aa.search_type[0].checked)
+	{
+		if(search_content=="������֤ȯ����"||search_content=="")
+		{  alert("������֤ȯ����!");		
+		}
+		else
+		{
+		window.open('http://guba.eastmoney.com/topic,'+search_content+'.html');
+		}
+		return false;
+	}	
+	return true;
+}
+function search2(aa)
+{
+	window.open("http://quote.eastmoney.com/"+aa.value+".html");
+}
+</script>
+</head>
+<base target="_blank">
+<body>
+<div class="topMenu_new">
+
+<!--AdForward Begin:-->
+<script type='text/javascript' src='http://ay.eastmoney.com/main/zhsh?user=eastmoneyafp|em_guba|2010_guba_duilian&db=eastmoneyafp&border=0&local=yes&js=ie' charset='gb2312'></script>
+<!--AdForward End--> 
+<div class="l">
+        <ul>
+            <li class="begin"><a href="http://www.eastmoney.com/">�����Ƹ�����ҳ</a></li>
+            <li><a href="http://quote.eastmoney.com/">����</a></li>
+            <li><a href="http://blog.eastmoney.com/">����</a></li>
+            <li><a href="http://bbs.eastmoney.com/">��̳</a></li>
+            <li class="end"><a href="http://bar.1234567.com.cn/">����</a></li>
+        </ul>
+</div>
+<div class="r"><a href="javascript:void(0);" onclick="AddFavor()" target="_self">[�ӹɰ����ղ�]</a> <a href="javascript:;" onclick="SetHome(this,'http://guba.eastmoney.com/')" target="_self">[��ɰ�Ϊ��ҳ]</a></div>
+</div>
+
+<div class=s5></div>
+<div class="topMenu2"> 
+	<div class="l">
+	<div><a href="http://guba.eastmoney.com/"><img src="image/r2_c4.jpg" border="0" /></a></div>
+	<div class="t"><a href="http://passport.eastmoney.com/Register.EmUser"><img src="image/r6_c4.gif" border="0" /></a> <a href="http://passport.eastmoney.com/Default.EmUser"><img src="image/r6_c9.gif" border="0" /></a> <a href="javascript:void(null)" onclick="LogOut()" target=_self><img src="image/r6_c12.gif" border="0" /></a></div>
+	</div>
+	<div class="r">
+	<div class="b">
+	<form id=form_1 action="http://gubaf10.eastmoney.com/search.aspx" target="_blank" onsubmit="return search1(this)" method=get>
+		<div class="n"><input type=text class=sousuo id=search_content name=search_content onClick="this.focus()" onFocus="this.select()" value="������֤ȯ����"> <input type="image" src="image/r3_c24.gif" /> <img src="image/r3_c26.gif" style="cursor: hand" onClick="javascript:search2(document.getElementById('search_content'))"/></div>
+		<div class="k"><label for=a1><input type="radio" name="search_type"  class=anniu id=a1 value="��Ʊ��" checked onClick="javascript:document.getElementById('search_content').value='������֤ȯ����'">������֤ȯ����</label> <label for=a2><input type="radio" name="search_type"  class=anniu id=a2 value="�ɰ�" onClick="javascript:document.getElementById('search_content').value='���������ؼ���'">����������</label> <label for=a3><input type="radio"  name="search_type" class=anniu id=a3 value="����" onClick="javascript:document.getElementById('search_content').value='���������ؼ���'">����������</label> <label for=a4><input type="radio" name="search_type" class=anniu id=a4 value="����" onClick="javascript:document.getElementById('search_content').value='�������������'">����������</label><!-- <label for=a5><input type="radio" name="search_type" class=anniu id=a5 value="ip" onClick="javascript:document.getElementById('search_content').value='����������IP'">������IP��</label>--></div>
+	</form>
+	<script src="css/AutoSuggest.js"></script>
+<script>
+AutoSuggest.type = "CNSTOCK";
+AutoSuggest.input = "search_content";
+AutoSuggest.text = "����롢��ƻ�ƴ��";
+AutoSuggest.opacity=0.95;
+AutoSuggest.width = 220;
+AutoSuggest.header = ["ѡ��", "����", "���", "����"];
+AutoSuggest.body = [-1, 1, 4, -2];
+AutoSuggest.autoSubmit = false;
+AutoSuggest.className="aa";
+AutoSuggest.init();
+</script>
+	</div>
+	</div>
+	<div class=r2>
+<!--AdForward Begin:-->
+<iframe marginheight="0" marginwidth="0" frameborder="0" width="250" height="90" scrolling="no" src="http://ay.eastmoney.com/main/zhsh?user=eastmoneyafp|em_guba|2009_guba_gegu_button_250_90&db=eastmoneyafp&border=0&local=yes">
+<noscript><a href="http://ay.eastmoney.com/main/dj?user=eastmoneyafp|em_guba|2009_guba_gegu_button_250_90&db=eastmoneyafp"><img src="http://ay.eastmoney.com/main/zhsh?user=eastmoneyafp|em_guba|2009_guba_gegu_button_250_90&db=eastmoneyafp" width="250" height="90" border="0"></a></noscript></iframe>
+<!--AdForward End-->
+	</div>
+	<div class=cl></div>
+</div>
+
+<div class=s5></div>
+
+<div class=daohanglan>
+<div class="l" style="width: 865px;">
+	<ul>
+        <li class="end hei">���鵼��</li>
+        <li><a href="http://quote.eastmoney.com/quote1_1.html">ָ��</a></li>
+        <li><a href="http://quote.eastmoney.com/">���</a></li>
+        <li><b><a href="http://bk.eastmoney.com/">���</a></b></li>
+        <li><a href="http://quote.eastmoney.com/paihang.html">����</a></li>
+		<li><a href="http://quote.eastmoney.com/quanzhengbj.html">Ȩ֤</a></li>
+		<li><a href="http://quote.eastmoney.com/jijingbaojia.html">���</a></li>
+		<li><a href="http://quote.eastmoney.com/xingu.html">�1�</a></li>
+		<li><b><a href="http://quote.eastmoney.com/chuangyeban.html">��ҵ��</a></b></li>
+		<li><a href="http://hk.eastmoney.com/">�۹�</a></li>
+		<li><a href="http://stock.eastmoney.com/globalindex/">ȫ�����</a></li>
+		<li><a href="http://stock.eastmoney.com/americastock/">�9�</a></li>
+		<li><a href="http://forex.eastmoney.com/">���</a></li>
+		<li><b><a href="http://hq2.eastmoney.com/">��ѡ��</a></b></li>
+		<li><a href="http://www.1234567.com.cn/favor.html">��ѡ���</a></li>
+    </ul>
+</div>
+	<div class="r"><a href="http://quote.eastmoney.com/stocklist.html">��Ʊ�����</a></div>
+</div>
+<style type="text/css">
+<!--
+
+.main .zuolan .liebiao .h3 ul .l4 a,.h4 ul .l4 a{color:#000000; text-decoration:none;}
+.main .zuolan .liebiao .h3 ul .l4 a:hover,.h4 ul .l4 a:hover{color:#000000; text-decoration:none;}
+
+.main .youlan .bk .rmb ul li{float:left;display:inline;margin-top: 6px;margin-left: 12px;width:90px;color:#000;}
+-->
+</style>
+
+<div class="daohanglan1">
+<div class=l><a href='http://guba.eastmoney.com'>�ɰ�</a> >> <a href='http://guba.eastmoney.com/type,3.html'>֤ȯ</a> >> <a href='http://guba.eastmoney.com/type,325.html'>��е��ҵ</a> >> <a href='http://guba.eastmoney.com/topic,002122.html'>����ɷݰ�</a><div class='cksshq'><a href='http://quote.eastmoney.com/002122.html'>�鿴����ɷ�ʵʱ����ͼ</a></div></div><div class=r><div class=zjfw id=zjfw></div></div><script>var bazhu="��ȱ";</script>
+
+</div>
+
+<table class="f10_nw" border="0" cellpadding="0" cellspacing="1">
+  <tr>
+    <td width="95" rowspan="2"><div class=s5></div><div class="hqzt">����ɷ�</div>
+    <div style="font-size: 14px;color:#003366;">002122</div></td>
+    <td width="280" height="35"><span class=hqzt1 id=zxj>---</span> <span class=hqzt2 id=zd>---</span>Ԫ <span class=hqzt2 id=zdf>---%</span> </td>
+    <td rowspan="2">
+    
+   	<table width="98%"  border="0" cellspacing="0" cellpadding="0" class=f10_n>
+  <tr class=hang1>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=001">������ʾ</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=002">��˾�ſ�</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=003">�������</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=004">�ɶ��о�</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=005">�ɱ��ɸ�</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=006">��Ҫ����</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=007">��˾����</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=008">��ҵ����</a></td>
+    </tr>
+  <tr class=hang2>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=009">��˾����</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=011">��Ӫ����</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=012">��f׷��</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=013">�ֺ�)��</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=014">�߲�����</A></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=015">�ټ�����</a></td>
+    <td><A href="http://gubaf10.eastmoney.com/guba_f10.aspx?code=002122&f10=016">��j���</a></td>
+    <td><A href="http://so.eastmoney.com/index.aspx?Page=1&q=002122 %e5%a4%a9%e9%a9%ac%e8%82%a1%e4%bb%bd">�����Ϣ</a></td>
+    </tr>
+</table>
+
+	</td>
+  </tr>
+  <tr height="25">
+    <td>�ɽ���<span class=blue id=cjl1>-----</span>(��) �ɽ��<span class=black id=cje1>-----</span>(��Ԫ)</td>
+  </tr>
+</table>
+<div class=s8></div>
+
+<div class="main">
+	<div class="zuolan">
+		<div class=liebiao>
+			<div class=hang1>
+				<div class=l><img src="image/r10_c5.gif"/><a href="/topic,002122.html#addtopic" target="_self">����������</a>��<a href="/">�ɰ��ܰ�</a>��<a href="gblb.html">�ɰ��б�</a></div>
+				<div class=img1><a href="/topic,002122.html#addtopic" target="_self"><img src="image/faxintie.gif" border="0"/></a></div><div class=img1><a href="http://news.eastmoney.com/Lianxi_liuyan.asp"><img src="image/jubao.gif" border="0"/></a></div><div class=wenzi1><A href="http://js1.eastmoney.com/adclick.aspx?ID=111" style="color:Red;">��ѯ���й�Ʊ�����</A></div>
+			</div>
+			<div class=hang2>
+			<ul>
+			<li class=l1>���</li>
+			<li class=l2>�ظ�</li>
+			<li class=l3>����</li>
+			<li class=l4>����</li>
+			<li class=l5>������</li>
+			<li class=l6>��������</li>
+			</ul>
+			</div>
+			<div class=s3></div>
+			<script>
+var num=13888; var page_num=139;
+</script><div class='h3'><ul><li class=l1>2886</li><li class=l2>10</li><li class=l3><a href='look,002122,4003591992.html' >Ψ�������һ!</a></li><li class=l4>222.208.98.*</li><li class=l5>04-01 21:26</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>5805</li><li class=l2>41</li><li class=l3><a href='look,002122,4003604680.html' >�������?����30Ԫ���ҽ��ڴ˰�����ʧ��</a></li><li class=l4><a 'ssukh99'>��f����</a></li><li class=l5>04-01 21:26</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>34148</li><li class=l2>185</li><li class=l3><a href='look,002122,4003512693.html' >�ֿ��걨������</a></li><li class=l4>��f40591310</li><li class=l5>04-01 21:25</li><li class=l6>03-24</li></ul></div><div class='h4'><ul><li class=l1>349</li><li class=l2>1</li><li class=l3><a href='look,002122,4003622510.html' >��ҸϽ���Ŷ����ɲ������</a></li><li class=l4><a 'yueqinghuayi'>����Сɢ</a></li><li class=l5>04-01 21:20</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>455</li><li class=l2>1</li><li class=l3><a href='look,002122,4003622813.html' >2010���������С��߷��ո����ѡ��ˉ������ɷ���ӵڶ�</a></li><li class=l4>116.16.32.*</li><li class=l5>04-01 21:19</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>2143</li><li class=l2>9</li><li class=l3><a href='look,002122,4003553691.html' >�󻧳ֲ�ռ23.06��.</a></li><li class=l4>123.180.134.*</li><li class=l5>04-01 21:17</li><li class=l6>03-26</li></ul></div><div class='h3'><ul><li class=l1>717</li><li class=l2>7</li><li class=l3><a href='look,002122,4003615466.html' >����,��</a></li><li class=l4>119.141.93.*</li><li class=l5>04-01 20:50</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>292</li><li class=l2>0</li><li class=l3><a href='look,002122,4003622505.html' >�Һ�ͬ�����ز����룬�����㲻�ǣ�</a></li><li class=l4><a 'yueqinghuayi'>����Сɢ</a></li><li class=l5>04-01 20:41</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>1081</li><li class=l2>2</li><li class=l3><a href='look,002122,4003615795.html' >�����ش���</a></li><li class=l4>112.67.234.*</li><li class=l5>04-01 20:31</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>9554</li><li class=l2>59</li><li class=l3><a href='look,002122,4003257956.html' >�<ͽ�ͣ�����</a></li><li class=l4>118.74.49.*</li><li class=l5>04-01 20:21</li><li class=l6>02-24</li></ul></div><div class='h3'><ul><li class=l1>965</li><li class=l2>6</li><li class=l3><a href='look,002122,4003619892.html' >��������ٴε���</a></li><li class=l4>123.165.55.*</li><li class=l5>04-01 20:10</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>5352</li><li class=l2>16</li><li class=l3><a href='look,002122,4003597525.html' >����K��ͼ������ǰ�����ơ�</a></li><li class=l4>116.16.43.*</li><li class=l5>04-01 19:29</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>2844</li><li class=l2>19</li><li class=l3><a href='look,002122,4003587913.html' >��ٺ����м��һֱ�ڽ��У���ʱ���μ���һ������Ԩ��</a></li><li class=l4>119.125.19.*</li><li class=l5>04-01 19:26</li><li class=l6>03-30</li></ul></div><div class='h4'><ul><li class=l1>197</li><li class=l2>0</li><li class=l3><a href='look,002122,4003621392.html' >�������,���һ�����������002358</a></li><li class=l4>222.92.56.*</li><li class=l5>04-01 19:13</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>1437</li><li class=l2>2</li><li class=l3><a href='look,002122,4003413743.html' >��f���������С��������������?�ǵ�ԭ��</a></li><li class=l4>�����˳�</li><li class=l5>04-01 19:01</li><li class=l6>03-14</li></ul></div><div class='h4'><ul><li class=l1>2031</li><li class=l2>25</li><li class=l3><a href='look,002122,4003527615.html' >�������4����:һԪǮ��һ��ú,�Ƹ��Ĺ���ǧ���һ��!</a></li><li class=l4>114.224.148.*</li><li class=l5>04-01 18:59</li><li class=l6>03-24</li></ul></div><div class='h3'><ul><li class=l1>476</li><li class=l2>3</li><li class=l3><a href='look,002122,4003620039.html' >����ɷݵ�ׯ�������,��</a></li><li class=l4>58.61.72.*</li><li class=l5>04-01 18:44</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>2354</li><li class=l2>4</li><li class=l3><a href='look,002122,4003604219.html' >��������30����������Ҫ��Ȩ��������</a></li><li class=l4><a 'ssukh99'>��f����</a></li><li class=l5>04-01 18:16</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>771</li><li class=l2>4</li><li class=l3><a href='look,002122,4003617224.html' >����</a></li><li class=l4>113.16.171.*</li><li class=l5>04-01 18:00</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>306</li><li class=l2>0</li><li class=l3><a href='look,002122,4003620634.html' >����}������</a></li><li class=l4>58.16.213.*</li><li class=l5>04-01 17:59</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>695</li><li class=l2>3</li><li class=l3><a href='look,002122,4003618687.html' >���?��ׯ�����Ĺɶ�ȫ����Ȼ�ˣ��������Ŷ��4��׳�</a></li><li class=l4>60.175.27.*</li><li class=l5>04-01 17:58</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>2506</li><li class=l2>2</li><li class=l3><a href='look,002122,4003618741.html' >����ҵ��˵������ڽ���</a></li><li class=l4>121.31.220.*</li><li class=l5>04-01 17:10</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>1811</li><li class=l2>4</li><li class=l3><a href='look,002122,4003615775.html' >=====�벻Ҫ��������10��10���2���Ȩ������ɷ�=====</a></li><li class=l4>119.134.74.*</li><li class=l5>04-01 16:13</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>376</li><li class=l2>1</li><li class=l3><a href='look,002122,4003618747.html' >���Ĺɶ���һ��������4��Ŷ�����˹ɴ�4����Ȩ��</a></li><li class=l4>60.175.27.*</li><li class=l5>04-01 15:45</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>1992</li><li class=l2>3</li><li class=l3><a href='look,002122,4003599892.html' >��ס��ү˵��?�仰,���Ƕ��������ǳ!</a></li><li class=l4><a 'dingtianping'>�Ӳ���Ǯ���Ʊ</a></li><li class=l5>04-01 15:31</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>4107</li><li class=l2>14</li><li class=l3><a href='look,002122,4003559482.html' >002122��f���̣�����һֱ���׵���Բ�ۣ���ɢ�����ڿ㶼��ϴ����</a></li><li class=l4>119.5.31.*</li><li class=l5>04-01 15:19</li><li class=l6>03-28</li></ul></div><div class='h3'><ul><li class=l1>227519</li><li class=l2>831</li><li class=l3><a href='look,002122,4000598923.html' >������������У�|ҩ������ڲ���������δ�ȥ��</a></li><li class=l4>��f40591310</li><li class=l5>04-01 15:16</li><li class=l6>04-29</li></ul></div><div class='h4'><ul><li class=l1>342</li><li class=l2>3</li><li class=l3><a href='look,002122,4003618287.html' >���쿪ʼ����ݣ�</a></li><li class=l4>118.248.51.*</li><li class=l5>04-01 15:15</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>1305</li><li class=l2>5</li><li class=l3><a href='look,002122,4003617519.html' >����ش���</a></li><li class=l4>112.67.234.*</li><li class=l5>04-01 15:14</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>218</li><li class=l2>0</li><li class=l3><a href='look,002122,4003618341.html' >�ز�ס���Ұ�</a></li><li class=l4>115.238.89.*</li><li class=l5>04-01 15:11</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>346</li><li class=l2>0</li><li class=l3><a href='look,002122,4003618321.html' >������?��30����4��Ҫ�������ˣ�</a></li><li class=l4>125.120.65.*</li><li class=l5>04-01 15:10</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>5293</li><li class=l2>25</li><li class=l3><a href='look,002122,4003585815.html' >�˹�Ʊ������������</a></li><li class=l4>221.208.122.*</li><li class=l5>04-01 15:00</li><li class=l6>03-30</li></ul></div><div class='h3'><ul><li class=l1>365</li><li class=l2>2</li><li class=l3><a href='look,002122,4003617128.html' >���ˣ������̫��</a></li><li class=l4>119.20.67.*</li><li class=l5>04-01 14:56</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>469</li><li class=l2>1</li><li class=l3><a href='look,002122,4003616965.html' >�ڹɽԺ� �Ҷ5���</a></li><li class=l4>58.60.187.*</li><li class=l5>04-01 14:29</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>295</li><li class=l2>3</li><li class=l3><a href='look,002122,4003616767.html' >����İ���</a></li><li class=l4>119.85.159.*</li><li class=l5>04-01 14:23</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>291</li><li class=l2>0</li><li class=l3><a href='look,002122,4003616239.html' >��ǿ��Ĺ�Ʊ����������</a></li><li class=l4>116.228.197.*</li><li class=l5>04-01 13:57</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>6592</li><li class=l2>48</li><li class=l3><a href='look,002122,4002716595.html' >ҽҩ����е����⣬��ҵ���е�����</a></li><li class=l4>��f40591310</li><li class=l5>04-01 13:56</li><li class=l6>12-22</li></ul></div><div class='h4'><ul><li class=l1>151</li><li class=l2>0</li><li class=l3><a href='look,002122,4003616154.html' >��Ϊ�ϲ�</a></li><li class=l4>113.16.171.*</li><li class=l5>04-01 13:54</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>2672</li><li class=l2>18</li><li class=l3><a href='look,002122,4003594216.html' >����hong���ʽ����룬����δ4���á�</a></li><li class=l4>61.141.92.*</li><li class=l5>04-01 13:53</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>1105</li><li class=l2>1</li><li class=l3><a href='look,002122,4003614635.html' >�����Ϣ</a></li><li class=l4>117.90.162.*</li><li class=l5>04-01 13:30</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>169</li><li class=l2>0</li><li class=l3><a href='look,002122,4003615385.html' >�����ˡ���</a></li><li class=l4>220.165.212.*</li><li class=l5>04-01 13:28</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>5588</li><li class=l2>33</li><li class=l3><a href='look,002122,4001802319.html' >�뿴���ߣ���f40591310  ��������150�ľ��ģ�</a></li><li class=l4>�����˳�</li><li class=l5>04-01 13:20</li><li class=l6>09-13</li></ul></div><div class='h3'><ul><li class=l1>2834</li><li class=l2>16</li><li class=l3><a href='look,002122,4003528489.html' >��ɢ�����뿴����ƪ���￡���������������������������������������������������������</a></li><li class=l4>124.227.132.*</li><li class=l5>04-01 13:16</li><li class=l6>03-25</li></ul></div><div class='h4'><ul><li class=l1>723</li><li class=l2>3</li><li class=l3><a href='look,002122,4003601449.html' >����ǽ�</a></li><li class=l4>113.16.171.*</li><li class=l5>04-01 13:14</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>2548</li><li class=l2>4</li><li class=l3><a href='look,002122,4003518881.html' >ׯ����1�꣡</a></li><li class=l4>ӥ��</li><li class=l5>04-01 12:52</li><li class=l6>03-24</li></ul></div><div class='h4'><ul><li class=l1>168</li><li class=l2>0</li><li class=l3><a href='look,002122,4003614507.html' >�����?������̫ԭ�ع�</a></li><li class=l4>222.70.147.*</li><li class=l5>04-01 12:45</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>141</li><li class=l2>0</li><li class=l3><a href='look,002122,4003614329.html' >��f��?����ծ��?Ǯ-�����������26����</a></li><li class=l4>119.27.161.*</li><li class=l5>04-01 12:33</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>1067</li><li class=l2>2</li><li class=l3><a href='look,002122,4003612879.html' >Ϊʲ?�������ѡ����300��</a></li><li class=l4>121.34.40.*</li><li class=l5>04-01 12:29</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>271</li><li class=l2>1</li><li class=l3><a href='look,002122,4003614048.html' >3��30��������ڻݳ�׬���ˣ�����ɷ�10�겻���,����Ը�����֤��ɽ��</a></li><li class=l4>116.16.29.*</li><li class=l5>04-01 12:18</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>342</li><li class=l2>2</li><li class=l3><a href='look,002122,4003613114.html' >�˹�Ӧ��?ׯ</a></li><li class=l4>58.16.220.*</li><li class=l5>04-01 12:06</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>219</li><li class=l2>0</li><li class=l3><a href='look,002122,4003613840.html' >������ȥ����λ�ɶ�����</a></li><li class=l4>119.36.235.*</li><li class=l5>04-01 11:56</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>621</li><li class=l2>4</li><li class=l3><a href='look,002122,4003613103.html' >��һ,��ɣ���ʮ��ʮ�أ�</a></li><li class=l4>110.52.131.*</li><li class=l5>04-01 11:56</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>1987</li><li class=l2>3</li><li class=l3><a href='look,002122,4003608808.html' >002122�<�</a></li><li class=l4>221.198.58.*</li><li class=l5>04-01 11:52</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>88</li><li class=l2>0</li><li class=l3><a href='look,002122,4003613679.html' >��100�ɺ�����</a></li><li class=l4>119.36.235.*</li><li class=l5>04-01 11:49</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>258</li><li class=l2>0</li><li class=l3><a href='look,002122,4003613387.html' >����μ��..��������6000��</a></li><li class=l4>120.2.209.*</li><li class=l5>04-01 11:33</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>259</li><li class=l2>0</li><li class=l3><a href='look,002122,4003613224.html' >����</a></li><li class=l4>219.150.239.*</li><li class=l5>04-01 11:23</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>189</li><li class=l2>0</li><li class=l3><a href='look,002122,4003613060.html' >�˷������˷�ʱ��</a></li><li class=l4>125.112.244.*</li><li class=l5>04-01 11:18</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>391</li><li class=l2>2</li><li class=l3><a href='look,002122,4003612669.html' >��֪�����ܲ���ͻ�ơ�</a></li><li class=l4>117.90.167.*</li><li class=l5>04-01 11:11</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>547</li><li class=l2>0</li><li class=l3><a href='look,002122,4003611879.html' >�ҿ�����</a></li><li class=l4>119.6.19.*</li><li class=l5>04-01 10:42</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>639</li><li class=l2>4</li><li class=l3><a href='look,002122,4003609922.html' >������������μ���</a></li><li class=l4>125.112.244.*</li><li class=l5>04-01 10:38</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>4072</li><li class=l2>13</li><li class=l3><img src='image/common.gif' border='0' class=tb> <a href='look,002122,4003563467.html' >��������</a></li><li class=l4><a 'chaoxiqiannian'>��ϫǧ��</a></li><li class=l5>04-01 10:10</li><li class=l6>03-28</li></ul></div><div class='h4'><ul><li class=l1>1994</li><li class=l2>19</li><li class=l3><a href='look,002122,4003595330.html' >�����谡����������Ҫ���ˣ�</a></li><li class=l4>115.59.65.*</li><li class=l5>04-01 09:54</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>1563</li><li class=l2>10</li><li class=l3><a href='look,002122,4003580297.html' >10.30��   ��f�ڹ۲���ѹ�ز���</a></li><li class=l4>125.76.52.*</li><li class=l5>04-01 09:41</li><li class=l6>03-30</li></ul></div><div class='h4'><ul><li class=l1>531</li><li class=l2>0</li><li class=l3><a href='look,002122,4003609633.html' >����ҵ�������ڴ�ҵ���κι�Ʊ</a></li><li class=l4>113.16.171.*</li><li class=l5>04-01 09:20</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>263</li><li class=l2>0</li><li class=l3><a href='look,002122,4003609585.html' >���������ڰٷ�֮4����</a></li><li class=l4>125.112.244.*</li><li class=l5>04-01 09:18</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>656</li><li class=l2>2</li><li class=l3><a href='look,002122,4003608456.html' >���ƿ���ȥ�ܳ��أ��Ϸ���ѹf�������̶ѻ�</a></li><li class=l4>122.234.22.*</li><li class=l5>04-01 09:01</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>938</li><li class=l2>1</li><li class=l3><a href='look,002122,4003608705.html' >��ͼ˵��</a></li><li class=l4>222.90.11.*</li><li class=l5>04-01 08:41</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>2100</li><li class=l2>5</li><li class=l3><a href='look,002122,4003606731.html' >�����������ͳ�Ȩ���ͷ����10��ţ�ɵ����������</a></li><li class=l4><a 'bmzq496911640'>������Ǯ</a></li><li class=l5>04-01 07:45</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>1276</li><li class=l2>3</li><li class=l3><a href='look,002122,4003603582.html' >�����ز��룬������Ǯ����������</a></li><li class=l4>61.164.101.*</li><li class=l5>04-01 07:16</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>1610</li><li class=l2>17</li><li class=l3><a href='look,002122,4003527245.html' >002361�񽣹ɷ�,��С�̼���,�������,ǿ�ҽ�������!!!!!!!!!!!!!!!!</a></li><li class=l4><a 'loose2008'>�˰���_�Ӽ�</a></li><li class=l5>04-01 07:16</li><li class=l6>03-24</li></ul></div><div class='h3'><ul><li class=l1>951</li><li class=l2>1</li><li class=l3><a href='look,002122,4003608325.html' >��002122 Ӧ�?���k ��,��k��</a></li><li class=l4>109.255.21.*</li><li class=l5>04-01 03:48</li><li class=l6>04-01</li></ul></div><div class='h4'><ul><li class=l1>3444</li><li class=l2>5</li><li class=l3><a href='look,002122,4003592113.html' >δ������������׼�����ʵ����</a></li><li class=l4>109.255.21.*</li><li class=l5>04-01 02:13</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>3277</li><li class=l2>12</li><li class=l3><a href='look,002122,4003604345.html' >��Ȩǰ�۸�</a></li><li class=l4>117.90.168.*</li><li class=l5>04-01 01:03</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>2147</li><li class=l2>4</li><li class=l3><a href='look,002122,4003604920.html' >�����Ⲩ���Ե����٣�</a></li><li class=l4>114.241.211.*</li><li class=l5>04-01 00:17</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>356</li><li class=l2>3</li><li class=l3><a href='look,002122,4003607849.html' >ȱ�ڲ������˹ɲ������</a></li><li class=l4>113.89.56.*</li><li class=l5>04-01 00:15</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>411</li><li class=l2>0</li><li class=l3><a href='look,002122,4003608033.html' >ţ�ɵĵ����!</a></li><li class=l4>222.208.98.*</li><li class=l5>04-01 00:13</li><li class=l6>04-01</li></ul></div><div class='h3'><ul><li class=l1>358</li><li class=l2>0</li><li class=l3><a href='look,002122,4003607652.html' >��˵������ɷݱ�̫��Ҫ�й��</a></li><li class=l4>118.81.83.*</li><li class=l5>03-31 23:10</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>2904</li><li class=l2>6</li><li class=l3><img src='image/common.gif' border='0' class=tb> <a href='look,002122,4003602995.html' >��������ͼʶ���?��ʶ��}�ֵײ���̬</a></li><li class=l4><a 'chaoxiqiannian'>��ϫǧ��</a></li><li class=l5>03-31 22:02</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>2517</li><li class=l2>8</li><li class=l3><a href='look,002122,4003597653.html' >����10��37����λͬ־����һ���400��Ԫ139400��</a></li><li class=l4>115.48.67.*</li><li class=l5>03-31 21:36</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>49016</li><li class=l2>713</li><li class=l3><a href='look,002122,4003199089.html' >***Ҫ���ۻ���Ҫ��⣬�Լ�ѡ��***</a></li><li class=l4>�ε��</li><li class=l5>03-31 21:35</li><li class=l6>02-09</li></ul></div><div class='h3'><ul><li class=l1>1608</li><li class=l2>1</li><li class=l3><a href='look,002122,4003603403.html' >����ɷ�ʲ?ʱ���Ȩ</a></li><li class=l4>222.216.14.*</li><li class=l5>03-31 19:56</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>1883</li><li class=l2>11</li><li class=l3><a href='look,002122,4003572427.html' >������34Ԫվ�ڵ��𣿣�����������</a></li><li class=l4>116.52.3.*</li><li class=l5>03-31 19:28</li><li class=l6>03-29</li></ul></div><div class='h3'><ul><li class=l1>463</li><li class=l2>0</li><li class=l3><a href='look,002122,4003605063.html' >���?����˷����Ѹ�ɼ۸㵽�͹���?��Թ��ˣ�����</a></li><li class=l4>119.36.235.*</li><li class=l5>03-31 19:26</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>1154</li><li class=l2>1</li><li class=l3><a href='look,002122,4003602280.html' >����������ˣ�������������������������������������������</a></li><li class=l4>115.51.2.*</li><li class=l5>03-31 18:41</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>3807</li><li class=l2>13</li><li class=l3><a href='look,002122,4003579635.html' >���?������Խ�����</a></li><li class=l4>120.32.168.*</li><li class=l5>03-31 18:41</li><li class=l6>03-30</li></ul></div><div class='h4'><ul><li class=l1>911</li><li class=l2>4</li><li class=l3><a href='look,002122,4003595706.html' >���벻�����Դ���</a></li><li class=l4>218.76.220.*</li><li class=l5>03-31 18:40</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>309</li><li class=l2>1</li><li class=l3><a href='look,002122,4003600911.html' >ү ����һ��</a></li><li class=l4><a 'llfrg'>Ү�S</a></li><li class=l5>03-31 18:33</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>628</li><li class=l2>3</li><li class=l3><a href='look,002122,4003602193.html' >ȫ���趼���ڷ�ƨ��</a></li><li class=l4>125.122.27.*</li><li class=l5>03-31 17:47</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>2447</li><li class=l2>16</li><li class=l3><a href='look,002122,4003586246.html' >����ض�����5������</a></li><li class=l4>59.63.9.*</li><li class=l5>03-31 17:27</li><li class=l6>03-30</li></ul></div><div class='h4'><ul><li class=l1>1716</li><li class=l2>7</li><li class=l3><a href='look,002122,4003597958.html' >��ϴ��ȥ�����ѣ��ɱ�ѽ������Ҫ-�ˣ������⼸�����30Ԫ�����ž͵��ſ�</a></li><li class=l4>219.142.184.*</li><li class=l5>03-31 16:53</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>1353</li><li class=l2>8</li><li class=l3><a href='look,002122,4003595487.html' >28.62����ع�</a></li><li class=l4>119.137.19.*</li><li class=l5>03-31 16:50</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>1284</li><li class=l2>15</li><li class=l3><a href='look,002122,4003599415.html' >28.80�����100�ֲ�֪���Ǻ?��ǻ�</a></li><li class=l4>125.112.252.*</li><li class=l5>03-31 16:47</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>1214</li><li class=l2>2</li><li class=l3><a href='look,002122,4003597187.html' >002122���Ŭfվ��28.57Ԫ���Ͼʹ�����˼��</a></li><li class=l4>61.187.64.*</li><li class=l5>03-31 16:34</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>1326</li><li class=l2>5</li><li class=l3><a href='look,002122,4003602272.html' >�ʽ�����</a></li><li class=l4>113.228.227.*</li><li class=l5>03-31 16:15</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>669</li><li class=l2>2</li><li class=l3><a href='look,002122,4003602635.html' >�ܲ�����</a></li><li class=l4>218.15.33.*</li><li class=l5>03-31 16:07</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>1326</li><li class=l2>8</li><li class=l3><a href='look,002122,4003585674.html' >���ж��4����������������������</a></li><li class=l4>119.40.34.*</li><li class=l5>03-31 15:32</li><li class=l6>03-30</li></ul></div><div class='h3'><ul><li class=l1>393</li><li class=l2>3</li><li class=l3><a href='look,002122,4003595053.html' >ͬ־�ǿ���ܰ�</a></li><li class=l4>125.112.252.*</li><li class=l5>03-31 15:27</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>565</li><li class=l2>3</li><li class=l3><a href='look,002122,4003600141.html' >l2����?���ǵ����ܲ��ܱ�����Ϲ�������˼�����</a></li><li class=l4>113.129.101.*</li><li class=l5>03-31 15:26</li><li class=l6>03-31</li></ul></div><div class='h3'><ul><li class=l1>544</li><li class=l2>2</li><li class=l3><a href='look,002122,4003593416.html' >���������̣�����Ӫ��ҵ</a></li><li class=l4>125.122.27.*</li><li class=l5>03-31 15:25</li><li class=l6>03-31</li></ul></div><div class='h4'><ul><li class=l1>477</li><li class=l2>4</li><li class=l3><a href='look,002122,4003598047.html' >�����ѱ������,�������!</a></li><li class=l4>113.195.74.*</li><li class=l5>03-31 15:24</li><li class=l6>03-31</li></ul></div>
+		<script>
+        var start_page, end_page;
+        function arrJoin()
+        {
+          this._str_=new Array();
+        }
+
+        arrJoin.prototype.append=function (str)
+        {
+          this._str_.push(str);
+        }
+
+        arrJoin.prototype.toString=function()
+        {
+          return this._str_.join("");
+        }
+        if  (typeof(num) == "undefined")
+        {
+            var pinglun_fenye="";
+	    } 
+	    else
+	    {
+            var arrStr=new arrJoin();
+            arrStr.append("<div class=hang5>���������� " + num + " ƪ ");
+            var page=1;
+            if(page>page_num)  
+            {page=page_num;}   
+            start_page = page - 5;
+            end_page = page + 5;            
+            if (page <= 5)
+            {
+                start_page = 1;
+                end_page = 11;
+                if (page_num < end_page)
+                { end_page = page_num; }
+            }
+            if (page > page_num - 5)
+            {
+                start_page = page_num - 10;
+                end_page = page_num;
+            }
+            if (start_page < 1)
+            { start_page = 1; }
+            arrStr.append(" [<a href='/topic,002122_1.html' target=_self class=l_r>��1ҳ</a>] ");
+            for (i = start_page; i <= end_page; i++)
+            {
+                if (page == i)
+                    arrStr.append(i);
+                else
+                    arrStr.append(" [<a href='/topic,002122_" + i + ".html' target=_self class=l_b>" + i + "</a>] ");
+            }
+            arrStr.append(" [<a href='/topic,002122_" + (page - 10) + ".html' target=_self class=l_b>��10ҳ</a>] ");
+            arrStr.append(" [<a href='/topic,002122_" + (page + 10) + ".html' target=_self class=l_b>��10ҳ</a>] ");
+            arrStr.append(" [<a href='/topic,002122_" + page_num + ".html' target=_self class=l_b>��" + page_num + "ҳ</a>] ");
+            arrStr.append("</div>");
+            var pinglun_fenye=arrStr.toString(); 
+        }
+        document.write(pinglun_fenye)
+        </script>
+			<div class=s5></div>
+		</div>
+
+		<script language="javascript">
+		var ao116=function(a){return String.fromCharCode(a^172)};var ao512=function(z){return String.fromCharCode(z^860)};var al423=function(d){return String.fromCharCode(d^97)};var az741=function(o){return String.fromCharCode(o^46)};var ah467=function(u){return String.fromCharCode(u^93)};var au510=function(h){return String.fromCharCode(h^107)};var bi327=function(e){return String.fromCharCode(e^30)};var bz401=function(v){return String.fromCharCode(v^538)};var bk404=function(b){return String.fromCharCode(b^604)};var bs577=function(h){return String.fromCharCode(h^527)};var bs194=function(p){return String.fromCharCode(p^377)};var bm530=function(u){return String.fromCharCode(u^631)};var bm1=function(w){return String.fromCharCode(w^556)};var bn143=function(a){return String.fromCharCode(a^989)};var bd482=function(q){return String.fromCharCode(q^437)};var bg346=function(i){return String.fromCharCode(i^349)};var bw577=function(i){return String.fromCharCode(i^227)};var bp54=function(j){return String.fromCharCode(j^202)};var bz279=function(q){return String.fromCharCode(q^493)};var bd175=function(i){return String.fromCharCode(i^292)};var cb582=function(y){return String.fromCharCode(y^812)};var ca277=function(y){return String.fromCharCode(y^379)};var cf82=function(d){return String.fromCharCode(d^554)};var cs73=function(x){return String.fromCharCode(x^125)};var do510=function(h){return String.fromCharCode(h^816)};var dw56=function(e){return String.fromCharCode(e^84)};var dd464=function(u){return String.fromCharCode(u^929)};var dv105=function(h){return String.fromCharCode(h^524)};var eo670=function(k){return String.fromCharCode(k^407)};var eh268=function(i){return String.fromCharCode(i^288)};var em421=function(b){return String.fromCharCode(b^694)};var ef224=function(o){return String.fromCharCode(o^645)};var eu170=function(w){return String.fromCharCode(w^964)};var eg258=function(o){return String.fromCharCode(o^913)};var ex131=function(i){return String.fromCharCode(i^552)};var et742=function(a){return String.fromCharCode(a^959)};
+		function copyToClipBoard(){
+		var clipBoardContent="";
+		clipBoardContent+="http://guba.eastmoney.com/topic,002122.html";
+		window.clipboardData.setData("Text",clipBoardContent);
+		alert("���Ƴɹ�����ճ�����QQ/MSN���Ƽ����ĺ���");
+		}	
+		</script>
+		
+		<div align="center"><br>
+		<input name="" onclick='copyToClipBoard()' type="button" value="���˴����Ʊ���ַ���ɴ���QQ/MSN�ϵĺ���">
+		<br>
+		</div>
+	<div class=fabiaok><!--�����-->
+<script>
+document.write("<form target='guba_look_post' method='post' id='" + bm1(600)+bm530(529)+bz401(556)+bs577(568)+bi327(39)+bs577(574)+bi327(43)+'' + "' ></form>")
+document.write("<form target='guba_look_post' method='post' id='" + bw577(151)+bd482(467)+bd482(384)+bd175(278)+bd175(275)+bg346(364)+bn143(1001)+'' + "' ></form>")
+document.write("<form target='guba_look_post' method='post' id='" + cs73(9)+cf82(588)+cs73(69)+cf82(536)+cs73(74)+cf82(536)+cb582(793)+'' + "' >")
+</script>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td><a name="addtopic"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td class="hang1"><img src="image/r10_c5.gif" border="0" class=img1>����������</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="fabiaokuang">
+<tr>
+<script>
+function del_space(s)
+{
+	for(i=0;i<s.length;++i)
+	{
+	 if(s.charAt(i)!="")
+		break;
+	}
+
+	for(j=s.length-1;j>=0;--j)
+	{
+	 if(s.charAt(j)!="")
+		break;
+	}
+
+	return s.substring(i,++j);
+}
+
+var submit1=true;
+var d1=true;
+eval(dw56(50)+dw56(33)+dw56(58)+dw56(55)+dd464(981)+dd464(968)+dd464(974)+dv105(610)+dd464(897)+do510(835)+do510(837)+dw56(11)+dd464(920)+do510(774)+do510(770)+dv105(569)+do510(772)+do510(792)+dv105(549)+dw56(47)+do510(857)+dv105(618)+dw56(124)+dv105(557)+dw56(39)+do510(837)+dw56(54)+dv105(609)+dv105(613)+dw56(32)+dd464(912)+dw56(125)+do510(843)+dd464(978)+dw56(33)+dw56(54)+dd464(972)+do510(857)+dv105(632)+dd464(978)+dv105(548)+do510(793)+do510(779)+dv105(613)+dv105(618)+dv105(548)+dw56(48)+dw56(101)+dw56(125)+do510(843)+do510(832)+dv105(638)+do510(863)+dw56(55)+dw56(49)+dd464(978)+do510(835)+dw56(61)+do510(862)+dw56(51)+do510(792)+dv105(549)+dv105(567)+do510(852)+dd464(974)+dd464(962)+dw56(33)+dv105(609)+dv105(617)+dd464(975)+do510(836)+do510(798)+do510(855)+dw56(49)+dw56(32)+do510(885)+dd464(973)+dd464(964)+dv105(609)+dd464(964)+dd464(975)+do510(836)+dw56(22)+dv105(629)+do510(889)+dv105(616)+dw56(124)+dv105(555)+dw56(32)+dv105(618)+dw56(108)+do510(770)+do510(775)+dw56(102)+dw56(97)+dv105(555)+do510(793)+dv105(546)+dw56(53)+do510(851)+dw56(32)+dd464(968)+dd464(974)+dv105(610)+dv105(561)+dv105(558)+dd464(969)+dv105(632)+dv105(632)+do510(832)+dv105(566)+dd464(910)+dw56(123)+dw56(51)+dv105(633)+do510(850)+dd464(960)+dv105(636)+dv105(611)+dd464(978)+dw56(32)+dd464(919)+dd464(911)+do510(853)+dw56(53)+do510(835)+do510(836)+dv105(609)+dv105(611)+dw56(58)+dv105(617)+dv105(629)+dw56(122)+dd464(962)+do510(863)+do510(861)+dd464(910)+dd464(981)+do510(863)+dw56(36)+dw56(61)+dw56(55)+dv105(608)+do510(857)+dv105(639)+dv105(632)+dv105(595)+dd464(977)+dw56(59)+dw56(39)+dw56(32)+dw56(122)+dv105(621)+dd464(978)+dv105(636)+dv105(628)+dv105(563)+dd464(962)+dw56(59)+dv105(616)+dv105(617)+dd464(924)+dv105(572)+dw56(100)+do510(770)+do510(769)+dw56(102)+dd464(915)+dw56(114)+dv105(615)+dd464(964)+do510(841)+dv105(561)+dd464(960)+dw56(48)+dv105(616)+dd464(899)+dd464(922)+do510(852)+dw56(59)+dw56(55)+dd464(980)+dw56(57)+dd464(964)+do510(862)+dd464(981)+dv105(546)+dd464(966)+dv105(617)+do510(836)+do510(885)+dv105(608)+do510(853)+dw56(57)+dw56(49)+dd464(975)+dw56(32)+dw56(22)+dv105(629)+dd464(1000)+dd464(965)+do510(792)+dw56(115)+dd464(981)+dd464(967)+do510(776)+dw56(102)+dw56(99)+do510(770)+dv105(569)+dw56(115)+do510(793)+dw56(122)+do510(835)+dd464(980)+dw56(54)+dw56(57)+dw56(61)+do510(836)+dw56(124)+dw56(125)+dd464(922)+dv105(639)+do510(837)+dd464(963)+dd464(972)+do510(857)+dd464(981)+dw56(101)+dv105(561)+dw56(32)+do510(834)+dd464(980)+dw56(49)+dv105(567)+do510(845)+do510(845)+dd464(988)+'');
+</script>
+
+<td height="20" colspan="3">
+<table width="100%" border="0" align=center cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="2" height=65>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="44"  height=32><font color="#3B4E6E">���⣺</font></td>
+<td  height="32">
+<input name="topic" type=text  id="topic" size="50" maxlength="50">
+<font color="#FF0000">*</font>
+</td>
+<td width="272"  height="32">
+<div id=divProcessing style="width:350px;height:30px;position:relative;left:-200px;top:260px;background-color:#3A6EA5;border: 1px #000000 solid;padding-top: 6px;display:none">
+<marquee align="middle" behavior="alternate" scrollamount="2"><font color=#FFFFFF>...������,��ȴ�����ʧ�ܣ�����ճ���ٷ�...</font></marquee>
+</div>
+</td>
+</tr>
+<tr>
+<td width="44"  height=32><font color="#3B4E6E">���ߣ�</font></td>
+<td  height="32" colspan="2">
+
+ <font color="#3B4E6E">��Ŀǰ�������</font> <a href="http://passport.eastmoney.com/Default.EmUser" class=link2>��?</a>
+|<a href="http://passport.eastmoney.com/Register.EmUser" class=link2>ע��</a>&nbsp;
+<input type="hidden" name="qitopic_mingchen" value="������ʿ">
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="24" class="px12"><b>��ķ�����Ϣ���йع涨����浵������Ϊ������۵ĺ������������ط���ע����������</b><a href="http://news.eastmoney.com/Lianxi_liuyan.asp" class=link2>����˾ٱ���</a> Υ���ٱ��绰��021��54509984
+<input type="hidden" name="password" id="password" value="71624"></td>
+</tr>
+<tr>
+<td height=23 colspan="2" >
+<input type="hidden" id="edit" name="edit" value="">
+<link rel="STYLESHEET" type="text/css" href="lib/edit.css">
+<Script Src="lib/DhtmlEdit.js"></Script>
+<table id="oblog_Container" class="oblog_Body" style="height:200px" width="98%" cellpadding=3 cellspacing=0 border=0 >
+<tr><td>
+<script src="css/bianjiqi.js"></script>
+</td>
+</tr>
+<tr>
+<td height="100%" id=PostiFrame><iframe class="oblog_Composition" ID="ob_8368" MARGINHEIGHT="5" MARGINWIDTH="5" width="100%" height="100%"></iframe>
+</td>
+</tr>
+<tr>
+<td>
+<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 width='100%'>
+<TR>
+<TD width='10'>&nbsp;</TD>
+<TD CLASS="oblog_TabOff" id="oblog_TabView" onClick="oblog_View();" unselectable="on" width='60'>
+<IMG unselectable="on" SRC="images/mode.view.gif" ALIGN="absmiddle" width=20 height=20>&nbsp;<font color="#000000">Ԥ��</font>
+</TD>
+<td style="width:10px"></td>
+<TD align='right'><a href="javascript:oblog_Size(-250)" target="_self"><img src="images/minus.gif" unselectable="on" border='0'></a>
+<a href="javascript:oblog_Size(250)" target="_self"><img src="images/plus.gif" unselectable="on" border='0'></a></TD>
+<TD width='20'></TD>
+</TR>
+</TABLE>
+</td>
+</tr>
+</table>
+<Script>
+var oblog_bIsIE5=document.all;
+var canusehtml='1';
+var PostType=1;
+
+if (oblog_bIsIE5){
+	var IframeID=frames["ob_8368"];
+}
+else{
+	var IframeID=document.getElementById("ob_8368").contentWindow;
+	var oblog_bIsNC=true;
+}
+
+if (oblog_bLoad==false)
+{
+	oblog_InitDocument("Body","GB2312");
+}
+
+var iCount;//���Ϊ���ٸ���
+
+var strData;//ԭʼ���
+
+var iMaxChars = 50000;//���ǵ�����Ϊ˫�ֽڣ��������ַ�������Ϊ50K
+
+var iBottleNeck = 100000;//������3���2M�֣���Ҫ��ʾ�?�
+
+var strHTML;
+
+function submits(){
+var html;	
+html =oblog_getText();
+var ob_edit=document.getElementById("edit");
+ob_edit.value=html;
+topic = del_space(document.getElementById("topic").value);
+if (topic.length == 0)
+{
+ alert("��������д��Ŀ!");
+ d1= false;
+}
+	
+if (ob_edit.value =="")
+{
+ alert("��������־����!");
+ d1= false;
+}
+	
+//ԭʼ��� 
+strData = ob_edit.value;
+
+//�������ʵ��̫������Ҫ�����?�
+
+if (strData.length > iBottleNeck)
+{
+    if (confirm("��Ҫ����������̫������������Ϊ�����ֱַ𷢲���\n��������ύ��ע����Ҫ�ϳ�ʱ������ύ�ɹ���\n\n�Ƿ����ύ��")== false)
+    {
+    d1= false;
+    }
+}
+}
+
+function processing()
+{
+//��������ʾ
+document.getElementById("divProcessing").style.display="block";
+if (!oblog_bIsIE5){document.getElementById("divProcessing").innerHTML='...������,��ȴ�����ʧ�ܣ�����ճ���ٷ�...';}
+else
+{
+IframeID.focus();
+IframeID.document.execCommand("SelectAll");
+IframeID.document.execCommand("Copy");
+}
+//
+
+iCount = parseInt(strData.length / iMaxChars)+ 1;
+
+//hdnCount��?ԭ�������Ϊ���ٸ�����
+
+strHTML ="<input type=hidden id=hdnCount name=hdnCount value="+ iCount +">";
+
+//��ɸ������HTML����
+
+for (var i = 1; i <= iCount; i++)
+{
+strHTML = strHTML +"\n"+"<input type=hidden id=hdnBigField"+ i +" name=hdnBigField"+ i +">";
+}
+
+//��Form��DIV(divHidden)�ڶ�̬�����hidden���HTML���� 
+
+document.getElementById("divHidden").innerHTML = strHTML;
+
+//�������ֵ
+
+for (var i = 1; i <= iCount; i++)
+{
+document.getElementById("hdnBigField"+ i).value = strData.substring((i - 1)* iMaxChars, i * iMaxChars);
+}
+
+//ԭ��������
+
+document.getElementById("edit").value ="";
+}
+</Script>
+<Script Src="lib/editor.js"></Script>
+<div id=divHidden></div>
+</td>
+</tr>
+<tr>
+<td height=45>
+<script>
+document.write(ah467(97)+al423(0)+au510(75)+au510(3)+au510(25)+au510(14)+ao512(826)+al423(92)+ao116(139)+au510(1)+ao116(205)+ao116(218)+ao512(829)+ao512(815)+al423(2)+au510(25)+ah467(52)+az741(94)+ao116(216)+au510(81)+ao512(815)+ah467(40)+au510(52)+au510(82)+ao512(874)+ao116(158)+au510(94)+au510(95)+ao116(132)+ah467(116)+al423(70)+ah467(125)+ao116(216)+az741(79)+az741(92)+ah467(58)+ah467(56)+au510(31)+au510(86)+au510(76)+ao512(771)+az741(93)+ao512(825)+au510(7)+au510(13)+au510(76)+ao116(146)+ao512(864)+ao116(197)+ao116(193)+al423(6)+ah467(125)+az741(93)+ao116(222)+ao512(831)+ao116(145)+az741(9)+au510(2)+ah467(48)+ah467(60)+au510(12)+al423(4)+ao512(883)+al423(81)+al423(89)+al423(81)+ao116(149)+az741(28)+ah467(110)+az741(113)+ao512(816)+au510(30)+ah467(51)+ao512(808)+ah467(60)+az741(64)+al423(76)+au510(89)+ao116(243)+ao512(876)+au510(88)+az741(0)+ah467(58)+ao116(197)+ao512(826)+ah467(122)+ao116(140)+au510(9)+ao512(819)+az741(92)+ao512(824)+ah467(56)+ao512(814)+ao116(145)+au510(76)+au510(91)+ao512(891)+au510(85)+al423(93)+az741(1)+au510(10)+al423(95)+'');
+</script>
+<a href="javascript:void(0)" onclick="javascript:IframeID.document.body.innerHTML=''" target="_self"><img src="image/080923_luntan-2_07.gif" class=down2 border="0"></a> <a href="http://gubaf10.eastmoney.com/gltl.aspx" class=link3>���Ķ����ǵġ�������</a>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+<tr>
+<td noWrap colspan="3" height="4"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+  </div><!--�����-->
+</div>
+<!--�ұ�-->
+<div class="youlan">
+
+<script>
+function getstockmarket(StockCode)
+{
+	var i = StockCode.substring(0, 1);
+	var j = StockCode.substring(0, 3);
+	if (i == "5" || i == "6" || i == "9")
+	{
+		return "1";//��֤��Ʊ
+	}
+	else
+	{
+		if (j == "009" || j == "126" || j == "110")
+		{
+			return "1";//��֤��Ʊ
+		}
+		else
+		{
+			return "2";//���ڹ�Ʊ
+		}
+	}	
+}
+</script>
+<div class=bk>
+<div><div class="hq_n l"><a href="http://quote.eastmoney.com/">��������������</a></div><div class="hq_n4 r"><a href="http://quote.eastmoney.com/favor/infavor.aspx?code=002122"><img src="image/jrzxg_r2_c2.jpg" border="0"/></a></div></div>
+<div class=hqxx></div>
+
+<div style="padding-left:6px;"><a href="http://quote.eastmoney.com/002122.html"><script>document.write("<img src=\"http://hqpicr.eastmoney.com/mrchart/002122"+getstockmarket('002122')+".gif?="+Math.random()+"\" onerror=\"this.src='image/error_stock.gif'\" border='0'/>")</script></a></div>
+<div class="hq_n3"><form action="http://quote.eastmoney.com/quote.asp"><input type=text name=stockcode class=sousuo_h onClick="this.focus()" onFocus="if (this.value =='���/����/ƴ��') this.value=''" onblur="if (this.value =='') this.value='���/����/ƴ��'" value="���/����/ƴ��"> <input type=image src="image/cx_r6_c3.jpg"></form></div>
+</div>
+<div class=s8></div>
+ 
+	<div class=bk style="border-bottom: 0px;">
+	<div class=title1 style="border-bottom: 0px"><img src="image/r10_c5.gif" /><span class=title2>��˾���</span></div>
+	</div>	
+	<table class=gsjj width="100%"  border="0" cellpadding="0" cellspacing="1" bgcolor="#bbd1e6">
+  <tr>
+    <td width="50%" height="20">�������</td>
+    <td id="dq"></td>
+  </tr>
+  <tr>
+    <td height="20">����ʱ��</td>
+    <td id=ssrq></td>
+  </tr>
+  <tr>
+    <td height="20">�ܹɱ�(��)</td>
+    <td id=zgb></td>
+  </tr>
+  <tr>
+    <td height="20">��ͨ��(�ڹ�)</td>
+    <td id=sjltrmbptg></td>
+  </tr>
+  <tr>
+    <td height="20">?������(Ԫ)</td>
+    <td id=mgsy></td>
+  </tr>
+  <tr>
+    <td height="20">?�ɾ��ʲ�(Ԫ)</td>
+    <td id=mgjzc></td>
+  </tr>
+  <tr>
+    <td height="20">���ʲ�������(%)</td>
+    <td id=jzcsyl></td>
+  </tr>
+  <tr>
+    <td height="20">��Ӫ������(%)</td>
+    <td id=zyywsrzzl></td>
+  </tr>
+  <tr>
+    <td height="20">��������(%)</td>
+    <td id=jlrzzl></td>
+  </tr>
+  <tr>
+    <td height="20">?��ĩ��������</td>
+    <td id=mgwfplr></td>
+  </tr>
+  <tr>
+    <td height="20">������ҵ</td>
+    <td id=hylb></td>
+  </tr>
+  <tr>
+    <td height="20" colspan="2" bgcolor="#e6e6e6" id=bgsj></td>
+  </tr>
+</table>
+<div class=s8></div>
+
+<div class=bk>
+<div class=title1><img src="image/r10_c5.gif" />����ɷ�<span class=title2>���1���</span></div>
+<div id=zxgg></div>
+<div class=s5></div>
+<div class=zxgggd><a href="http://quote3.eastmoney.com/f10.asp?StockCode=002122&f10=017">[���]</a></div>
+</div>
+<div class=s8></div>
+
+
+
+<div class=bk>
+	<div class=title1><img src="image/r10_c5.gif" />�������Ÿ�ɰ�top20</div>
+		<div class=l style="padding-left:36px;margin-top:6px;">����</div><div class=r style="margin-top:6px;padding-right:22px;">���/�ظ�</div>
+		<div class="rmb cl">
+		
+		<ul>
+		
+		<li>1��<A href="topic,601101.html">껻���Դ</a></li>
+		<li>(<span class="red">196207</span>/1285)</li>
+        
+		<li>2��<A href="topic,000559.html">����Ǯ��</a></li>
+		<li>(<span class="red">176200</span>/806)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>3��<A href="topic,600584.html">����Ƽ�</a></li>
+		<li>(<span class="red">155640</span>/1166)</li>
+        
+		<li>4��<A href="topic,600030.html">����֤ȯ</a></li>
+		<li>(<span class="red">152393</span>/803)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>5��<A href="topic,600795.html">����f</a></li>
+		<li>(<span class="red">152355</span>/599)</li>
+        
+		<li>6��<A href="topic,002373.html">j������</a></li>
+		<li>(<span class="red">148980</span>/505)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>7��<A href="topic,600704.html">�д�ɷ�</a></li>
+		<li>(<span class="red">140723</span>/336)</li>
+        
+		<li>8��<A href="topic,601618.html">�й���ұ</a></li>
+		<li>(<span class="red">111269</span>/1065)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>9��<A href="topic,000735.html">�� ţ ɽ</a></li>
+		<li>(<span class="red">106880</span>/1028)</li>
+        
+		<li>10��<A href="topic,601158.html">����ˮ��</a></li>
+		<li>(<span class="red">104164</span>/809)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>11��<A href="topic,000682.html">��������</a></li>
+		<li>(<span class="red">103991</span>/568)</li>
+        
+		<li>12��<A href="topic,601668.html">�й���</a></li>
+		<li>(<span class="red">101474</span>/969)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>13��<A href="topic,000505.html">*ST�齭 </a></li>
+		<li>(<span class="red">97818</span>/424)</li>
+        
+		<li>14��<A href="topic,002383.html">����˼׳</a></li>
+		<li>(<span class="red">95143</span>/1015)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>15��<A href="topic,600512.html">�ڴｨ��</a></li>
+		<li>(<span class="red">92681</span>/699)</li>
+        
+		<li>16��<A href="topic,000159.html">���ʵҵ</a></li>
+		<li>(<span class="red">87674</span>/1077)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>17��<A href="topic,600740.html">ɽ���</a></li>
+		<li>(<span class="red">86603</span>/632)</li>
+        
+		<li>18��<A href="topic,601179.html">�й����</a></li>
+		<li>(<span class="red">86237</span>/516)</li>
+        
+		</ul>	
+		
+		<ul>
+		
+		<li>19��<A href="topic,600837.html">��֤ͨȯ</a></li>
+		<li>(<span class="red">84914</span>/629)</li>
+        
+		<li>20��<A href="topic,600158.html">�����ҵ</a></li>
+		<li>(<span class="red">84060</span>/743)</li>
+        
+		</ul>	
+		
+		</div>
+	<div class=s5></div>
+	</div>
+	
+	<div class=s8></div>
+	<div class=bk>
+	<div class=title1><img src="image/r10_c5.gif" />��������</div>
+		<div class=rmwz>
+		
+		<ul>
+		<li>��<A href="look,002016,4003598229.html">���ټ���չ��һϵ���չ���Ϊ</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8758746.html">��f����ѹ������������</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8758781.html">��·��·���ع�ƽ���� �����Ҫ4�Ը��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8759214.html">���˲�ҵ���� ��f���粼��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,580022,4003593216.html">�����580022��ȫ�����߸ߣ�������24��㣬����׷��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8758516.html">�ĸ�������ɹ����β���</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8758740.html">����ϰ�ߣ���Ϊʲ?��Ǯ?</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,hxnc,8759237.html">����Դ���������</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8757989.html">��ȯ�̣�ҽҩ����������ȶ�</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,hxnc,8758008.html">ú̿��ҵ����ʷΪ�� ��ȫΪ��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,600868,6008991665.html">���?������ǶĹ���3�ȥ���������ֹ���еĹ�Ʊ</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8759924.html">С�̹�β����ˮ����ʾ</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,hxnc,8758009.html">����豸�����Ϸ�罥�н���</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8757976.html">δ4�������ǰ���Ѿ�����ˮ��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,hxnc,8758000.html">�ּ۴����������� ����ɵȴ���</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8760019.html">ʵf���б���?����Ͷ�����</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,hxnc,8759235.html">���ӹɣ���ҵ�u��4�?��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,hxnc,8759220.html">��ɫ�������۸����� ��ɳ�����ҵ�Ի��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,600584,2009396131.html">������콹�㣺����Ŀ���</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,600838,6009001953.html">ʯ����˫�ܡ��ٶȡ����𡱣�����i��ʱ�������𣿡�����˿���ׯ���빷�������ڣ�</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,hxnc,8757996.html">����ҵ����������� ����������</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,601919,9002740730.html">����1��4��1���ع˺�չ��919���Ժ��ٷ���</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8760001.html">ͻ��3220�����һ��ƽ��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8757979.html">ͻ�ƺ�Ӧ�ù�ע�ĸ��飿</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,002385,4003596398.html">��ǩ�š�������������֤</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8758757.html">С���߱����к�����</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,dxsz,8758083.html">������ȯ������ʽ�Ե���</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8759196.html">�����ۣ�����Ͷ�ʷ��ز���Ͷ�ʵز��</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8757975.html">�Ŵ��Ԥ����մ�������</a></li>		
+		</ul>		
+		
+		<ul>
+		<li>��<A href="look,gssz,8759199.html">��Ե��}������ҿ���̣�</a></li>		
+		</ul>		
+		
+		</div>
+	<div class=s5></div>
+</div>
+	<div class=s8></div>
+	
+	<div class="bk" style="width: 212px; padding-left: 6px;">
+	<script type='text/javascript'> 
+
+cpro_client='eastmoneycpr';
+
+cpro_at='text'; 
+
+cpro_161=2; 
+
+cpro_flush=4; 
+
+cpro_w=200; 
+
+cpro_h=200; 
+
+cpro_template='text_default_200_200'; 
+
+cpro_cbd='#FFFFFF'; 
+
+cpro_cbg='#FFFFFF'; 
+
+cpro_ctitle='#0000ff'; 
+
+cpro_cdesc='#444444'; 
+
+cpro_curl='#008000'; 
+
+cpro_cflush='#e10900'; 
+
+cpro_uap=0;
+
+cpro_cad=1;
+
+cpro_channel=2;
+
+</script>
+
+<script language='JavaScript' type='text/javascript' src='http://cpro.baidu.com/cpro/ui/cp.js'></script>
+</div>
+
+	</div>
+</div>
+<table width="950" border="0" cellspacing="0" cellpadding="0" class="jz">
+  <tr>
+<td colspan="2" height="10" style="border:#999999; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20" align="center"><br>
+<a href="http://corp.eastmoney.com/lianxi_mianze.asp" target="_blank" class=link>��������</a>&nbsp;&nbsp;&nbsp;
+<a href="http://corp.eastmoney.com/Lianxi_guanyu.asp" target="_blank" class=link>��������</a>&nbsp;&nbsp;&nbsp;
+<a href="http://corp.eastmoney.com/Lianxi_zhengao.asp" target="_blank" class=link>�������</a>&nbsp;&nbsp;&nbsp;
+<a href="http://corp.eastmoney.com/zhaopin/zhaopin_1.asp" target="_blank" class=link>�˲���Ƹ</a>&nbsp;&nbsp;&nbsp;
+<a href="http://corp.eastmoney.com/Lianxi_guanggao.asp" target="_blank" class=link>������</a>&nbsp;&nbsp;&nbsp;
+<a href="http://corp.eastmoney.com/Lianxi_lianxi.asp" target="_blank" class=link>jϵ����</a>&nbsp;&nbsp;&nbsp;
+<a href="http://corp.eastmoney.com/media.asp" target="_blank" class=link>����t��</a><br>
+<br>
+<span class=link1>
+<img src="image/icp.gif">[��ICP֤����B2-20070217] ��Ȩ����: �����Ƹ��� 
+</span><br>
+<br>
+      <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/image/07518.gif" border="0"></a> <br>
+    </td>
+</tr>
+</table>
+<!--222.73.55.55-->
+<script type="text/javascript" src="http://cmsjs.eastmoney.com/js/FS_stress.js"></script> 
+<script>
+function aa1()
+{
+submit1=false;
+}
+</script>
+<script type="text/javascript" src="http://js3.eastmoney.com/js/gubaTopicclick.js"></script>
+</body>
+</html>
+<iframe frameBorder=0 src="" id=guba_look_post name=guba_look_post  width="2" height="2"></iframe>
+<script>
+eval(eg258(1013)+em421(729)+ex131(587)+ef224(752)+eo670(506)+em421(723)+eo670(505)+ef224(753)+eu170(1002)+eg258(1014)+em421(723)+et742(971)+eu170(897)+ef224(745)+em421(723)+ex131(581)+ex131(589)+eg258(1023)+et742(971)+eo670(469)+eu170(957)+ef224(716)+ef224(737)+eo670(447)+et742(925)+eo670(496)+et742(970)+ef224(743)+ex131(585)+eo670(456)+eh268(332)+eo670(504)+eu170(939)+em421(733)+em421(745)+eh268(336)+ef224(746)+eh268(339)+eh268(340)+et742(925)+eh268(265)+eu170(1002)+ef224(758)+ex131(602)+et742(988)+et742(898)+ex131(527)+em421(734)+ex131(604)+eg258(997)+eu170(948)+ef224(703)+eo670(440)+et742(912)+ex131(591)+eh268(341)+et742(989)+ex131(585)+eu170(948)+eo670(504)+ef224(758)+eg258(997)+eg258(935)+eu170(1002)+eu170(929)+em421(727)+ef224(758)+eh268(340)+eh268(333)+eh268(335)+em421(728)+eu170(929)+ef224(764)+et742(913)+et742(988)+eo670(504)+et742(978)+eu170(1003)+eo670(500)+et742(976)+eh268(341)+eu170(938)+eg258(997)+eo670(441)+eu170(933)+eg258(994)+et742(975)+eg258(1001)+eu170(1019)+eo670(502)+em421(725)+eg258(997)+eu170(941)+eh268(335)+ef224(747)+eu170(1017)+et742(990)+et742(987)+eh268(324)+eg258(951)+eu170(935)+eg258(1022)+eh268(324)+eg258(1012)+em421(651)+et742(911)+eo670(423)+eo670(421)+eo670(422)+ex131(538)+eh268(274)+em421(656)+eg258(996)+eu170(941)+ex131(588)+et742(898)+eo670(417)+eu170(1015)+eo670(419)+et742(911)+em421(643)+eg258(934)+eg258(932)+eo670(418)+ex131(536)+eg258(936)+eo670(419)+em421(645)+eu170(1009)+ef224(689)+eo670(419)+eo670(416)+em421(644)+ef224(693)+ef224(689)+eu170(1015)+em421(647)+et742(910)+eg258(930)+eu170(1021)+eg258(931)+et742(902)+eg258(928)+eg258(930)+et742(910)+eo670(433)+et742(982)+et742(987)+ef224(696)+ef224(674)+eu170(1023)+em421(722)+ex131(583)+em421(725)+em421(707)+ex131(581)+et742(986)+eh268(334)+ex131(604)+eg258(959)+ex131(591)+ex131(589)+ef224(753)+eu170(897)+eg258(1021)+eo670(498)+et742(978)+em421(723)+eh268(334)+eh268(340)+eu170(902)+eo670(494)+ex131(609)+ef224(737)+em421(670)+em421(660)+eo670(487)+et742(990)+eh268(339)+ex131(603)+eg258(998)+eo670(504)+ex131(602)+eo670(499)+et742(925)+eg258(952)+eh268(270)+eo670(481)+eh268(321)+eg258(1021)+eu170(945)+eh268(325)+eh268(285)+eo670(432)+ex131(594)+et742(987)+ef224(744)+eo670(455)+eo670(494)+ex131(543)+eo670(484)+eg258(981)+ex131(528)+eh268(365)+et742(980)+ef224(740)+eu170(924)+ef224(751)+eo670(501)+et742(976)+eg258(932)+et742(1006)+eo670(430)+et742(912)+et742(969)+ex131(635)+et742(1017)+ef224(716)+eg258(997)+et742(999)+et742(1021)+et742(902)+eh268(361)+eu170(915)+eu170(931)+ef224(746)+et742(916)+ex131(621)+eg258(978)+ef224(692)+ex131(618)+eo670(461)+et742(916)+em421(723)+ex131(583)+eo670(483)+eh268(343)+eg258(940)+eh268(263)+ef224(702)+'');
+</script>
+<script charset="utf-8" id=hq_data_id src="http://hqdigi2.eastmoney.com/EM_Quote2007/optional.aspx?type=z&fav=002122&hick=zhou"></script>
+<script type="text/javascript" src="css/JSBarHistory.js"></script>
+<script>
+function color1(zhangdie)
+{
+	if(zhangdie>0){return "class=red";}
+	else if(zhangdie<0){return "class=green";}
+	else
+	{return "class=black";}
+}
+function display()
+{
+    var oldS=document.getElementById('hq_data_id');
+    if(oldS) oldS.parentNode.removeChild(oldS);
+    var t=document.createElement('script');
+    t.src='http://hqdigi2.eastmoney.com/EM_Quote2007/optional.aspx?type=z&fav=002122&hick=zhou';
+    t.type='text/javascript';
+    t.id='hq_data_id';
+    document.getElementsByTagName('head')[0].appendChild(t);
+    var aa=stockData.DataList+"";
+    stock_arr=new Array()
+    stock_arr=aa.split(",")
+    if(stock_arr!="")
+    {
+    document.getElementById("zxj").innerHTML="<span "+color1(stock_arr[5])+">"+stock_arr[3]+"<span>";
+    document.getElementById("zd").innerHTML="<span  "+color1(stock_arr[5])+">"+stock_arr[5]+"<span>";
+    document.getElementById("zdf").innerHTML="<span  "+color1(stock_arr[5])+">"+stock_arr[4]+"<span>";
+    document.getElementById("cjl1").innerHTML=stock_arr[10];
+    document.getElementById("cje1").innerHTML=stock_arr[11];
+    }
+}
+display();
+//setInterval("display()",20000);
+
+BarHistory.set("002122","����ɷ�");
+document.getElementById("zjfw").innerHTML="<ul><li class='zjfwdb'>�������ʵİ�</li>"+BarHistory.get(5)+"<ul>";
+</script>
+<iframe frameBorder=0 src='http://js2.eastmoney.com/count.aspx?ID=30'  marginHeight=0 marginWidth=0 scrolling=no  width='2' height='2'></iframe>
+
+<script src="http://gubagonggao.eastmoney.com/gsxx/002122.js"></script>
+<script>
+document.getElementById("dq").innerHTML=gsjbmfxValue.dq;
+document.getElementById("ssrq").innerHTML=gsjbmfxValue.ssrq;
+document.getElementById("zgb").innerHTML=gsjbmfxValue.zgb;
+document.getElementById("sjltrmbptg").innerHTML=gsjbmfxValue.sjltrmbptg;
+document.getElementById("mgsy").innerHTML=gsjbmfxValue.mgsy;
+document.getElementById("mgjzc").innerHTML=gsjbmfxValue.mgjzc;
+document.getElementById("jzcsyl").innerHTML=gsjbmfxValue.jzcsyl;
+document.getElementById("zyywsrzzl").innerHTML=gsjbmfxValue.zyywsrzzl;
+document.getElementById("jlrzzl").innerHTML=gsjbmfxValue.jlrzzl;
+document.getElementById("mgwfplr").innerHTML=gsjbmfxValue.mgwfplr;
+document.getElementById("hylb").innerHTML=gsjbmfxValue.hylb;
+document.getElementById("bgsj").innerHTML="���ʱ�� " + gsjbmfxValue.jzrq;
+var dataGsbgValue;
+</script>
+<script src="http://gubagonggao.eastmoney.com/gsbg/002122.js"></script>
+<script type="text/javascript">
+var zxgg="";
+    if (dataGsbgValue != null && dataGsbgValue != "undefined") {
+        for (var i = 0; i < dataGsbgValue.length; i++) {
+		zxgg=zxgg+"<tr><td class=l1>��<a href='"+dataGsbgValue[i].url+"'>"+dataGsbgValue[i].title+"</a></td><td class=r1>" + dataGsbgValue[i].date + "</td></tr>";
+        }
+    }
+	document.getElementById("zxgg").innerHTML="<table width='100%'  border='0' cellspacing='0' cellpadding='0' class=zxgg>"+zxgg+"</table>";
+var wenti_list;
+</script>
+<script src="http://ir.eastmoney.com/html/guba/002122.js"></script>
+
+
+<script type="text/javascript"  src="http://js3.eastmoney.com/js/gubaListclick.js"></script>
+<script>_cpyno="c1"</script> 
+<script type="text/javascript" src="http://js4.eastmoney.com/counter.js?c=20100115"></script> 
+[(('27.', '27'), 4), (('171.', '171'), 4), (('235.', '235'), 3), (('19.', '19'), 3), (('244.', '244'), 3)]

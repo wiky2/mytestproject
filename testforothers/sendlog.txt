@@ -1,0 +1,39 @@
+2017-10-15 21:13:13,585 - root - DEBUG - debug message
+2017-10-15 21:13:13,586 - root - INFO - info message
+2017-10-15 21:13:13,586 - root - WARNING - warn message
+2017-10-15 21:13:13,586 - root - ERROR - error message
+2017-10-15 21:13:13,587 - root - CRITICAL - critical message
+2017-10-15 21:30:29,704 - root - DEBUG - debug message
+2017-10-15 21:30:29,704 - root - INFO - info message
+2017-10-15 21:30:29,704 - root - WARNING - warn message
+2017-10-15 21:30:29,704 - root - ERROR - error message
+2017-10-15 21:30:29,704 - root - CRITICAL - critical message
+2017-11-02 08:09:09,591 - root - ERROR - 错入地址:www.baidu.com
+2017-11-02 08:09:58,256 - root - ERROR - 错入地址:www.baidu.com
+2017-11-02 08:09:58,257 - root - ERROR - 错入地址:www.163.com
+2017-11-02 08:09:58,257 - root - ERROR - 错入地址:www.12312313.com
+2017-11-02 08:09:58,257 - root - ERROR - 错入地址:www.12306.cn
+2017-11-03 07:50:31,139 - root - ERROR - 错入地址:www.baidu.com
+2017-11-03 07:50:31,139 - root - ERROR - 错入地址:www.163.com
+2017-11-03 07:50:31,139 - root - ERROR - 错入地址:www.12312313.com
+2017-11-03 07:50:31,139 - root - ERROR - 错入地址:www.12306.cn
+2017-11-03 07:56:59,641 - root - ERROR - 错入地址:www.baidu.com
+2017-11-03 07:56:59,641 - root - ERROR - 错入地址:www.163.com
+2017-11-03 07:56:59,641 - root - ERROR - 错入地址:www.12312313.com
+2017-11-03 07:56:59,641 - root - ERROR - 错入地址:www.12306.cn
+2017-11-03 07:58:27,286 - root - ERROR - 错入地址:www.baidu.com
+2017-11-03 07:58:27,286 - root - ERROR - 错入地址:www.163.com
+2017-11-03 07:58:27,286 - root - ERROR - 错入地址:www.12312313.com
+2017-11-03 07:58:27,286 - root - ERROR - 错入地址:www.12306.cn
+2017-11-03 07:58:54,455 - root - ERROR - 错入地址:www.baidu.com
+2017-11-03 07:58:54,455 - root - ERROR - 错入地址:www.163.com
+2017-11-03 07:58:54,455 - root - ERROR - 错入地址:www.12312313.com
+2017-11-03 07:58:54,455 - root - ERROR - 错入地址:www.12306.cn
+2017-11-03 08:00:23,881 - root - ERROR - 错入地址:www.baidu.com
+2017-11-03 08:00:23,882 - root - ERROR - 错入地址:www.163.com
+2017-11-03 08:00:23,882 - root - ERROR - 错入地址:www.12312313.com
+2017-11-03 08:00:23,882 - root - ERROR - 错入地址:www.12306.cn
+2017-11-03 08:00:39,778 - root - ERROR - 错入地址:www.baidu.com
+2017-11-03 08:00:39,778 - root - ERROR - 错入地址:www.163.com
+2017-11-03 08:00:39,778 - root - ERROR - 错入地址:www.12312313.com
+2017-11-03 08:00:39,778 - root - ERROR - 错入地址:www.12306.cn

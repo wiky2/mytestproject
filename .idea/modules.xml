@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/.idea/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/.idea/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cura/.idea/Cura.iml" filepath="$PROJECT_DIR$/Cura/.idea/Cura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PythonExample/.idea/PythonExample.iml" filepath="$PROJECT_DIR$/PythonExample/.idea/PythonExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PythonExample2/.idea/PythonExample2.iml" filepath="$PROJECT_DIR$/PythonExample2/.idea/PythonExample2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Showme/.idea/Showme.iml" filepath="$PROJECT_DIR$/Showme/.idea/Showme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sreg/.idea/Sreg.iml" filepath="$PROJECT_DIR$/Sreg/.idea/Sreg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YAAW-for-Chrome/.idea/YAAW-for-Chrome.iml" filepath="$PROJECT_DIR$/YAAW-for-Chrome/.idea/YAAW-for-Chrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aria2/.idea/aria2.iml" filepath="$PROJECT_DIR$/aria2/.idea/aria2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aria2gui/.idea/aria2gui.iml" filepath="$PROJECT_DIR$/aria2gui/.idea/aria2gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubanfm-py/.idea/doubanfm-py.iml" filepath="$PROJECT_DIR$/doubanfm-py/.idea/doubanfm-py.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googler/.idea/googler.iml" filepath="$PROJECT_DIR$/googler/.idea/googler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/howdoi/.idea/howdoi.iml" filepath="$PROJECT_DIR$/howdoi/.idea/howdoi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html2Dash/.idea/html2Dash.iml" filepath="$PROJECT_DIR$/html2Dash/.idea/html2Dash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpie/.idea/httpie.iml" filepath="$PROJECT_DIR$/httpie/.idea/httpie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mininet/.idea/mininet.iml" filepath="$PROJECT_DIR$/mininet/.idea/mininet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notebook-tong-chen/.idea/notebook-tong-chen.iml" filepath="$PROJECT_DIR$/notebook-tong-chen/.idea/notebook-tong-chen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pip-pop/.idea/pip-pop.iml" filepath="$PROJECT_DIR$/pip-pop/.idea/pip-pop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prettylist/.idea/prettylist.iml" filepath="$PROJECT_DIR$/prettylist/.idea/prettylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python-guide/.idea/python-guide.iml" filepath="$PROJECT_DIR$/python-guide/.idea/python-guide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python_com_record/.idea/python_com_record.iml" filepath="$PROJECT_DIR$/python_com_record/.idea/python_com_record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pythoncom/.idea/pythoncom.iml" filepath="$PROJECT_DIR$/pythoncom/.idea/pythoncom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pythonexcercise/.idea/pythonexcercise.iml" filepath="$PROJECT_DIR$/pythonexcercise/.idea/pythonexcercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/requests/.idea/requests.iml" filepath="$PROJECT_DIR$/requests/.idea/requests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/safari2aria/.idea/safari2aria.iml" filepath="$PROJECT_DIR$/safari2aria/.idea/safari2aria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxg1413/.idea/xxg1413.iml" filepath="$PROJECT_DIR$/xxg1413/.idea/xxg1413.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youtube-dl/.idea/youtube-dl.iml" filepath="$PROJECT_DIR$/youtube-dl/.idea/youtube-dl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhihu-oauth/.idea/zhihu-oauth.iml" filepath="$PROJECT_DIR$/zhihu-oauth/.idea/zhihu-oauth.iml" />
+    </modules>
+  </component>
+</project>

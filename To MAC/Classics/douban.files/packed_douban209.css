@@ -1,0 +1,4734 @@
+HTML {
+	BACKGROUND: #fff; COLOR: #111
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+CODE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LEGEND {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BUTTON {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM-STYLE: none; border-spacing: 0
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+ADDRESS {
+	
+}
+CAPTION {
+	
+}
+CITE {
+	
+}
+CODE {
+	
+}
+DFN {
+	
+}
+EM {
+	
+}
+STRONG {
+	
+}
+TH {
+	
+}
+VAR {
+	
+}
+OPTGROUP {
+	
+}
+DEL {
+	TEXT-DECORATION: none
+}
+INS {
+	TEXT-DECORATION: none
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+H1 {
+	FONT-WEIGHT: 400; FONT-SIZE: 100%
+}
+H2 {
+	FONT-WEIGHT: 400; FONT-SIZE: 100%
+}
+H3 {
+	FONT-WEIGHT: 400; FONT-SIZE: 100%
+}
+H4 {
+	FONT-WEIGHT: 400; FONT-SIZE: 100%
+}
+H5 {
+	FONT-WEIGHT: 400; FONT-SIZE: 100%
+}
+H6 {
+	FONT-WEIGHT: 400; FONT-SIZE: 100%
+}
+Q:unknown {
+	content: ''
+}
+Q:unknown {
+	content: ''
+}
+abbr {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; FONT-VARIANT: normal
+}
+ACRONYM {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; FONT-VARIANT: normal
+}
+SUP {
+	VERTICAL-ALIGN: baseline
+}
+SUB {
+	VERTICAL-ALIGN: baseline
+}
+LEGEND {
+	COLOR: #000
+}
+INPUT {
+	FONT-FAMILY: inherit
+}
+BUTTON {
+	FONT-FAMILY: inherit
+}
+TEXTAREA {
+	FONT-FAMILY: inherit
+}
+SELECT {
+	FONT-FAMILY: inherit
+}
+OPTGROUP {
+	FONT-FAMILY: inherit
+}
+OPTION {
+	FONT-FAMILY: inherit
+}
+INPUT {
+	FONT-SIZE: 100%
+}
+BUTTON {
+	FONT-SIZE: 100%
+}
+TEXTAREA {
+	FONT-SIZE: 100%
+}
+SELECT {
+	FONT-SIZE: 100%
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.clearfix {
+	DISPLAY: block; ZOOM: 1; HEIGHT: 1px
+}
+ HTML .clearfix {
+	HEIGHT: 1%
+}
+UNKNOWN {
+	HEIGHT: 1%
+}
+BODY {
+	MARGIN: 8px 0px; FONT: 12px Tahoma, Geneva, sans-serif
+}
+#wrapper {
+	MARGIN: 0px auto; WIDTH: 950px
+}
+#content {
+	MIN-HEIGHT: 420px
+}
+#footer {
+	BORDER-TOP: #ddd 1px dashed; MARGIN-TOP: 40px; OVERFLOW: auto; COLOR: #999; PADDING-TOP: 6px; ZOOM: 1
+}
+.grid-16-8 .article {
+	PADDING-RIGHT: 40px; FLOAT: left; WIDTH: 590px
+}
+.grid-16-8 .aside {
+	FLOAT: right; WIDTH: 310px
+}
+.grid-4-14-6 .nav {
+	FLOAT: left; WIDTH: 150px; MARGIN-RIGHT: 10px
+}
+.grid-4-14-6 .article {
+	PADDING-RIGHT: 10px; FLOAT: left; WIDTH: 540px
+}
+.grid-4-14-6 .aside {
+	FLOAT: right; WIDTH: 230px
+}
+FIELDSET {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 10px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px solid
+}
+FIELDSET LEGEND {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; COLOR: #666; PADDING-TOP: 0px
+}
+INPUT {
+	FONT-SIZE: 12px; MARGIN-RIGHT: 3px
+}
+#footer .gray-link A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+#footer .gray-link A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+#footer .gray-link A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+#footer .gray-link A:hover {
+	BACKGROUND: #999; COLOR: #fff
+}
+#footer .blue-link A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #369
+}
+#footer .blue-link A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #369
+}
+#footer .blue-link A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #369
+}
+#footer .blue-link A:hover {
+	BACKGROUND: #039; COLOR: #fff
+}
+.col-3 {
+	CLEAR: both; MARGIN-BOTTOM: 15px
+}
+.col-3 LI {
+	FLOAT: left; MARGIN-BOTTOM: 5px; WIDTH: 330px
+}
+.col-3 LI.first {
+	WIDTH: 290px
+}
+.col-3 LI.last {
+	WIDTH: 320px
+}
+.col-3 LI A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+.col-4 LI A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+.col-3 LI A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+.col-4 LI A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+.col-3 LI A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+.col-4 LI A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999
+}
+.col-3 LI A:hover {
+	BACKGROUND: #999; COLOR: #fff
+}
+.col-4 LI A:hover {
+	BACKGROUND: #999; COLOR: #fff
+}
+.col-4 {
+	CLEAR: both; MARGIN-BOTTOM: 15px
+}
+.col-4 LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 44px 5px 0px
+}
+.extra {
+	CLEAR: both; TEXT-ALIGN: right
+}
+#maxw {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: #fff; PADDING-BOTTOM: 8px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 964px; PADDING-TOP: 8px
+}
+.ellipsis {
+	OVERFLOW: hidden; TEXT-OVERFLOW: ellipsis; o-text-overflow: ellipsis; moz-binding: url(ellipsis.xml#ellipsis)
+}
+FORM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+FIELDSET.site {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+FIELDSET.site LEGEND {
+	DISPLAY: none
+}
+FIELDSET.site LABEL {
+	FONT-SIZE: 14px; FLOAT: left; OVERFLOW: hidden; WIDTH: 120px
+}
+.fsct {
+	MARGIN-BOTTOM: 5px
+}
+.fsctm {
+	MARGIN-LEFT: 130px
+}
+INPUT.other {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.detail INPUT.other {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; OVERFLOW: auto; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Arial
+}
+A {
+	CURSOR: pointer
+}
+A:link {
+	COLOR: #369; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #669; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: #039; COLOR: #fff; TEXT-DECORATION: none
+}
+A:active {
+	BACKGROUND: #f93; COLOR: #fff; TEXT-DECORATION: none
+}
+A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+BODY {
+	FONT: 12px/162% Arial, Helvetica, sans-serif
+}
+TD {
+	FONT: 12px/162% Arial, Helvetica, sans-serif
+}
+TH {
+	FONT: 12px/162% Arial, Helvetica, sans-serif
+}
+H1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: 700; FONT-SIZE: 25px; PADDING-BOTTOM: 15px; MARGIN: 0px; COLOR: #494949; LINE-HEIGHT: 1.1em; PADDING-TOP: 5px
+}
+H3 {
+	BACKGROUND: url(http://t.douban.com/pics/topicbar.gif) no-repeat right top; MARGIN-BOTTOM: 1px; FONT: 14px/150% Arial, Helvetica, sans-serif; MARGIN-LEFT: 4px; COLOR: #666; HEIGHT: 26px
+}
+H3 IMG {
+	MARGIN: 1px 1px 0px 0px
+}
+H4 {
+	BACKGROUND: url(http://t.douban.com/pics/topicbar.gif) no-repeat right top; MARGIN: 0px 0px 10px 4px; FONT: 12px/1.8em Arial, Helvetica, sans-serif; OVERFLOW: hidden; COLOR: #666; HEIGHT: 26px
+}
+H2 {
+	MARGIN: 0px 0px 12px; FONT: 14px/150% Arial, Helvetica, sans-serif; COLOR: #060
+}
+.wrap {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/topicbar.gif) no-repeat
+}
+.wrap H3 {
+	MARGIN-TOP: 20px
+}
+.obssin {
+	WIDTH: 100%
+}
+.sline {
+	BORDER-BOTTOM: #a8a8a8 1px solid
+}
+#header {
+	BACKGROUND: url(http://t.douban.com/pics/headnavbot.gif) no-repeat left 33px; MARGIN: 7px 0px
+}
+#header IMG.logo {
+	MARGIN-TOP: -3px; FLOAT: left
+}
+#page_focus {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px 10px 0px 0px; BORDER-LEFT: #ccc 1px solid; WIDTH: 171px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 16px
+}
+#page_focus:unknown {
+	BORDER-RIGHT: #686868 1px solid; BORDER-TOP: #686868 1px solid; BORDER-LEFT: #686868 1px solid; BORDER-BOTTOM: #686868 1px solid
+}
+#nav {
+	PADDING-TOP: 3px
+}
+#nav A {
+	PADDING-RIGHT: 4px; DISPLAY: block; PADDING-LEFT: 4px; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 7px; MARGIN: 2px 5px 0px; COLOR: #368332; LINE-HEIGHT: 14px; PADDING-TOP: 8px; TEXT-DECORATION: none
+}
+#nav A:hover {
+	BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#nav A.now {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/headnavback.gif) #eef9eb no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 2px 5px 0px; COLOR: #000; PADDING-TOP: 0px
+}
+#nav A.now SPAN {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 11px; BACKGROUND: url(http://t.douban.com/pics/headnavback.gif) no-repeat; PADDING-BOTTOM: 7px; PADDING-TOP: 8px
+}
+#nav .nine_nav:hover {
+	MARGIN-LEFT: 25px; COLOR: #f92d09
+}
+#nav .nine_nav {
+	MARGIN-LEFT: 25px; COLOR: #f92d09
+}
+#searbar {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: -5px
+}
+#searbar SPAN {
+	DISPLAY: block; FLOAT: right; MARGIN: 0px; LINE-HEIGHT: 14px; POSITION: relative; HEIGHT: 14px
+}
+#searbar SPAN.submit {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/search.gif) no-repeat; PADDING-BOTTOM: 0px; WIDTH: 44px; PADDING-TOP: 3px; HEIGHT: 20px; TEXT-ALIGN: right
+}
+#searbar SPAN.submit A {
+	LETTER-SPACING: 4px
+}
+#searbar A.arrow:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#dsearch {
+	BORDER-RIGHT: silver 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: silver 1px solid; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 100; BACKGROUND: #fff; LEFT: -51px; PADDING-BOTTOM: 5px; BORDER-LEFT: silver 1px solid; WIDTH: 69px; PADDING-TOP: 5px; BORDER-BOTTOM: silver 1px solid; POSITION: absolute; TOP: 19px; TEXT-ALIGN: center
+}
+#tongcheng_tab_block {
+	BORDER-RIGHT: silver 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: silver 1px solid; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 100; BACKGROUND: #fff; LEFT: -51px; PADDING-BOTTOM: 5px; BORDER-LEFT: silver 1px solid; WIDTH: 69px; PADDING-TOP: 5px; BORDER-BOTTOM: silver 1px solid; POSITION: absolute; TOP: 19px; TEXT-ALIGN: center
+}
+#tongcheng_tab_block {
+	LEFT: 5px; TOP: 18px
+}
+#dsearch A {
+	PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-DECORATION: none
+}
+#dsearch A:hover {
+	BACKGROUND: #369; COLOR: #fff; TEXT-DECORATION: underline
+}
+#tongcheng_tab_block A:hover {
+	BACKGROUND: #369; COLOR: #fff; TEXT-DECORATION: underline
+}
+#tongcheng_tab_block A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; FLOAT: none; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px
+}
+#searbar .up {
+	DISPLAY: none; VERTICAL-ALIGN: top
+}
+#searbar .down {
+	DISPLAY: inline; VERTICAL-ALIGN: top
+}
+#status {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(http://t.douban.com/pics/headnavbot.gif) #eef9eb no-repeat left bottom; PADDING-BOTTOM: 4px; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+#status A {
+	MARGIN: 2px 1px 3px 7px; COLOR: #369; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+#status A:hover {
+	COLOR: #fff
+}
+#subnav {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 3px; WIDTH: 65%; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#subnav A {
+	MARGIN: 0px 8px; COLOR: #369; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+#subnav A:hover {
+	COLOR: #fff
+}
+.ll {
+	FLOAT: left
+}
+.rr {
+	FLOAT: right
+}
+.trr {
+	TEXT-ALIGN: right
+}
+A.graybutt {
+	PADDING-RIGHT: 7px; DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/graybutt.gif) no-repeat right top; FONT: 12px sans-serif; OVERFLOW: hidden; CURSOR: pointer; COLOR: #666; MARGIN-RIGHT: 5px; HEIGHT: 24px; TEXT-DECORATION: none
+}
+A.graybutt INPUT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: -1px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; OVERFLOW: visible; WIDTH: 0px; CURSOR: pointer; COLOR: #666; LINE-HEIGHT: 18px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+A.graybutt SPAN {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 8px; BACKGROUND: url(http://t.douban.com/pics/graybutt.gif) no-repeat; PADDING-BOTTOM: 3px; LINE-HEIGHT: 18px; PADDING-TOP: 5px
+}
+A.graybutt:visited {
+	COLOR: #ff7676; TEXT-DECORATION: none
+}
+A.graybutt:hover {
+	BACKGROUND: url(http://t.douban.com/pics/graybutt.gif) no-repeat right -24px; COLOR: #fff
+}
+A.graybutt:hover SPAN {
+	BACKGROUND-POSITION: left -24px; COLOR: #fff
+}
+A.graybutt:hover INPUT {
+	BACKGROUND-POSITION: left -24px; COLOR: #fff
+}
+A.redbutt {
+	PADDING-RIGHT: 7px; DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/redbutt.gif) no-repeat right top; MARGIN: 0px 5px 0px 0px; FONT: 12px sans-serif; OVERFLOW: hidden; CURSOR: pointer; COLOR: #ff7676; HEIGHT: 24px; TEXT-DECORATION: none
+}
+A.redbutt SPAN {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 8px; BACKGROUND: url(http://t.douban.com/pics/redbutt.gif) no-repeat; PADDING-BOTTOM: 4px; LINE-HEIGHT: 18px; PADDING-TOP: 4px
+}
+HTML  A.redbutt SPAN {
+	FONT-SIZE: 12px; PADDING-TOP: 4px
+}
+A.redbutt INPUT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: -1px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; OVERFLOW: visible; WIDTH: 0px; CURSOR: pointer; COLOR: #ff7676; LINE-HEIGHT: 18px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+A.redbutt:visited {
+	COLOR: #ff7676; TEXT-DECORATION: none
+}
+A.redbutt:hover {
+	BACKGROUND: url(http://t.douban.com/pics/redbutt.gif) no-repeat right -24px; COLOR: #fff
+}
+A.redbutt:hover SPAN {
+	BACKGROUND-POSITION: left -24px; COLOR: #fff
+}
+A.redbutt:hover INPUT {
+	BACKGROUND-POSITION: left -24px; COLOR: #fff
+}
+A.colbutt {
+	PADDING-RIGHT: 7px; DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/collect_back2.png) no-repeat right top; FONT: 12px sans-serif; OVERFLOW: hidden; COLOR: #000; MARGIN-RIGHT: 10px; LETTER-SPACING: 3px; HEIGHT: 24px; TEXT-DECORATION: none
+}
+A.colbutt:hover {
+	BACKGROUND: url(http://t.douban.com/pics/collect_back2.png) no-repeat right top; COLOR: #000
+}
+A.colbutt SPAN {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 11px; BACKGROUND: url(http://t.douban.com/pics/collect_back2.png) no-repeat; PADDING-BOTTOM: 3px; LINE-HEIGHT: 22px; PADDING-TOP: 1px
+}
+A.colbutt:visited {
+	COLOR: #777; TEXT-DECORATION: none
+}
+.area_miniblog {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 3px; BORDER-LEFT: #ccc 1px solid; WIDTH: 304px; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 86px
+}
+#rec_url_text {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 240px; BORDER-BOTTOM: #ccc 1px solid
+}
+.input_search {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid
+}
+#tabler .input_search {
+	WIDTH: 290px
+}
+.input_basic {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid
+}
+.input_basic2 {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid
+}
+#vote_btn INPUT.vote_btn {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://t.douban.com/pics/icon/vote_48_18px.gif) no-repeat right top; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 12px; WIDTH: 48px; CURSOR: pointer; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 0px
+}
+#vote_btn_small INPUT.vote_btn {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://t.douban.com/pics/icon/vote_30_15px.gif) no-repeat right top; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 5px; WIDTH: 30px; CURSOR: pointer; HEIGHT: 15px; BORDER-RIGHT-WIDTH: 0px
+}
+.tc {
+	TEXT-ALIGN: center
+}
+.lst {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px
+}
+.tlst {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; MARGIN: 0px; PADDING-TOP: 5px
+}
+.clst {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 105px; FLOAT: none; PADDING-BOTTOM: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; WORD-WRAP: break-word
+}
+.ilst {
+	DISPLAY: block; FLOAT: left; MARGIN: -27px -105px 0px 0px; WIDTH: 105px; TEXT-ALIGN: center
+}
+#review .ilst {
+	MARGIN-TOP: -17px
+}
+.block1 .ilst {
+	MARGIN-TOP: -17px
+}
+.nlst {
+	BACKGROUND: url(http://t.douban.com/pics/topicbar.gif) no-repeat; MARGIN: 0px 0px 0px 102px
+}
+.ctsh .nlst {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 71px; PADDING-TOP: 0px
+}
+.ctsh .clst {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 80px; FLOAT: none; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 85%; PADDING-TOP: 0px; WORD-WRAP: break-word
+}
+.ctsh .ilst {
+	DISPLAY: block; FLOAT: left; MARGIN: -26px -85px 0px -6px; WIDTH: 85px; TEXT-ALIGN: center
+}
+.xbar {
+	BACKGROUND: url(http://t.douban.com/pics/zbar.gif) no-repeat; FLOAT: right; MARGIN-BOTTOM: 21px; WIDTH: 100%
+}
+.xbar DIV {
+	PADDING-RIGHT: 35px; BACKGROUND: url(http://t.douban.com/pics/zbar.gif) no-repeat right top; FLOAT: right; MARGIN-LEFT: 5px
+}
+.xbar A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; FLOAT: right; PADDING-BOTTOM: 2px; MARGIN: 5px 5px 1px; LINE-HEIGHT: 14px; PADDING-TOP: 3px; TEXT-DECORATION: none
+}
+.xbar A:hover {
+	COLOR: #fff
+}
+.xbar SPAN.now {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/wztab.gif) no-repeat right top; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px 5px; PADDING-TOP: 0px
+}
+.xbar SPAN.now SPAN {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 11px; BACKGROUND: url(http://t.douban.com/pics/wztab.gif) no-repeat; PADDING-BOTTOM: 5px; PADDING-TOP: 6px
+}
+.zbar {
+	BACKGROUND: url(http://t.douban.com/pics/zbar.gif) no-repeat; MARGIN-BOTTOM: 21px
+}
+.zbar DIV {
+	PADDING-LEFT: 2px; BACKGROUND: url(http://t.douban.com/pics/zbar.gif) no-repeat right top; FLOAT: left; MARGIN-LEFT: 5px
+}
+.zbar A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 5px 5px 1px; LINE-HEIGHT: 14px; PADDING-TOP: 3px; TEXT-DECORATION: none
+}
+.zbar A:hover {
+	COLOR: #fff
+}
+.zbar SPAN.now {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/wztab.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 5px; PADDING-TOP: 0px
+}
+.zbar SPAN.now SPAN {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 11px; BACKGROUND: url(http://t.douban.com/pics/wztab.gif) no-repeat; PADDING-BOTTOM: 5px; PADDING-TOP: 6px
+}
+#sspform {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 18px; MARGIN: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+UNKNOWN {
+	PADDING-TOP: 0px
+}
+#sspform .text {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; WIDTH: 400px; BORDER-BOTTOM: #ddd 1px solid
+}
+.infobox {
+	TABLE-LAYOUT: fixed; MARGIN-BOTTOM: 20px; WIDTH: 100%
+}
+.infobox H2 {
+	MARGIN-TOP: 0px
+}
+.infobox FORM {
+	MARGIN: 0px
+}
+.tablelt {
+	BACKGROUND: url(http://t.douban.com/pics/ibox.gif); WIDTH: 3px; HEIGHT: 3px
+}
+.tablect {
+	BACKGROUND: url(http://t.douban.com/pics/tablev.gif); HEIGHT: 3px
+}
+.tablert {
+	BACKGROUND: url(http://t.douban.com/pics/ibox.gif) right top; WIDTH: 3px; HEIGHT: 3px
+}
+.tablelc {
+	BACKGROUND: url(http://t.douban.com/pics/tableh.gif); WIDTH: 3px
+}
+.tablecc {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #fff6ee; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 6px; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.tablerc {
+	BACKGROUND: url(http://t.douban.com/pics/tableh.gif) right 50%; WIDTH: 3px
+}
+.tablelb {
+	BACKGROUND: url(http://t.douban.com/pics/ibox.gif) 0px bottom; WIDTH: 3px; HEIGHT: 3px
+}
+.tablecb {
+	BACKGROUND: url(http://t.douban.com/pics/tablev.gif) left bottom; HEIGHT: 3px
+}
+.tablerb {
+	BACKGROUND: url(http://t.douban.com/pics/ibox.gif) right bottom; WIDTH: 3px; HEIGHT: 3px
+}
+.detail INPUT {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid
+}
+.detail A.redbutt {
+	PADDING-RIGHT: 4px; MARGIN-RIGHT: 2px
+}
+.gtleft {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 4px
+}
+.gtleft .pl2 {
+	LINE-HEIGHT: 1em
+}
+.gtright {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FLOAT: right; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+#user H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 7px; PADDING-TOP: 8px
+}
+#user IMG {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 30px; PADDING-TOP: 12px
+}
+.usernav {
+	MARGIN: 0px 0px 20px -8px
+}
+.usernav A {
+	PADDING-RIGHT: 8px; BORDER-TOP: #ccc 1px dashed; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 4px 3px 4px 1px; PADDING-TOP: 4px; LETTER-SPACING: 1px
+}
+.collect {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 15px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 5px
+}
+.collect H3 {
+	BACKGROUND: url(http://t.douban.com/pics/topicbar.gif) no-repeat right top; MARGIN: 0px 0px 0px 4px; FONT: 14px/120% Arial, Helvetica, sans-serif; PADDING-TOP: 3px
+}
+.collect H3 A {
+	COLOR: #060
+}
+.collect H3 A:hover {
+	BACKGROUND: #060; COLOR: #fff
+}
+.broadsmr {
+	PADDING-RIGHT: 24px; PADDING-LEFT: 24px; PADDING-BOTTOM: 5px; COLOR: #999; PADDING-TOP: 5px
+}
+.quote {
+	PADDING-RIGHT: 24px; PADDING-LEFT: 15px; BACKGROUND: url(http://t.douban.com/pics/quotel.gif) no-repeat left 4px; PADDING-BOTTOM: 5px; MARGIN: 8px 0px 0px 26px; OVERFLOW: hidden; WIDTH: auto; PADDING-TOP: 0px; ZOOM: 1; WORD-WRAP: break-word
+}
+.quote SPAN.inq {
+	PADDING-RIGHT: 15px; DISPLAY: inline-block; BACKGROUND: url(http://t.douban.com/pics/quoter.gif) no-repeat right bottom; COLOR: #333
+}
+.broadimg {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; FLOAT: right; MARGIN-LEFT: 14px; BORDER-LEFT: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid
+}
+.blst {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.blst LI {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.hiddenlogin {
+	CLEAR: both; PADDING-RIGHT: 5px; DISPLAY: none; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 5px; PADDING-TOP: 5px
+}
+.hiddenlogin INPUT {
+	MARGIN-RIGHT: 20px
+}
+.hiddenlogin INPUT.text {
+	WIDTH: 130px; MARGIN-RIGHT: 10px
+}
+.m {
+	FONT-SIZE: 14px; COLOR: #060; LINE-HEIGHT: 120%
+}
+.m A {
+	FONT-SIZE: 14px; COLOR: #060; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.m A:visited {
+	FONT-SIZE: 14px; COLOR: #060; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+A.m {
+	FONT-SIZE: 14px; COLOR: #060; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+A.m:visited {
+	FONT-SIZE: 14px; COLOR: #060; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.m A:hover {
+	FONT-SIZE: 14px; BACKGROUND: #060; COLOR: #fff; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+A.m:hover {
+	FONT-SIZE: 14px; BACKGROUND: #060; COLOR: #fff; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.m A:active {
+	BACKGROUND: #faf; COLOR: #fff; TEXT-DECORATION: none
+}
+A.m:active {
+	BACKGROUND: #faf; COLOR: #fff; TEXT-DECORATION: none
+}
+.pt {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.pl {
+	FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #666
+}
+.pl2 {
+	FONT: 14px/150% Arial, Helvetica, sans-serif; COLOR: #666
+}
+.l2 {
+	FONT: 14px/150% Arial, Helvetica, sans-serif
+}
+.hiddenerr {
+	DISPLAY: none; MARGIN: 0px 2px; COLOR: #f11; BACKGROUND-COLOR: #fff6ee
+}
+.alert {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fff6ee
+}
+.attn {
+	COLOR: #f30
+}
+.hidden {
+	DISPLAY: none
+}
+.clear {
+	CLEAR: both; FONT-SIZE: 0px; LINE-HEIGHT: 0
+}
+.greyinput {
+	COLOR: #ccc
+}
+.errnotnull {
+	COLOR: red
+}
+.indent {
+	WORD-BREAK: break-all
+}
+#table {
+	FLOAT: left; MARGIN: 0px -310px 0px 0px; WIDTH: 100%
+}
+#in_table {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 0px; MIN-HEIGHT: 500px; PADDING-BOTTOM: 0px; MARGIN: 0px 310px 0px 0px; PADDING-TOP: 0px
+}
+#tabler {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 310px; WORD-BREAK: break-all
+}
+#tablem {
+	FLOAT: left; MARGIN: 0px -270px 0px 0px; WIDTH: 100%
+}
+#in_tablem {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 270px 50px 0px; PADDING-TOP: 0px
+}
+#tablerm {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 270px; WORD-BREAK: break-all
+}
+#tables {
+	FLOAT: left; MARGIN: 0px -240px 0px 0px; WIDTH: 100%
+}
+#in_tables {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 0px; MIN-HEIGHT: 500px; PADDING-BOTTOM: 0px; MARGIN: 0px 240px 0px 0px; PADDING-TOP: 0px
+}
+#tablers {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 240px; WORD-BREAK: break-all
+}
+#tablerb .indent {
+	MARGIN-BOTTOM: 40px; OVERFLOW: hidden
+}
+#tabler .indent {
+	MARGIN-BOTTOM: 40px; OVERFLOW: hidden
+}
+#tablerm .indent {
+	MARGIN-BOTTOM: 40px; OVERFLOW: hidden
+}
+.aside .indent {
+	MARGIN-BOTTOM: 40px
+}
+.notify INPUT {
+	MARGIN-TOP: 9px
+}
+.mbt {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.mbt TR {
+	VERTICAL-ALIGN: top
+}
+.mbtl {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 8px 7px 0px 0px; WIDTH: 55px; PADDING-TOP: 0px
+}
+.mbtr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 55px; PADDING-BOTTOM: 5px; MARGIN: 5px 0px; OVERFLOW: hidden; PADDING-TOP: 5px; BORDER-BOTTOM: #eee 1px solid
+}
+.mbtr2 {
+	MARGIN-BOTTOM: 20px; OVERFLOW: hidden
+}
+UL .mbtr2 {
+	BORDER-BOTTOM: #ddd 1px solid
+}
+UNKNOWN {
+	BORDER-BOTTOM: #ddd 1px solid
+}
+.mbtrdot {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 55px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.mbtrmini {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; BACKGROUND: url(http://t.douban.com/pics/listdot.gif) no-repeat 0px 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px dashed
+}
+ HTML .mbtr {
+	OVERFLOW: visible; WORD-BREAK: break-all; HEIGHT: 55px
+}
+ HTML .mbtrdot {
+	OVERFLOW: visible; WORD-BREAK: break-all; HEIGHT: 55px; WORD-WRAP: break-word
+}
+ HTML .mbtrmini {
+	OVERFLOW: visible; WORD-BREAK: break-all
+}
+.mbdiv {
+	BORDER-TOP: #ddd 1px dashed
+}
+.fdiv {
+	CLEAR: both; MARGIN-TOP: 40px; COLOR: #999; PADDING-TOP: 5px; TEXT-ALIGN: right
+}
+.fdiv .ul {
+	MARGIN-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.fspl {
+	FLOAT: left
+}
+.indentb {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.fil {
+	PADDING-RIGHT: 15px; DISPLAY: inline; FLOAT: left; PADDING-BOTTOM: 15px
+}
+.obmor {
+	TEXT-ALIGN: right
+}
+.obmo {
+	LINE-HEIGHT: 180%
+}
+.act {
+	BORDER-RIGHT: #faa 1px solid; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; CURSOR: pointer; COLOR: #f55; PADDING-TOP: 3px; BORDER-BOTTOM: #faa 1px solid; BACKGROUND-COLOR: #fdd; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.act:hover {
+	BORDER-RIGHT: #f33 1px solid; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: #f33 1px solid; BACKGROUND-COLOR: #f55
+}
+.act A:link {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #f55; PADDING-TOP: 3px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.act A:visited {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #f55; PADDING-TOP: 3px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.act A:hover {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #fff; BORDER-TOP-STYLE: none; PADDING-TOP: 3px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #f55; BORDER-BOTTOM-STYLE: none
+}
+.ract {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fff 2px solid; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #fff 2px solid; CURSOR: pointer; PADDING-TOP: 0px; BORDER-BOTTOM: #fff 2px solid
+}
+.ract A:link {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fff 2px solid; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #fff 2px solid; CURSOR: pointer; PADDING-TOP: 0px; BORDER-BOTTOM: #fff 2px solid
+}
+.ract A:visited {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fff 2px solid; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #fff 2px solid; CURSOR: pointer; PADDING-TOP: 0px; BORDER-BOTTOM: #fff 2px solid
+}
+.ract A:hover {
+	BORDER-RIGHT: #f77 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fcc 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 1px; BORDER-LEFT: #fcc 1px solid; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: #f77 1px solid; BACKGROUND-COLOR: #fcc; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.gact {
+	FONT-SIZE: 12px; CURSOR: pointer; COLOR: #bbb; TEXT-ALIGN: center
+}
+.gact A:link {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #fff 1px solid; COLOR: #bbb; BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+A.gact:link {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #fff 1px solid; COLOR: #bbb; BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.gact A:visited {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #fff 1px solid; COLOR: #bbb; BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+A.gact:visited {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #fff 1px solid; COLOR: #bbb; BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.gact A:hover {
+	BORDER-RIGHT: #f33 1px solid; BORDER-TOP: #f99 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #f99 1px solid; COLOR: #fff; BORDER-BOTTOM: #f33 1px solid; BACKGROUND-COLOR: #733; TEXT-ALIGN: center
+}
+A.gact:hover {
+	BORDER-RIGHT: #f33 1px solid; BORDER-TOP: #f99 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #f99 1px solid; COLOR: #fff; BORDER-BOTTOM: #f33 1px solid; BACKGROUND-COLOR: #733; TEXT-ALIGN: center
+}
+.infobox A.gact:link {
+	BORDER-LEFT-COLOR: #fff6ee; BORDER-BOTTOM-COLOR: #fff6ee; BORDER-TOP-COLOR: #fff6ee; BORDER-RIGHT-COLOR: #fff6ee
+}
+.infobox A.gact:visited {
+	BORDER-LEFT-COLOR: #fff6ee; BORDER-BOTTOM-COLOR: #fff6ee; BORDER-TOP-COLOR: #fff6ee; BORDER-RIGHT-COLOR: #fff6ee
+}
+.infobox .gact A:link {
+	BORDER-LEFT-COLOR: #fff6ee; BORDER-BOTTOM-COLOR: #fff6ee; BORDER-TOP-COLOR: #fff6ee; BORDER-RIGHT-COLOR: #fff6ee
+}
+.infobox .gact A:visited {
+	BORDER-LEFT-COLOR: #fff6ee; BORDER-BOTTOM-COLOR: #fff6ee; BORDER-TOP-COLOR: #fff6ee; BORDER-RIGHT-COLOR: #fff6ee
+}
+.infobox A.gact:hover {
+	BORDER-LEFT-COLOR: #f99; BORDER-BOTTOM-COLOR: #f33; BORDER-TOP-COLOR: #f99; BORDER-RIGHT-COLOR: #f33
+}
+.infobox .gact A:hover {
+	BORDER-LEFT-COLOR: #f99; BORDER-BOTTOM-COLOR: #f33; BORDER-TOP-COLOR: #f99; BORDER-RIGHT-COLOR: #f33
+}
+.ul {
+	CLEAR: both; LINE-HEIGHT: 100%; BORDER-BOTTOM: #ddd 1px dashed
+}
+#tablerm .indent P.ul {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px
+}
+.st {
+	WIDTH: 100%
+}
+.rbar {
+	FONT: 11px Arial, Helvetica, sans-serif; COLOR: #ddd
+}
+.bs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bs LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.obs {
+	FLOAT: left; MARGIN: 0px 0px 10px; OVERFLOW: hidden; WIDTH: 103px; TEXT-ALIGN: center
+}
+.obs_oneline {
+	MARGIN: 0px
+}
+.obs DT {
+	OVERFLOW: hidden; WIDTH: 103px; HEIGHT: 114px
+}
+.obs DD {
+	MARGIN: 0px; OVERFLOW: hidden; HEIGHT: 60px
+}
+.obs_oneline DT {
+	HEIGHT: 100px
+}
+.related_info H2 {
+	MARGIN-TOP: 24px; MARGIN-BOTTOM: 3px
+}
+.after_h1 {
+	MARGIN-TOP: -24px
+}
+.obu {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 0px 10px; WIDTH: 76px
+}
+.obu DT {
+	MARGIN: 0px; OVERFLOW: hidden; LINE-HEIGHT: 16px; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.obu DD {
+	MARGIN: 0px; OVERFLOW: hidden; HEIGHT: 55px; TEXT-ALIGN: center
+}
+.ob {
+	FLOAT: left; MARGIN: 0px 0px 10px; WIDTH: 76px; TEXT-ALIGN: center
+}
+.ob DT {
+	MARGIN: 0px; OVERFLOW: hidden; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.ob DD {
+	MARGIN: 0px; OVERFLOW: hidden; HEIGHT: 55px; TEXT-ALIGN: center
+}
+.ob SPAN {
+	WHITE-SPACE: nowrap
+}
+.cloud1 A {
+	FONT: 12px/24px Arial, Helvetica, sans-serif
+}
+.cloud2 A {
+	FONT: 14px/24px bold Arial, Helvetica, sans-serif
+}
+.cloud3 A {
+	FONT: 18px/24px Arial, Helvetica, sans-serif
+}
+.cloud4 A {
+	FONT: 21px/24px bold Arial, Helvetica, sans-serif
+}
+INPUT.readonly {
+	BACKGROUND: #f8f8f8; COLOR: #888
+}
+TEXTAREA.readonly {
+	BACKGROUND: #f8f8f8; COLOR: #888
+}
+.aob {
+	DISPLAY: block; FLOAT: left; MARGIN: 3px 0px; OVERFLOW: hidden; WIDTH: 105px; HEIGHT: 105px; TEXT-ALIGN: center
+}
+.aob2 {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 25px 30px 0px; OVERFLOW: hidden; TEXT-ALIGN: left
+}
+.gract {
+	BORDER-RIGHT: #afa 1px solid; PADDING-RIGHT: 3px; MARGIN-TOP: 2px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; CURSOR: pointer; COLOR: #060; PADDING-TOP: 3px; BORDER-BOTTOM: #afa 1px solid; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #efe; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.gract:hover {
+	BORDER-RIGHT: #3f3 1px solid; PADDING-RIGHT: 3px; MARGIN-TOP: 2px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: #3f3 1px solid; BACKGROUND-COLOR: #5f5
+}
+.gract A:link {
+	PADDING-RIGHT: 3px; MARGIN-TOP: 2px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #060; PADDING-TOP: 3px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.gract A:visited {
+	PADDING-RIGHT: 3px; MARGIN-TOP: 2px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #060; PADDING-TOP: 3px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.gract A:hover {
+	BORDER-RIGHT: #3f3 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #9f9 1px solid; MARGIN-TOP: 2px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: #9f9 1px solid; COLOR: #060; PADDING-TOP: 3px; BORDER-BOTTOM: #3f3 1px solid; BACKGROUND-COLOR: #5f5
+}
+.rdact {
+	BORDER-RIGHT: #afa 1px solid; PADDING-RIGHT: 3px; MARGIN-TOP: 2px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; CURSOR: pointer; COLOR: #bbb; PADDING-TOP: 3px; BORDER-BOTTOM: #afa 1px solid; BACKGROUND-COLOR: #efe; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.plr {
+	FLOAT: right; FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #666
+}
+.pllb {
+	DISPLAY: block; FLOAT: left; FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #666
+}
+.paginator {
+	MARGIN: 20px 0px; FONT: 14px/150% Arial, Helvetica, sans-serif; COLOR: #aaa; TEXT-ALIGN: center
+}
+.paginator A {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: 2px; PADDING-TOP: 0px
+}
+.thispage {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: 2px; PADDING-TOP: 0px
+}
+.break {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: 2px; PADDING-TOP: 0px
+}
+.paginator .prev {
+	MARGIN-RIGHT: 20px
+}
+.paginator .next {
+	MARGIN-LEFT: 20px
+}
+.paginator .next A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.paginator .prev A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.paginator .count {
+	FONT-SIZE: 14px; MARGIN-LEFT: 20px
+}
+.paginator .thispage {
+	BACKGROUND: #83bf73; COLOR: #fff
+}
+.paginator .break {
+	COLOR: #999
+}
+.olt {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 3px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.olt TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.olt TD.date {
+	PADDING-RIGHT: 0px; WIDTH: 75px; COLOR: #999; TEXT-ALIGN: center
+}
+.olt TD.time {
+	PADDING-RIGHT: 0px; WIDTH: 110px; COLOR: #999; TEXT-ALIGN: right
+}
+.wr {
+	TABLE-LAYOUT: fixed; OVERFLOW: hidden; WIDTH: 100%; WORD-WRAP: break-word
+}
+.wrtd {
+	VERTICAL-ALIGN: top; WIDTH: 48px
+}
+.txd TEXTAREA {
+	WIDTH: 90%
+}
+.olts {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse
+}
+.olts TD {
+	PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.pil {
+	WIDTH: 48px; HEIGHT: 48px
+}
+.piil {
+	FLOAT: left; MARGIN: 0px -65px 0px 0px
+}
+.piir {
+	FLOAT: right; MARGIN: 0px 0px 0px 65px; OVERFLOW: hidden; WIDTH: 88.5%
+}
+.obss {
+	WIDTH: 100%
+}
+.pltr {
+	FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #666; TEXT-ALIGN: right
+}
+.mn {
+	FONT: 14px/150% Arial, Helvetica, sans-serif; COLOR: #060
+}
+.wrc {
+	MARGIN-TOP: 0px; OVERFLOW: hidden; WORD-WRAP: break-word
+}
+.namel DD {
+	WIDTH: 60px
+}
+.groupicon {
+	PADDING-RIGHT: 10px
+}
+WBR:unknown {
+	content: "?"
+}
+.fil15 {
+	FLOAT: left
+}
+.fil15 IMG {
+	PADDING-RIGHT: 15px; PADDING-BOTTOM: 15px
+}
+.dir {
+	PADDING-RIGHT: 0pt; PADDING-LEFT: 12px; PADDING-BOTTOM: 0pt; VERTICAL-ALIGN: top; PADDING-TOP: 12px
+}
+.dirsp {
+	MARGIN-BOTTOM: 10px
+}
+.dirsp SPAN {
+	FONT-SIZE: 14px
+}
+.imgg {
+	FLOAT: left; MARGIN-LEFT: 5px
+}
+.substatus {
+	DISPLAY: block; FONT-SIZE: 12px; FLOAT: left; WIDTH: 24px; COLOR: #acacac; LINE-HEIGHT: 100px; HEIGHT: 100px
+}
+#comments {
+	OVERFLOW: hidden; WORD-BREAK: break-all
+}
+#divac {
+	CLEAR: both
+}
+.actbtns A {
+	MARGIN: 0px 12px 0px 0px
+}
+.actbtns A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.subject {
+	FLOAT: left; WIDTH: 415px
+}
+#mainpic {
+	FLOAT: left; MARGIN: 3px 12px 0px 0px; TEXT-ALIGN: center
+}
+ HTML #mainpic {
+	LEFT: -7px
+}
+#info {
+	FLOAT: left; WORD-WRAP: break-word; max-width: 248px
+}
+#interest_sect {
+	OVERFLOW: hidden; WORD-WRAP: break-word
+}
+#interest_sectl {
+	FLOAT: left; MARGIN: 0px 0px 0px 20px; WIDTH: 155px
+}
+.starstop {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/all_star.gif); FLOAT: left; MARGIN: 0px; WIDTH: 50px; HEIGHT: 14px
+}
+.sub_ins .starstop {
+	DISPLAY: inline; FLOAT: none; WIDTH: 50px; POSITION: absolute
+}
+.stars {
+	DISPLAY: inline-block; BACKGROUND: url(http://t.douban.com/pics/stars.gif); MARGIN: 1px 0px 0px 7px; WIDTH: 50px; HEIGHT: 14px
+}
+.stars4 {
+	BACKGROUND-POSITION: left 61px
+}
+.stars3 {
+	BACKGROUND-POSITION: left 45px
+}
+.stars2 {
+	BACKGROUND-POSITION: left 30px
+}
+.stars1 {
+	BACKGROUND-POSITION: left 15px
+}
+.power {
+	BACKGROUND: #f5cbad 0px 0px; FLOAT: left; MARGIN: 0px 3px; HEIGHT: 14px
+}
+.marks {
+	FONT-SIZE: 10px; MARGIN: 10px 0px 0px -7px; LINE-HEIGHT: 18px
+}
+.clearbox {
+	CLEAR: both; WIDTH: 100%
+}
+.clearbox:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.subjectwrap {
+	FLOAT: none; MARGIN-BOTTOM: 15px; WIDTH: auto
+}
+#dialog {
+	BORDER-RIGHT: #bbb 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bbb 1px solid; MARGIN-TOP: -140px; PADDING-LEFT: 4px; Z-INDEX: 103; LEFT: 50%; PADDING-BOTTOM: 4px; BORDER-LEFT: #bbb 1px solid; WIDTH: 550px; PADDING-TOP: 20px; BORDER-BOTTOM: #bbb 1px solid; POSITION: fixed; TOP: 50%; BACKGROUND-COLOR: #fff
+}
+#overlay {
+	MARGIN-TOP: -153px; Z-INDEX: 102; BACKGROUND: #000; FILTER: alpha(opacity=20); LEFT: 50%; MARGIN-LEFT: -13px; WIDTH: 588px; PADDING-TOP: 20px; POSITION: fixed; TOP: 50%; opacity: .2
+}
+.bgi {
+	MARGIN-TOP: -140px; Z-INDEX: 101; LEFT: 50%; MARGIN-LEFT: -250px; WIDTH: 550px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; POSITION: fixed; TOP: 50%; BORDER-BOTTOM-STYLE: none
+}
+ HTML #dialog {
+	; MARGIN-TOP: expression(exp_dialog(this)); POSITION: absolute
+}
+ HTML #overlay {
+	; MARGIN-TOP: expression(exp_overlay(this)); POSITION: absolute
+}
+#dialog TD {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px
+}
+#dialog TD.ul {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#dialog P {
+	MARGIN: 0px
+}
+#populartags {
+	MARGIN: 3px 0px 10px
+}
+#submits TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px
+}
+ HTML #submits TD {
+	PADDING-BOTTOM: 0px
+}
+.loadpop {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 30px; PADDING-TOP: 30px; TEXT-ALIGN: center
+}
+#hiddendialog {
+	DISPLAY: none
+}
+#actchoice {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 5px; FLOAT: right; PADDING-BOTTOM: 0px; BORDER-LEFT: #ddd 1px dashed; WIDTH: 100px; PADDING-TOP: 0px
+}
+#actchoice .m {
+	MARGIN-BOTTOM: 40px
+}
+.pl_l {
+	FONT: 14px/150% Arial, Helvetica, sans-serif; VERTICAL-ALIGN: top; WIDTH: 80px; PADDING-TOP: 4px
+}
+.pl_r {
+	VERTICAL-ALIGN: top; WIDTH: 550px; PADDING-TOP: 4px
+}
+.pl_r .w {
+	WIDTH: 390px
+}
+.location {
+	FONT-SIZE: 14px; MARGIN-LEFT: 15px; LINE-HEIGHT: 180%
+}
+.evtlstimg {
+	FLOAT: left; WIDTH: 85px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+.actionbtns {
+	FLOAT: right; WIDTH: 120px; HEIGHT: 100px; TEXT-ALIGN: right
+}
+.actbtn {
+	DISPLAY: block; BORDER-BOTTOM: #ddd 1px dotted; TEXT-ALIGN: center
+}
+.actcat {
+	FLOAT: left; MARGIN-BOTTOM: 140px; WIDTH: 89px
+}
+.actlist {
+	FLOAT: right; WIDTH: 490px
+}
+.actlist H2 {
+	MARGIN-BOTTOM: 8px
+}
+.actlist-left {
+	WIDTH: 600px
+}
+.nof {
+	MARGIN-BOTTOM: 20px; ZOOM: 1
+}
+.nof:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.nof H2 {
+	MARGIN-LEFT: 120px
+}
+.nof .intro {
+	MARGIN-LEFT: 120px
+}
+.actcatlst LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px solid; TEXT-DECORATION: none
+}
+.actcatlst LI A {
+	DISPLAY: block
+}
+.actcatlst .now {
+	BACKGROUND: url(http://t.douban.com/pics/arrowright.gif) no-repeat right 10px; COLOR: #77c5ee
+}
+.citysmr {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 15px; WIDTH: 45%; PADDING-TOP: 0px
+}
+.evt_short {
+	FLOAT: left; MARGIN-BOTTOM: 10px; WIDTH: 100%
+}
+.citytitle {
+	FONT-SIZE: 14px; MARGIN: 0px 0px 15px; COLOR: #060; BORDER-BOTTOM: #ccc 1px solid
+}
+.citysmr LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.6em; PADDING-TOP: 10px
+}
+.citysmr LI .title {
+	DISPLAY: block
+}
+.evt_short LI {
+	LINE-HEIGHT: 1.6em
+}
+.citysmr LI A {
+	FONT-SIZE: 12px
+}
+.citysmr LI .title A {
+	FONT-SIZE: 14px
+}
+.actimgs {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 3px; FLOAT: left; PADDING-BOTTOM: 3px; MARGIN: 9px 0px 0px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px solid
+}
+.evtdesc {
+	MARGIN: 5px 0px 0px 65px; COLOR: #666
+}
+.evtdesc .gact {
+	MARGIN-LEFT: 10px
+}
+.actfromfri {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.6em; LINE-HEIGHT: 1.6em; PADDING-TOP: 0.6em
+}
+.actfromfri .event_long {
+	MARGIN-TOP: auto; FLOAT: left; PADDING-BOTTOM: 1.7em
+}
+.actfromfri .title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #ddd 1px solid
+}
+.actfromfri IMG {
+	PADDING-RIGHT: 15px; BACKGROUND: #fff
+}
+.recevent {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 2px; BACKGROUND: #f4f4ec; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.recevent .img {
+	FLOAT: left; WIDTH: 110px; TEXT-ALIGN: center
+}
+.recevent .img:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.recevent .pl2 {
+	MARGIN-BOTTOM: 10px
+}
+.recevent .text {
+	PADDING-LEFT: 116px; COLOR: #999
+}
+.fstars {
+	FLOAT: left; MARGIN-LEFT: 200px
+}
+ HTML .fstars {
+	MARGIN-LEFT: 100px
+}
+.rectitle {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; MARGIN: 12px 12px 0px; OVERFLOW: hidden; WORD-BREAK: break-all; PADDING-TOP: 7px
+}
+.rectitle .m {
+	DISPLAY: block; LINE-HEIGHT: 1.6em; BORDER-BOTTOM: #aaa 1px solid
+}
+.rectitle .recsmr {
+	DISPLAY: block; MARGIN: 8px 8px 8px 35px; COLOR: #777; TEXT-INDENT: -2.5em; LINE-HEIGHT: 1.6em
+}
+.reccomment {
+	PADDING-RIGHT: 39px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; MARGIN: 0px 12px 12px; PADDING-TOP: 7px; TEXT-ALIGN: right
+}
+.reccomment .pl {
+	VERTICAL-ALIGN: top
+}
+.reccomment .text {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #bbb 1px solid; MARGIN-BOTTOM: 4px; BORDER-LEFT: #bbb 1px solid; WIDTH: 411px; BORDER-BOTTOM: #bbb 1px solid
+}
+.reccomment .text:unknown {
+	BORDER-RIGHT: #666 1px solid; BORDER-TOP: #666 1px solid; BORDER-LEFT: #666 1px solid; BORDER-BOTTOM: #666 1px solid
+}
+.reccomment .recsubmit {
+	MARGIN-TOP: 12px; TEXT-ALIGN: center
+}
+.reclstwrap {
+	MARGIN-TOP: 20px; DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/topicgrey.gif) no-repeat
+}
+.reclstwrap .reclst {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/topicgrey.gif) no-repeat right top; MARGIN-BOTTOM: 1px; FONT: 14px/150% Arial, Helvetica, sans-serif; MARGIN-LEFT: 4px; WIDTH: 100%; COLOR: #666; HEIGHT: 26px
+}
+.reclstwrap .reclst IMG {
+	MARGIN: 2px 2px 0px 0px
+}
+.reclstwrap .reclst A.rr:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: red
+}
+.recreplylst .ilst {
+	MARGIN-TOP: -39px
+}
+.recreplylst .clst {
+	MARGIN-TOP: -11px; COLOR: #555
+}
+.recreplylst FORM {
+	MARGIN-LEFT: 68px
+}
+.recreplylst TEXTAREA {
+	WIDTH: 389px
+}
+.recreplylst INPUT {
+	MARGIN-TOP: 3px
+}
+.recreplylst SPAN.pl {
+	VERTICAL-ALIGN: top
+}
+.norquote {
+	COLOR: #333
+}
+.recreplylst .simplelst {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 4px; MARGIN-LEFT: 53px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.blank_rec {
+	MARGIN: 2px 2px 2px 24px; LINE-HEIGHT: 1.7em
+}
+.entry-image IMG {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 15px; PADDING-TOP: 0px
+}
+.entry-summary {
+	CLEAR: right; MARGIN: 6px 0px 20px; OVERFLOW: hidden; WORD-WRAP: break-word
+}
+.entry-full {
+	CLEAR: right; MARGIN: 6px 0px 20px; OVERFLOW: hidden; WORD-WRAP: break-word
+}
+.entry-summary-mini {
+	MARGIN-TOP: 6px
+}
+.entry-status-line {
+	CLEAR: left; MARGIN: 2px 0px 6px; WIDTH: 100%
+}
+.entry .entry-vote-btns {
+	PADDING-RIGHT: 4px; MARGIN-TOP: -3px; PADDING-LEFT: 4px; FLOAT: right; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.loadtip {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #e7ffbc; FLOAT: right; PADDING-BOTTOM: 0px; COLOR: #777; PADDING-TOP: 0px
+}
+.video_overlay {
+	BACKGROUND: url(http://t.douban.com/pics/video_overlay.png); LEFT: 0px; WIDTH: 130px; CURSOR: pointer; POSITION: absolute; TOP: 0px; HEIGHT: 97px
+}
+.video_overlay:hover {
+	BACKGROUND-POSITION: 0px -97px
+}
+ HTML .video_overlay {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(http://t.douban.com/pics/video_overlay_ie6.png)
+}
+.videothumb {
+	MARGIN-LEFT: 24px
+}
+.vthumbwrap {
+	WIDTH: 130px; POSITION: relative; HEIGHT: 97px; TEXT-ALIGN: center
+}
+.hlst LI {
+	FLOAT: left; MARGIN: 10px; WIDTH: 45%; LIST-STYLE-TYPE: disc
+}
+.hlst {
+	MARGIN-LEFT: 20px
+}
+.indentrec {
+	MARGIN-LEFT: 24px; COLOR: #333; LINE-HEIGHT: 1.6em
+}
+.mainphoto:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#album_up {
+	FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 300px
+}
+#type_tip {
+	DISPLAY: block; FLOAT: left; WIDTH: 125px
+}
+#album_up INPUT {
+	MARGIN: 4px 0px
+}
+.albumlst {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 9px 0px 10px; WIDTH: 49%; LINE-HEIGHT: 1.65em; PADDING-TOP: 0px
+}
+.albumlst_r {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 240px; COLOR: #777; PADDING-TOP: 4px; WORD-WRAP: break-word
+}
+.albumlst_descri {
+	MARGIN-BOTTOM: 10px; COLOR: #333
+}
+.photo_wrap {
+	DISPLAY: inline; FLOAT: left; MARGIN: 10px 13px 25px; OVERFLOW: hidden; WIDTH: 170px
+}
+.photo_wrap .pl {
+	MARGIN: 6px 0px 3px
+}
+.photolst_photo {
+	MARGIN: 0px; WIDTH: 180px; HEIGHT: 180px
+}
+.photolst_photo:hover {
+	BACKGROUND: #fcfcfc
+}
+.photo_infobox {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 26px; PADDING-BOTTOM: 5px; MARGIN: 4px 0px; PADDING-TOP: 5px; HEIGHT: 130px
+}
+.photo_infobox TEXTAREA {
+	FLOAT: left; WIDTH: 431px; HEIGHT: 70px
+}
+.photo_infobox .photo_infor {
+	MARGIN-TOP: 8px; FLOAT: right; WIDTH: 140px; TEXT-ALIGN: center
+}
+.pb_wrap {
+	FLOAT: left; MARGIN: 3px 12px 3px 0pt
+}
+.pb_wrap IMG {
+	VERTICAL-ALIGN: middle
+}
+.pb_photo {
+	DISPLAY: block; FONT-SIZE: 65px; FLOAT: none; MARGIN: 0px; VERTICAL-ALIGN: middle; WIDTH: 75px; HEIGHT: 75px; TEXT-ALIGN: center
+}
+.pb_photo:hover {
+	BACKGROUND: #fff
+}
+.album {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 4px; BACKGROUND: url(http://t.douban.com/pics/albumback.gif) no-repeat 1px 1px; PADDING-BOTTOM: 7px; PADDING-TOP: 4px
+}
+.album_s {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 5px; BACKGROUND: url(http://t.douban.com/pics/albumback_s.gif) no-repeat 1px 1px; PADDING-BOTTOM: 8px; PADDING-TOP: 5px
+}
+.album_photo {
+	DISPLAY: block; OVERFLOW: hidden; WIDTH: 181px; HEIGHT: 181px
+}
+.album_photo:link {
+	DISPLAY: block; COLOR: #777; FONT-STYLE: italic
+}
+.album_photo:visited {
+	COLOR: #777; FONT-STYLE: italic
+}
+.album_photo:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #777
+}
+.sign-text:link {
+	COLOR: #777; FONT-STYLE: italic
+}
+.sign-text:visited {
+	COLOR: #777; FONT-STYLE: italic
+}
+.sign-text:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #777
+}
+.photo_descri {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 14px; PADDING-BOTTOM: 0px; PADDING-TOP: 3px
+}
+.edtext FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.edtext {
+	MARGIN: 7px 0px 15px; WIDTH: 100%
+}
+.edtext TEXTAREA {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; FONT-SIZE: 12px; BACKGROUND: #f9f9f9; BORDER-LEFT: #ddd 1px solid; WIDTH: 100%; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 50px
+}
+#up_tip {
+	COLOR: #666
+}
+.photitle {
+	MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 5px; BORDER-BOTTOM: #ddd 1px solid; TEXT-ALIGN: right
+}
+#discover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 110px; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/discover.gif) no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px 62px; WIDTH: 400px; COLOR: #aaa; LINE-HEIGHT: 1.5em; PADDING-TOP: 0px; HEIGHT: 185px
+}
+#discover_s {
+	PADDING-RIGHT: 30px; MARGIN: 0px 0px 28px; TEXT-ALIGN: center
+}
+#discover_s .text {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; MARGIN: 8px; BORDER-LEFT: #ccc 1px solid; WIDTH: 380px; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid
+}
+.fastreg .m {
+	MARGIN-TOP: 0.3em; FONT-SIZE: 12px; FLOAT: left; WIDTH: 3.3em
+}
+.fastreg .text {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN: 2px 5px; BORDER-LEFT: #ccc 1px solid; WIDTH: 180px; BORDER-BOTTOM: #ccc 1px solid
+}
+.fastreg .submit {
+	MARGIN: 4px 0px 2px 4px
+}
+.login_end {
+	MARGIN-TOP: 0.5em; MARGIN-LEFT: 3.3em
+}
+.login_input {
+	MARGIN-TOP: 0.3em; FONT-SIZE: 12px; COLOR: #016502; TEXT-ALIGN: left
+}
+#search_evt {
+	DISPLAY: block; FONT-SIZE: 12px; FLOAT: left; MARGIN: 4px 0px 0px; POSITION: relative
+}
+#search_evt .text {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; MARGIN: 0px 5px 0px 0px; BORDER-LEFT: #ddd 1px solid; WIDTH: 153px; BORDER-BOTTOM: #ddd 1px solid; POSITION: absolute; TOP: 1px; HEIGHT: 16px
+}
+#search_evt .submit {
+	MARGIN: 0px 60px 0px 160px
+}
+.alignleft {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 25px; BACKGROUND: url(http://t.douban.com/pics/align_left.png) no-repeat; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.aligncenter {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 25px; BACKGROUND: url(http://t.douban.com/pics/align_center.png) no-repeat; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.alignright {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 25px; BACKGROUND: url(http://t.douban.com/pics/align_right.png) no-repeat; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.feed {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/feed1.png) no-repeat; PADDING-BOTTOM: 30px; PADDING-TOP: 0px
+}
+.miniform {
+	DISPLAY: inline
+}
+.minisubmit {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; COLOR: #369; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.minisubmit:hover {
+	BACKGROUND: #039; COLOR: #fff
+}
+.hover {
+	BACKGROUND: #039; COLOR: #fff
+}
+.gsubmit {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; COLOR: #bbb; BORDER-TOP-STYLE: none; LINE-HEIGHT: 1.6em; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 1.6em; BORDER-BOTTOM-STYLE: none
+}
+.gsubmit:hover {
+	BORDER-RIGHT: #f33 1px solid; BORDER-TOP: #f99 1px solid; BORDER-LEFT: #f99 1px solid; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 1.6em; BORDER-BOTTOM: #f33 1px solid; HEIGHT: 1.6em; BACKGROUND-COLOR: #733
+}
+.hover {
+	BORDER-RIGHT: #f33 1px solid; BORDER-TOP: #f99 1px solid; BORDER-LEFT: #f99 1px solid; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 1.6em; BORDER-BOTTOM: #f33 1px solid; HEIGHT: 1.6em; BACKGROUND-COLOR: #733
+}
+.note-header H3 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 0px; COLOR: #060; HEIGHT: 18px
+}
+.note {
+	MARGIN-TOP: 10px; OVERFLOW: hidden; WIDTH: 100%; WORD-BREAK: break-all; FONT-FAMILY: Arial,Helvetica,sans-serif; WORD-WRAP: break-word
+}
+BODY .note {
+	
+}
+.note .cc {
+	CLEAR: both; PADDING-RIGHT: 0pt; DISPLAY: block; PADDING-LEFT: 0pt; PADDING-BOTTOM: 15px; PADDING-TOP: 0pt; TEXT-ALIGN: center
+}
+.note .ll {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 0px; PADDING-BOTTOM: 16px; PADDING-TOP: 0px
+}
+.note .ll TABLE {
+	WIDTH: 1px
+}
+.note .rr TABLE {
+	WIDTH: 1px
+}
+.note .cc TABLE {
+	MARGIN: 0px auto; WIDTH: 1px
+}
+.note .rr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 16px; PADDING-BOTTOM: 16px; PADDING-TOP: 0px
+}
+.thumblst {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #d3d3d3 1px solid; PADDING-LEFT: 12px; MIN-HEIGHT: 140px; BACKGROUND: #f0f0f0; PADDING-BOTTOM: 10px; MARGIN: 3px 0px 7px; BORDER-LEFT: #d3d3d3 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #d3d3d3 1px solid
+}
+.thumblst .thumb {
+	FLOAT: left; WIDTH: 145px
+}
+.thumblst .thumb IMG {
+	WIDTH: 130px; max-width: 130px
+}
+.thumblst .thumb .pl {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 2px; BACKGROUND: #fff; MARGIN-BOTTOM: 6px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ddd 1px solid
+}
+.thumblst .details {
+	FLOAT: right; WIDTH: 419px
+}
+.thumblst .details TEXTAREA {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 410px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 66px
+}
+.message {
+	BORDER-RIGHT: #faf3ca 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #faf3ca 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fffadc; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #faf3ca 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #faf3ca 1px solid
+}
+.placeholder {
+	BORDER-RIGHT: #ccc 2px dashed; BORDER-TOP: #ccc 2px dashed; BORDER-LEFT: #ccc 2px dashed; BORDER-BOTTOM: #ccc 2px dashed
+}
+.sort H2 {
+	WIDTH: 100%; CURSOR: move
+}
+.ui-draggable-dragging {
+	BORDER-RIGHT: #cfc 1px solid; BORDER-TOP: #cfc 1px solid; BORDER-LEFT: #cfc 1px solid; BORDER-BOTTOM: #cfc 1px solid
+}
+.sort H2:hover {
+	BACKGROUND: #efe
+}
+.sort_helper {
+	BORDER-RIGHT: #cdc 2px dashed; BORDER-TOP: #cdc 2px dashed; BORDER-LEFT: #cdc 2px dashed; BORDER-BOTTOM: #cdc 2px dashed
+}
+.sort DIV H2:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#event {
+	MARGIN-BOTTOM: 10px
+}
+#photo {
+	MARGIN-BOTTOM: 35px; OVERFLOW: hidden; WIDTH: 100%
+}
+#artist {
+	MARGIN-BOTTOM: 35px; OVERFLOW: hidden; WIDTH: 100%
+}
+#minisite {
+	MARGIN-BOTTOM: 35px; OVERFLOW: hidden; WIDTH: 100%
+}
+.photoin {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 147px; HEIGHT: 160px
+}
+#hosts .photoin {
+	WIDTH: 160px; HEIGHT: 177px
+}
+#hosts .last {
+	WIDTH: 100px
+}
+#artist {
+	MARGIN-BOTTOM: 35px
+}
+#group {
+	MARGIN-BOTTOM: 35px
+}
+#recs {
+	MARGIN-BOTTOM: 35px
+}
+#movie {
+	MARGIN-BOTTOM: 35px
+}
+#music {
+	MARGIN-BOTTOM: 35px
+}
+#blog {
+	MARGIN-BOTTOM: 35px
+}
+#book {
+	MARGIN-BOTTOM: 35px
+}
+#mb {
+	MARGIN-BOTTOM: 35px
+}
+#friend {
+	MARGIN-BOTTOM: 35px
+}
+#board {
+	MARGIN-BOTTOM: 35px
+}
+#profile {
+	MARGIN-BOTTOM: 35px
+}
+#note {
+	MARGIN-BOTTOM: 35px
+}
+#doulist {
+	MARGIN-BOTTOM: 35px
+}
+#live {
+	MARGIN-BOTTOM: 35px
+}
+#group {
+	WIDTH: 100%
+}
+#offer {
+	MARGIN-BOTTOM: 12px
+}
+#review {
+	MARGIN-BOTTOM: 27px
+}
+#review .ilst {
+	MARGIN: -17px -105px 0px 0px
+}
+#review .tlst {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; PADDING-TOP: 0px
+}
+#confirm_delete {
+	DISPLAY: none
+}
+.reply_notify A {
+	MARGIN-LEFT: 0.5em
+}
+.reply_notify .reply_notify_delete {
+	COLOR: #999
+}
+.reply_notify {
+	MARGIN-BOTTOM: 20px; WIDTH: 100%; COLOR: #676767; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left
+}
+.reply_notify TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em; BORDER-BOTTOM: #ddd 1px dashed
+}
+.reply_notify TH {
+	FONT-WEIGHT: 400; BORDER-BOTTOM: #ccc 1px solid
+}
+.date {
+	WIDTH: 8em
+}
+.dater {
+	WIDTH: 6em; TEXT-ALIGN: right
+}
+.ac_results {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: gray 1px solid; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 10000; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; BORDER-LEFT: gray 1px solid; WIDTH: 173px; PADDING-TOP: 0px; BORDER-BOTTOM: gray 1px solid; LIST-STYLE-TYPE: none; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+.addr_results {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: gray 1px solid; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 10000; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; BORDER-LEFT: gray 1px solid; WIDTH: 173px; PADDING-TOP: 0px; BORDER-BOTTOM: gray 1px solid; LIST-STYLE-TYPE: none; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+.city_results {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: gray 1px solid; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 10000; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; BORDER-LEFT: gray 1px solid; WIDTH: 173px; PADDING-TOP: 0px; BORDER-BOTTOM: gray 1px solid; LIST-STYLE-TYPE: none; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+.rc_results {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: gray 1px solid; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 10000; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; BORDER-LEFT: gray 1px solid; WIDTH: 173px; PADDING-TOP: 0px; BORDER-BOTTOM: gray 1px solid; LIST-STYLE-TYPE: none; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+.rc_results {
+	WIDTH: 356px
+}
+.addr_results {
+	WIDTH: 186px
+}
+.city_results {
+	WIDTH: 87px
+}
+.ac_results LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; COLOR: #aaa; PADDING-TOP: 2px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.addr_results LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; COLOR: #aaa; PADDING-TOP: 2px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.city_results LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; COLOR: #aaa; PADDING-TOP: 2px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.rc_results LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; COLOR: #aaa; PADDING-TOP: 2px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.ac_over {
+	CURSOR: pointer; BACKGROUND-COLOR: #36c
+}
+.ac_match {
+	COLOR: #000
+}
+.black {
+	COLOR: #000
+}
+.greylink:link {
+	FONT-SIZE: 12px; COLOR: #b4b4b4
+}
+.greylink:hover {
+	FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #b4b4b4
+}
+.greylink:visited {
+	FONT-SIZE: 12px; COLOR: #b4b4b4
+}
+.dotli LI {
+	MARGIN-LEFT: 10px; LIST-STYLE-TYPE: disc
+}
+.title2 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 25px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 0px; BORDER-BOTTOM: #eee 3px double
+}
+#campus_header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; PADDING-TOP: 10px
+}
+#campus_header #logo {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/logo2010.gif) no-repeat; FLOAT: left; WIDTH: 165px; TEXT-INDENT: -9999px; HEIGHT: 34px
+}
+#campus_header A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#campus_header #year {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/campus_2010.gif) no-repeat; FLOAT: left; WIDTH: 100px; TEXT-INDENT: -9999px; HEIGHT: 34px
+}
+#campus_header H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 18px; FLOAT: left; PADDING-BOTTOM: 5px; COLOR: #2a9a44; PADDING-TOP: 10px
+}
+#campus_tab {
+	BACKGROUND: #eef9eb; OVERFLOW: hidden; HEIGHT: 24px; webkit-border-radius: 3px; moz-border-radius: 3px
+}
+#campus_tab LI {
+	PADDING-RIGHT: 25px; DISPLAY: inline; PADDING-LEFT: 15px; FLOAT: right; PADDING-BOTTOM: 0px; COLOR: #369; LINE-HEIGHT: 24px; PADDING-TOP: 0px; HEIGHT: 24px
+}
+#campus_tab LI A {
+	COLOR: #369
+}
+#campus_tab LI A:hover {
+	BACKGROUND: #369; COLOR: #fff
+}
+#campus_indent {
+	MARGIN-LEFT: 20px; WIDTH: 680px
+}
+#campus_indent H1 {
+	MARGIN: 20px 0px 10px
+}
+#campus_indent H2 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 40px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 0px; BORDER-BOTTOM: #eee 3px double
+}
+#campus_tab A.on {
+	COLOR: #369; TEXT-DECORATION: none
+}
+#campus_tab A.no_tag_line {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#max_campus {
+	BACKGROUND: #fff; MARGIN: 0px auto; WIDTH: 700px
+}
+.group_say {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; LEFT: 0px; PADDING-BOTTOM: 12px; WIDTH: 229px; PADDING-TOP: 4px; TOP: 21px
+}
+.group_say_content {
+	PADDING-TOP: 0.3em
+}
+.blocktip {
+	BORDER-RIGHT: #e3e3e3 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #e3e3e3 1px solid; DISPLAY: none; PADDING-LEFT: 5px; Z-INDEX: 100; BACKGROUND: #fff; PADDING-BOTTOM: 5px; BORDER-LEFT: #e3e3e3 1px solid; COLOR: #333; PADDING-TOP: 5px; BORDER-BOTTOM: #e3e3e3 2px solid; POSITION: absolute; TEXT-ALIGN: left
+}
+.tipwrap {
+	POSITION: relative
+}
+.blocktip_close {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; RIGHT: 15px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; COLOR: #999; PADDING-TOP: 0px; FONT-FAMILY: "Comic Sans MS"; POSITION: absolute
+}
+.blocktip_close:visited {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; RIGHT: 15px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; COLOR: #999; PADDING-TOP: 0px; FONT-FAMILY: "Comic Sans MS"; POSITION: absolute
+}
+.blocktip_close:active {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; RIGHT: 15px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; COLOR: #999; PADDING-TOP: 0px; FONT-FAMILY: "Comic Sans MS"; POSITION: absolute
+}
+.blocktip_content {
+	CLEAR: both; FONT-SIZE: 12px; FLOAT: left; MARGIN: 3px 0px; WIDTH: 100%; COLOR: #060
+}
+.artist_tip {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; WIDTH: 230px; PADDING-TOP: 4px
+}
+.artist_tip INPUT {
+	MARGIN-TOP: 7px
+}
+.artist_s {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 0px
+}
+.artist_photo {
+	WIDTH: 181px; HEIGHT: 181px; dislay: block
+}
+.artist_photo:link {
+	COLOR: #777; FONT-STYLE: italic
+}
+.artist_photo:visited {
+	COLOR: #777; FONT-STYLE: italic
+}
+.artist_photo:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #777
+}
+.artist_list {
+	FLOAT: left; WIDTH: 138px; HEIGHT: 120px; TEXT-ALIGN: center
+}
+.artist_list DD {
+	MARGIN: 0px
+}
+#songlist A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #369
+}
+.songlst TD {
+	COLOR: #999; BORDER-BOTTOM: #ccc 1px dashed; HEIGHT: 23px
+}
+.songlst .full {
+	BACKGROUND: url(http://t.douban.com/pics/playicon.png) no-repeat 0px -31px; COLOR: #777
+}
+.songlst .selsong .full {
+	BACKGROUND: url(http://t.douban.com/pics/playicon.png) #eaf9e6 no-repeat -20px -5px; COLOR: #777
+}
+.songlst .full A {
+	PADDING-LEFT: 21px
+}
+.selsong {
+	BACKGROUND: #eaf9e6
+}
+#mainplayer {
+	WIDTH: 290px; HEIGHT: 40px
+}
+#song {
+	MARGIN-BOTTOM: 35px
+}
+#video {
+	MARGIN-BOTTOM: 35px
+}
+#miniblog {
+	MARGIN-BOTTOM: 35px
+}
+#discussions {
+	MARGIN-BOTTOM: 35px
+}
+#contact {
+	MARGIN-BOTTOM: 35px
+}
+#subject {
+	MARGIN-BOTTOM: 35px
+}
+#album {
+	MARGIN-BOTTOM: 35px
+}
+#fans_album {
+	MARGIN-BOTTOM: 35px
+}
+#vote {
+	MARGIN-BOTTOM: 35px
+}
+.hiddenmod {
+	BACKGROUND: #f2f2f2; COLOR: #999
+}
+.hiddenmod H2 {
+	MARGIN-BOTTOM: 5px; COLOR: #777
+}
+.indent2 {
+	TEXT-INDENT: 2em
+}
+.artist_doumail {
+	PADDING-LEFT: 12px; BACKGROUND: url(http://t.douban.com/pics/icon/musician_9px.gif) no-repeat 0px center
+}
+.artist_doumail_big {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(http://t.douban.com/pics/icon/musician_16px.gif) no-repeat 0px center; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.minisite_doumail {
+	PADDING-LEFT: 12px; BACKGROUND: url(http://t.douban.com/pics/icon/minisite_9px.gif) no-repeat 0px center
+}
+.minisite_doumail_big {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(http://t.douban.com/pics/icon/minisite_16px.gif) no-repeat 0px 18px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.host_doumail {
+	PADDING-LEFT: 12px; BACKGROUND: url(http://t.douban.com/pics/icon/host_small.gif) no-repeat 0px center
+}
+.host_doumail_big {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(http://t.douban.com/pics/icon/host_big.gif) no-repeat 0px 18px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+#minisite_bg A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff
+}
+.sys_doumail {
+	PADDING-LEFT: 12px; BACKGROUND: url(http://t.douban.com/pics/icon/system_9px.gif) no-repeat 0px center
+}
+.sys_doumail_big {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(http://t.douban.com/pics/icon/system_16px.gif) no-repeat 0px center; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.doumail_from {
+	PADDING-LEFT: 12px
+}
+.gray_ad {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #f4f4ec; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; WORD-WRAP: break-word
+}
+.pop_win_bg {
+	BACKGROUND: #000; FILTER: alpha(opacity=15); POSITION: absolute; ; TOP: expression(eval(document.documentElement.scrollTop+(document.documentElement.clientHeight-this.offsetHeight)*.45)); opacity: .15
+}
+.pop_win FORM {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #fff 1px solid
+}
+.pop_win_close {
+	PADDING-RIGHT: 0.3em; PADDING-LEFT: 0.3em; Z-INDEX: 1; RIGHT: 0px; PADDING-BOTTOM: 0px; COLOR: #aaa; PADDING-TOP: 0px; FONT-FAMILY: "Comic Sans MS"; POSITION: absolute; TOP: 0px
+}
+.pop_win_close:hover {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 1px solid; COLOR: red; BORDER-BOTTOM: #fff 1px solid
+}
+.pop_win {
+	BORDER-RIGHT: #bbb 1px solid; PADDING-RIGHT: 1.2em; BORDER-TOP: #bbb 1px solid; ; MARGIN-TOP: expression(eval(document.documentElement.scrollTop)); PADDING-LEFT: 1em; BACKGROUND: #fff; VISIBILITY: hidden; PADDING-BOTTOM: 1em; BORDER-LEFT: #bbb 1px solid; PADDING-TOP: 1.4em; BORDER-BOTTOM: #bbb 1px solid; POSITION: absolute
+}
+.login_input INPUT {
+	WIDTH: 200px
+}
+.login_input SPAN {
+	FLOAT: left; WIDTH: 3.5em
+}
+.pop_reg {
+	MARGIN-TOP: 2em; DISPLAY: block; FLOAT: left
+}
+.pop_sub {
+	MARGIN-TOP: 0.3em; MARGIN-LEFT: 3.4em; TEXT-ALIGN: left
+}
+.pop_sub INPUT {
+	WIDTH: 5em; PADDING-TOP: 2px
+}
+.pop_rem {
+	MARGIN-TOP: 0.5em; PADDING-BOTTOM: 5px; MARGIN-LEFT: 3.2em; TEXT-ALIGN: left
+}
+.block1 {
+	MARGIN-BOTTOM: 20px
+}
+.block5 {
+	MARGIN-BOTTOM: 20px
+}
+.blank20 {
+	MARGIN-BOTTOM: 20px
+}
+.block1 {
+	MARGIN-BOTTOM: 20px
+}
+.block5 {
+	MARGIN-BOTTOM: 20px
+}
+.block2 {
+	MARGIN-BOTTOM: 40px
+}
+.block3 {
+	MARGIN-BOTTOM: 40px
+}
+.block1 .content DL {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 15px 20px 0px; OVERFLOW: hidden; WIDTH: 280px
+}
+.block1 .content DL.clear {
+	DISPLAY: block; FLOAT: none; MARGIN: 0px; WIDTH: auto
+}
+.block1 .content UL LI.clear {
+	DISPLAY: block; FLOAT: none; MARGIN: 0px; WIDTH: auto
+}
+.block1 .content DL DT {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 85px
+}
+.block1 .content DL DD {
+	FLOAT: right; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 190px
+}
+.block1 .content DL .dgt {
+	MARGIN-BOTTOM: 5px; LINE-HEIGHT: 100%
+}
+.block1 .content DL .dgt .pl2 {
+	LINE-HEIGHT: 16px
+}
+.block1 .content DL SPAN.reason {
+	COLOR: #999
+}
+.block1 .content DL .gact {
+	MARGIN: 0px 0px 0px 10px
+}
+.block1 .content UL LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 20px 30px 0px; OVERFLOW: hidden; WIDTH: 275px; PADDING-TOP: 0px
+}
+.block1 .content UL LI .title {
+	DISPLAY: block; FONT-SIZE: 14px
+}
+.block1 .content UL LI .actimgs {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 3px; FLOAT: left; PADDING-BOTTOM: 3px; MARGIN: 10px 0px 0px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px solid
+}
+.block1 .content UL LI .evtdesc {
+	MARGIN: 6px 0px 0px 65px; COLOR: #666
+}
+.block2 .content {
+	WIDTH: 590px
+}
+.block2 {
+	OVERFLOW: hidden
+}
+#in_tablem .block2 .content UL LI {
+	CLEAR: right; FLOAT: left; OVERFLOW: hidden; WIDTH: 128px; MARGIN-RIGHT: 35px; POSITION: relative
+}
+.block2 .content UL LI {
+	CLEAR: right; FLOAT: left; OVERFLOW: hidden; WIDTH: 128px; MARGIN-RIGHT: 35px; POSITION: relative
+}
+.block3 .content {
+	LIST-STYLE-TYPE: none
+}
+.block3 .content LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px; BORDER-BOTTOM: #eee 1px solid; LIST-STYLE-TYPE: none; paddng: 5px 0
+}
+.block3 .content LI .user_img {
+	FLOAT: left; WIDTH: 48px; HEIGHT: 48px
+}
+.block3 .content LI .ct {
+	MARGIN: 0px 0px 0px 58px; COLOR: #666
+}
+.block3 .content LI .cm {
+	MARGIN-RIGHT: 10px
+}
+.block3 .content LI .cpl {
+	COLOR: #999; MARGIN-RIGHT: 10px; PADDING-TOP: 5px
+}
+.block3 .content LI .time {
+	COLOR: #999
+}
+#in_tablem .block1 {
+	WIDTH: 630px
+}
+#in_tablem .content {
+	WIDTH: 650px
+}
+#in_tablem .content UL LI {
+	WIDTH: 305px
+}
+#in_table .block1 {
+	WIDTH: 575px
+}
+#in_table .block1 .content {
+	WIDTH: 600px
+}
+#in_table .block1 .content UL LI {
+	WIDTH: 275px
+}
+#in_tableb .block1 {
+	WIDTH: 550px
+}
+#in_tableb .block1 .content {
+	WIDTH: 570px
+}
+#in_tableb .block1 .content UL LI {
+	WIDTH: 260px
+}
+.h2_tab {
+	PADDING-BOTTOM: 2px; MARGIN: 0px 0px 20px; BORDER-BOTTOM: #ddd 1px solid
+}
+.h2_tab SPAN {
+	FONT-SIZE: 12px; FLOAT: right; COLOR: #aaa
+}
+.h2_tab SPAN .line {
+	FLOAT: none; COLOR: #bbb
+}
+.online_event_index {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 630px; PADDING-TOP: 0px
+}
+.online_event_index UL {
+	WIDTH: 650px
+}
+.online_event_index UL LI.block {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 20px; WIDTH: 305px; MARGIN-RIGHT: 20px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.online_nof {
+	BORDER-BOTTOM: #eee 1px solid
+}
+.online_nof .evtlstimg {
+	WIDTH: 80px; HEIGHT: 80px
+}
+.online_nof .evtlstimg .actimgs {
+	MARGIN-TOP: 0px
+}
+.online_event_pic {
+	OVERFLOW: hidden; WIDTH: 590px
+}
+.online_event_pic DIV {
+	FLOAT: left; MARGIN: 0px 16px 30px 0px; WIDTH: 100px; TEXT-ALIGN: left
+}
+.online_event_pic DIV.clear {
+	FLOAT: none; MARGIN: 0px; WIDTH: 0px
+}
+.online_event_pic DIV.pic {
+	MARGIN: 0px
+}
+.da1 {
+	MARGIN-BOTTOM: 20px
+}
+.da2 {
+	MARGIN-BOTTOM: 20px
+}
+.da3 {
+	MARGIN-BOTTOM: 20px
+}
+.da4 {
+	MARGIN-BOTTOM: 20px
+}
+.da1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #f4f4ec; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.da1 DL {
+	MARGIN: 0px
+}
+.da1 DL DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.da1 DL DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.da1 DL DT {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 85px; TEXT-ALIGN: center
+}
+.da1 DL DD {
+	MARGIN: 0px 0px 0px 95px
+}
+.da1 DL DD A {
+	FONT-SIZE: 14px
+}
+.da1 DL DD .ps {
+	MARGIN-TOP: 5px; COLOR: #999; LINE-HEIGHT: 18px
+}
+.da3 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #f4f4ec; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.da3 DL {
+	MARGIN: 0px 0px 10px
+}
+.da3 DL DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.da3 DL DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.da3 DL DT {
+	FONT-SIZE: 14px
+}
+.da3 DL DD A {
+	COLOR: #999
+}
+.da3 DL DD A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.da2 A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.da4 DL {
+	FLOAT: left; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 50%
+}
+.da4 DL DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.da4 DL DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.da4 DL DT {
+	OVERFLOW: hidden; HEIGHT: 100px
+}
+.da4 DL DD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.pl_index {
+	FONT-SIZE: 12px; COLOR: #999
+}
+.citysmr2 {
+	MARGIN-BOTTOM: 40px
+}
+.citysmr2 LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 0px
+}
+.citysmr2 LI A.img {
+	FLOAT: left; MARGIN: 0px 9px 0px 0px
+}
+.citysmr2 LI A.img IMG {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px solid
+}
+.citysmr2 LI DIV {
+	MARGIN: 5px 0px 0px 70px
+}
+.citysmr2 A.title {
+	FONT-SIZE: 14px
+}
+.citysmr2 SPAN.pl {
+	DISPLAY: block; PADDING-TOP: 3px
+}
+.sq_list_right {
+	MARGIN-BOTTOM: 40px
+}
+.sq_list_right LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.con_index {
+	WIDTH: 110px
+}
+A.ad_7day_button:hover {
+	BACKGROUND: url(http://t.douban.com/pics/ad_button.gif) no-repeat left top
+}
+.ad_7day_button {
+	DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND: url(http://t.douban.com/pics/ad_button.gif) no-repeat left top; FLOAT: right; MARGIN-LEFT: 10px; HEIGHT: 27px
+}
+.ad_7day_button SPAN {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/ad_button.gif) no-repeat right top; PADDING-BOTTOM: 6px; COLOR: #4f463f; LINE-HEIGHT: 14px; PADDING-TOP: 7px
+}
+#discover P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 16px; LINE-HEIGHT: 100%; PADDING-TOP: 0px
+}
+#discover P.p1 {
+	MARGIN: 0px 0px 7px; PADDING-TOP: 2px
+}
+#discover P.p2 {
+	MARGIN-BOTTOM: 18px
+}
+#discover_b {
+	MARGIN-TOP: 25px; FONT-SIZE: 12px; COLOR: #369
+}
+#discover_b .ad_7day_button {
+	MARGIN-RIGHT: 140px
+}
+#discover_b .rr {
+	MARGIN-TOP: 9px; MARGIN-RIGHT: 45px
+}
+.mbt .mbtr .mbtr_m_img {
+	FLOAT: left; WIDTH: 48px; HEIGHT: 48px
+}
+.mbt .mbtr .mbtr_m_content {
+	MARGIN: 0px 0px 0px 58px; COLOR: #666
+}
+.mbt .mbtr .mbtr_m_content .cm {
+	MARGIN-RIGHT: 10px
+}
+.mbt .mbtr .mbtr_m_content .time {
+	COLOR: #999
+}
+.mbt .mbtr .mbtr_m_content .cpl {
+	COLOR: #999; MARGIN-RIGHT: 10px; PADDING-TOP: 5px
+}
+.mbt .mbtr .mbtr_m_player {
+	CLEAR: both; TEXT-ALIGN: center
+}
+#mbr_img .mbtr {
+	MARGIN: 0px
+}
+#mbr_music .mbtr {
+	MARGIN: 0px
+}
+#mbr_img .broadsmr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#mbr_music .broadsmr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#mbr_img .quote {
+	MARGIN: 0px
+}
+#mbr_music .quote {
+	MARGIN: 0px
+}
+#mbr_img .indentrec {
+	MARGIN: 0px
+}
+#mbr_music .indentrec {
+	MARGIN: 0px
+}
+#mbr_img .recreplylst FORM {
+	MARGIN-LEFT: 0px
+}
+#mbr_music .recreplylst FORM {
+	MARGIN-LEFT: 0px
+}
+#mbr_img .star {
+	MARGIN-LEFT: 0px
+}
+#mbr_music .star {
+	MARGIN-LEFT: 0px
+}
+#mbr_img .recreplylst .simplelst {
+	MARGIN-LEFT: 0px
+}
+#mbr_music .recreplylst .simplelst {
+	MARGIN-LEFT: 0px
+}
+#mbr_img {
+	MARGIN-BOTTOM: 20px; WORD-BREAK: break-all
+}
+#mbr_music {
+	MARGIN-BOTTOM: 20px; WORD-BREAK: break-all
+}
+.allstar50 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar45 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar40 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar35 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar30 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar25 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar20 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar15 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar10 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar05 {
+	DISPLAY: block; PADDING-LEFT: 55px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/allstar.gif) no-repeat; MARGIN-BOTTOM: 7px; OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 12px
+}
+.allstar50 {
+	BACKGROUND-POSITION: 0px 0px
+}
+.allstar45 {
+	BACKGROUND-POSITION: 0px -12px
+}
+.allstar40 {
+	BACKGROUND-POSITION: 0px -24px
+}
+.allstar35 {
+	BACKGROUND-POSITION: 0px -36px
+}
+.allstar30 {
+	BACKGROUND-POSITION: 0px -48px
+}
+.allstar25 {
+	BACKGROUND-POSITION: 0px -60px
+}
+.allstar20 {
+	BACKGROUND-POSITION: 0px -72px
+}
+.allstar15 {
+	BACKGROUND-POSITION: 0px -84px
+}
+.allstar10 {
+	BACKGROUND-POSITION: 0px -96px
+}
+.allstar05 {
+	BACKGROUND-POSITION: 0px -108px
+}
+.blocktop_content DIV {
+	PADDING-RIGHT: 10px
+}
+FIELDSET.setquestion LABEL {
+	WIDTH: 40px
+}
+FIELDSET.setquestion .fsctm {
+	MARGIN: 0px 0px 10px 50px; COLOR: #333
+}
+FIELDSET.setquestion .fsctm SPAN {
+	FONT-SIZE: 14px
+}
+TABLE.settable {
+	MARGIN: 0px 0px 20px; COLOR: #666
+}
+TABLE.settable TH {
+	BACKGROUND: #eee; COLOR: #333
+}
+TABLE.settable TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; TEXT-ALIGN: left
+}
+TABLE.settable TH {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; TEXT-ALIGN: left
+}
+TABLE.settable TD.add {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+FIELDSET.setquestion TABLE.settable {
+	DISPLAY: none; MARGIN-LEFT: 70px
+}
+FIELDSET.setquestion TABLE.settable TH {
+	COLOR: #666
+}
+FIELDSET.setquestion TABLE.settable TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+FIELDSET.eventform {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 20px; BORDER-BOTTOM: #ddd 1px solid
+}
+FIELDSET.eventform .fsct {
+	MARGIN-BOTTOM: 10px
+}
+FIELDSET.floatdiv {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#in_table .block4 {
+	WIDTH: 575px
+}
+#tabler .block4 {
+	WIDTH: 345px
+}
+#tabler .block4 .content {
+	WIDTH: 440px
+}
+#tabler .block4 .content UL LI {
+	MARGIN-RIGHT: 100px
+}
+.block4 {
+	OVERFLOW: hidden
+}
+.block4 H2 {
+	MARGIN-TOP: 0px
+}
+.block4 .content {
+	MARGIN-TOP: 20px; TEXT-ALIGN: center
+}
+.block4 .content .headline {
+	FLOAT: left; WIDTH: 100px
+}
+.block4 .content UL {
+	FLOAT: right; widtih: 450px
+}
+.block4 .content UL LI {
+	DISPLAY: inline; FLOAT: left; MARGIN-BOTTOM: 16px; WIDTH: 180px; MARGIN-RIGHT: 40px
+}
+.block4 .content UL LI.line {
+	CLEAR: both; DISPLAY: block; FONT-SIZE: 0px; FLOAT: none; MARGIN: 0px 0px 15px; WIDTH: 450px; LINE-HEIGHT: 0; BORDER-BOTTOM: #ccc 1px dashed
+}
+.block4 .content UL LI A IMG {
+	FLOAT: left; MARGIN: 0px 10px 0px 0px; WIDTH: 50px; HEIGHT: 50px
+}
+.block4 .content UL LI DIV {
+	FLOAT: left; WIDTH: 90px; TEXT-ALIGN: left
+}
+.leftobs {
+	FLOAT: left; WIDTH: 100%
+}
+.leftobs .obs {
+	WIDTH: 114px
+}
+#tableh {
+	FLOAT: left; MARGIN: 0px -480px 0px 0px; WIDTH: 100%
+}
+#in_tableh {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 0px; MIN-HEIGHT: 440px; PADDING-BOTTOM: 0px; MARGIN: 0px 480px 0px 0px; PADDING-TOP: 0px
+}
+#tablerh {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 445px; WORD-BREAK: break-all
+}
+#in_tableh .block5 {
+	OVERFLOW: hidden; WIDTH: 460px
+}
+#tablerh .block5 {
+	OVERFLOW: hidden; WIDTH: 460px
+}
+#in_tableh .block5 .content {
+	WIDTH: 500px
+}
+#tablerh .block5 .content {
+	WIDTH: 500px
+}
+#in_tableh .block5 .content DL {
+	MARGIN-RIGHT: 30px; HEIGHT: 140px
+}
+#tablerh .block5 .content DL {
+	MARGIN-RIGHT: 30px; HEIGHT: 140px
+}
+.block6 {
+	MARGIN-BOTTOM: 20px
+}
+.block6 .content {
+	BORDER-RIGHT: #eee 1px solid; BORDER-TOP: #eee 1px solid; BORDER-LEFT: #eee 1px solid; BORDER-BOTTOM: #eee 1px solid
+}
+.block6 .content UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px 5px; OVERFLOW: hidden; PADDING-TOP: 10px; BORDER-BOTTOM: #ddd 1px dashed; HEIGHT: 100px
+}
+.block6 .content UL LI .no {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; WIDTH: 18px; MARGIN-RIGHT: 5px
+}
+.block6 .content UL LI .no SPAN {
+	DISPLAY: block; FONT-SIZE: 10px; BACKGROUND: url(http://t.douban.com/pics/chart_top.gif) no-repeat; FLOAT: right; OVERFLOW: hidden; WIDTH: 15px; LINE-HEIGHT: 15px; HEIGHT: 15px; TEXT-ALIGN: center
+}
+.block6 .content UL LI .no B {
+	FONT-WEIGHT: 400; COLOR: green; WHITE-SPACE: nowrap
+}
+.block6 .content UL LI .toppic {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.block6 .content UL LI .toppic IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.block6 .content UL LI .topinfo {
+	FLOAT: left; WIDTH: 280px
+}
+.block6 .content UL LI .topinfo .title {
+	FONT-SIZE: 14px
+}
+.block6 .content UL LI .topinfo .title SPAN {
+	FONT-SIZE: 12px
+}
+.block6 .content UL LI .topinfo SPAN.info {
+	MARGIN-TOP: 10px; DISPLAY: block; COLOR: #666
+}
+.block6 .artist UL LI .toppic {
+	WIDTH: 100px
+}
+.block6 .artist UL LI .topinfo {
+	WIDTH: 260px
+}
+.music_show .content DL DT {
+	HEIGHT: 85px
+}
+.cd_show .toppic {
+	WIDTH: 85px
+}
+.artist_show .content DL DT {
+	HEIGHT: 85px
+}
+.block5 H2 {
+	MARGIN-TOP: 0px
+}
+.block5 .content DL.clear {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 0px; PADDING-TOP: 0px
+}
+.block5 .content DL DT {
+	OVERFLOW: hidden; HEIGHT: 99px
+}
+.block5 .content DL DT A {
+	WIDTH: 85px; TEXT-ALIGN: center
+}
+.block5 .content DL DT A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.block5 .content DL DD {
+	MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 3px
+}
+#friends_sub .content DL DT {
+	POSITION: static; HEIGHT: auto
+}
+#friends_sub .content DL DT A {
+	POSITION: static; HEIGHT: auto
+}
+#friends_sub .content DL DT A:hover {
+	BACKGROUND: #039; COLOR: #fff
+}
+#tabler .block5 {
+	OVERFLOW: hidden; WIDTH: 345px
+}
+#tabler .block5 .content {
+	WIDTH: 400px
+}
+.block5 .content DL {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 18px 10px 0px; OVERFLOW: hidden; WIDTH: 85px; TEXT-ALIGN: center
+}
+#in_tablem .block5 {
+	WIDTH: 630px
+}
+#in_tablem .block5 .content {
+	WIDTH: 640px
+}
+.subject_show .content DL {
+	MARGIN: 15px 33px 15px 0px
+}
+.copyright {
+	MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 5px; COLOR: #999
+}
+.review_bottom {
+	BORDER-TOP: #ddd 1px dashed; PADDING-TOP: 5px
+}
+.review_bottom .review_controller .vote {
+	FLOAT: right; WIDTH: 70px; TEXT-ALIGN: right
+}
+.review_bottom .review_controller .review_button {
+	MARGIN-RIGHT: 80px
+}
+.other_review UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; COLOR: #666; PADDING-TOP: 5px; BORDER-BOTTOM: #ddd 1px dashed; LIST-STYLE-TYPE: none
+}
+.basic_input {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid
+}
+.artist_obu {
+	FLOAT: left; WIDTH: 100%
+}
+.artist_obu .obu {
+	WIDTH: 90px
+}
+.block_menu {
+	BORDER-RIGHT: #e4e4e4 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #e4e4e4 1px solid; PADDING-LEFT: 0px; BACKGROUND: #f6f5ee; PADDING-BOTTOM: 0px; MARGIN: 0px 10px 20px 0px; BORDER-LEFT: #e4e4e4 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #e4e4e4 1px solid; POSITION: relative
+}
+.block_menu .ft {
+	DISPLAY: block; FONT-SIZE: 1px; BACKGROUND: url(http://t.douban.com/pics/city_block_menu.gif) no-repeat; WIDTH: 3px; LINE-HEIGHT: 1px; POSITION: absolute; HEIGHT: 3px
+}
+.block_menu .fb {
+	DISPLAY: block; FONT-SIZE: 1px; BACKGROUND: url(http://t.douban.com/pics/city_block_menu.gif) no-repeat; WIDTH: 3px; LINE-HEIGHT: 1px; POSITION: absolute; HEIGHT: 3px
+}
+.block_menu EM.ft {
+	BACKGROUND-POSITION: left top; LEFT: -1px; TOP: 0px
+}
+.block_menu B.ft {
+	BACKGROUND-POSITION: right top; RIGHT: 10px; TOP: 0px
+}
+.block_menu EM.fb {
+	BACKGROUND-POSITION: left bottom; LEFT: -1px; BOTTOM: 457px
+}
+.block_menu B.fb {
+	BACKGROUND-POSITION: right bottom; RIGHT: 10px; BOTTOM: 457px
+}
+.block_menu H2 {
+	MARGIN-TOP: 0px; FONT-SIZE: 14px; BACKGROUND: #f6f5ee; MARGIN-BOTTOM: 3px
+}
+.block_menu UL {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+.block_menu LI {
+	PADDING-LEFT: 0px
+}
+.block_menu LI.on {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.blockmenu LI#event_home {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.block_menu LI#event_home A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 3px; BACKGROUND: url(http://t.douban.com/pics/event_home_tab.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.block_menu LI#event_home A SPAN {
+	PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/event_home_tab.gif) no-repeat right top; PADDING-BOTTOM: 2px; COLOR: #fff; LINE-HEIGHT: 12px; PADDING-TOP: 2px
+}
+.block_menu LI.on A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 3px; BACKGROUND: url(http://t.douban.com/pics/green_tab.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.block_menu LI.on A SPAN {
+	PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/green_tab.gif) no-repeat right top; PADDING-BOTTOM: 2px; COLOR: #fff; LINE-HEIGHT: 12px; PADDING-TOP: 2px
+}
+.block_menu .line {
+	BORDER-TOP: #e4e4e4 1px solid; FONT-SIZE: 0px; BACKGROUND: #fff; MARGIN: 10px 0px; WIDTH: 100%; LINE-HEIGHT: 0px; HEIGHT: 0px
+}
+.block_menu .line2 {
+	BORDER-TOP: #e4e4e4 1px solid; FONT-SIZE: 0px; BACKGROUND: #fff; MARGIN: 5px 0px; WIDTH: 100%; LINE-HEIGHT: 0px; HEIGHT: 0px
+}
+.block_search {
+	PADDING-RIGHT: 10px; TEXT-ALIGN: center
+}
+.block_search .text {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; MARGIN-BOTTOM: 4px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; WIDTH: 130px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid
+}
+.block_headerline {
+	MARGIN-BOTTOM: 10px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.block_headerline .nof {
+	MARGIN-BOTTOM: 10px
+}
+.block_headerline .nof H2 {
+	MARGIN-LEFT: 120px
+}
+.block_headerline .nof .intro {
+	MARGIN-LEFT: 120px
+}
+.block_headerline .evtlstimg {
+	OVERFLOW: hidden; WIDTH: 115px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.block_headerline .evtlstimg IMG {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #ddd 1px solid; WIDTH: 100px; PADDING-TOP: 5px; BORDER-BOTTOM: #ddd 1px solid
+}
+.block_spc {
+	OVERFLOW: hidden; WIDTH: 495px
+}
+.block_spc .content {
+	WIDTH: 515px
+}
+.block_spc .content LI {
+	FLOAT: left; MARGIN: 0px 15px 20px 0px; WIDTH: 112px; TEXT-ALIGN: center
+}
+.block_review {
+	OVERFLOW: hidden; WIDTH: 495px
+}
+.block_review .content {
+	WIDTH: 515px
+}
+.phs_link {
+	DISPLAY: block; PADDING-BOTTOM: 3px; HEIGHT: 110px
+}
+.phs_link:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.block_review .content LI {
+	FLOAT: left; MARGIN: 0px 20px 20px 0px; WIDTH: 107px; TEXT-ALIGN: center
+}
+.block_review .content LI .album_s {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 5px; BACKGROUND: url(http://t.douban.com/pics/albumback_city_s.gif) no-repeat 1px 1px; PADDING-BOTTOM: 8px; WIDTH: 87px; PADDING-TOP: 5px; HEIGHT: 87px
+}
+.grid-4-14-6 .block1 .content UL LI {
+	MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 10px; WIDTH: 245px
+}
+.grid-4-14-6 .block1 .content UL LI.clear {
+	BORDER-TOP: #ddd 1px dashed; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 0px; WIDTH: auto
+}
+.block_event_tab {
+	BORDER-RIGHT: #e4e4e4 1px solid; BORDER-TOP: #e4e4e4 1px solid; MARGIN-BOTTOM: 20px; BORDER-LEFT: #e4e4e4 1px solid; BORDER-BOTTOM: #e4e4e4 1px solid
+}
+.block_event_tab UL.title LI {
+	BORDER-RIGHT: #e4e4e4 1px solid; FLOAT: left
+}
+.block_event_tab UL.title LI.last {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.block_event_tab UL.title LI.last A {
+	WIDTH: 124px
+}
+.block_event_tab UL.title LI.last {
+	POSITION: relative
+}
+.block_event_tab UL.title LI.first {
+	POSITION: relative
+}
+.block_event_tab UL.title LI.first A EM {
+	DISPLAY: block; FONT-SIZE: 1px; BACKGROUND: url(http://t.douban.com/pics/event_tab_title.gif) no-repeat; WIDTH: 3px; LINE-HEIGHT: 1px; POSITION: absolute; HEIGHT: 3px
+}
+.block_event_tab UL.title LI.last A EM {
+	DISPLAY: block; FONT-SIZE: 1px; BACKGROUND: url(http://t.douban.com/pics/event_tab_title.gif) no-repeat; WIDTH: 3px; LINE-HEIGHT: 1px; POSITION: absolute; HEIGHT: 3px
+}
+.block_event_tab UL.title LI.first A EM {
+	BACKGROUND-POSITION: left bottom; LEFT: -1px; TOP: -1px
+}
+.block_event_tab UL.title LI.first A.on EM {
+	BACKGROUND-POSITION: left top; RIGHT: -1px; TOP: -1px
+}
+.block_event_tab UL.title LI.first A:hover EM {
+	BACKGROUND-POSITION: left top; RIGHT: -1px; TOP: -1px
+}
+.block_event_tab UL.title LI.last A EM {
+	BACKGROUND-POSITION: right bottom; RIGHT: -1px; TOP: -1px
+}
+.block_event_tab UL.title LI.last A.on EM {
+	BACKGROUND-POSITION: right top; RIGHT: -1px; TOP: -1px
+}
+.block_event_tab UL.title LI.last A:hover EM {
+	BACKGROUND-POSITION: right top; RIGHT: -1px; TOP: -1px
+}
+.block_event_tab UL.title LI A {
+	DISPLAY: block; WIDTH: 122px; COLOR: #060; LINE-HEIGHT: 24px; BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 24px; TEXT-ALIGN: center
+}
+.block_event_tab UL.title LI A:hover {
+	BACKGROUND: #fff; COLOR: #333; BORDER-BOTTOM: #fff 1px solid
+}
+.block_event_tab UL.title LI A.on {
+	BACKGROUND: #fff; COLOR: #333; BORDER-BOTTOM: #fff 1px solid
+}
+.block_event_tab UL.title {
+	BACKGROUND: #f6f5ee; MARGIN-BOTTOM: 10px
+}
+.block_event_tab .block1 {
+	MARGIN-LEFT: 10px; WIDTH: 480px
+}
+.block_event_tab .block1 .content UL LI {
+	MARGIN-BOTTOM: 10px; WIDTH: 220px
+}
+.block_event_tab .block1 .content UL LI.clear {
+	MARGIN: 0px
+}
+#week_tab {
+	MARGIN-BOTTOM: 20px
+}
+#more_event_tab {
+	FLOAT: left; POSITION: relative
+}
+H2.green_tab A {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 3px 5px 0px; LINE-HEIGHT: 12px; PADDING-TOP: 2px
+}
+H2.green_tab A SPAN {
+	FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+H2.green_tab A.on {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/green_tab.gif) no-repeat; COLOR: #fff
+}
+H2.green_tab A.on SPAN {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/green_tab.gif) no-repeat; COLOR: #fff
+}
+.sort_tabs A.on {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/green_tab.gif) no-repeat; COLOR: #fff
+}
+.sort_tabs A.on SPAN {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/green_tab.gif) no-repeat; COLOR: #fff
+}
+H2.green_tab A.on {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 12px; PADDING-TOP: 0px
+}
+.sort_tabs A.on {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 12px; PADDING-TOP: 0px
+}
+.sort_tabs A.on {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 12px; PADDING-TOP: 0px
+}
+H2.green_tab A.on SPAN {
+	PADDING-RIGHT: 8px; BACKGROUND-POSITION: right top; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.sort_tabs A.on SPAN {
+	PADDING-RIGHT: 8px; BACKGROUND-POSITION: right top; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#tongcheng_tab {
+	PADDING-RIGHT: 2px
+}
+#tongcheng_tab SPAN {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 2px; BACKGROUND: url(http://t.douban.com/pics/icon/tongcheng_tab_down.gif) no-repeat 27px 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#tongcheng_tab:hover SPAN {
+	BACKGROUND: url(http://t.douban.com/pics/icon/tongcheng_tab_down.gif) no-repeat 27px -10px
+}
+#tongcheng_tab SPAN.up {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 2px; BACKGROUND: url(http://t.douban.com/pics/icon/tongcheng_tab_up.gif) no-repeat 27px 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#tongcheng_tab:hover SPAN.up {
+	BACKGROUND: url(http://t.douban.com/pics/icon/tongcheng_tab_up.gif) no-repeat 27px -10px
+}
+.block_search1 {
+	BORDER-RIGHT: #f7ebdd 1px solid; BORDER-TOP: #f7ebdd 1px solid; MARGIN-BOTTOM: 20px; BORDER-LEFT: #f7ebdd 1px solid; BORDER-BOTTOM: #f7ebdd 1px solid; POSITION: relative
+}
+.block_search1 .block_top EM {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/search_conner.gif) no-repeat; OVERFLOW: hidden; WIDTH: 4px; POSITION: absolute; HEIGHT: 4px
+}
+.block_search1 .block_top B {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/search_conner.gif) no-repeat; OVERFLOW: hidden; WIDTH: 4px; POSITION: absolute; HEIGHT: 4px
+}
+.block_search1 .block_bottom EM {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/search_conner.gif) no-repeat; OVERFLOW: hidden; WIDTH: 4px; POSITION: absolute; HEIGHT: 4px
+}
+.block_search1 .block_bottom B {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/search_conner.gif) no-repeat; OVERFLOW: hidden; WIDTH: 4px; POSITION: absolute; HEIGHT: 4px
+}
+.block_search1 .block_top EM {
+	BACKGROUND-POSITION: 0px 0px; LEFT: -1px; TOP: -1px
+}
+.block_search1 .block_top B {
+	BACKGROUND-POSITION: -4px 0px; RIGHT: -1px; TOP: -1px
+}
+.block_search1 .block_bottom EM {
+	BACKGROUND-POSITION: 0px -12px; LEFT: -1px; BOTTOM: -1px
+}
+.block_search1 .block_bottom B {
+	BACKGROUND-POSITION: -4px -12px; RIGHT: -1px; BOTTOM: -1px
+}
+.block_search1 UL.title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 100px; BACKGROUND: #fef4eb; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 1px; BORDER-BOTTOM: #f7ebdd 1px solid
+}
+.block_search1 UL.title LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 0px 10px 0px 0px; PADDING-TOP: 3px
+}
+.block_search1 UL.title LI.on {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/wztab.gif) no-repeat right top; PADDING-BOTTOM: 0px; BOTTOM: -1px; PADDING-TOP: 0px; POSITION: relative
+}
+.block_search1 UL.title LI.on SPAN {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND: url(http://t.douban.com/pics/wztab.gif) no-repeat left top; PADDING-BOTTOM: 2px; PADDING-TOP: 3px
+}
+.block_search1 .ct {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.block_search1 .ct INPUT.input_basic {
+	FONT-SIZE: 14px; WIDTH: 350px
+}
+.block_search1 .ct BUTTON {
+	HEIGHT: 20px
+}
+.block_search1 .ct .introduce {
+	COLOR: #999; PADDING-TOP: 10px
+}
+.search_nav {
+	MARGIN-BOTTOM: 5px; COLOR: #666; TEXT-ALIGN: right
+}
+TABLE.olt THEAD TH {
+	BACKGROUND: #eee; TEXT-ALIGN: left
+}
+.search_no_result {
+	FONT-SIZE: 14px; PADDING-TOP: 20px; TEXT-ALIGN: left
+}
+.search_no_result UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 40px; PADDING-TOP: 40px
+}
+.search_no_result UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; COLOR: #999; PADDING-TOP: 2px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+.checkbox_basic {
+	MARGIN: 0px 5px 0px 0px
+}
+.clist2 {
+	PADDING-TOP: 10px
+}
+.clist2 IMG {
+	FLOAT: left
+}
+#tablen {
+	FLOAT: left; MARGIN: 0px -300px 0px 0px; WIDTH: 100%
+}
+#in_tablen {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 300px 0px 0px; PADDING-TOP: 0px
+}
+#tablern {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 300px
+}
+.movie_search {
+	MARGIN-BOTTOM: 20px; TEXT-ALIGN: center
+}
+.movie_search .input_basic2 {
+	FONT-SIZE: 12px; BACKGROUND: #fbfbfb; WIDTH: 350px
+}
+.movie_search BUTTON {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 5px; LINE-HEIGHT: 14px; PADDING-TOP: 0px
+}
+.movie_headerline {
+	BORDER-RIGHT: #e4e4e4 1px solid; BORDER-TOP: #e4e4e4 1px solid; BACKGROUND: #fff; MARGIN-BOTTOM: 30px; BORDER-LEFT: #e4e4e4 1px solid; BORDER-BOTTOM: #e4e4e4 1px solid; POSITION: relative
+}
+.movie_headerline .left_conner EM {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 3px; POSITION: absolute; HEIGHT: 3px
+}
+.movie_headerline .left_conner B {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 3px; POSITION: absolute; HEIGHT: 3px
+}
+.movie_headerline .first EM {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 3px; POSITION: absolute; HEIGHT: 3px
+}
+.movie_headerline .last EM {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 3px; POSITION: absolute; HEIGHT: 3px
+}
+.movie_headerline .left_conner EM {
+	BACKGROUND-POSITION: 0px 0px; LEFT: -1px; TOP: -1px
+}
+.movie_headerline .left_conner B {
+	BACKGROUND-POSITION: 0px -3px; LEFT: -1px; BOTTOM: -1px
+}
+.movie_headerline .first EM {
+	BACKGROUND-POSITION: -3px -6px; RIGHT: -1px; TOP: -1px
+}
+.movie_headerline .last EM {
+	BACKGROUND-POSITION: -3px -9px; RIGHT: -1px; BOTTOM: -1px
+}
+.movie_headerline .first .on EM {
+	BACKGROUND-POSITION: -3px -12px
+}
+.movie_headerline .last .on EM {
+	BACKGROUND-POSITION: -3px -15px
+}
+#content_menu1 {
+	DISPLAY: block
+}
+.movie_headerline .content {
+	PADDING-RIGHT: 10px; DISPLAY: none; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 392px; PADDING-TOP: 10px; HEIGHT: 215px
+}
+.movie_headerline .content .title {
+	MARGIN-BOTTOM: 3px
+}
+.movie_headerline .content .title A {
+	FONT-SIZE: 14px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.movie_headerline .content .title SPAN {
+	FLOAT: left
+}
+.movie_headerline .grade {
+	FONT-WEIGHT: 700; FONT-SIZE: 12px; MARGIN-LEFT: 10px; COLOR: #ff5138
+}
+.movie_headerline UL.menu {
+	FLOAT: right; BORDER-LEFT: #e4e4e4 1px solid; WIDTH: 175px; HEIGHT: 235px
+}
+.movie_headerline UL.menu LI {
+	BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 58px
+}
+.movie_headerline UL.menu LI DIV.clearfix {
+	HEIGHT: 58px
+}
+.movie_headerline UL.menu LI.last {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.movie_headerline UL.menu LI .on {
+	BACKGROUND: #e4e4e4; POSITION: relative
+}
+.movie_headerline UL.menu LI .arrow {
+	DISPLAY: none
+}
+.movie_headerline UL.menu LI .on .arrow {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/movie_headerline_arrow.gif) no-repeat; LEFT: -11px; OVERFLOW: hidden; WIDTH: 10px; POSITION: absolute; TOP: 20px; HEIGHT: 13px
+}
+.movie_headerline UL.menu LI .img {
+	PADDING-RIGHT: 5px; DISPLAY: inline; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 30px; PADDING-TOP: 5px; HEIGHT: 48px
+}
+.movie_headerline UL.menu LI .intro {
+	PADDING-LEFT: 5px; FONT-SIZE: 10px; MARGIN-LEFT: 40px; COLOR: #ff5138; PADDING-TOP: 10px
+}
+.movie_headerline UL.menu LI .intro A {
+	FONT-SIZE: 12px
+}
+.movie_headerline .allstar50 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar45 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar40 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar35 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar30 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar25 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar20 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar15 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar10 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .allstar05 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar50 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar45 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar40 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar35 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar30 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar25 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar20 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar15 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar10 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.star .allstar05 {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.movie_headerline .content .headerline_img {
+	DISPLAY: inline; FLOAT: left; MARGIN-BOTTOM: 8px; OVERFLOW: hidden; WIDTH: 105px; HEIGHT: 155px
+}
+.movie_headerline .content .headerline_img IMG {
+	WIDTH: 105px
+}
+.movie_headerline .content .headerline_content {
+	FLOAT: left; MARGIN-LEFT: 8px; WIDTH: 275px
+}
+.movie_headerline .content .ul {
+	CLEAR: both; MARGIN: 5px 0px
+}
+.movie_headerline .content .headerline_review {
+	COLOR: #666; PADDING-TOP: 5px
+}
+.movie_headerline .content .headerline_review A {
+	MARGIN: 0px 5px
+}
+.movie_headerline .intro A.title {
+	DISPLAY: block; OVERFLOW: hidden; HEIGHT: 19px
+}
+.movie_new {
+	MARGIN-BOTTOM: 30px
+}
+.movie_new H2 {
+	MARGIN-BOTTOM: 15px
+}
+.movie_new UL.content LI {
+	PADDING-RIGHT: 10px; FLOAT: left; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 3px; OVERFLOW: hidden; WIDTH: 285px; BORDER-BOTTOM: #ddd 1px dashed; HEIGHT: 130px
+}
+.movie_new UL.content LI .img {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 80px; HEIGHT: 140px
+}
+.movie_new UL.content LI .intro {
+	FLOAT: right; WIDTH: 200px; COLOR: #000
+}
+.movie_new UL.content LI .intro H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 16px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.movie_new UL.content LI .intro H3 SPAN {
+	FONT-SIZE: 14px; COLOR: #000; LINE-HEIGHT: 16px; MARGIN-RIGHT: 5px
+}
+.movie_new UL.content LI .intro .star {
+	FONT-SIZE: 10px; COLOR: #ff5138
+}
+.movie_review {
+	MARGIN-BOTTOM: 30px
+}
+.movie_review H2 {
+	MARGIN-BOTTOM: 0px
+}
+.movie_review .ilst {
+	DISPLAY: none
+}
+.movie_review .nlst {
+	MARGIN-LEFT: 0px
+}
+.movie_review .clst {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 3px; OVERFLOW: visible
+}
+.music_new {
+	MARGIN: 30px 0px
+}
+.music_new H2 {
+	MARGIN-BOTTOM: 15px
+}
+.music_new UL.content LI {
+	PADDING-RIGHT: 10px; FLOAT: left; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 3px; OVERFLOW: hidden; WIDTH: 285px; BORDER-BOTTOM: #ddd 1px dashed; HEIGHT: 105px
+}
+.music_new UL.content LI .img {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 85px; HEIGHT: 105px
+}
+.music_new UL.content LI .intro {
+	FLOAT: right; WIDTH: 190px; COLOR: #000
+}
+.music_new UL.content LI .intro H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 16px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.music_new UL.content LI .intro H3 SPAN {
+	FONT-SIZE: 14px; COLOR: #000; LINE-HEIGHT: 16px; MARGIN-RIGHT: 5px
+}
+.music_new UL.content LI .intro .star {
+	FONT-SIZE: 10px; COLOR: #ff5138
+}
+.music_review {
+	MARGIN-BOTTOM: 30px
+}
+.music_review H2 {
+	MARGIN-BOTTOM: 0px
+}
+.music_review .ilst {
+	DISPLAY: none
+}
+.music_review .nlst {
+	MARGIN-LEFT: 0px
+}
+.music_review .clst {
+	MARGIN-LEFT: 3px
+}
+.newtags {
+	MARGIN-BOTTOM: 30px
+}
+.newtags H2 {
+	MARGIN-BOTTOM: 0px
+}
+.newtags UL.content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.newtags UL.last {
+	BORDER-BOTTOM-STYLE: none
+}
+.newtags UL.content LI {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 60px
+}
+.movie_top {
+	MARGIN-BOTTOM: 30px
+}
+.movie_top UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 7px; PADDING-BOTTOM: 7px; LINE-HEIGHT: 14px; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.movie_top UL LI DIV.no {
+	FONT-SIZE: 9px; FLOAT: left; WIDTH: 20px; TEXT-ALIGN: center
+}
+.movie_top UL LI DIV.name {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 250px
+}
+.box_chart {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 230px; WORD-WRAP: break-word
+}
+.box_chart_num {
+	FLOAT: right
+}
+.movie_top UL LI DIV.up {
+	DISPLAY: block; PADDING-LEFT: 15px; FONT-SIZE: 9px; BACKGROUND: url(http://t.douban.com/pics/movie_top.gif) no-repeat; FLOAT: right; WIDTH: 20px; COLOR: #999
+}
+.movie_top UL LI DIV.down {
+	DISPLAY: block; PADDING-LEFT: 15px; FONT-SIZE: 9px; BACKGROUND: url(http://t.douban.com/pics/movie_top.gif) no-repeat; FLOAT: right; WIDTH: 20px; COLOR: #999
+}
+.movie_top UL LI DIV.stay {
+	DISPLAY: block; PADDING-LEFT: 15px; FONT-SIZE: 9px; BACKGROUND: url(http://t.douban.com/pics/movie_top.gif) no-repeat; FLOAT: right; WIDTH: 20px; COLOR: #999
+}
+.movie_top UL LI DIV.down {
+	BACKGROUND-POSITION: 0px -12px
+}
+.movie_top UL LI DIV.stay {
+	BACKGROUND-POSITION: 0px -24px
+}
+.movie_show .content DL DT {
+	HEIGHT: 100px
+}
+.movie_show .content DL DD {
+	COLOR: #999
+}
+.bigstar50 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar45 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar40 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar35 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar30 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar25 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar20 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar15 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar10 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar05 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar00 {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://t.douban.com/pics/all_bigstars.gif) no-repeat; OVERFLOW: hidden; WIDTH: 75px; COLOR: #999; LINE-HEIGHT: 100%; HEIGHT: 14px
+}
+.bigstar50 {
+	BACKGROUND-POSITION: 0px 0px
+}
+.bigstar45 {
+	BACKGROUND-POSITION: 0px -15px
+}
+.bigstar40 {
+	BACKGROUND-POSITION: 0px -30px
+}
+.bigstar35 {
+	BACKGROUND-POSITION: 0px -45px
+}
+.bigstar30 {
+	BACKGROUND-POSITION: 0px -60px
+}
+.bigstar25 {
+	BACKGROUND-POSITION: 0px -75px
+}
+.bigstar20 {
+	BACKGROUND-POSITION: 0px -90px
+}
+.bigstar15 {
+	BACKGROUND-POSITION: 0px -105px
+}
+.bigstar10 {
+	BACKGROUND-POSITION: 0px -120px
+}
+.bigstar05 {
+	BACKGROUND-POSITION: 0px -135px
+}
+.bigstar00 {
+	BACKGROUND-POSITION: 0px -150px
+}
+#tablern .block5 {
+	OVERFLOW: hidden; WIDTH: 300px
+}
+#tablern .block5 .content {
+	WIDTH: 400px
+}
+#tablern .block5 .content DL {
+	MARGIN-RIGHT: 20px
+}
+#tablerm .block5 .content DL {
+	MARGIN: 0px 5px 10px 0px
+}
+.movie_headerline DIV.content {
+	Z-INDEX: -1; POSITION: absolute
+}
+.fav {
+	MARGIN-BOTTOM: 20px
+}
+.fav .obs {
+	MARGIN-BOTTOM: 15px; WIDTH: 89px
+}
+.fav .obs DD {
+	MARGIN-BOTTOM: 5px; HEIGHT: auto; TEXT-ALIGN: center
+}
+.page_address .mi {
+	WIDTH: 80px; MARGIN-RIGHT: 3px
+}
+.page_address .address_suggest {
+	WIDTH: 180px
+}
+.page_address .district {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#event_albums {
+	OVERFLOW: hidden; WIDTH: 100%
+}
+.column4_list {
+	MARGIN: 10px 0px 0px 5px
+}
+.column4_list H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.column4_list P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 5px
+}
+.column4_list LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 50px 30px 0px; WIDTH: 100px
+}
+.dlist {
+	PADDING-BOTTOM: 20px; BORDER-BOTTOM: #ccc 1px dashed
+}
+.col2_doc_text {
+	MARGIN-LEFT: 65px
+}
+.block5 .content DL DD.long {
+	HEIGHT: 100px
+}
+.fleft {
+	FLOAT: left
+}
+.fright {
+	FLOAT: right
+}
+.cleft {
+	CLEAR: left
+}
+.rating_wrap {
+	FONT-SIZE: 10px; LINE-HEIGHT: 18px
+}
+#interest_sect_level {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 20px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.ul_subject_menu LI {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 15px; LINE-HEIGHT: 14px
+}
+.rating_self {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px; LINE-HEIGHT: 0; PADDING-TOP: 0px
+}
+.rating_detail_wrap {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 50px; PADDING-TOP: 10px
+}
+.rating_detail_star {
+	FLOAT: left; WIDTH: 265px; LINE-HEIGHT: 21px
+}
+.rating_detail_chart {
+	FLOAT: left; WIDTH: 321px
+}
+.rating_detail_chart P {
+	MARGIN: 0px
+}
+.dlist LI {
+	MARGIN-BOTTOM: 13px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.dlist LI P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.dlist LI .dlist_content {
+	FLOAT: left; WIDTH: 550px
+}
+.rating_list UL {
+	PADDING-BOTTOM: 10px
+}
+.rating_list LI {
+	MARGIN: 0px 0px 3px
+}
+.rating_list LI.on {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.rating_list LI.on A {
+	PADDING-RIGHT: 0px; DISPLAY: inline-block; PADDING-LEFT: 3px; BACKGROUND: url(http://t.douban.com/pics/green_tab.gif) no-repeat left top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.rating_list LI.on A SPAN {
+	PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://t.douban.com/pics/green_tab.gif) no-repeat right top; PADDING-BOTTOM: 2px; COLOR: #fff; LINE-HEIGHT: 12px; PADDING-TOP: 2px
+}
+.bicelink A {
+	COLOR: #369
+}
+.bicelink A:hover {
+	BACKGROUND: #369; COLOR: #fff
+}
+.color_red {
+	COLOR: red
+}
+.color-red {
+	COLOR: red
+}
+.color_gray {
+	COLOR: #666
+}
+.color-gray {
+	COLOR: #666
+}
+.color-green {
+	COLOR: #060
+}
+.color-orange {
+	COLOR: #e77200
+}
+.font_normal {
+	FONT-SIZE: 12px
+}
+P.gact {
+	MARGIN: 0px
+}
+.rating_num {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; COLOR: red; LINE-HEIGHT: 18px; PADDING-TOP: 0px
+}
+.rating_nums {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; COLOR: #ff5138; PADDING-TOP: 0px
+}
+.input_read_only {
+	BACKGROUND: #eee; COLOR: #666
+}
+.show {
+	DISPLAY: block
+}
+.hide {
+	DISPLAY: none
+}
+.add_vote {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.add_vote .add_vote_name {
+	FLOAT: left; WIDTH: 100px; COLOR: #666; TEXT-ALIGN: right
+}
+.add_vote .add_vote_subject {
+	MARGIN-LEFT: 110px
+}
+.add_vote .add_vote_button {
+	MARGIN-LEFT: 110px
+}
+.add_vote .line {
+	MARGIN-LEFT: 110px
+}
+.add_vote .add_vote_subject INPUT {
+	WIDTH: 380px
+}
+.add_vote .add_vote_subject TEXTAREA {
+	WIDTH: 380px
+}
+.add_vote .line {
+	MARGIN-TOP: 3px; FONT-SIZE: 1px; MARGIN-BOTTOM: 6px; LINE-HEIGHT: 1px; BORDER-BOTTOM: #ddd 1px dashed; HEIGHT: 1px
+}
+.add_vote .add_vote_button {
+	MARGIN-TOP: 20px
+}
+.vote_wrapper {
+	MARGIN: 10px 0px 5px
+}
+.vote_wrapper H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: 400; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000; PADDING-TOP: 0px
+}
+#vote_list_right LI H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: 400; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000; PADDING-TOP: 0px
+}
+.vote_wrapper UL {
+	MARGIN: 15px 0px
+}
+#vote_list_right LI {
+	MARGIN: 15px 0px
+}
+#vote_list .vote_wrapper UL LI {
+	MARGIN: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#vote_list_right LI UL LI {
+	MARGIN: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.vote_wrapper UL LI SPAN {
+	PADDING-RIGHT: 20px
+}
+.vote_wrapper UL LI .vote_item {
+	FLOAT: left; WIDTH: 265px; WORD-WRAP: break-word
+}
+.vote_wrapper UL LI .vote_item_long {
+	FLOAT: left; WORD-WRAP: break-word
+}
+.vote_wrapper UL LI .vote_item INPUT {
+	FLOAT: left; WIDTH: 15px
+}
+.vote_wrapper UL LI .vote_item_long INPUT {
+	FLOAT: left; WIDTH: 15px
+}
+.vote_wrapper UL LI .vote_item LABEL {
+	FLOAT: left; WIDTH: 240px
+}
+.vote_wrapper UL LI .vote_item_long LABEL {
+	FLOAT: left; WIDTH: 450px
+}
+.vote_wrapper UL LI .vote_line {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 180px
+}
+.vote_wrapper UL LI .vote_line EM {
+	MARGIN-TOP: 5px; FONT-SIZE: 0px; BACKGROUND: #e0e78a; FLOAT: left; WIDTH: 150px; HEIGHT: 8px
+}
+.vote_wrapper UL LI .vote_percent {
+	FONT-SIZE: 10px; FLOAT: left; WIDTH: 50px; COLOR: #aaa
+}
+.vote_wrapper P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666; PADDING-TOP: 0px
+}
+#vote_list_right P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666; PADDING-TOP: 0px
+}
+.vote_wrapper P .voted {
+	COLOR: #aaa; MARGIN-RIGHT: 20px
+}
+.vote_wrapper INPUT {
+	VERTICAL-ALIGN: middle
+}
+#vote_list LI {
+	MARGIN-BOTTOM: 30px; BORDER-BOTTOM: #ccc 1px dashed
+}
+#vote_list LI.last {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#vote_list_right LI UL {
+	MARGIN: 15px 0px
+}
+#vote_list_right LI {
+	MARGIN-BOTTOM: 25px; PADDING-BOTTOM: 3px; BORDER-BOTTOM: #ccc 1px dashed
+}
+#vote_list_right P.pt15 {
+	PADDING-TOP: 15px
+}
+.pt6 {
+	PADDING-TOP: 6px
+}
+.pt10 {
+	PADDING-TOP: 10px
+}
+.pt15 {
+	PADDING-TOP: 15px
+}
+.pt30 {
+	PADDING-TOP: 30px
+}
+.pt40 {
+	PADDING-TOP: 40px
+}
+.pr5 {
+	PADDING-RIGHT: 5px
+}
+.pb10 {
+	PADDING-BOTTOM: 10px
+}
+.pb15 {
+	PADDING-BOTTOM: 15px
+}
+.pl20 {
+	PADDING-LEFT: 20px
+}
+.mb10 {
+	MARGIN-BOTTOM: 10px
+}
+.mb15 {
+	MARGIN-BOTTOM: 15px
+}
+.mb20 {
+	MARGIN-BOTTOM: 20px
+}
+.mb30 {
+	MARGIN-BOTTOM: 30px
+}
+.mr3 {
+	MARGIN-RIGHT: 3px
+}
+.mr4 {
+	MARGIN-RIGHT: 4px
+}
+.ml8 {
+	MARGIN-LEFT: 8px
+}
+.ml10 {
+	MARGIN-LEFT: 10px
+}
+.mr5 {
+	MARGIN-RIGHT: 5px
+}
+.mr6 {
+	MARGIN-RIGHT: 6px
+}
+.mr10 {
+	MARGIN-RIGHT: 10px
+}
+.mr15 {
+	MARGIN-RIGHT: 15px
+}
+.mr30 {
+	MARGIN-RIGHT: 30px
+}
+.mt15 {
+	MARGIN-TOP: 15px
+}
+.mt10 {
+	MARGIN-TOP: 10px
+}
+.mb5 {
+	MARGIN-BOTTOM: 5px
+}
+.mb8 {
+	MARGIN-BOTTOM: 8px
+}
+#common .prev {
+	MARGIN-TOP: 40px; FLOAT: left
+}
+#common .next {
+	MARGIN-TOP: 40px; FLOAT: left
+}
+#common .prev A {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -6px -7px; WIDTH: 18px; TEXT-INDENT: -9999px; HEIGHT: 18px
+}
+#common .prev A:unknown {
+	outline: none
+}
+#common .prev .dis {
+	BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -6px -40px; CURSOR: default
+}
+#common .next A {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -34px -7px; WIDTH: 18px; TEXT-INDENT: -9999px; HEIGHT: 18px
+}
+#common .next A:unknown {
+	outline: none
+}
+#common .next .dis {
+	BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -34px -40px; CURSOR: default
+}
+#common DIV {
+	FLOAT: left; PADDING-BOTTOM: 20px; OVERFLOW: hidden; WIDTH: 525px; HEIGHT: 105px
+}
+#common #win {
+	WIDTH: 9999px
+}
+#rating A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.content DT A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.mbtl A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.img A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.ob DT A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.aob A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+A.nbg:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+A.gtright:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+A.a_show_request_join_form:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.headerline_img A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.interest_form .tags {
+	MARGIN: 10px 0px
+}
+.interest_form DT {
+	FLOAT: left; WIDTH: 65px; COLOR: #666
+}
+.interest_form DD {
+	FLOAT: left; MARGIN: 0px 0px 3px; WIDTH: 400px; LINE-HEIGHT: 23px
+}
+#mytags {
+	MARGIN-TOP: 10px
+}
+.rate_stars {
+	PADDING-BOTTOM: 10px
+}
+.indentpop {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.w210 {
+	WIDTH: 210px; WORD-WRAP: break-word
+}
+.w240 {
+	WIDTH: 240px; WORD-WRAP: break-word
+}
+.w250 {
+	WIDTH: 250px
+}
+.w450 {
+	WIDTH: 450px
+}
+.w490 {
+	OVERFLOW: auto; WIDTH: 490px; WORD-WRAP: break-word
+}
+.w500 {
+	WIDTH: 500px
+}
+.w550 {
+	WIDTH: 550px
+}
+.h65 {
+	HEIGHT: 65px
+}
+H2.green_tab A.redbutt {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2.green_tab .pl A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.simple_list LI {
+	MARGIN-BOTTOM: 12px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.simple_list H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.simple_list P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; WORD-WRAP: break-word
+}
+.simple_list .userface {
+	FLOAT: left; WIDTH: 48px; MARGIN-RIGHT: 12px
+}
+.simple_list .comment {
+	FLOAT: left; WIDTH: 569px
+}
+.title_line {
+	MARGIN-TOP: 14px; PADDING-BOTTOM: 4px; BORDER-BOTTOM: #ddd 1px solid
+}
+.simple_list {
+	MARGIN: 15px 0px 50px
+}
+#all_comment {
+	MARGIN: 15px 0px 0px
+}
+#all_comment .comment {
+	WIDTH: 521px
+}
+#event_map {
+	MARGIN-BOTTOM: 30px; OVERFLOW: hidden; WIDTH: 308px; HEIGHT: 260px
+}
+#event-map {
+	MARGIN-BOTTOM: 30px; OVERFLOW: hidden; WIDTH: 308px; HEIGHT: 260px
+}
+#event_map A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#event-map A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#event-map .map-confirm A:hover {
+	BACKGROUND: #039
+}
+.map-confirm H2 {
+	FONT-WEIGHT: 700; MARGIN-BOTTOM: 0px; WIDTH: 200px; COLOR: #000
+}
+.map-confirm P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 6px 0px 0px; LINE-HEIGHT: 18px; PADDING-TOP: 0px
+}
+.map-confirm P.evt-address {
+	MARGIN: 0px; WIDTH: 214px; WORD-WRAP: break-word
+}
+.map-confirm TEXTAREA {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: -5px; WIDTH: 206px; HEIGHT: 50px
+}
+.gray-border {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.pos-comment {
+	WIDTH: 206px; WORD-WRAP: break-word
+}
+.align-right {
+	TEXT-ALIGN: right
+}
+OL.policy LI {
+	MARGIN: 8px 0px
+}
+.tags-list {
+	MARGIN-BOTTOM: 15px; LINE-HEIGHT: 23px
+}
+.tags-list A {
+	MARGIN-RIGHT: 20px
+}
+.review-panel UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px
+}
+.review-panel LI {
+	DISPLAY: inline; FLOAT: left; LINE-HEIGHT: 16px; HEIGHT: 16px
+}
+.review-panel LI.rec {
+	FLOAT: right
+}
+.review-panel .rec A:hover {
+	BACKGROUND: #039
+}
+A.btn-red {
+	PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/btn-red.gif) no-repeat right top; WIDTH: 30px; LINE-HEIGHT: 17px; HEIGHT: 16px
+}
+A.btn-green {
+	PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/btn-red.gif) no-repeat right top; WIDTH: 30px; LINE-HEIGHT: 17px; HEIGHT: 16px
+}
+A.btn-brown {
+	PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/btn-red.gif) no-repeat right top; WIDTH: 30px; LINE-HEIGHT: 17px; HEIGHT: 16px
+}
+A.btn-green {
+	BACKGROUND: url(http://t.douban.com/pics/btn-green.gif) no-repeat right top
+}
+A.btn-brown {
+	BACKGROUND: url(http://t.douban.com/pics/btn-brown.gif) no-repeat right top
+}
+A.btn-red SPAN {
+	DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: url(http://t.douban.com/pics/btn-red.gif) #fff no-repeat; COLOR: #a49099
+}
+A.btn-green SPAN {
+	DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: url(http://t.douban.com/pics/btn-red.gif) #fff no-repeat; COLOR: #a49099
+}
+A.btn-brown SPAN {
+	DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: url(http://t.douban.com/pics/btn-red.gif) #fff no-repeat; COLOR: #a49099
+}
+A.btn-green SPAN {
+	BACKGROUND: url(http://t.douban.com/pics/btn-green.gif) #fff no-repeat; COLOR: #6ca767
+}
+A.btn-brown SPAN {
+	BACKGROUND: url(http://t.douban.com/pics/btn-brown.gif) #fff no-repeat; COLOR: #977c87
+}
+.topic-content .user-face {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 48px; HEIGHT: 48px
+}
+.topic-reply .user-face {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 48px; HEIGHT: 48px
+}
+.topic-content .topic-doc {
+	FLOAT: right; MARGIN-BOTTOM: 30px; WIDTH: 520px
+}
+.topic-content .topic-doc H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px; HEIGHT: auto
+}
+.topic-content .topic-doc P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; WORD-WRAP: break-word
+}
+.topic-content .topic-opt {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px
+}
+.topic-content .topic-opt .fleft {
+	COLOR: #666; MARGIN-RIGHT: 10px
+}
+.topic-reply LI {
+	MARGIN: 0px 0px 20px 48px
+}
+.topic-reply LI .reply-doc {
+	FLOAT: right; WIDTH: 473px
+}
+.topic-reply LI .reply-doc H4 {
+	MARGIN: 0px 0px 15px 4px; LINE-HEIGHT: 22px; HEIGHT: 22px
+}
+.topic-reply LI .reply-doc P {
+	MARGIN: 0px 0px 25px; OVERFLOW: hidden; WORD-WRAP: break-word
+}
+.bg-img-green {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/topicbar.gif) no-repeat
+}
+.group_banned {
+	TEXT-ALIGN: right
+}
+.timeline-album {
+	FLOAT: left; MARGIN: 8px 12px 8px 0px
+}
+.timeline-album-rec {
+	FLOAT: left; MARGIN: 8px 14px 0px 0px
+}
+.bkses {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+.bkimg {
+	MARGIN-TOP: 5px; FLOAT: left; MARGIN-LEFT: 5px
+}
+.bkdesc {
+	MARGIN-LEFT: 95px
+}
+.bkcount {
+	FLOAT: left; COLOR: #666; MARGIN-RIGHT: 6px
+}
+.about {
+	MARGIN-TOP: 6px
+}
+.bkstar {
+	MARGIN-TOP: 3px; FLOAT: left
+}
+.avgr {
+	FONT-WEIGHT: 700; COLOR: #ff5138
+}
+.bkbi {
+	FLOAT: right; COLOR: #777
+}
+.bkbuy {
+	FLOAT: right; WIDTH: 154px; COLOR: #777
+}
+.bkbuy DIV {
+	MARGIN-BOTTOM: 5px
+}
+.hideif00is0 {
+	DISPLAY: none
+}
+.border-none {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+UL.group-request-list {
+	BORDER-TOP: #ccc 1px dashed; MARGIN: 16px 0px; PADDING-TOP: 7px
+}
+UL.group-request-list LI {
+	MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 7px; BORDER-BOTTOM: #ccc 1px dashed
+}
+UL.group-request-list LI UL LI {
+	DISPLAY: inline; FLOAT: left; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+UL.group-request-list LI UL LI P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL.group-request-list LI UL LI.mr3 {
+	OVERFLOW: hidden; LINE-HEIGHT: 4em; HEIGHT: 4em
+}
+UL.group-request-list LI UL LI.w500 {
+	WIDTH: 499px
+}
+UL.group-request-list LI UL LI .fright {
+	MARGIN-BOTTOM: 5px
+}
+UL.group-request-list LI UL LI .fright A {
+	MARGIN-LEFT: 8px
+}
+.group-request-words {
+	CLEAR: both; WIDTH: 380px
+}
+.group-request-userface {
+	MARGIN-RIGHT: 15px
+}
+.group-request-userface IMG {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; MARGIN-TOP: 3px; BORDER-LEFT: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid
+}
+.indent3 {
+	PADDING-LEFT: 50px
+}
+.userface-border {
+	BORDER-RIGHT: #b5b5b5 1px solid; BORDER-TOP: #e0e0e0 1px solid; DISPLAY: none; BORDER-LEFT: #e0e0e0 1px solid; BORDER-BOTTOM: #e0e0e0 1px solid; POSITION: absolute
+}
+.userinfo-block {
+	BORDER-RIGHT: #b5b5b5 1px solid; BORDER-TOP: #e0e0e0 1px solid; DISPLAY: none; BORDER-LEFT: #e0e0e0 1px solid; BORDER-BOTTOM: #e0e0e0 1px solid; POSITION: absolute
+}
+.userface-border {
+	Z-INDEX: 999; MARGIN: 5px 0px 0px -7px; WIDTH: 60px; BORDER-BOTTOM: #fff 1px solid; HEIGHT: 60px
+}
+.userinfo-block {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; MARGIN: 66px 0px 0px -7px; WIDTH: 180px; PADDING-TOP: 5px
+}
+.userinfo-block UL LI {
+	FLOAT: left; WIDTH: 50%
+}
+#user A:hover .userface-border {
+	DISPLAY: block
+}
+#user A:hover .userinfo-block {
+	DISPLAY: block
+}
+.admin-text {
+	COLOR: #f92d09
+}
+A.admin-link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f92d09
+}
+A.admin-link:hover {
+	BACKGROUND: #f92d09; COLOR: #fff
+}
+.search-wrap {
+	MARGIN: 5px 0px 25px; TEXT-ALIGN: center
+}
+.search-wrap .search-btn {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.book-search {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; BACKGROUND: #fbfbfb; PADDING-BOTTOM: 3px; BORDER-LEFT: #ccc 1px solid; WIDTH: 350px; COLOR: #ccc; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid
+}
+.hot-tags {
+	PADDING-BOTTOM: 15px
+}
+.hot-tags LI {
+	MARGIN-BOTTOM: 13px; PADDING-BOTTOM: 11px; BORDER-BOTTOM: #ccc 1px dashed
+}
+.hot-tags LI UL LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 25px 0px 0px; WIDTH: 180px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.hot-tags LI UL LI.last {
+	MARGIN-RIGHT: 0px
+}
+.hot-tags-col5 {
+	PADDING-BOTTOM: 20px
+}
+.hot-tags-col5 LI {
+	MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.hot-tags-col5 LI UL LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 62px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.tag-title {
+	MARGIN-BOTTOM: 5px
+}
+.tag-title A {
+	COLOR: #999
+}
+.tag-title A:hover {
+	BACKGROUND: #999; COLOR: #fff
+}
+.tag-items {
+	FONT-SIZE: 14px
+}
+.tag-items A {
+	FLOAT: left; MARGIN: 0px 13px 3px 0px; WHITE-SPACE: nowrap
+}
+.tag-items A.last {
+	MARGIN-RIGHT: 0px
+}
+.tabs-wrap {
+	CLEAR: both; OVERFLOW: hidden; WIDTH: 590px; POSITION: relative; HEIGHT: 180px
+}
+UL.cover-list {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; OVERFLOW: hidden; WIDTH: 590px; PADDING-TOP: 2px; POSITION: absolute; HEIGHT: 158px
+}
+UL.cover-list LI {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 106px; MARGIN-RIGHT: 15px
+}
+UL.cover-list LI.last {
+	MARGIN: 0px
+}
+UL.cover-list LI A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+UL.switch-dot {
+	MARGIN-TOP: 6px; FLOAT: right
+}
+UL.switch-dot LI {
+	DISPLAY: inline; BACKGROUND: url(http://t.douban.com/pics/switch_dot_small.jpg) no-repeat 0px 0px; FLOAT: left; WIDTH: 8px; CURSOR: pointer; MARGIN-RIGHT: 4px; HEIGHT: 8px
+}
+.switch-dot LI.current {
+	BACKGROUND-POSITION: -12px 0px
+}
+.entry-list-col2 LI {
+	MARGIN-BOTTOM: 17px; PADDING-BOTTOM: 12px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.entry-list-col2 H2 {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.entry-list-col2 .cover {
+	FLOAT: left; MARGIN-RIGHT: 18px
+}
+.entry-list-col2 LI UL LI {
+	PADDING-RIGHT: 35px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 260px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.entry-list-col2-review {
+	CLEAR: both; PADDING-TOP: 8px
+}
+.entry-list-col2-review P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-TOP: 0px
+}
+.entry-star-small {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.entry-star-small .star-img {
+	MARGIN-BOTTOM: 0px
+}
+.entry-star-small .font-small {
+	LINE-HEIGHT: 13px
+}
+.entry-star-small .ml8 {
+	LINE-HEIGHT: 13px
+}
+.entry-list-col1 {
+	PADDING-BOTTOM: 20px
+}
+.entry-list-col1 H2 {
+	MARGIN: 0px 0px 6px
+}
+.entry-list-col1 .quote {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; WIDTH: 205px; PADDING-TOP: 0px
+}
+.entry-list-col1 .info {
+	FLOAT: left; WIDTH: 205px
+}
+.entry-list-col1 LI {
+	MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.entry-list-col1 LI .cover {
+	FLOAT: left; MARGIN-RIGHT: 18px
+}
+.entry-list-col1 LI .cover IMG {
+	max-width: 70px
+}
+.entry-list-col1 LI .userface {
+	FLOAT: left; MARGIN-RIGHT: 14px
+}
+.entry-list-col1 LI P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.entry-list-col2s {
+	PADDING-BOTTOM: 20px
+}
+.entry-list-col2s LI {
+	DISPLAY: inline; FLOAT: left; WIDTH: 295px
+}
+.entry-list-col2s LI.sep {
+	CLEAR: both; DISPLAY: block; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 8px; WIDTH: 590px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.entry-list-col2s LI .userface {
+	FLOAT: left; MARGIN-RIGHT: 14px
+}
+.entry-list-col2s LI .comment {
+	FLOAT: left; WIDTH: 225px
+}
+.entry-list-col2s LI P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.entry-list-col3 {
+	PADDING-BOTTOM: 15px
+}
+.entry-list-col3 LI {
+	DISPLAY: inline; FLOAT: left; WIDTH: 103px; PADDING-TOP: 5px
+}
+.entry-list-col3 LI P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 100px; TEXT-ALIGN: center
+}
+.entry-list-col3 LI H2 {
+	FONT-SIZE: 12px; WIDTH: 100px; TEXT-ALIGN: center
+}
+.simple-dashed-list {
+	PADDING-BOTTOM: 25px
+}
+.simple-dashed-list A {
+	MARGIN-RIGHT: 5px
+}
+.simple-dashed-list P {
+	MARGIN: 0px
+}
+.simple-dashed-list LI {
+	MARGIN-BOTTOM: 4px; PADDING-BOTTOM: 5px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.detail-frame {
+	DISPLAY: none
+}
+.arrow-left {
+	BACKGROUND: url(http://t.douban.com/pics/arrow_gray.gif) no-repeat; LEFT: 0px; MARGIN-LEFT: -6px; WIDTH: 6px; POSITION: absolute; TOP: 30px; HEIGHT: 9px
+}
+.arrow-right {
+	BACKGROUND: url(http://t.douban.com/pics/arrow_gray.gif) no-repeat -6px 0px; LEFT: 326px; WIDTH: 6px; POSITION: absolute; TOP: 30px; HEIGHT: 9px
+}
+.detail-tip {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 13px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 13px; BACKGROUND: #fff; PADDING-BOTTOM: 10px; BORDER-LEFT: #ddd 1px solid; WIDTH: 300px; PADDING-TOP: 13px; BORDER-BOTTOM: #ddd 1px solid; POSITION: absolute
+}
+.detail-tip H2 {
+	COLOR: #111; PADDING-TOP: 5px
+}
+.detail-tip P {
+	MARGIN: 0px 0px 10px
+}
+.shadow-right {
+	webkit-border-radius: 3px; moz-border-radius: 3px; moz-box-shadow: 2px 2px 2px #999; webkit-box-shadow: 2px 2px 2px #999
+}
+.shadow-left {
+	webkit-border-radius: 3px; moz-border-radius: 3px; moz-box-shadow: -2px 2px 2px #999; webkit-box-shadow: -2px 2px 2px #999
+}
+.font-small {
+	FONT-SIZE: 10px
+}
+.font-normal {
+	FONT-SIZE: 12px
+}
+.color-red {
+	COLOR: red
+}
+.color-lightgray {
+	COLOR: #aaa
+}
+.mb25 {
+	MARGIN-BOTTOM: 25px
+}
+.chart-dashed-list {
+	CLEAR: both; BORDER-RIGHT: #eee 1px solid; BORDER-TOP: #eee 1px solid; BORDER-LEFT: #eee 1px solid; BORDER-BOTTOM: #eee 1px solid
+}
+.chart-dashed-list LI {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.chart-dashed-list LI.last {
+	PADDING-BOTTOM: 6px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.chart-dashed-list P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px
+}
+.chart-dashed-list P.cover {
+	OVERFLOW: hidden; WIDTH: 125px
+}
+.chart-dashed-list H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 8px; MARGIN: 0px; WIDTH: 445px; PADDING-TOP: 3px
+}
+.chart-dashed-list LI .font-small {
+	LINE-HEIGHT: 13px
+}
+.chart-dashed-list LI .ml8 {
+	LINE-HEIGHT: 13px
+}
+.chart-dashed-list LI .star-img {
+	MARGIN-BOTTOM: 0px
+}
+.green-num-box {
+	FONT-SIZE: 10px; BACKGROUND: url(http://t.douban.com/pics/chart_top.gif) no-repeat; WIDTH: 15px; COLOR: green; LINE-HEIGHT: 15px; MARGIN-RIGHT: 15px; HEIGHT: 15px; TEXT-ALIGN: center
+}
+.arrow-up {
+	PADDING-LEFT: 15px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/arrow-trend.gif) no-repeat; WIDTH: 20px; COLOR: #999; HEIGHT: 15px
+}
+.arrow-stay {
+	PADDING-LEFT: 15px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/arrow-trend.gif) no-repeat; WIDTH: 20px; COLOR: #999; HEIGHT: 15px
+}
+.arrow-down {
+	PADDING-LEFT: 15px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/arrow-trend.gif) no-repeat; WIDTH: 20px; COLOR: #999; HEIGHT: 15px
+}
+.arrow-up {
+	BACKGROUND-POSITION: 0px 3px
+}
+.arrow-down {
+	BACKGROUND-POSITION: 0px -15px
+}
+.arrow-stay {
+	BACKGROUND-POSITION: 0px -35px
+}
+.grid-12-12 .article {
+	FLOAT: left; WIDTH: 470px
+}
+.grid-12-12 .aside {
+	FLOAT: right; WIDTH: 470px
+}
+.cover-col-4 LI {
+	FLOAT: left; MARGIN: 0px 10px 15px 0px; OVERFLOW: hidden; HEIGHT: 145px; max-width: 106px; min-width: 100px
+}
+.cover-col-4 LI A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cover-col-4 LI.clear {
+	MARGIN: 0px; WIDTH: 0px; HEIGHT: 0px
+}
+.cover-col-4 LI.last {
+	MARGIN-RIGHT: 0px
+}
+.l590 {
+	LEFT: 590px
+}
+.btn-prev A {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -6px -7px; WIDTH: 18px; TEXT-INDENT: -9999px; HEIGHT: 18px
+}
+.btn-prev A:hover {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -6px -7px; WIDTH: 18px; TEXT-INDENT: -9999px; HEIGHT: 18px
+}
+.btn-prev A:unknown {
+	outline: none
+}
+.btn-prev .dis {
+	BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -6px -40px; CURSOR: default
+}
+.btn-prev .dis:hover {
+	BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -6px -40px; CURSOR: default
+}
+.btn-next A {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -34px -7px; WIDTH: 18px; TEXT-INDENT: -9999px; HEIGHT: 18px
+}
+.btn-next A:hover {
+	DISPLAY: block; BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -34px -7px; WIDTH: 18px; TEXT-INDENT: -9999px; HEIGHT: 18px
+}
+.btn-next A:unknown {
+	outline: none
+}
+.btn-next A.dis {
+	BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -34px -40px; CURSOR: default
+}
+.btn-next A.dis:hover {
+	BACKGROUND: url(http://t.douban.com/pics/left_right.gif) no-repeat -34px -40px; CURSOR: default
+}
+.img_link:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.doulist-form {
+	PADDING-TOP: 15px
+}
+.doulist-form LI {
+	MARGIN-BOTTOM: 20px
+}
+.doulist-form .doulist-form-item {
+	FONT-SIZE: 14px; FLOAT: left; WIDTH: 80px; COLOR: #060; MARGIN-RIGHT: 20px; TEXT-ALIGN: right
+}
+.doulist-form .doulist-form-input {
+	FLOAT: left
+}
+.radio-banner {
+	BACKGROUND: url(http://t.douban.com/pics/radio_banner.jpg) no-repeat; MARGIN: 15px 0px 0px; WIDTH: 600px; HEIGHT: 178px
+}
+.radio-banner A {
+	DISPLAY: block; LEFT: 418px; WIDTH: 100px; TEXT-INDENT: -9999px; POSITION: relative; TOP: 92px; HEIGHT: 33px
+}
+.radio-banner A:unknown {
+	outline: none
+}
+.radio-banner A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cart_pop {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-SIZE: 14px; PADDING-BOTTOM: 8px; WIDTH: 188px; PADDING-TOP: 8px; POSITION: relative
+}
+.gray_bg {
+	BACKGROUND: #f4f4f4
+}
+.lightyellow_bg {
+	BACKGROUND: #fffadc
+}
+.lightyellow_box {
+	BORDER-RIGHT: #faf3c9 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #faf3c9 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fffadc; PADDING-BOTTOM: 8px; BORDER-LEFT: #faf3c9 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: #faf3c9 1px solid
+}
+.lightyellow_box LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px dashed
+}
+.lightyellow_box LI.last {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 6px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.aright {
+	TEXT-ALIGN: right
+}
+#data_list {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 3px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#data_list TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-BOTTOM: #ddd 1px dashed; TEXT-ALIGN: center
+}
+#data_list TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-BOTTOM: #ddd 1px dashed; TEXT-ALIGN: center
+}
+#data_list TR.last TD {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.ml20 {
+	MARGIN-LEFT: 20px
+}
+.w20 {
+	WIDTH: 20px
+}
+.cart_info {
+	max-width: 400px
+}
+.sort_tabs {
+	WIDTH: 93px
+}
+.num_th {
+	WIDTH: 40px
+}
+.vinfo {
+	FLOAT: left; WIDTH: 600px; COLOR: #777; TEXT-ALIGN: left
+}
+.vname {
+	FONT-WEIGHT: 700; COLOR: #111; MARGIN-RIGHT: 5px
+}
+#data_list .book_title {
+	WIDTH: 180px; TEXT-ALIGN: left
+}
+#interest_sect_level .bicelink .rr {
+	FLOAT: none
+}
+.works-link {
+	FLOAT: right; COLOR: #999
+}
+.works-link A {
+	COLOR: #999
+}
+.works-link A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.submit_cart {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #94c886; PADDING-BOTTOM: 5px; WIDTH: 80px; CURSOR: pointer; COLOR: #fff; BORDER-TOP-STYLE: none; PADDING-TOP: 5px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; webkit-border-radius: 3px; moz-border-radius: 3px
+}
+.col2-list {
+	MARGIN: 15px 0px; WIDTH: 590px
+}
+.col2-list LI {
+	FLOAT: left; WIDTH: 250px
+}
+.bold {
+	FONT-WEIGHT: 700
+}
+.rela {
+	POSITION: relative
+}
+.home_radio_btn {
+	LEFT: 280px; POSITION: absolute; TOP: -5px
+}
+#music-events {
+	MARGIN-BOTTOM: 25px
+}
+#music-events LI {
+	MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #ddd 1px dashed
+}
+#music-events .title {
+	FONT-SIZE: 14px
+}
+.vs-mod LI {
+	BORDER-RIGHT: #f0f8e8 1px solid; BORDER-TOP: #f0f8e8 1px solid; FLOAT: left; BORDER-LEFT: #f0f8e8 1px solid; WIDTH: 293px; BORDER-BOTTOM: #f0f8e8 1px solid
+}
+.vs-mod H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #f0f8e8; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 28px; PADDING-TOP: 0px; HEIGHT: 28px; TEXT-ALIGN: center
+}
+.vs-mod H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 3px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.vs-mod .vs-good .vs-content {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; PADDING-TOP: 10px
+}
+.vs-mod .vs-bad .vs-content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; PADDING-BOTTOM: 15px; PADDING-TOP: 10px
+}
+.vs-mod .vs-bad {
+	BORDER-LEFT-STYLE: none
+}
+.vs-detail P {
+	MARGIN: 3px 0px 15px; WORD-WRAP: break-word
+}
+.vs-author {
+	MARGIN: 0px 0px 8px; COLOR: #aaa
+}
+.vs-author .stars {
+	MARGIN-LEFT: 0px
+}
+.vs-author A {
+	MARGIN-RIGHT: 5px
+}
+.vs-useful {
+	FONT-SIZE: 12px; FLOAT: right; COLOR: #666
+}
+.vs-more {
+	COLOR: #aaa
+}
+.tags-result {
+	COLOR: #666
+}
+.tags-result .tip {
+	COLOR: #999
+}
+.tags-result .add-tag {
+	DISPLAY: inline-block; MARGIN: 0px 12px 0px 0px; CURSOR: pointer; COLOR: #369
+}
+.tags-result .add-tag:hover {
+	BACKGROUND: #369; COLOR: #fff
+}
+.tags-result .more {
+	MARGIN: 0px
+}
+.tags-hide {
+	DISPLAY: none
+}
+.tags-result .opt {
+	DISPLAY: inline-block
+}
+.tags-hide INPUT {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px 10px 0px 0px; BORDER-LEFT: #ccc 1px solid; WIDTH: 120px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid
+}
+.tags-add {
+	MARGIN: 0px 5px 0px 10px
+}
+.tags-del {
+	DISPLAY: inline-block; BACKGROUND: url(http://t.douban.com/pics/del.png) no-repeat 0px -11px; LEFT: 3px; OVERFLOW: hidden; WIDTH: 12px; CURSOR: pointer; POSITION: relative; TOP: -15px; HEIGHT: 12px
+}
+.tags-del:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.tags-hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.bn-post {
+	PADDING-LEFT: 3px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; LINE-HEIGHT: 0; ZOOM: 1; HEIGHT: 22px
+}
+.bn-post SPAN {
+	PADDING-LEFT: 3px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; LINE-HEIGHT: 0; ZOOM: 1; HEIGHT: 22px
+}
+.bn-post {
+	DISPLAY: inline-block
+}
+.bn-post SPAN {
+	DISPLAY: inline-block
+}
+x:unknown {
+	DISPLAY: inline-block
+}
+.bn-post SPAN {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 5px; FONT-SIZE: 12px; BACKGROUND: url(http://t.douban.com/pics/post.gif) no-repeat 100% 0px; PADDING-BOTTOM: 0px; CURSOR: pointer; COLOR: #333; LINE-HEIGHT: 23px; PADDING-TOP: 0px
+}
+A.bn-post {
+	PADDING-LEFT: 17px; BACKGROUND: url(http://t.douban.com/pics/post.gif) no-repeat 0px 0px; COLOR: #9e9e9e
+}

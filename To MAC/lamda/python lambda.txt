@@ -1,0 +1,35 @@
+python lambda
+? laowang/ 2010-8-4 / 21:43
+
+python lambda是在python中使用lambda来创建匿名函数，而用def创建的方法是有名称的，除了从表面上的方法名不一样外，python lambda还有哪些和def不一样呢？
+
+1 python lambda会创建一个函数对象，但不会把这个函数对象赋给一个标识符，而def则会把函数对象赋值给一个变量。
+2 python lambda它只是一个表达式，而def则是一个语句。
+
+下面是python lambda的格式，看起来好精简阿。
+lambda x: print x
+
+如果你在python 列表解析里用到python lambda，我感觉意义不是很大，因为python lambda它会创建一个函数对象，但马上又给丢弃了，因为你没有使用它的返回值，即那个函数对象。也正是由于lambda只是一个表达式，它可以直接作为python 列表或python 字典的成员，比如：
+
+info = [lamba a: a**3, lambda b: b**3]
+
+在这个地方没有办法用def语句直接代替。因为def是语句，不是表达式不能嵌套在里面，lambda表达式在“：”后只能有一个表达式。也就是说，在def中，用return可以返回的也可以放在lambda后面，不能用return返回的也不能定义在python lambda后面。因此，像if或for或print这种语句就不能用于lambda中，lambda一般只用来定义简单的函数。
+
+下面举几个python lambda的例子吧
+1单个参数的：
+g = lambda x:x*2
+print g(3)
+结果是6
+
+2多个参数的：
+m = lambda x,y,z: (x-y)*z
+print m(3,1,2)
+结果是4
+
+没事写程序的时候多用用python lambda就熟练了。。
+
+原创文章请注明转载自老王python,本文地址：http://www.cnpythoner.com/post/95.html
+
+作者:老王@python python 教程
+老王python,提供pythn相关的django 教程和python 下载，希望大家能够喜欢!
+

@@ -1,0 +1,89 @@
+# _*_ coding:cp936 _*_
+#Sample downloads Program use httplib
+#Programer:rikioy
+#email:rikiy at gmail.com
+#date:2006-07-21
+#introduction:
+#这是一个简单的单线程下载程序，下载的是我网站里的一个小游戏，挖金子。PYTHON刚刚接触，书刚看到函数那里，看不下去了，太枯燥了，就试着自己做一个小玩意提提兴趣。
+#其中肯定有很多问题，比如说比较笨的处理方法，请大家给我指出。
+#用到的知识主要有：
+#1、httplib库的使用，会用就简单多啦。
+#2、设置引用页，有些网站下载需要，类似FLASHGET中的设置引用页。其实也是httplib中的知识。
+#3、下载进度的计算，这个难道我一个下午，没经验的结果。虽然现在设计的也不好，不能用于多线程，不过以后在改吧。
+#4、输出百分比，这个也小难了一会，不过后来找到方法了。用退格。呵呵。
+#遗憾：
+#1、rMsg是要下载文件的总大小，在计算进度的时候　percent = round(totle/fsize*100)　中　fsize 直接用 rMsg是不行的，弄了一下午才找到是这个问题，为什么，还不知道。
+#2、文件变量用的比较乱，太晚了，不想整理了。
+#3、没有任何异常处理，太脆弱了。
+#改进：
+#1、改成多进程的。
+#2、下载任务考文本文件来配置
+#3、整理程序中的变量与结构，使之更合理。
+#4、加入异常处理
+#感谢：
+#BAIDU，我在百度搜索到了很多有用的东西。
+#GOODNAME008,看了他写的一个简单的关于下载文件的文章,并且不厌其烦地回答我弱智的问题。BLOG,http://blog.csdn.net/goodname008
+#
+#
+
+
+#引入HTTPLIB的库，URLLIB2也可以做个事情，但PY文档里面HTTPLIB介绍的比较多，所以就用这个了
+import httplib
+#单线程
+import threading
+#在最后计算下载百分比的时候用到了时间库
+import time
+
+class download(threading.Thread):
+    def __init__ (self,threadname):
+        threading.Thread.__init__(self,name=threadname)
+    def run(self):
+        #设置HTTP连接实例
+        conn = httplib.HTTPConnection("www.wowor.org")
+        #发送GET请求，在httplib中有putrequest和request两种，在MANUALS中有，不能混用。
+        conn.putrequest('GET','/wjz.exe')
+        #PUT头，Referer也是设置引用页的地方。
+        conn.putheader('Referer','http://bbs.pingshu8.com')
+        #PUT　header结束，不结束后面进行不了。
+        conn.endheaders()
+        #得到服务器回应
+        rMsg = conn.getresponse()
+        #建立文件　fwrite
+        fwrite = open('wjz.exe','wb+')
+        #total后面计算进度用的，已下载量。
+        totle = 0.00
+        #全局变量　percent = 百分比
+        global percent
+        #取得服务器返回的文件大小，length 文档中好像没有，我在LIB代码中查到的。
+        fsize = rMsg.length
+        #输出最后加逗号，不换行。
+        print "Thread download start...",
+        #每次读取一千字节放到 ftmp　中
+        ftmp = rMsg.read(1000)
+        #开始循环读，并且　用percent = round(totle/fsize*100)计算百分比
+        while len(ftmp):
+            fwrite.write(ftmp)
+            totle = totle + len(ftmp)
+            percent = totle/fsize*100
+            ftmp = rMsg.read(1000)
+        print "Done!\b\b",
+        #关闭文件与连接　
+        fwrite.close()
+        conn.close()
+    
+percent = 0
+#建立并启动线程
+downThread = download("downThread")
+downThread.start()
+
+#输出百分比
+while percent < 100:
+    if percent == 0:
+        pass
+    elif percent < 10:
+        print "%i%%" % percent,
+        print "\b\b\b\b",
+    else:
+        print "%i%%" % percent,
+        print "\b\b\b\b\b", 
+    time.sleep(0.05)

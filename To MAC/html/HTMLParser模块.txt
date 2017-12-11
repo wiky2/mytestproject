@@ -1,0 +1,135 @@
+Python API 翻译-HTMLParser模块（转）2010-12-07 23:41Python 支持各种格式的结构化数据标记。包括 SGML ， HTML ， XML 
+
+  
+
+XML 包中的模块需要 SAX-compliant XML parser 是可用的。 PyXML 插件包提供了 XML 扩展 
+
+  
+
+20.1 HTMLParser- 简单的 HTML 和 XHTML parser 
+
+  
+
+在 Python 3.0 中， HTMLParser is renamed to html.parser 
+
+  
+
+该模块定义了一个类 HTMLParser ，用来解析 HTML 文本文件，也包括 XHTML 。和 htmllib 不同，它并非基于 SGMLparser 。 
+
+  
+
+class HTMLParser.HTMLParser 
+
+使用 HTMLParser 的实例，填充 HTML 数据，并在开始和结束标记间调用函数。 HTMLParser 类意味着重载。 
+
+  
+
+和 htmllib 的分析器不同， this parser 并不检测和开始标记对应的结束标记 or call the end-tag handler for elements which are close implicitly by closing an outer element. 
+
+  
+
+这里还有一个例外情况： 
+
+exception HTMLParser.HTMLParserError 
+
+当分析遇到 Error 时 HTMLParser 会抛出异常。该异常提供三个属性： msg ， lineno and offset 。 
+
+  
+
+HTMLParser 实例有如下的方法： 
+
+  
+
+HTMLParser.reset() 
+
+重置实例 . 所有未处理的数据都会丢失。在初始化时自动调用。 
+
+  
+
+HTMLParser.feed(data) 
+
+给分析器喂食。在由完整元素构成的情况下工作；不完整数据情况下，会进行缓冲知道更多数据加进来或者 close() 被调用。 
+
+  
+
+HTMLParser.close() 
+
+处理所有缓冲数据。这个方法可以被派生类重定义，以便在输入结束后处理额外的事情，重定义的版本也要调用 HTMLParser 基类的 close() 方法。 
+
+  
+
+HTMLParser.getpos() 
+
+返回当前行数和列数 
+
+  
+
+HTMLParser.get_starttag_text() 
+
+返回最近打开过得开始标记处的文本。通常不会用到， but may be useful in dealing with HTML “as deployed” or for re-generating input with minimal changes (whitespace between attributes can be preserved, etc.). 
+
+  
+
+HTMLParser.handle_starttag(tag, attrs) 
+
+该方法用来处理一个标记的开始。通常被派生类重载；基类的实例什么都不做。 
+
+tag 参数是 tag 的名字的小写化。 attrs 参数是一个 list ，由 (name, value) 组成，反映了 <> 里面的属性。 name 会被翻译成小写字母，在 value 中的引号也被移除了，字符实体引用也会被替换。例如，有个 tag<A HREF=”http://www.cwi.nl/”> ，那么使用该方法就该这么做： handle_starttag(’a’, [(’href’, ’http://www.cwi.nl/’)]) 
+
+  
+
+Changed in version 2.6: 来自 htmlentitydefs 的所有实体引用都被属性值替换。 
+
+  
+
+HTMLParser.handle_startendtag(tag, attrs) 
+
+和 handle_starttag() 类似，用来处理 XHTML 风格的 空标签（ <a .../> ）。可能被子类重载， which require this particular lexical information; 默认的实现只是简单的调用 handle_starttag() 和 handle_endtag() 
+
+  
+
+HTMLParser.handle_endtag(tag) 
+
+该方法用来处理元素结束标记。可以被派生类重载；基类什么也不做。 tag 参数是 tag 的 name 转化来的小写字母。 
+
+  
+
+HTMLParser.handle_data(data) 
+
+       该方法用来处理随机的数据。可以被派生类重载；基类什么也不做。 
+
+  
+
+HTMLParser.handle_charref(name) 
+
+       处理 &#ref 格式的字符引用。可以被派生类重载；基类什么也不做。 
+
+  
+
+HTMLParser.handle_entityref(name) 
+
+       处理一般的 &name 格式的实体引用。 name 是一个一般的实体引用。可以被派生类重载；基类什么也不做。 
+
+  
+
+HTMLParser.handle_comment(data) 
+
+处理遇到注释的情况。注释参数为在——和——之间的字符串文本，而不是分隔符自身。例如 <!--text--> ，该方法将调用‘ text ’。可以被派生类重载；基类什么也不做。 
+
+  
+
+HTMLParser.handle_decl(decl) 
+
+当分析器遇到 SGML 声明时调用此方法。 decl 参数是 <!...> 标记里的整个内容。可以被派生类重载；基类什么也不做。 
+
+  
+
+  
+
+HTMLParser.handle_pi(data) 
+
+处理命令， data 参数包含整个的处理命令。例如 <?proc color=’red’> ，该方法应写成 handle_pi(”proc color=’red’”). 可以被派生类重载；基类什么也不做。
+
+
+from: http://blog.csdn.net/tianxicool/archive/2010/10/15/5942523.aspx
+ 
