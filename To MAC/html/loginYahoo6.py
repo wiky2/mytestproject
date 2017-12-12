@@ -23,10 +23,10 @@ response = urllib2.urlopen(req)
 url_verify=response.geturl()
 print url_verify
 url_verify='https://login.yahoo.com/config/login_verify2?'
-values_verify={'passwd' : '13651054931',
+values_verify={'passwd' : '你的密码',
                '.done': 'http%3A%2F%2Fmy.yahoo.com',
                '.tries':'1',
-               '.slogin':'jerry_136510',
+               '.slogin':'你的用户',
                '.intl' : 'cn',
                '.lang':'zh-Hans-CN',
                '.challenge':'DIKFj59uibpriisaAgn6Ofy6zFOH',

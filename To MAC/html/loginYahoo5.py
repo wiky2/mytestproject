@@ -2,7 +2,7 @@
 import urllib,urllib2,re,sys
 #reload(sys)
 #sys.setdefaultencoding('utf-8')
-url1='https://edit.bjs.yahoo.com/config/login?.cnrid=ymhp_20000&.challenge=okM.6c3tW7TgxY2GW4HVb0CoE5x1&login=jerry_136510%40yahoo.com.cn&passwd=13651054931&.remember=y&.intl=cn&.done=http://mail.cn.yahoo.com/ycn_setcookie_inset.html?.done=http%3A%2F%2Fmail.cn.yahoo.com%2Finset.html%3Frr%3D1482292087%26.remember%3Dy%26.persistent%3D&.src=ym'
+url1='https://edit.bjs.yahoo.com/config/login?.cnrid=ymhp_20000&.challenge=okM.6c3tW7TgxY2GW4HVb0CoE5x1&login=你的用户&passwd=你的密码&.remember=y&.intl=cn&.done=http://mail.cn.yahoo.com/ycn_setcookie_inset.html?.done=http%3A%2F%2Fmail.cn.yahoo.com%2Finset.html%3Frr%3D1482292087%26.remember%3Dy%26.persistent%3D&.src=ym'
 req = urllib2.Request(url1)
 #req.add_header('Referer', 'http://mail.cn.yahoo.com/?cns')
 #req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 5.1; rv:10.0.1) Gecko/20100101 Firefox/10.0.1')
