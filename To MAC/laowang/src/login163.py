@@ -111,7 +111,7 @@ class Login163:
         
 #Demo
 print("Requesting......\n\n")
-login = Login163('qishouyang136510@163.com','13651054931')
+login = Login163('你的邮箱','你的密码')
 flag = login.login()
 if type(flag) is bool:
     print("Successful landing,Resolved contacts......\n\n")
