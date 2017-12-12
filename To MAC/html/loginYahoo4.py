@@ -1,5 +1,5 @@
 # -*- coding:gb18030-*-
-#ÄÜ¹»ÕýÈ·½âÎöÍøÒ³£¬¶ÁÈ¡ÓÊ¼þ
+#ï¿½Ü¹ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½È¡ï¿½Ê¼ï¿½
 import urllib,urllib2,re,string
 def loginYahoo(username, password):
     cookies = urllib2.HTTPCookieProcessor()
@@ -7,7 +7,7 @@ def loginYahoo(username, password):
     url0 = 'http://mail.cn.yahoo.com/'
     response = opener.open(url0)
     data0 = response.read()
-    data0 = data0.decode('utf-8').encode('gb18030 ')#¶Á½øÀ´Ê±ÊÇutf8±àÂëµÄstr,ÏÈ´òÉ¢³Éunicode£¬ÔÙÒÔgb18030 ½øÐÐ±àÂë³Éºº×Ö¡£
+    data0 = data0.decode('utf-8').encode('gb18030 ')#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½utf8ï¿½ï¿½ï¿½ï¿½ï¿½str,ï¿½È´ï¿½É¢ï¿½ï¿½unicodeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gb18030 ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Éºï¿½ï¿½Ö¡ï¿½
     print type(data0)
     done1 =re.search(r'(?<=(name=\.done)).*?(?=>)', data0).group()  
     done= re.search(r'(?<=(value=")).*?(?=")',done1).group()
@@ -37,7 +37,7 @@ def loginYahoo(username, password):
     response = opener.open(req)
 #    response = urllib2.urlopen(url1)
     data2 =response.read()
-    print data2.decode('utf-8').encode('gb18030 ')#¶Á½øÀ´Ê±ÊÇutf8±àÂëµÄstr,ÏÈ´òÉ¢³Éunicode£¬ÔÙÒÔgb18030 ½øÐÐ±àÂë³Éºº×Ö¡£
+    print data2.decode('utf-8').encode('gb18030 ')#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½utf8ï¿½ï¿½ï¿½ï¿½ï¿½str,ï¿½È´ï¿½É¢ï¿½ï¿½unicodeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gb18030 ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Éºï¿½ï¿½Ö¡ï¿½
     folder = re.search(r'(?<=(showFolder)).*?(?=" ><em>)', data2).group()
     print folder
     folder='showFolder'+folder
@@ -54,16 +54,16 @@ def loginYahoo(username, password):
         url2 = "http://cn.mc150.mail.yahoo.com/mc/showFolder?fid=Inbox&sort=date&order=down&startMid=%d" % (num_times*i)
         response = opener.open(url2)
         data3 = response.read()
-        data3=data3.decode('utf-8').encode('gb18030 ')#¶Á½øÀ´Ê±ÊÇutf8±àÂëµÄstr,ÏÈ´òÉ¢³Éunicode£¬ÔÙÒÔgb18030 ½øÐÐ±àÂë³Éºº×Ö¡£
+        data3=data3.decode('utf-8').encode('gb18030 ')#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½utf8ï¿½ï¿½ï¿½ï¿½ï¿½str,ï¿½È´ï¿½É¢ï¿½ï¿½unicodeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gb18030 ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Éºï¿½ï¿½Ö¡ï¿½
         print data3
         fb=open('data3.txt','w+')
         fb.write(data3)
         for match in re.finditer(r'(?<=(showMessage)).*?(?=\>)',data3):#showmessage
             index += 1
-            part1 = "µÚ%d·âÓÊ¼þ" % index
+            part1 = "ï¿½ï¿½%dï¿½ï¿½ï¿½Ê¼ï¿½" % index
             part2 = "%s" % match.group()#
             subject = re.search( r'(?<=(title=")).*?(?=")', part2 ).group()
             print subject
-name = 'jerry_136510'
-pwd = '13651054931'
+name = 'ä½ çš„é‚®ç®±'
+pwd = 'ä½ çš„å¯†ç '
 loginYahoo(name,pwd)

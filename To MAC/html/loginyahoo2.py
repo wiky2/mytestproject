@@ -32,7 +32,7 @@ def loginYahoo(username, password):
             subject = re.search( r'(?<=(title=")).*?(?=")', part2 ).group()
             subject = part1.decode('gbk') + "    " + subject.decode('utf8')
             print subject.encode('gbk')
-name = 'jery_136510'
-pwd = '13651054931'
+name = '你的邮箱'
+pwd = '你的密码'
 loginYahoo(name,pwd)
 

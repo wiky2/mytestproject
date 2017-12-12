@@ -9,8 +9,8 @@ values = {
             '.src' : 'ym',
             '.cnrid' : 'ymhp_20000',
             '.challenge' : 'okM.6c3tW7TgxY2GW4HVb0CoE5x1',
-            'login' : 'jerry_136510@yahoo.com.cn',
-            'passwd' : '13651054931',
+            'login' : 'ÄãµÄÓÊÏä',
+            'passwd' : 'ÄãµÄÃÜÂë',
             '.remember' : 'y',
         }
 req = urllib2.Request(url1,urllib.urlencode(values))
