@@ -1,0 +1,18 @@
+PING 192.168.0.1 (192.168.0.1): 56 data bytes
+64 bytes from 192.168.0.1: icmp_seq=0 ttl=64 time=2.535 ms
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=3.754 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=2.841 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.818 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=3.259 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=2.851 ms
+64 bytes from 192.168.0.1: icmp_seq=6 ttl=64 time=2.304 ms
+64 bytes from 192.168.0.1: icmp_seq=7 ttl=64 time=2.830 ms
+64 bytes from 192.168.0.1: icmp_seq=8 ttl=64 time=2.690 ms
+64 bytes from 192.168.0.1: icmp_seq=9 ttl=64 time=2.828 ms
+64 bytes from 192.168.0.1: icmp_seq=10 ttl=64 time=2.859 ms
+64 bytes from 192.168.0.1: icmp_seq=11 ttl=64 time=4.037 ms
+64 bytes from 192.168.0.1: icmp_seq=12 ttl=64 time=2.665 ms
+
+--- 192.168.0.1 ping statistics ---
+13 packets transmitted, 13 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 2.304/2.944/4.037/0.459 ms

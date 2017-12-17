@@ -1,0 +1,398 @@
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+mateseries       51571   3.9  0.6  4613264 100968   ??  R     1:26下午   0:40.13 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+mateseries        1756   3.4  2.8 10710312 465292   ??  S    121117  192:36.98 /Applications/XMind.app/Contents/MacOS/XMind
+_windowserver      138   2.5  1.8  7937184 305344   ??  Us   121117  118:43.66 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+mateseries       13380   1.9  0.6  4796712 105624   ??  S    201117    2:31.88 /Library/Input Methods/SogouInput.app/Contents/MacOS/SogouInput
+mateseries         980   1.6  9.7  8687744 1622660   ??  R    121117  112:35.78 /Applications/PyCharm.app/Contents/MacOS/pycharm
+_hidd               99   0.7  0.0  4307668   7524   ??  Ss   121117   23:23.36 /usr/libexec/hidd
+root                 1   0.2  0.1  4329556  21536   ??  Ss   121117   40:09.33 /sbin/launchd
+mateseries         487   0.1  0.1  4333288   9752   ??  S    121117    0:17.74 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+root                68   0.1  0.0  4330628   6772   ??  Ss   121117    0:07.27 /usr/libexec/diskarbitrationd
+mateseries       38202   0.1  1.0  5538100 174000   ??  S    日06下午   2:53.21 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=12059845461717208983,9899393877355081657,131072 --service-pipe-token=CE983E7321A4A111173058B2FB0F418C --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=CE983E7321A4A111173058B2FB0F418C --renderer-client-id=7
+root                79   0.1  0.1  4333356  11164   ??  Ss   121117    1:23.94 /System/Library/CoreServices/launchservicesd
+mateseries         797   0.1  0.1  4349012  23836   ??  S    121117    0:24.83 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+mateseries       51266   0.0  0.4  4380804  75088   ??  S     1:09下午   0:02.14 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+mateseries       51258   0.0  0.4  4376584  70020   ??  S     1:07下午   0:02.21 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+_spotlight       51242   0.0  0.1  4338592  13880   ??  S     1:05下午   0:00.19 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+mateseries       51236   0.0  0.4  4378192  65300   ??  S     1:05下午   0:02.18 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+mateseries       51206   0.0  0.1  4343064  16088   ??  S     1:02下午   0:00.53 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+mateseries       51131   0.0  0.2  4372300  30736   ??  Ss   12:55下午   0:00.23 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries       51129   0.0  0.8  5771976 135108   ??  S    12:55下午   0:15.21 /Applications/DEVONthink Pro.app/Contents/MacOS/DEVONthink Pro
+mateseries       50932   0.0  0.1  4288696  11060   ??  Ss   12:29下午   0:00.05 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+mateseries       50931   0.0  1.5  5952560 258216   ??  Ss   12:29下午   0:47.20 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+root             47939   0.0  0.0  4304964   6244   ??  Ss    7:45下午   0:00.04 /usr/libexec/applessdstatistics
+mateseries       47173   0.0  0.1  4305080  11056   ??  Ss   六08上午   0:00.05 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+mateseries       47169   0.0  5.0  6661920 844424   ??  S    六08上午   8:34.99 /Applications/YoudaoNote.app/Contents/MacOS/YoudaoNote
+_fpsd            46478   0.0  0.0  4296956   4680   ??  Ss   六01上午   0:00.08 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fpsd
+_fpsd            44628   0.0  0.1  4309044   8696   ??  Ss   四08上午   0:00.42 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+root             44509   0.0  0.1  4353928  19868   ??  Ss   四07上午   0:14.78 /usr/libexec/syspolicyd
+mateseries       44439   0.0  0.1  4337068   9904   ??  S    四07上午   0:01.10 /Applications/iTunes.app/Contents/MacOS/iTunesHelper.app/Contents/MacOS/iTunesHelper -psn_0_2191895
+_netbios         44183   0.0  0.1  4306924  11608   ??  SNs  四04上午   0:01.33 /usr/sbin/netbiosd
+root             43998   0.0  0.1  4331584   8524   ??  Ss   三11下午   0:01.50 /usr/libexec/powerlogd
+mateseries       42731   0.0  0.1  4311236  16428   ??  Ss   二03下午   0:00.87 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+mateseries       39825   0.0  0.1  4358744  16664   ??  S    日11下午   0:00.76 chromedriver --port=50644
+mateseries       39793   0.0  0.1  4358744  15416   ??  S    日11下午   0:00.73 chromedriver --port=50211
+mateseries       39760   0.0  0.1  4358744  14048   ??  S    日11下午   0:00.71 chromedriver --port=49893
+mateseries       39735   0.0  1.0  5428164 162856   ??  S    日11下午   0:52.03 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=12059845461717208983,9899393877355081657,131072 --service-pipe-token=E53EA5F536B5E9804D00DD3FDEE0F2A4 --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=E53EA5F536B5E9804D00DD3FDEE0F2A4 --renderer-client-id=23
+mateseries       39726   0.0  1.0  5642828 165708   ??  S    日11下午   2:21.65 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=12059845461717208983,9899393877355081657,131072 --service-pipe-token=FEED546BEFE46B1958CC4C4EACEBE1E9 --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=FEED546BEFE46B1958CC4C4EACEBE1E9 --renderer-client-id=21
+mateseries       39521   0.0  0.6  5375496 104208   ??  S    日10下午   0:13.57 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=12059845461717208983,9899393877355081657,131072 --service-pipe-token=526CA1F605077CBB196F1B08A7DC5ABC --lang=zh-CN --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,34037;3,12,34037;3,13,34037;3,14,3553;3,15,3553;3,16,3553;3,17,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553;4,16,3553;4,17,3553;5,0,3553;5,1,3553;5,2,3553;5,3,3553;5,4,3553;5,5,34037;5,6,3553;5,7,3553;5,8,3553;5,9,3553;5,10,3553;5,11,3553;5,12,3553;5,13,34037;5,14,34037;5,15,3553;5,16,34037;5,17,34037;6,0,3553;6,1,3553;6,2,3553;6,3,3553;6,4,3553;6,5,34037;6,6,3553;6,7,3553;6,8,3553;6,9,3553;6,10,3553;6,11,3553;6,12,3553;6,13,34037;6,14,34037;6,15,3553;6,16,34037;6,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=526CA1F605077CBB196F1B08A7DC5ABC --renderer-client-id=18
+mateseries       38193   0.0  0.0  4332132   5788   ??  Ss   日06下午   0:00.59 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+mateseries       38192   0.0  0.1  4305116   9872   ??  Ss   日06下午   0:00.07 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Framework.framework/Versions/A/XPCServices/AlertNotificationService.xpc/Contents/MacOS/AlertNotificationService
+mateseries       38191   0.0  0.4  4891076  75248   ??  S    日06下午   0:32.99 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=gpu-process --field-trial-handle=12059845461717208983,9899393877355081657,131072 --gpu-vendor-id=0x8086 --gpu-device-id=0x5926 --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x5926 --service-request-channel-token=F22D210CE589B6CD619C69671FCD9F95
+mateseries       38189   0.0  0.1  4310172  11496   ??  S    日06下午   0:00.13 /Applications/Google Chrome.app/Contents/Versions/62.0.3202.94/Google Chrome Framework.framework/Helpers/crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/mateseries/Library/Application Support/Google/Chrome/Crashpad --metrics-dir=/Users/mateseries/Library/Application Support/Google/Chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=62.0.3202.94 --handshake-fd=9
+_gamecontrollerd 38187   0.0  0.1  4305436  11140   ??  Ss   日06下午   0:05.80 /usr/libexec/gamecontrollerd
+mateseries       38186   0.0  0.9  5154868 144560   ??  S    日06下午   3:40.48 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+mateseries       38135   0.0  0.1  4296888  10056   ??  Ss   日06下午   0:00.06 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+mateseries       38126   0.0  0.1  4339916  19580   ??  Ss   日06下午   0:00.75 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries       38125   0.0  2.6  6279704 435380   ??  Ss   日06下午   1:37.20 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+mateseries       37426   0.0  0.1  4362340  19496   ??  S    日05下午   0:02.89 /usr/local/bin/chromedriver --port=54628
+mateseries       37387   0.0  0.1  4362340  19492   ??  S    日05下午   0:02.85 /usr/local/bin/chromedriver --port=54501
+mateseries       37353   0.0  0.1  4362340  19184   ??  S    日05下午   0:03.09 /usr/local/bin/chromedriver --port=54380
+mateseries       37315   0.0  0.1  4362340  19120   ??  S    日05下午   0:03.15 /usr/local/bin/chromedriver --port=54256
+mateseries       37192   0.0  0.1  4362340  18520   ??  S    日04下午   0:02.76 /usr/local/bin/chromedriver --port=54023
+mateseries       37079   0.0  0.1  4369692  15796   ??  S    日04下午   0:02.73 /usr/local/bin/chromedriver --port=53534
+mateseries       36960   0.0  0.1  4369692  15520   ??  S    日04下午   0:02.75 /usr/local/bin/chromedriver --port=52148
+mateseries       36767   0.0  0.1  4366096  13700   ??  S    日04下午   0:00.61 /usr/local/bin/chromedriver --port=50412
+mateseries       36727   0.0  0.1  4366096  13780   ??  S    日04下午   0:00.60 /usr/local/bin/chromedriver --port=49935
+mateseries       36659   0.0  0.1  4366096  12060   ??  S    日04下午   0:00.60 /usr/local/bin/chromedriver --port=64888
+mateseries       36629   0.0  0.1  4366096  12096   ??  S    日04下午   0:00.59 /usr/local/bin/chromedriver --port=64646
+mateseries       36590   0.0  0.1  4366096  11976   ??  S    日04下午   0:00.63 /usr/local/bin/chromedriver --port=64353
+root             33856   0.0  0.0  4305624   4836   ??  Ss    31217    0:00.25 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+mateseries       33464   0.0  0.0  4296240   1316 s001  Ss+   31217    0:00.05 /bin/bash --rcfile /Applications/PyCharm.app/Contents/plugins/terminal/jediterm-bash.in -i
+mateseries       32559   0.0  0.1  4342536  13960   ??  S     21217    0:04.11 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc/Contents/MacOS/com.apple.CoreSimulator.CoreSimulatorService
+mateseries       28047   0.0  0.1  4344108   8392   ??  Ss    11217    0:01.45 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+mateseries       28046   0.0  0.1  4347724  17324   ??  Ss    11217    0:00.84 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+root             27834   0.0  0.0  4279284    524   ??  SNs   11217    0:00.01 /usr/libexec/periodic-wrapper monthly
+root             27211   0.0  0.1  4353112  17936   ??  Ss   301117    4:27.73 /usr/libexec/opendirectoryd
+mateseries       24169   0.0  0.0  4333224   5312   ??  S    261117    0:01.11 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+mateseries       13385   0.0  0.2  5495812  29528   ??  S    201117    0:30.79 /Library/Input Methods/SogouInput.app/Contents/SogouServices
+mateseries       13378   0.0  0.1  4330868  11676   ??  Ss   201117    0:05.48 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+mateseries       13377   0.0  0.2  4492564  32288   ??  S    201117    0:50.78 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+mateseries       11180   0.0  0.1  4357588  14900   ??  Ss   191117    0:01.58 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries        9745   0.0  0.0  4304964   7776   ??  Ss   191117    0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+mateseries        9383   0.0  0.1  4344700  12788   ??  S    191117    0:11.05 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s
+mateseries        9382   0.0  0.1  4378068  17884   ??  Ss   191117    0:01.65 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries        9381   0.0  1.2  6313120 199828   ??  S    191117    7:41.34 /Applications/Dash.app/Contents/MacOS/Dash
+mateseries        9243   0.0  0.0  4334144   6720   ??  S    191117    0:01.77 /System/Library/CoreServices/ScopedBookmarkAgent
+mateseries        9242   0.0  0.0  4333852   7516   ??  S    191117    0:01.90 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+mateseries        9241   0.0  0.0  4305068   8316   ??  S    191117    0:01.46 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool agent
+mateseries        9237   0.0  0.1  4359636  10832   ??  Ss   191117    0:01.50 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries        9234   0.0  0.3  4677940  44380   ??  Rs   191117    0:45.36 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+mateseries        9233   0.0  0.1  4359636  15224   ??  Ss   191117    0:01.50 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries        9232   0.0  0.3  5643116  52316   ??  S    191117    0:21.95 /Applications/TextEdit.app/Contents/MacOS/TextEdit
+mateseries        9228   0.0  0.3  5543072  53056   ??  S    191117    0:38.50 /System/Library/CoreServices/Dock.app/Contents/Resources/DashboardClient.app/Contents/MacOS/DashboardClient
+mateseries        9120   0.0  0.1  4361408  23752   ??  S    191117    0:04.06 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+mateseries        9098   0.0  0.1  4349396  10788   ??  Ss   191117    0:01.47 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries        9097   0.0  0.1  4389700  15544   ??  S    191117    0:11.89 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+mateseries        7673   0.0  0.2  4377232  29972   ??  Ss   181117    0:11.10 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+mateseries        7662   0.0  0.1  4335924  23040   ??  Ss   181117    0:02.88 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.ImageDecoder.xpc/Contents/MacOS/com.apple.Safari.ImageDecoder
+mateseries        7384   0.0  0.0  4305048   4932   ??  S    181117    0:00.73 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+mateseries        7162   0.0  0.0  4305120   7356   ??  S    181117    0:00.04 /System/Library/CoreServices/ReportCrash agent
+root              7141   0.0  0.1  4331468  15520   ??  Ss   181117    0:01.65 /usr/libexec/tzd
+mateseries        7128   0.0  0.1  4335056  10572   ??  Ss   181117    0:01.89 /Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+root              7040   0.0  0.0  4288500    772   ??  SNs  181117    0:00.01 /usr/libexec/periodic-wrapper weekly
+root              7038   0.0  0.0  4288500    808   ??  SNs  181117    0:00.02 /usr/libexec/periodic-wrapper daily
+root              6533   0.0  0.0  4296788   3808   ??  Ss   181117    0:00.01 /usr/sbin/aslmanager -s /var/log/eventmonitor
+_datadetectors    4703   0.0  0.0  4305344   3988   ??  Ss   151117    0:00.05 /usr/libexec/DataDetectorsSourceAccess
+mateseries        2726   0.0  0.1  4307600   8816   ??  S    131117    0:02.15 /System/Library/PrivateFrameworks/StorageManagement.framework/Resources/diskspaced
+root              2421   0.0  0.1  4304456  10420   ??  Ss   131117    0:01.57 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld
+_softwareupdate   2403   0.0  0.1  4332852  10340   ??  Ss   131117    0:05.72 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_download_service
+mateseries        1773   0.0  0.1  4351700  14784   ??  Ss   121117    0:10.53 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+mateseries        1759   0.0  0.1  4363676  10360   ??  Ss   121117    0:02.00 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries        1593   0.0  0.1  4333300  13748   ??  Ss   121117    0:03.83 /System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.MobileDocumentsFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.MobileDocumentsFileProvider
+mateseries        1581   0.0  0.5  4706356  92128   ??  S    121117    0:19.28 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+mateseries        1547   0.0  0.1  4351772  20016   ??  Ss   121117    0:02.93 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+root              1546   0.0  0.0  4339076   7264   ??  Ss   121117    0:03.99 /usr/libexec/dprivacyd
+mateseries        1544   0.0  0.0  4304704   7424   ??  Ss   121117    0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+mateseries        1542   0.0  0.0  4334628   7136   ??  S    121117    0:01.73 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+mateseries        1541   0.0  0.0  4304924   4656   ??  S    121117    0:01.87 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+mateseries        1530   0.0  0.1  4386080  12480   ??  S    121117    2:50.92 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+mateseries        1525   0.0  2.3  6387048 379364   ??  Ss   121117    3:19.56 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+mateseries        1416   0.0  0.0  4307644   4960   ??  S    121117    0:01.80 /usr/libexec/spindump_agent
+root              1415   0.0  0.5  4577568  89260   ??  Ss   121117    0:17.34 /usr/sbin/spindump
+mateseries         989   0.0  0.0  4304676   4520   ??  S    121117    0:19.07 /Applications/PyCharm.app/Contents/bin/fsnotifier
+mateseries         981   0.0  0.1  4365724  19316   ??  Ss   121117    0:01.93 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries         973   0.0  0.1  4361628  19004   ??  Ss   121117    0:01.87 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries         928   0.0  0.2  4344236  30440   ??  S    121117    0:23.21 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+mateseries         925   0.0  0.1  4331280  16496   ??  S    121117    0:03.11 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent
+mateseries         907   0.0  0.1  4331892   8456   ??  S    121117    0:03.34 /usr/libexec/silhouette
+mateseries         904   0.0  0.4  4590240  58812   ??  S    121117    0:14.83 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+mateseries         894   0.0  0.5  4749584  75868   ??  Ss   121117    0:27.02 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+mateseries         884   0.0  0.0  4304984   5116   ??  S    121117    0:03.10 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+root               880   0.0  0.1  4349324  20448   ??  Ss   121117    0:01.85 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries         873   0.0  0.1  4342540  18768   ??  S    121117    0:12.36 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+mateseries         872   0.0  0.1  4331816  13348   ??  S    121117    0:01.68 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+mateseries         870   0.0  0.1  4305640  11148   ??  S    121117    0:02.04 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent
+mateseries         859   0.0  0.1  4405444  15360   ??  Ss   121117    0:05.61 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+root               846   0.0  0.0  4331036   2236   ??  Ss   121117    0:01.76 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+mateseries         844   0.0  0.1  4333276  15952   ??  S    121117    0:03.33 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+mateseries         839   0.0  0.1  5391260  14728   ??  Ss   121117    0:09.77 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Databases.xpc/Contents/MacOS/com.apple.WebKit.Databases
+mateseries         837   0.0  0.4  5515936  75296   ??  Ss   121117    5:16.07 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+mateseries         836   0.0  0.2  4436848  29460   ??  Ss   121117    0:13.70 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+mateseries         835   0.0  0.1  4357532  22152   ??  Ss   121117    0:01.85 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries         833   0.0  0.1  4374300  24372   ??  Ss   121117    0:01.97 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries         830   0.0  0.3  4531056  53984   ??  S    121117    0:25.23 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+mateseries         829   0.0  0.1  4343720  18560   ??  S    121117    0:11.89 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+mateseries         826   0.0  0.0  4296696   4308   ??  S    121117    0:00.01 /System/Library/PrivateFrameworks/StoreXPCServices.framework/Versions/A/XPCServices/com.apple.appstore.PluginXPCService.xpc/Contents/MacOS/com.apple.appstore.PluginXPCService
+mateseries         824   0.0  0.1  4353436  19104   ??  Ss   121117    0:01.79 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries         823   0.0  0.1  4353436  19316   ??  Ss   121117    0:01.79 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries         820   0.0  0.1  4378564  22304   ??  S    121117    0:15.28 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+mateseries         819   0.0  0.1  4375580  24420   ??  S    121117    0:12.65 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+mateseries         818   0.0  0.1  4448668  16312   ??  S    121117    0:13.63 /System/Library/CoreServices/Menu Extras/TextInput.menu/Contents/SharedSupport/TISwitcher.app/Contents/MacOS/TISwitcher
+mateseries         817   0.0  0.2  4337068  30080   ??  S    121117    0:06.41 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+mateseries         814   0.0  0.4  4579772  61320   ??  S    121117    0:20.66 /Applications/Alfred 3.app/Contents/MacOS/Alfred 3
+mateseries         812   0.0  0.3  4538876  54976   ??  S    121117    0:21.97 /Applications/Evernote.app/Contents/Library/LoginItems/EvernoteHelper.app/Contents/MacOS/EvernoteHelper
+mateseries         807   0.0  0.1  4306216   9820   ??  S    121117    0:01.80 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+mateseries         805   0.0  0.1  4305736  10116   ??  S    121117    0:00.65 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+mateseries         804   0.0  0.0  4334308   7432   ??  S    121117    0:02.25 /System/Library/CoreServices/backgroundtaskmanagementagent
+mateseries         802   0.0  0.1  4384520  19640   ??  S    121117    0:23.21 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+mateseries         801   0.0  0.1  4339256  13472   ??  S    121117    0:13.88 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+mateseries         798   0.0  0.1  4334044  15128   ??  S    121117    0:02.19 /System/Library/Image Capture/Support/icdd
+mateseries         794   0.0  0.1  4330696  10624   ??  S    121117    0:03.70 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+mateseries         790   0.0  0.1  4333652  11696   ??  S    121117    0:03.42 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+mateseries         787   0.0  1.5  6055632 254340   ??  R    121117    3:39.20 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+mateseries         785   0.0  0.8  4676572 136812   ??  S    121117    1:42.71 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+mateseries         782   0.0  2.5  7426728 423296   ??  S    121117   27:02.10 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_143395
+root               621   0.0  0.0  4304884   4472   ??  Ss   121117    0:00.01 /System/Library/PrivateFrameworks/InstallerDiagnostics.framework/Versions/A/Resources/installerdiagd
+mateseries         568   0.0  0.2  4393304  30144   ??  S    121117    1:22.93 /System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed
+mateseries         567   0.0  0.1  4337608  18500   ??  S    121117    0:03.54 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper
+mateseries         566   0.0  0.1  4381276  17908   ??  S    121117    0:26.75 /usr/libexec/keyboardservicesd
+mateseries         565   0.0  0.1  4331100  22468   ??  S    121117    1:12.74 /usr/libexec/SafariCloudHistoryPushAgent
+mateseries         564   0.0  0.1  4375932  16836   ??  S    121117    0:12.28 /System/Library/CoreServices/mapspushd
+root               548   0.0  0.1  4335424  12228   ??  Ss   121117    0:01.80 /System/Library/CoreServices/AppleIDAuthAgent --checkpassword
+mateseries         547   0.0  0.1  4335020  11744   ??  S    121117    0:01.91 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+_spotlight         546   0.0  0.1  4333264  11572   ??  S    121117    0:02.13 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+_spotlight         545   0.0  0.0  4305588   3076   ??  S    121117    0:07.88 /usr/sbin/distnoted agent
+_spotlight         528   0.0  0.1  4334004   9224   ??  S    121117    0:12.67 /usr/libexec/trustd --agent
+root               524   0.0  0.1  4374152  10028   ??  Ss   121117    0:14.10 /usr/libexec/rtcreportingd
+root               523   0.0  0.1  4340888  13584   ??  Ss   121117    0:03.34 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+_softwareupdate    522   0.0  0.8  5624604 127624   ??  Ss   121117    7:21.43 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+mateseries         521   0.0  0.1  4330948   9140   ??  S    121117    0:03.16 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+mateseries         520   0.0  0.2  4345784  37932   ??  S    121117    0:14.75 /System/Library/PrivateFrameworks/AssistantServices.framework/assistant_service
+mateseries         518   0.0  0.0  4339116   5936   ??  S    121117    0:03.03 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+mateseries         517   0.0  0.1  4331184  18304   ??  Ss   121117    0:01.88 /System/Library/PrivateFrameworks/PhotoLibrary.framework/Versions/A/XPCServices/com.apple.PhotoIngestService.xpc/Contents/MacOS/com.apple.PhotoIngestService
+root               516   0.0  0.1  4331368   9316   ??  Ss   121117    0:02.20 /System/Library/CoreServices/SubmitDiagInfo server-init
+mateseries         515   0.0  0.1  4330624  18352   ??  Ss   121117    0:01.78 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomoments.xpc/Contents/MacOS/com.apple.photomoments
+mateseries         514   0.0  0.2  4367328  27456   ??  Ss   121117    0:04.04 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomodel.xpc/Contents/MacOS/com.apple.photomodel
+mateseries         513   0.0  0.1  4376168   9752   ??  S    121117    0:11.84 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a
+mateseries         500   0.0  0.2  4377256  26724   ??  Ss   121117    0:04.14 /System/Library/Frameworks/MediaLibrary.framework/Versions/A/XPCServices/com.apple.MediaLibraryService.xpc/Contents/MacOS/com.apple.MediaLibraryService
+mateseries         492   0.0  0.1  4335056  11328   ??  Ss   121117    0:02.30 /Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+mateseries         489   0.0  0.1  4343196  12916   ??  Ss   121117    0:09.36 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor
+mateseries         488   0.0  0.1  4304884  15288   ??  Ss   121117    0:03.21 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+mateseries         481   0.0  0.1  4391548  23584   ??  S    121117    0:05.15 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+root               478   0.0  0.0  4305532   6484   ??  Ss   121117    0:00.91 /usr/sbin/filecoordinationd
+mateseries         477   0.0  0.4  4584468  66128   ??  S    121117    0:07.24 /System/Library/CoreServices/iconservicesagent
+root               474   0.0  0.1  4335736  12300   ??  Ss   121117    0:03.80 /usr/libexec/amfid
+mateseries         472   0.0  0.1  4379784  23424   ??  S    121117    0:19.64 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+mateseries         471   0.0  0.1  4336516  14192   ??  S    121117    0:10.51 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+root               463   0.0  0.0  4332324   6664   ??  Ss   121117    0:01.97 /usr/bin/sysdiagnose
+root               462   0.0  0.7  4468716 116616   ??  Ss   121117    0:33.06 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+mateseries         460   0.0  0.1  5596900  19116   ??  S    121117   31:20.74 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+root               459   0.0  0.2  4559112  30652   ??  Ss   121117   93:19.53 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+mateseries         458   0.0  0.1  4333700  15612   ??  S    121117    0:05.62 /System/Library/CoreServices/diagnostics_agent
+mateseries         457   0.0  0.1  4335348   8936   ??  S    121117    0:02.70 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+mateseries         450   0.0  0.2  4358584  25264   ??  S    121117    0:03.73 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+mateseries         449   0.0  0.1  4342560  13968   ??  S    121117    0:13.16 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+mateseries         448   0.0  0.1  4351388  19240   ??  Ss   121117    0:01.85 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries         446   0.0  0.1  4308264  16200   ??  S    121117    0:03.71 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+mateseries         441   0.0  0.1  4336440  16900   ??  S    121117    0:13.27 /usr/libexec/knowledge-agent
+mateseries         440   0.0  0.1  4331312  18284   ??  S    121117    0:03.13 /usr/libexec/siriknowledged
+mateseries         439   0.0  0.1  4384492  20424   ??  S    121117    0:12.56 /System/Library/CoreServices/AppleIDAuthAgent
+mateseries         438   0.0  0.2  4338244  25636   ??  S    121117    0:13.61 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+mateseries         437   0.0  0.1  4332640   8820   ??  S    121117    0:03.03 /usr/libexec/swcd
+mateseries         436   0.0  0.3  4408408  50156   ??  S    121117    0:22.37 /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+mateseries         433   0.0  0.1  4333676  15120   ??  S    121117    0:17.02 /usr/libexec/pkd
+mateseries         430   0.0  0.1  4371596  22788   ??  S    121117    0:21.76 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+mateseries         429   0.0  0.1  4337688  14012   ??  S    121117    0:13.45 /System/Library/CoreServices/talagent
+mateseries         428   0.0  0.1  4339832  13912   ??  S    121117    0:03.84 /System/Library/PrivateFrameworks/NotesShared.framework/Versions/A/XPCServices/com.apple.Notes.datastore.xpc/Contents/MacOS/com.apple.Notes.datastore
+mateseries         427   0.0  0.2  4337020  30428   ??  S    121117    1:12.99 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+mateseries         426   0.0  0.0  4305540   7844   ??  S    121117    0:07.34 /usr/libexec/pboard
+root               425   0.0  0.0  4332496   8076   ??  Ss   121117    0:01.67 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+root               424   0.0  0.1  4336032   9324   ??  Ss   121117    0:03.74 /usr/sbin/systemsoundserverd
+root               423   0.0  0.1  4332516  12296   ??  Ss   121117    0:02.17 /usr/libexec/secinitd
+root               422   0.0  0.1  4331844   9800   ??  Ss   121117    0:03.19 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+mateseries         421   0.0  0.1  4332460   8556   ??  S    121117    0:03.43 /System/Library/CoreServices/sharedfilelistd
+root               419   0.0  0.0  4304952   3948   ??  Ss   121117    0:00.10 /System/Library/PrivateFrameworks/SignpostNotification.framework/Versions/A/XPCServices/signpost_notificationd.xpc/Contents/MacOS/signpost_notificationd
+mateseries         418   0.0  0.1  4389152  24696   ??  S    121117    0:21.14 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd
+root               417   0.0  0.2  4371268  29552   ??  Ss   121117    0:05.23 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+mateseries         416   0.0  0.1  4304972  16228   ??  S    121117    0:13.87 /System/Library/PrivateFrameworks/ContactsAgent.framework/Executables/ContactsAgent
+mateseries         415   0.0  0.2  4338836  31568   ??  Ss   121117    0:12.57 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+mateseries         414   0.0  0.1  4331948  19984   ??  S    121117    0:24.03 /System/Library/CoreServices/cloudpaird
+mateseries         413   0.0  0.0  4333744   7952   ??  S    121117    0:02.46 /System/Library/CoreServices/pbs
+_applepay          412   0.0  0.0  4331432   7428   ??  Ss   121117    0:02.13 /usr/libexec/nfcd
+mateseries         411   0.0  0.1  4377100  12840   ??  S    121117    0:14.60 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+root               410   0.0  0.0  4304388   5428   ??  Ss   121117    0:01.57 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+mateseries         409   0.0  0.0  4304408   5764   ??  S    121117    0:02.94 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent.app/Contents/MacOS/CMFSyncAgent
+mateseries         408   0.0  0.1  4378636  24176   ??  S    121117    0:04.37 /System/Library/PrivateFrameworks/ContactsDonation.framework/Versions/A/Support/contactsdonationagent
+mateseries         405   0.0  0.2  4379392  34500   ??  S    121117    0:13.86 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+mateseries         403   0.0  0.1  4336252  19688   ??  S    121117    0:02.98 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+mateseries         402   0.0  0.1  4331904  13300   ??  S    121117    0:03.69 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+mateseries         401   0.0  0.1  4304476  21136   ??  S    121117    0:03.14 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+mateseries         400   0.0  0.2  4337084  25812   ??  S    121117    0:11.61 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+mateseries         398   0.0  0.1  4330584  23400   ??  S    121117    0:03.47 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+mateseries         396   0.0  0.1  4330792   9184   ??  S    121117    0:01.71 /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+mateseries         394   0.0  0.1  4304628   8876   ??  S    121117    0:01.67 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+mateseries         393   0.0  0.6  4604364  93388   ??  S    121117    0:20.52 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+mateseries         392   0.0  0.3  4421412  42648   ??  S    121117    0:33.29 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+mateseries         391   0.0  0.1  4304564   9936   ??  S    121117    0:03.09 /System/Library/Frameworks/Security.framework/Versions/A/Resources/KeychainSyncingOverIDSProxy.bundle/Contents/MacOS/KeychainSyncingOverIDSProxy
+mateseries         390   0.0  0.0  4304960   6276   ??  S    121117    0:02.05 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper
+mateseries         389   0.0  0.1  4338276  12888   ??  S    121117    0:13.04 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+mateseries         388   0.0  0.0  4304416   4840   ??  Ss   121117    0:00.01 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+mateseries         387   0.0  0.1  4330716  13140   ??  S    121117    0:03.22 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+mateseries         386   0.0  0.0  4304932   5120   ??  S    121117    0:01.81 /System/Library/CoreServices/APFSUserAgent
+mateseries         385   0.0  0.1  4332268  12992   ??  Ss   121117    0:03.76 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+mateseries         384   0.0  0.2  4381076  27516   ??  S    121117    0:11.71 /usr/libexec/fmfd
+mateseries         383   0.0  0.2  4349364  37540   ??  S    121117    1:23.26 /usr/libexec/sharingd
+mateseries         382   0.0  0.1  4333668  10688   ??  S    121117    0:20.33 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+mateseries         381   0.0  0.2  4347152  28604   ??  S    121117    0:04.88 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+mateseries         380   0.0  0.1  4372980  13676   ??  Ss   121117    0:11.26 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+mateseries         379   0.0  0.3  4400116  50704   ??  S    121117    0:30.84 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+mateseries         378   0.0  0.1  4332644  11264   ??  S    121117    0:02.21 /usr/libexec/networkserviceproxy
+mateseries         377   0.0  0.4  4555396  64480   ??  S    121117    1:22.88 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+mateseries         375   0.0  0.1  4332928  12796   ??  S    121117    0:05.81 /usr/sbin/usernoted
+mateseries         374   0.0  0.1  4336316  18752   ??  S    121117    0:43.43 /usr/libexec/nsurlstoraged
+mateseries         373   0.0  0.1  4380400  17852   ??  S    121117    0:13.14 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+root               372   0.0  0.1  4332256   8780   ??  Ss   121117    0:27.10 /usr/sbin/wirelessproxd
+mateseries         370   0.0  0.1  4304488  15936   ??  S    121117    0:04.59 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+mateseries         369   0.0  0.1  4374832  22916   ??  S    121117    0:31.84 /usr/libexec/nsurlsessiond
+mateseries         368   0.0  0.1  4332008  16276   ??  S    121117    0:02.04 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+mateseries         366   0.0  0.1  4336388  11484   ??  S    121117    0:07.60 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+mateseries         365   0.0  0.1  4334868  23600   ??  S    121117    0:05.81 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+mateseries         364   0.0  0.2  4349312  36980   ??  S    121117    0:15.92 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+mateseries         363   0.0  0.3  4362388  53636   ??  S    121117    0:28.71 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+mateseries         361   0.0  0.2  4338852  30712   ??  S    121117    0:05.72 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+root               360   0.0  0.1  4331436  18104   ??  Ss   121117    0:26.04 /usr/sbin/WirelessRadioManagerd
+mateseries         359   0.0  0.0  4304992   7616   ??  S    121117    0:01.88 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+mateseries         358   0.0  0.3  4399320  44676   ??  S    121117    0:58.24 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+mateseries         356   0.0  0.1  4337352  21472   ??  S    121117    0:16.02 /usr/libexec/secd
+mateseries         355   0.0  0.2  4339240  28856   ??  S    121117    0:26.71 /usr/libexec/secinitd
+mateseries         354   0.0  0.0  4331108   7028   ??  S    121117    0:03.56 /usr/libexec/languageassetd --firstLogin
+mateseries         352   0.0  0.1  4344736  21660   ??  S    121117    0:26.21 /usr/libexec/lsd
+mateseries         351   0.0  0.2  4351628  27248   ??  S    121117    2:08.95 /usr/libexec/trustd --agent
+mateseries         350   0.0  0.2  4343664  29940   ??  S    121117    1:05.25 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+mateseries         347   0.0  0.1  4305588   9144   ??  S    121117    4:54.40 /usr/sbin/distnoted agent
+mateseries         345   0.0  0.2  4338836  32016   ??  S    121117    1:17.66 /usr/libexec/UserEventAgent (Aqua)
+_captiveagent      342   0.0  0.0  4306676   7028   ??  Ss   121117    0:04.74 /usr/libexec/captiveagent
+mateseries         341   0.0  0.0  4305216   4260   ??  S    121117    1:21.24 /usr/sbin/cfprefsd agent
+root               338   0.0  0.0  4306132   5724   ??  Ss   121117    0:00.27 /usr/libexec/securityd_service
+root               337   0.0  0.1  4304788   9928   ??  Ss   121117    0:02.07 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+_atsserver         332   0.0  0.1  4369364  23332   ??  Ss   121117    0:04.27 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+root               331   0.0  0.1  4334944  14324   ??  Ss   121117    0:03.08 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerced
+root               327   0.0  0.1  4305704   9644   ??  Ss   121117    0:00.08 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+root               325   0.0  0.1  4306200  12692   ??  Ss   121117    0:01.50 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd daemon
+root               323   0.0  0.0  4332336   6952   ??  Ss   121117    0:02.37 /System/Library/CoreServices/sharedfilelistd
+root               321   0.0  0.1  4305368  10116   ??  Ss   121117    0:00.02 /usr/libexec/bootinstalld
+root               317   0.0  0.0  4304696   4384   ??  Ss   121117    0:00.01 /System/Library/Frameworks/ColorSync.framework/Versions/A/XPCServices/com.apple.ColorSyncXPCAgent.xpc/Contents/MacOS/com.apple.ColorSyncXPCAgent
+root               316   0.0  0.2  4409612  36316   ??  Ss   121117    0:04.93 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+root               315   0.0  0.0  4305352   6104   ??  Ss   121117    0:00.02 /usr/libexec/colorsyncd
+root               308   0.0  0.0  4304508   5552   ??  Ss   121117    0:01.48 /usr/libexec/colorsync.displayservices
+root               307   0.0  0.0  4322360   2668   ??  Ss   121117    0:00.07 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+root               302   0.0  1.1  5023264 191576   ??  Ss   121117    5:29.83 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+root               298   0.0  0.1  4279896  10240   ??  Ss   121117    0:03.47 /usr/libexec/thermald
+root               297   0.0  0.0  4289036   4284   ??  Ss   121117    0:01.42 /usr/libexec/watchdogd
+root               288   0.0  0.0  4306068   7292   ??  Ss   121117    0:00.80 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+root               215   0.0  0.0  4304936   4712   ??  Ss   121117    0:00.13 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+_nsurlstoraged     210   0.0  0.0  4304988   6120   ??  Ss   121117    0:01.84 /usr/libexec/nsurlstoraged --privileged
+root               209   0.0  0.1  4364448  11100   ??  Ss   121117    0:11.57 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+_networkd          202   0.0  0.1  4341168  12436   ??  Ss   121117    1:23.42 /usr/libexec/symptomsd
+root               199   0.0  0.1  4331640   9316   ??  Ss   121117    0:01.76 /System/Library/Frameworks/PreferencePanes.framework/Versions/A/XPCServices/cacheAssistant.xpc/Contents/MacOS/cacheAssistant
+_assetcache        190   0.0  0.1  4336048   8508   ??  Ss   121117    0:03.11 /usr/libexec/AssetCache/AssetCache
+_cmiodalassistants   189   0.0  0.1  4305984   8888   ??  Ss   121117    0:19.75 /Library/CoreMediaIO/Plug-Ins/DAL/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant
+root               184   0.0  0.1  4332292   9836   ??  S    121117    0:03.05 /usr/sbin/systemstats --logger-helper /var/db/systemstats
+_assetcache        179   0.0  0.1  4374416  10068   ??  Ss   121117    0:12.49 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -d
+root               178   0.0  0.0  4304664   4836   ??  Ss   121117    0:26.50 /usr/libexec/sysmond
+root               176   0.0  0.0  4331776   8288   ??  Ss   121117    0:01.61 /usr/libexec/usbd
+root               174   0.0  0.0  4304408   5104   ??  Ss   121117    0:06.13 /usr/libexec/apfsd
+root               173   0.0  0.0  4306196   5944   ??  Ss   121117    0:09.65 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+root               172   0.0  0.3  4424192  50504   ??  Ss   121117    0:06.10 /usr/libexec/diskmanagementd
+root               171   0.0  0.1  4333280   9916   ??  Ss   121117    0:14.25 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+_analyticsd        170   0.0  0.1  4335236  14768   ??  Ss   121117    0:26.26 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+root               169   0.0  0.0  4331816   7948   ??  Ss   121117    0:11.06 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+root               168   0.0  0.1  4373080  20780   ??  Ss   121117    0:11.48 /usr/libexec/findmydeviced
+root               166   0.0  0.0  4331268   8248   ??  Ss   121117    0:03.01 /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+root               165   0.0  0.0  4296468   4160   ??  Ss   121117    0:00.01 /usr/libexec/smd
+root               164   0.0  0.0  4331620   7164   ??  Ss   121117    0:19.02 /usr/sbin/mDNSResponderHelper
+_coreaudiod        163   0.0  0.0  4296512   8244   ??  Ss   121117    0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root               162   0.0  0.0  4306140   7704   ??  Ss   121117    0:01.55 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+_mdnsresponder     161   0.0  0.1  4334448  10576   ??  Ss   121117    1:34.77 /usr/sbin/mDNSResponder
+root               160   0.0  0.1  4341972  21968   ??  Ss   121117    4:09.86 /usr/libexec/airportd
+_nsurlsessiond     158   0.0  0.5  4622236  86192   ??  Ss   121117    0:49.56 /usr/libexec/nsurlsessiond --privileged
+root               157   0.0  0.1  4335088   9292   ??  Ss   121117    0:02.83 /usr/libexec/nehelper
+root               156   0.0  0.0  4332940   5492   ??  Ss   121117    0:10.31 /usr/sbin/cupsd -l
+root               144   0.0  0.2  4357308  35172   ??  Ss   121117    0:11.92 /usr/libexec/mobileassetd
+_coreaudiod        143   0.0  0.0  4331076   6892   ??  Ss   121117    0:03.45 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+root               139   0.0  0.2  4364336  30060   ??  Ss   121117    1:33.90 /usr/libexec/trustd
+_coreaudiod        137   0.0  0.1  4341904  17620   ??  Ss   121117    0:58.95 /usr/sbin/coreaudiod
+root               135   0.0  0.4  4396040  69408   ??  Ss   121117    2:22.53 /usr/libexec/sandboxd
+root               134   0.0  0.0  4304984   5872   ??  Ss   121117    0:00.72 aslmanager
+root               128   0.0  0.1  4342776  16452   ??  Ss   121117    0:09.38 /usr/libexec/lsd runAsRoot
+_ctkd              116   0.0  0.1  4306196   9412   ??  Ss   121117    0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+root               113   0.0  0.0  4296800   8092   ??  Ss   121117    0:00.01 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+root               108   0.0  0.1  4382948  12056   ??  Ss   121117    1:15.56 /System/Library/CoreServices/coreservicesd
+root               107   0.0  0.1  4334428  12320   ??  Ss   121117    0:14.37 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+root               105   0.0  0.0  4304920   4004   ??  Ss   121117    2:13.78 /usr/sbin/cfprefsd daemon
+_distnote          104   0.0  0.0  4305588   4524   ??  Ss   121117    2:00.34 /usr/sbin/distnoted daemon
+root               103   0.0  0.0  4304712   2384   ??  Ss   121117    3:59.88 /usr/sbin/notifyd
+root               102   0.0  0.1  4333192  10196   ??  Ss   121117    0:37.61 /usr/libexec/taskgated -s
+root               101   0.0  0.1  4332316  12372   ??  Ss   121117    0:07.67 /usr/libexec/AirPlayXPCHelper
+root               100   0.0  0.1  4337892  18980   ??  Ss   121117    0:03.63 /usr/libexec/corebrightnessd --launchd
+root                98   0.0  0.1  4335620  11784   ??  Ss   121117    2:03.76 /usr/sbin/bluetoothd
+root                96   0.0  0.0  4296720   4956   ??  Ss   121117    0:00.09 /usr/sbin/KernelEventAgent
+root                95   0.0  0.0  4333304   6176   ??  Ss   121117    0:03.48 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root                94   0.0  0.0  4304496   5800   ??  Ss   121117    0:01.62 /System/Library/CoreServices/logind
+mateseries          93   0.0  0.5  4613504  86640   ??  Ss   121117    1:30.61 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root                89   0.0  0.1  4336664  12024   ??  Ss   121117    1:44.51 /usr/libexec/dasd
+_displaypolicyd     88   0.0  0.1  4308076   9320   ??  Ss   121117    0:04.07 /usr/libexec/displaypolicyd -k 1
+root                87   0.0  0.0  4304884   4904   ??  Ss   121117    0:00.05 autofsd
+_locationd          85   0.0  0.1  4337928  11860   ??  Ss   121117    0:40.85 /usr/libexec/locationd
+_usbmuxd            83   0.0  0.0  4333152   6668   ??  Ss   121117    0:02.06 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+root                82   0.0  0.1  4334056  11432   ??  Ss   121117    0:21.78 /usr/sbin/securityd -i
+_timed              80   0.0  0.0  4330852   7048   ??  Ss   121117    0:05.37 /usr/libexec/timed
+root                78   0.0  0.0  4331912   5796   ??  Ss   121117    0:01.63 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+root                77   0.0  0.2  4343136  29764   ??  Ss   121117    1:37.25 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root                72   0.0  0.2  4347456  40648   ??  Ss   121117    3:08.17 /usr/libexec/coreduetd
+root                71   0.0  0.1  4331316  25036   ??  Ss   121117    0:06.78 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+root                69   0.0  0.1  4534136  23004   ??  Ss   121117    0:22.80 /System/Library/CoreServices/Installer Progress.app/Contents/MacOS/Installer Progress --showProgress
+root                67   0.0  0.1  4358532  21480   ??  Ss   121117    0:03.15 /System/Library/CoreServices/iconservicesagent
+_iconservices       66   0.0  0.0  4335372   7868   ??  Ss   121117    0:02.38 /System/Library/CoreServices/iconservicesd
+root                65   0.0  0.4  4471676  68096   ??  Ss   121117    9:55.48 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root                64   0.0  0.1  4321008  19992   ??  SNs  121117    0:07.13 /usr/libexec/warmd
+root                59   0.0  0.0  4305060   4400   ??  Ss   121117    0:00.01 /usr/libexec/keybagd -t 15
+root                58   0.0  0.3  4419132  50152   ??  Ss   121117    2:19.42 /usr/libexec/logd
+root                53   0.0  0.1  4330892   9736   ??  Ss   121117    2:56.99 /System/Library/CoreServices/powerd.bundle/powerd
+root                52   0.0  0.1  4335960  11224   ??  Ss   121117    3:00.27 /usr/libexec/configd
+root                50   0.0  0.1  4335792  13548   ??  Ss   121117    1:06.48 /usr/sbin/systemstats --daemon
+_appleevents        49   0.0  0.0  4332904   7460   ??  Ss   121117    0:04.05 /System/Library/CoreServices/appleeventsd --server
+root                47   0.0  0.1  4331284  19012   ??  Ss   121117    0:06.60 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root                45   0.0  0.1  4486840  19408   ??  Ss   121117    4:01.70 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+root                44   0.0  0.2  4352512  27392   ??  Ss   121117    0:40.51 /usr/libexec/kextd
+root                43   0.0  0.0  4296008   8268   ??  Ss   121117    0:12.70 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+root                40   0.0  0.1  4336960  17996   ??  Ss   121117    0:52.67 /usr/libexec/UserEventAgent (System)
+root                39   0.0  0.0  4306580   2956   ??  Ss   121117    2:06.08 /usr/sbin/syslogd
+mateseries       39826   0.0  0.0        0      0   ??  Z    日11下午   0:00.00 (Google Chrome)
+mateseries       39794   0.0  0.0        0      0   ??  Z    日11下午   0:00.00 (Google Chrome)
+mateseries       39761   0.0  0.0        0      0   ??  Z    日11下午   0:00.00 (Google Chrome)
+mateseries       37427   0.0  0.0        0      0   ??  Z    日05下午   0:00.00 (Google Chrome)
+mateseries       37389   0.0  0.0        0      0   ??  Z    日05下午   0:00.00 (Google Chrome)
+mateseries       37356   0.0  0.0        0      0   ??  Z    日05下午   0:00.00 (Google Chrome)
+mateseries       37317   0.0  0.0        0      0   ??  Z    日05下午   0:00.00 (Google Chrome)
+mateseries       37193   0.0  0.0        0      0   ??  Z    日04下午   0:00.00 (Google Chrome)
+mateseries       37080   0.0  0.0        0      0   ??  Z    日04下午   0:00.00 (Google Chrome)
+mateseries       36961   0.0  0.0        0      0   ??  Z    日04下午   0:00.00 (Google Chrome)
+mateseries       36728   0.0  0.0        0      0   ??  Z    日04下午   0:00.00 (Google Chrome)
+mateseries       36768   0.0  0.0        0      0   ??  Z    日04下午   0:00.00 (Google Chrome)
+mateseries       36660   0.0  0.0        0      0   ??  Z    日04下午   0:00.00 (Google Chrome)
+mateseries       36630   0.0  0.0        0      0   ??  Z    日04下午   0:00.00 (Google Chrome)
+root             54023   0.0  0.0  4268212   1252 s000  R+    3:51下午   0:00.00 ps aux
+mateseries       36591   0.0  0.0        0      0   ??  Z    日04下午   0:00.00 (Google Chrome)
+mateseries       53989   0.0  0.1  4852288  18528   ??  S     3:50下午   0:00.21 /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/Contents/MacOS/quicklookd
+root             53980   0.0  0.1  4341584  23716   ??  Ss    3:49下午   0:00.80 /System/Library/CoreServices/ReportCrash daemon
+mateseries       53946   0.0  0.1  4296388  11028   ??  Ss    3:45下午   0:00.05 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+mateseries       53945   0.0  1.0  5792476 166572   ??  Ss    3:45下午   0:12.25 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+root             52924   0.0  0.0  4331268   7636   ??  Ss    2:29下午   0:00.08 /usr/sbin/ocspd
+mateseries       51843   0.0  0.1  4301864  11180 s000  S     1:34下午   0:01.40 zsh
+mateseries       51683   0.0  0.1  4335820  18360   ??  Ss    1:30下午   0:00.08 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+mateseries       51573   0.0  0.0  4297048   4436 s000  S     1:26下午   0:01.49 -zsh
+root             51572   0.0  0.0  4304808   6892 s000  Ss    1:26下午   0:00.05 login -pf mateseries
+mateseries       51272   0.0  0.7  5774632 119352   ??  Ss    1:09下午   0:46.51 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+mateseries       51267   0.0  0.4  4370868  65944   ??  S     1:09下午   0:02.29 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
