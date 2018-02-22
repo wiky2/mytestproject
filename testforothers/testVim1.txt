@@ -1,0 +1,34 @@
+nual
+
+There are two vim commands: :AsyncRun and :AsyncStop to control async jobs.
+
+AsyncRun - Run shell command
+
+:AsyncRun[!] [options] {cmd} ...
+run shell command in background and output to quickfix. when ! is included, auto-scroll in quickfix will be disabled. Parameters are splited by space, if a parameter contains space, it should be quoted or escaped as backslash + space (unix only).
+
+Parameters accept macros start with '%', '#' or '<' :
+
+%:p     - File name of current buffer with full path
+%:t     - File name of current buffer without path
+%:p:h   - File path of current buffer without file name
+%:e     - File extension of current buffer
+%:t:r   - File name of current buffer without path and extension
+%       - File name relativize to current directory
+%:h:.   - File path relativize to current directory
+<cwd>   - Current directory
+<cword> - Current word under cursor
+<cfile> - Current file name under cursor
+<root>  - Project root directory
+you and me
+Topic One
+=========
+
+This is some text about topic one.
+
+It has multiple paragraphs.
+
+Topic Two
+=========
+
+This is some text about topic two.  It has only one paragraph.

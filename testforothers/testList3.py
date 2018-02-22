@@ -1,18 +1,14 @@
 #!/usr/bin/env python
-# -*- coding=utf8 -*-
-"""
-# author:chuanzhi
-# created time : 2018年02月18日 星期日 21时32分57秒
-# file name: testlist.py
-# description:
-"""
+# coding: utf-8
+#声明必须放在前两行，# coding=<encoding name>
+
 '''
 
-@author:
+@author: 
 
-@license:
+@license: 
 
-@contact:
+@contact: 
 
 @software: Test
 
@@ -100,3 +96,5 @@ f=open('help_string.txt','w')
 sys.stdout=f
 print help(string)#成功写入
 f.close()
+
+
