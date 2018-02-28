@@ -1,0 +1,6 @@
+"Plugin 'nvie/vim-flake8'
+"Plugin 'heracek/HTML-AutoCloseTag'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'rking/ag.vim'
+Plugin 'Flowerowl/ici.vim'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
